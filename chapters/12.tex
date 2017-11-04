@@ -1,0 +1,289 @@
+\chapter{How meanings are composed}\label{sec:12}
+
+\section{Introduction}\label{sec:12.1}
+
+One of the central goals of semantics is to explain how meanings of sentences are related to the meanings of their parts. In \chapref{sec:3} we discussed the simple sentence in \REF{ex:}, and how the meaning of the sentence determines the conditions under which it would be true.
+
+
+\ea
+\textit{King Henry VIII snores}.
+\z
+
+
+Let us now consider the question of how the meaning of this sentence is composed from the meanings of its parts. What are the parts, and what kinds of meanings do they express? Any syntactic description of the sentence will recognize two immediate constituents: the subject NP \textit{King Henry VIII} and the intransitive verb (or VP) \textit{snores}. These two phrases express different kinds of meaning. The subject NP is a referring expression, specifically a proper name, which refers to an individual in the world. The intransitive VP expresses a property which may be true of some individuals but not of others in a given situation. The result of combining them, i.e. the meaning of the sentence as a whole, is a \textsc{proposition} (or claim about the world) which may be true in some situations and false in others. Sentence \REF{ex:} expresses an assertion that the individual named by the subject NP (King Henry VIII) has the property named by the VP (he snores). This pattern for combining NP meanings with VP meanings is seen in many, perhaps most, simple declarative sentences.
+
+
+
+The same basic principle holds not just for sentences but for any expression (apart from idioms) consisting of more than one word: the meaning of the whole is composed, or built up, in a predictable way from the meanings of the parts. This is what makes it possible for us to understand newly-created sentences. One way of expressing this principle is the following:
+
+
+\begin{stylepoints}
+\textsc{Principle of Compositionality:\\
+}the meaning of a complex expression is determined by the meanings of its constituent expressions and the way in which they are combined.
+\end{stylepoints}
+
+
+Many semanticists adopt as a working hypothesis a stronger version of this principle, which says (roughly speaking) that there must be a one-to-one correspondence between the syntactic rules that build constituents and the semantic rules that provide interpretations for those constituents. Adopting this stronger version of the principle places significant constraints on the way these rules get written.\footnote{\citet[322]{Partee1995}.} In \chapref{sec:13} we will see a few very simple examples of how syntactic and semantic rules can be correlated.
+
+
+
+In this chapter we lay a foundation for discussing compositionality in the more general sense expressed in \REF{ex:}. We are trying to understand what is involved in the claim that the meanings of phrases and sentences are predictable based on the meanings of their constituents and the manner in which those constituents get combined.
+
+
+
+We begin in \sectref{sec:2} by describing two very simple examples of compositional meaning: first, the combination of a subject NP with a VP to form a simple clause (\textit{Henry snores}); and second, the combination of a modifying adjective with a common noun (\textit{yellow} \textit{submarine}). In \chapref{sec:13} we will formulate rules to account for these patterns, among others.
+
+
+
+In \sectref{sec:3} we provide some historical context for the study of compositionality by sketching out some ideas from the German logician Gottlob Frege (1848–1925). We will summarize Frege’s arguments for the claim that denotations, as well as senses, must be compositional. But Frege also pointed out that there are some contexts where the denotation of a complex expression is not fully predictable from the denotations of its constituents. We discuss one such context in \sectref{sec:4}, namely complement clauses of verbs like \textit{think}, \textit{believe}, \textit{want}, etc. In \sectref{sec:5} we discuss a particular type of ambiguity which can arise in such contexts.
+
+
+\section{Two simple examples}\label{sec:12.2}
+
+Let us return now to the question of how the meaning of the simple sentence in \REF{ex:} is composed from the meanings of its parts. As we noted, the sentence contains two immediate constituents: the subject NP \textit{King Henry VIII} and the intransitive verb (or VP) \textit{snores}. The NP \textit{King Henry VIII} is a proper name, a “rigid designator”, and so always refers to the same individual; its denotation does not depend on the situation. The intransitive VP \textit{snores} expresses a property which may be true of a particular individual at one time or in one situation, but not in other times or situations; so its denotation does depend on the situation in which it is used. We will refer to the set of all things which snore in the current universe of discourse as the \textsc{denotation set} of the predicate \textit{snores}. The result of combining the subject NP with the intransitive VP is a sentence whose meaning is a proposition, and this proposition will be true just in case the individual named \textit{King Henry VIII} is a member of the denotation set of \textit{snores}; i.e., if the king has the property of snoring in the time and situation being described.
+
+
+
+This same basic rule of interpretation works for a great many simple declarative sentences: the proposition expressed by the sentence as a whole will be true just in case the referent of the subject NP is a member of the denotation set of the VP. Of course there are many other cases for which this simple rule is not adequate; but in the present book we will touch on these only briefly.
+
+
+
+The Principle of Compositionality also applies to complex expressions which are smaller than a sentence, including noun phrases. Even though these phrasal expressions do not have truth values, they do have denotations which are determined compositionally. In \chapref{sec:1} we briefly discussed the compositionality of the phrase \textit{yellow} \textit{submarine}. Suppose we refer to the denotation set of the word \textit{yellow} (i.e., the set of all yellow things in our universe of discourse) as Y, and the denotation set of the word \textit{submarine} (i.e., the set of all submarines in our universe of discourse) as S. The meaning of the phrase \textit{yellow} \textit{submarine} is predictable from the meaning of its individual words and the way they are combined. Knowing the rules of English allows speakers to predict that the denotation set of the phrase will be the set of all things which belong both to Y and to S; in other words, the set of all things in our universe of discourse which are both yellow and submarines.
+
+
+
+As these simple examples illustrate, our analysis of denotations and truth values will be stated in terms of set membership and relations between sets. For this reason we will introduce some basic terms and concepts from set theory at the beginning of \chapref{sec:13}. Set theory will also be crucial for analyzing the meanings of quantifiers (words and phrases such as \textit{everyone}, \textit{some people}, \textit{most countries}, etc.). Quantifiers (the focus of \chapref{sec:14}) are an interesting and important topic of study in their own right, but they are also important because certain other kinds of expressions can actually be analyzed as quantifiers (see \chapref{sec:16}, for example).
+
+
+
+But before we proceed with a more detailed discussion of these issues, it will be helpful to review some of Frege’s insights.
+
+
+\section{Frege on compositionality and substitutivity}\label{sec:12.3}
+
+Many of the foundational concepts in truth-conditional semantics come from the work of Gottlob Frege, whose distinction between Sense and Denotation we discussed in \chapref{sec:2}. The Principle of Compositionality in \REF{ex:} is often referred to as “\textsc{Frege’s principle}”. Frege himself never expressed the principle in these words, and there is some disagreement as to whether he actually believed it.\footnote{Specifically, there is debate as to whether Frege believed that compositionality holds for senses, as well as denotations \citep[12]{Gamut1991b}. \citet{Pelletier2001}, for example, argues that he did not. A number of modern scholars have argued against the Principle of Compositionality; see \citet{Goldberg2015} for a summary.} But there are passages in several of his works that seem to imply or assume that sentence meanings are compositional in this sense, including the following:
+
+
+It is astonishing what language accomplishes. With a few syllables it expresses a countless number of thoughts [=propositions], and even for a thought grasped for the first time by a human it provides a clothing in which it can be recognized by another to whom it is entirely new. This would not be possible if we could not distinguish parts in the thought that correspond to parts of the sentence, so that the construction of the sentence can be taken to mirror the construction of the thought. … The question now arises how the construction of the thought proceeds, and by what means the parts are put together so that the whole is something more than the isolated parts.   [Gottlob Frege (1923–6), “Logische Untersuchungen. Dritter Teil: Gedankengefüge”, quoted in \citealt{HeimKratzer1998}:2]
+
+
+In this passage Frege argues for the compositionality of “thoughts”, i.e. propositions; but the same kind of reasoning requires that the meaning of smaller expressions (e.g. noun phrases) be compositional as well. And in many cases, not only senses but also denotations are compositional. One way of seeing this involves substituting one expression for another which is co-referential, i.e., has the same denotation in that particular context.
+
+
+
+In our world, the expressions \textit{Abraham Lincoln} and \textit{the 16\textsuperscript{th}} \textit{president of the United States} refer to the same individual. For this reason, if we replace one of these expressions with the other as illustrated in (\ref{ex:}--\ref{ex:}), the denotation of the larger phrase is not affected.
+
+
+\ea
+\ea the wife of Abraham Lincoln\\
+\ex the wife of the 16\textsuperscript{th} president of the United States
+                       \z
+\z
+
+\ea
+\ea the man who killed Abraham Lincoln\\
+\ex the man who killed the 16\textsuperscript{th} president of the United States
+                       \z
+\z
+
+
+Both of the NPs in \REF{ex:} refer to Mary Todd Lincoln; both of the NPs in \REF{ex:} refer to John Wilkes Booth. This is what we expect if the denotation of the larger phrase is compositional, i.e., predictable from the denotations of its constituent parts: replacing one of those parts with another part having the same denotation does not affect the denotation of the whole. (This principle is referred to as the principle of \textsc{substitutivity}.)
+
+
+
+A second way of observing the compositionality of denotations arises when non-referring expressions occur as constituents of a larger expression. In a world where there is no such person as Superman, i.e., a world in which this name lacks a denotation, phrases which contain the name \textit{Superman} (like those in ) will also lack a denotation, i.e. will fail to refer.
+
+
+\ea
+\ea the mother of Superman\\
+\ex the man who Superman rescued
+                       \z
+\z
+
+
+These observations support the claim that the denotation of a complex expression is (often) predictable from the denotations of its constituent parts. Since sentences are formed from constituent parts (words and phrases) which have denotations, this suggests that the denotations of sentences might also be compositional. In his classic paper \textit{Über Sinn und Bedeutung} ‘On sense and denotation’, \citet{Frege1892} argued that this is true; but he recognized that it may seem odd (at least at first) to suggest that sentences have denotations as well as senses. Sentences are not “referring expressions” in the normal sense of that term, so what could their denotation be?
+
+
+
+Frege considered the possibility that the denotation of a sentence is the proposition which it expresses. But this hypothesis leads to unexpected results when we substitute one co-referential expression for another. Samuel Clemens was an American author who wrote under the pen name Mark Twain; so these two names both refer to the same individual. Since the two names have the same denotation, we expect that replacing one name with the other, as illustrated in \REF{ex:}, will not affect the denotation of the sentence as a whole.
+
+
+\ea
+\ea \textit{The Prince and the Pauper} was written by Mark Twain.\\
+\ex \textit{The Prince and the Pauper} was written by Samuel Clemens.
+                       \z
+\z
+
+
+Of course, the resulting sentences must have the same truth value; it happens that both are true. However, a person who speaks English but does not know very much about American literature could, without inconsistency, believe (\ref{ex:}a) without believing (\ref{ex:}b). For Frege, if a rational speaker can simultaneously believe one sentence to be true while believing another to be false, the two sentences cannot express the same proposition.
+
+
+
+Examples like \REF{ex:} lead to the same conclusion. Abraham Lincoln was the 16\textsuperscript{th} president of the United States, so replacing the phrase \textit{Abraham Lincoln} with the phrase \textit{the 16\textsuperscript{th}} \textit{president of the United States} should not change the denotation of the sentence as a whole. But the facts of history could have been different: Abraham Lincoln might have died in infancy, or lost the election in 1860, etc. Under those conditions, sentence (\ref{ex:}b) might well be true while sentence (\ref{ex:}a) is false. This again is evidence that the two sentences do not express the same proposition, since a single proposition cannot be simultaneously true and false in any single situation.
+
+
+\ea
+\ea Abraham Lincoln ended slavery in America.\\
+\ex The 16\textsuperscript{th} president of the United States ended slavery in America.
+                       \z
+\z
+
+
+Frege concludes that the denotation of a (declarative) sentence is not the proposition which it expresses, but rather its truth value. Frege identifies the proposition expressed by a sentence as its sense.
+
+
+
+There are clear parallels between the truth value of a sentence and the denotation of a noun phrase. First, neither can be determined in isolation, but only in relation to a specific situation or universe of discourse. Second, both may have different values in different situations. Third, both are preserved under substitution of co-referring expressions. This was illustrated for noun phrases in (\ref{ex:}--\ref{ex:}), and for sentences in (\ref{ex:}--\ref{ex:}). Finally, we noted that NPs which contain non-referring expressions as constituents, like those in \REF{ex:}, will also fail to refer, i.e. will lack a denotation. In the same way, Frege argued that sentences which contain non-referring expressions will lack a truth value. He states that sentences like those in \REF{ex:} are neither true nor false; they cannot be evaluated, because their subject NPs fail to refer. These parallels provide strong motivation for considering the denotation of a sentence to be its truth value.
+
+
+\ea
+\ea Superman rescued the Governor’s daughter.\\
+\ex The largest even number is divisible by 7.
+                       \z
+\z
+
+However, certain types of sentences, such as those in \REF{ex:}, contain a non-referring expression but never-the-less do seem to have a truth value. Even in a world where there is no Santa Claus and no fountain of youth, it would be possible to determine whether these sentences are true or false. Sentences of this type are said to be \textsc{referentially opaque}, meaning that their denotation is not predictable from the denotations of their constituent parts. In these specific examples, the opacity is due to special properties of verbs like \textit{believe} and \textit{hope}. (We will discuss other types of opacity in \chapref{sec:15}.)
+
+\ea
+\ea The Governor still believes in Santa Claus.\\
+\ex Ponce de León hoped to find the fountain of youth.
+                       \z
+\z
+
+\section{Propositional attitudes}\label{sec:12.4}
+
+\textit{Believe} and \textit{hope} belong to a broad class of verbs which are often referred to as \textsc{propositional attitude verbs}, because they take a propositional argument (expressed as a complement clause) and denote the mental state or attitude of an experiencer toward this proposition. Other verbs in this class include \textit{think, expect, want, know,} etc. As we have just mentioned, the complement clauses of these verbs are referentially opaque. Some further examples of sentences involving such verbs are presented in \REF{ex:}.
+
+
+\ea
+\ea John believes [that the airplane was invented by an Irishman].\\
+\ex Henry wants [to marry a Catholic].\\
+\ex Mary knows [that Abraham Lincoln ended slavery in America].
+                       \z
+\z
+
+
+Frege pointed out that when we substitute one co-referential expression for another in the complement clause of a propositional attitude verb, the truth value of the sentence as a whole can be affected. For example, since \textit{Mark Twain} and \textit{Samuel Clemens} refer to the same individual, the principle of substitutivity predicts that the positive statement in (\ref{ex:}a) and its corresponding negative statement in (\ref{ex:}b) should have opposite truth values. However, it is clearly possible for both sentences to be true at the same time (and for the same person named \textit{Mary}). By the same token, the principle of substitutivity predicts that (\ref{ex:}c) and (\ref{ex:}d) should have the same truth value. However, it is hard to imagine a person of normal intelligence of whom (\ref{ex:}d) could be true.
+
+
+\ea
+\ea Mary knows [that \textit{The Prince and the Pauper} was written by Mark Twain].\\
+\ex Mary does not know [that \textit{The Prince and the Pauper} was written by\\
+  Samuel Clemens].\\
+\ex Mary does not know [that Samuel Clemens is Mark Twain].\\
+\ex ?\#Mary does not know [that Samuel Clemens is Samuel Clemens].
+                       \z
+\z
+
+
+As mentioned above, this property of propositional attitude verbs is called \textsc{referential opacity}; the complements of propositional attitude verbs are an example of an \textsc{opaque context}, that is, a context where denotation does not appear to be compositional, because the principle of substitutivity fails. Frege used the following pair of examples to further illustrate referential opacity. Both of the complement clauses in \REF{ex:} are true statements, but only the first is something that Copernicus actually believed (he believed that the planetary orbits were circles). Since the denotation of a declarative clause is its truth value, and since the two complement clauses have the same truth value if considered on their own, the principle of substitutivity would predict that sentences (\ref{ex:}a) and (\ref{ex:}b) as a whole should have the same denotation, i.e., the same truth value. But in fact (\ref{ex:}a) is true while (\ref{ex:}b) is false.
+
+
+\ea
+\ea Copernicus believed [that the earth revolves around the sun].\\
+\ex Copernicus believed [that the planetary orbits are ellipses].
+                       \z
+\z
+
+
+Propositional attitude verbs pose a significant problem for the principle of Compositionality. Frege’s solution was to propose that the denotation of a clause or NP “shifts” in opaque contexts, so that in these contexts they refer to their customary sense, rather than to their normal denotation. For example, the denotation of the complement clauses in \REF{ex:}, because they occur in an opaque context, is not their truth value but the proposition they express (their customary sense). This shift explains why NPs or clauses with different senses are not freely substitutable in these contexts, even though they may seem to have the same denotation.
+
+
+
+Frege’s proposal is analogous in some ways to the referential “shift” which occurs in contexts where a word or phrase is \textsc{mentioned}, as in (\ref{ex:}b), rather than \textsc{used}, as in (\ref{ex:}a). In such contexts, the quoted word or phrase refers only to itself. Substitutivity fails when referring expressions are mentioned, as illustrated in (\ref{ex:}c--d). Even though both names refer to the same individual when used in the normal way, these two sentences are not equivalent: (\ref{ex:}c) is true, but (\ref{ex:}d) is false.
+
+
+\ea
+\ea Maria is a pretty girl.\\
+\ex \textit{Maria} is a pretty name.\\
+\ex Samuel Clemens adopted the pen name \textit{Mark Twain}.\\
+\ex Mark Twain adopted the pen name \textit{Samuel Clemens}.
+                       \z
+\z
+
+
+We can now understand why sentences like those in \REF{ex:}, which contain a non-referring expression, never-the-less can have a truth value. \textit{Hope} and \textit{want} are propositional attitude verbs. Thus the denotation of their complement clauses is not their truth value but the propositions they express. The denotation (i.e., truth value) of the sentence as a whole can be derived compositionally, because all the constituents have well-defined denotations.
+
+
+\ea
+\ea Ponce de León hoped to find the fountain of youth.\\
+\ex James Thurber wanted to see a unicorn.
+                       \z
+\z
+
+\section{\textit{De dicto} vs. \textit{de re} ambiguity}\label{sec:12.5}
+
+Another interesting property of opaque contexts, including the complements of propositional attitude verbs, is that definite NPs occurring in such contexts can sometimes receive two different interpretations. They can either be used to refer to a specific individual, as in (\ref{ex:}a), or they can be used to identify a type of individual, or property of individuals, as in (\ref{ex:}b).
+
+
+\ea
+\ea I hope to meet with \textit{the Prime Minister} next year, (after he retires from office).\\
+\ex I hope to meet with \textit{the Prime Minister} next year; (we’ll have to wait for\\
+  the October election before we know who that will be).
+                       \z
+\z
+
+
+The former reading, which refers to a specific individual, is known as the \textit{de re} (‘about the thing’) interpretation. The latter reading, in which the NP identifies a property of individuals, is known as the \textit{de dicto} (‘about the word’ or ‘about what is said’) interpretation. The same kind of ambiguity is illustrated in \REF{ex:}.
+
+
+\ea
+\ea I wanted \textit{my husband} to be a Catholic, (but he said he was too old to convert).\\
+\ex I wanted \textit{my husband} to be a Catholic, (but I ended up marrying a Sikh).
+                       \z
+\z
+
+
+Under the \textit{de re} interpretation, the definite NP denotes a particular individual: the person who is serving as Prime Minister at the time of speaking in (\ref{ex:}a), and the individual who is married to the speaker at the time of speaking in (\ref{ex:}a). Under the \textit{de dicto} interpretation, the semantic contribution of the definite NP is not what it refers to but its sense: a property (e.g. the property of being Prime Minister, or the property of being married to the speaker) rather than a specific individual. This “shift” from denotation to sense in opaque contexts is similar to the facts about complement clauses discussed in the previous section. A similar type of ambiguity is observed with indefinite NPs, as illustrated in \REF{ex:}.
+
+
+\ea
+\ea The opposition party wants to nominate \textit{a retired movie} star for President.\\
+\ex The Dean believes that I am collaborating with \textit{a famous linguist}.
+                       \z
+\z
+
+
+With indefinites, the two readings are often referred to as \textsc{specific} vs. \textsc{non-specific}; but we can apply the terms \textit{de dicto} vs. \textit{de re} to these cases as well.\footnote{We follow von \citet{Heusinger2011} in using the terms this way.} Under the specific (\textit{de re}) reading, the phrase \textit{a retired movie star} in (\ref{ex:}a) refers to a particular individual, e.g. Ronald Reagan or Joseph Estrada (former president of the Philippines); so under this reading sentence (\ref{ex:}a) means that the opposition party has a specific candidate in mind, who happens to be a retired actor (whether the party leaders realize this or not). Under the non-specific (\textit{de dicto}) reading, the phrase refers to a property or type, rather than a specific individual. Under this reading sentence (\ref{ex:}a) means that the opposition party does not have a specific candidate in mind, but knows what kind of person they want; and being a retired actor is one of the qualifications they are looking for.
+
+
+
+These \textit{de dicto}–\textit{de re} ambiguities involve true semantic ambiguity, as seen by the fact that the two readings have different truth conditions. For example, suppose I am collaborating with Noam Chomsky on a book of political essays. The Dean knows about this collaboration, but knows Chomsky only through his political writings, and does not realize that he is also a famous linguist. In this situation, sentence (\ref{ex:}b) will be true under the \textit{de re} reading but false under the \textit{de dicto} reading.
+
+
+
+As we will see in our discussion of quantifiers (\chapref{sec:14}), \textit{de dicto}–\textit{de re} ambiguities can often be explained or analyzed as instances of \textsc{scope ambiguity}. However, the specific vs. non-specific ambiguity of indefinite NPs is found even in contexts where no scope effects are involved.\footnote{\citet{FodorSag1982}.}
+
+
+\section{Conclusion}\label{sec:12.6}
+
+The passage from Frege quoted at the beginning of \sectref{sec:3} describes the astonishing power of human language: “[E]ven for a thought grasped for the first time by a human it provides a clothing in which it can be recognized by another to whom it is entirely new.” It is this productivity, the ability to communicate novel ideas, that we seek to understand when we try to account for the compositionality of sentence meanings.
+
+
+
+In the next two chapters we offer a very brief introduction to a widely-used method for modeling how meanings of complex expressions are composed from the meanings of their constituent parts. Building on Frege’s intuition (discussed in \sectref{sec:3} above) that the denotation of a sentence is its truth value, we describe a method for composing denotations of words and phrases to derive the truth conditions of the proposition expressed by a sentence. Then in \chapref{sec:15} we discuss additional contexts where, as with the propositional attitude verbs discussed in \sectref{sec:4} above, a purely denotational treatment is inadequate.
+
+
+
+\furtherreading
+
+
+
+Abbott (2010, Section~2.1) provides a good summary of Frege’s famous paper on sense and denotation. \citet{Goldberg2015} and Pagin \& Westerståhl (2010) discuss some of the challenges to the Principle of Compositionality. \citet{Zalta2017} provides an overview of Frege’s life and work.
+
+
+\subsubsection{Discussion exercise:}\label{sec:}
+
+\textbf{A.} Discuss the validity of the following inference (assuming that (\ref{ex:}a) and (\ref{ex:}b) are true):
+
+\ea
+\ea
+Oedipus wants to marry Jocasta
+
+\ex Jocasta is Oedipus’ mother
+
+-----------------
+
+\ex Therefore, Oedipus wants to marry his mother
+\z
+\z
