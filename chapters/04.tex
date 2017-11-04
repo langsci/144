@@ -144,8 +144,8 @@ Another way of showing that this pattern of inference is invalid is to change th
 We have said that one important goal of logic is to provide a systematic account for the kinds of reasoning or inference that we intuitively know to be correct. In addition, logic can help us move beyond our intuitions in at least two important ways. First, it provides a way of analyzing very complex arguments, for which our intuitions do not give reliable judgements. Second, our intuitive reasoning may sometimes be based on patterns of inference which are not in fact valid. Logic provides an objective method for distinguishing valid from invalid patterns of inference, and a way of proving which patterns belong to each of these types. We now procede to survey the basic notation and concepts used in the two primary branches of logic, beginning with propositional logic.
 
 
-\section{Propositional logic}\label{sec:4.2}
-\subsection{Propositional operators}\label{sec:4.2.1}
+\section{Propositional logic}\label{sec:4.3}
+\subsection{Propositional operators}\label{sec:4.3.1}
 
 In \sectref{sec:4.1} we introduced the logical negation operator “¬”. (An alternate symbol for this is the tilde, “{\textasciitilde}”; so in logical notation, ‘not p’ can be written as either \textit{¬p} or {\textasciitilde}\textit{p}.) Logical negation is referred to as a “one-place” operator, because it combines with a single proposition to form a new proposition. The other basic operators of propositional logic are referred to as “two-place” operators, because they are used to combine two propositions to form a new complex proposition. The basic two-place operators include $\wedge$ ‘and’, $\vee$ ‘or’, and the \textsc{material} \textsc{implication} operator → (generally read as ‘if…then…’). If \textit{p} and \textit{q} are well-formed propositions, then the formulae \textit{p$\wedge$}\textit{q} ‘p and q’, \textit{p$\vee$}\textit{q} ‘p or q’, and \textit{p→}\textit{q} ‘if p, (then) q’ are also well-formed propositions. (The \textit{p} and \textit{q} in these formulae are \textsc{variables} which represent propositions.)
 
@@ -274,7 +274,7 @@ This table says that \textit{p}$\leftrightarrow $\textit{q} is true just in case
 Having introduced the basic operators of propositional logic, let us see how they can be used to identify certain kinds of tautologies and contradictions, and to account for certain kinds of meaning relations between propositions (entailment, paraphrase, and incompatibility), namely those that are the result of logical structure alone.
 
 
-\subsection{Meaning relations and rules of inference}\label{sec:4.2.2}
+\subsection{Meaning relations and rules of inference}\label{sec:4.3.2}
 
 In addition to using truth tables to define logical operators, we can also use them to evaluate more complex logical formulae. To begin with a very simple example, the formula \textit{p$\vee$}\textit{(¬}\textit{p)} represents the logical structure of sentences like \textit{Either you will graduate or you will not graduate}. Sentences of this type are clearly tautologies, and we can show why using a truth table. We start by putting the basic proposition (\textit{p}) at the top of the left column and the formula that we want to prove (\textit{p$\vee$}\textit{(¬}\textit{p)}) at the top of the last (right-most) right column, as shown in (\ref{ex:4.12}a). We can also fill in all the possible truth values for \textit{p} in the left column.
 
@@ -639,7 +639,7 @@ When a quantifier combines with another quantifier, with negation, or with vario
 The quantifier that appears farthest to the left in the formula gets a \textsc{wide scope} interpretation, meaning that it takes logical priority; the one which is embedded within the scope of the first quantifier gets a \textsc{narrow scope} interpretation. So the first reading for (\ref{ex:4.33}a) says that there exists some specific man who loves every woman. The second reading for (\ref{ex:4.33}a) says that for any woman you choose within the universe of discourse, there exists some man who loves her. (Try to provide similar paraphrases for the two readings of (\ref{ex:4.33}b). Then try to verify that these sentences involve real ambiguities by finding contexts for each sentence where one reading would be true while the other is false.)
 
 
-\section{Conclusion}\label{sec:4.4}
+\section{Conclusion}\label{sec:4.5}
 
 In this chapter we mentioned some of the motivations for using formal logic as a semantic metalanguage. We discussed the notion of valid inference, and showed that valid patterns of reasoning guarantee a true conclusion only when the premises are true. We then showed how propositional logic accounts for certain kinds of inferences, namely those which are determined by the meanings of the logical operators ‘and’, ‘or’, ‘not’, and ‘if’. In this way propositional logic helps to explain certain kinds of tautology and contradiction, as well as certain types of meaning relations between sentences (entailment, paraphrase, etc.), namely those which arise due to the logical structure of the sentences involved. Finally we gave a brief introduction to predicate logic, which allows us to represent the meanings of the propositions, and an even brief introduction to the use of quantifiers, which will be the topic of \chapref{sec:14}.
 
@@ -656,7 +656,7 @@ Our emphasis in this chapter was on translating sentences of English (or some ot
 Good, brief introductions to propositional and predicate logic are provided in Allwood et al. (1977, chapters 4–5) and Kearns (2000, \chapref{sec:2}). More detailed introductions are provided in \citet{Martin1987} and \citet{Gamut1991a}.\footnote{L. T. F. Gamut is a collective pen-name for the Dutch logicians Johan van Benthem, Jeroen Groenendijk, Dick de Jongh, Martin Stokhof and Henk Verkuyl.}
 
 
-\subsubsection{Discussion exercises:}\label{sec:}
+\subsection*{Discussion exercises}
 \ea
 \textbf{A}: Create a truth table to prove each of the following tautologies:
 \z
@@ -689,7 +689,7 @@ Good, brief introductions to propositional and predicate logic are provided in A
                        \z
 \z
 
-\subsection*{Homework exercises}\label{sec:}
+\subsection*{Homework exercises}
 \paragraph{A. Using truth tables}
 
 Arthur has been selected to be a juror in a case which has generated a lot of local publicity. He is asked to promise not to read the newspaper or watch television until the trial is finished. There are two different ways in which he can make this commitment:\\
