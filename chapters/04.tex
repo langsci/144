@@ -162,7 +162,7 @@ These four operators determine the “syntax” of the complex propositions that
 The other operators also specify the truth values of the complex propositions that they form based only on the truth values of the individual propositions that they combine with. For this reason, the meanings of these operators (i.e., their contribution to the meaning of a proposition) can be fully specified in terms of truth values. When we have said that \textit{p} and \textit{¬p} must have opposite truth values in any possible situation, we have provided a definition of the negation operator; nothing needs to be known about the specific meaning of \textit{p}. One common way of representing this kind of definition is through the use of a \textsc{truth table}, like that in \REF{ex:4.6}. This table says that whenever \textit{p} is true (T), \textit{not p} must be false (F); and whenever \textit{p} is false, \textit{not p} must be true.
 
 
-\ea \label{ex:4.6}
+\eabox{ \label{ex:4.6}
 \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
@@ -172,12 +172,12 @@ The other operators also specify the truth values of the complex propositions th
   F &  T\\
 \lspbottomrule
 \end{tabular}
-\z
+}
 
 In the same way, the operator \textit{$\wedge$} ‘and’ can be defined by the truth table in \REF{ex:4.7}. This table says that \textit{p$\wedge$}\textit{q} (which is also sometimes written \textit{p\&}\textit{q}) is true just in case both \textit{p} and \textit{q} are true, and false in all other situations.
 
 
-\ea \label{ex:4.7}
+\eabox{ \label{ex:4.7}
 \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
@@ -189,7 +189,7 @@ In the same way, the operator \textit{$\wedge$} ‘and’ can be defined by the 
  \sffamily F & \sffamily F & \sffamily F\\
 \lspbottomrule
 \end{tabular}
-\z
+}
 
 Again, the truth value of the complex proposition does not depend on the meaning of the simpler propositions it contains, but only on their truth values and the meaning of \textit{$\wedge$}. Nevertheless, we can assign arbitrary meanings to the variables in order to illustrate the function of the operator. Suppose for example that \textit{p} represents the proposition ‘It is raining,’ and \textit{q} represents the proposition ‘The north wind is blowing.’ The formula \textit{p$\wedge$}\textit{q} would then represent the proposition ‘It is raining and the north wind is blowing.’ The truth table in \REF{ex:4.7} predicts that this proposition will only be true if, at the time of speaking, there is a north wind accompanied by rain; it will be false if the weather is different in either of these respects. This prediction seems to match our intuitions as speakers of English. We can see this by imagining someone saying to us, \textit{It is raining and the north wind is blowing}. We would consider the speaker to have spoken truthfully just in case there was a north wind accompanied by rain, and falsely if the circumstances were otherwise.
 
@@ -198,7 +198,7 @@ Again, the truth value of the complex proposition does not depend on the meaning
 The operator $\vee$ ‘or’ is defined by the truth table in \REF{ex:4.8}. This table says that \textit{p}$\vee$\textit{q} is true whenever either \textit{p} is true or \textit{q} is true; it is only false when both \textit{p} and \textit{q} are false. Notice that this \textit{or} of standard logic is the \textsc{inclusive} \textit{or}, corresponding to the English phrase \textit{and/or}, because it includes the case where both \textit{p} and \textit{q} are true. Suppose, for example, that \textit{p} represents the proposition ‘It is raining,’ and \textit{q} represents the proposition ‘It is snowing.’ Imagine a meteorologist looking at a radar display and, based on what he sees there, saying: ‘It is raining or it is snowing.’ This statement would be true if it was raining at the time of speaking, or if it was snowing, or if both things were happening at the same time. (This last possibility is rare but not impossible.)
 
 
-\ea \label{ex:4.8}
+\eabox{ \label{ex:4.8}
 \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
@@ -210,12 +210,12 @@ The operator $\vee$ ‘or’ is defined by the truth table in \REF{ex:4.8}. This
  \sffamily F & \sffamily F & \sffamily F\\
 \lspbottomrule
 \end{tabular}
-\z
+}
 
 In spoken English we often use the word \textit{or} to mean ‘either … or … but not both’. For example, this is normally the usage that we intend when we ask, “Would you like white wine or red?” Table \REF{ex:4.9} shows how we would define this \textsc{exclusive} “sense” of \textit{or}, abbreviated here as \textit{XOR}. The table says that \textit{p XOR q} will be true whenever either p or q is true, but not both; it is false whenever p and q have the same truth value. (We will return in \chapref{sec:9} to the question of whether we should consider the English word \textit{or} to have two distinct senses.)
 
 
-\ea \label{ex:4.9}
+\eabox{ \label{ex:4.9}
 \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
@@ -227,12 +227,12 @@ In spoken English we often use the word \textit{or} to mean ‘either … or …
  \sffamily F & \sffamily F & \sffamily F\\
 \lspbottomrule
 \end{tabular}
-\z
+}
 
 The \textsc{material} \textsc{implication} operator (→) is defined by the truth table in \REF{ex:4.10}. (The formula \textit{p}→\textit{q} can be read as \textit{if p (then) q}, \textit{p only if q}, or \textit{q if p}.) The truth table says that \textit{p}→\textit{q} is defined to be false just in case \textit{p} is true but \textit{q} is false; it is true in all other situations.
 
 
-\ea \label{ex:4.10}
+\eabox{ \label{ex:4.10}
 \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
@@ -244,7 +244,7 @@ The \textsc{material} \textsc{implication} operator (→) is defined by the trut
  \sffamily F & \sffamily F & \sffamily T\\
 \lspbottomrule
 \end{tabular}
-\z
+}
 
 In order to get an intuitive sense of what this definition means, suppose that a mother says to her children, \textit{If it rains this afternoon I will take you to a movie}. Under what circumstances would the mother be considered to have spoken falsely? In applying the truth table we let \textit{p} represent \textit{it rains this afternoon} and \textit{q} represent \textit{I will take you to a movie}. Now suppose that it does not rain. In that case \textit{p} is false, and whether the family goes to a movie or not, no one would accuse the mother of lying or breaking her promise; and this is what the truth table predicts. If it does rain, then \textit{p} is true; and if the mother takes her children to a movie, she has spoken the truth. Only if it rains but she does not take her children to a movie would her statement be considered false. Again, this is just what the truth table predicts. (It turns out that the material implication operator of standard logic does not always correspond to our intuitions about English \textit{if}, and we will have much more to say about this in \chapref{sec:19}.)
 
@@ -253,7 +253,7 @@ In order to get an intuitive sense of what this definition means, suppose that a
 For convenience we will introduce one additional operator here, which is referred to as the \textsc{biconditional} operator (\textit{$\leftrightarrow $}). The formula \textit{p$\leftrightarrow $}\textit{q} (read as ‘p if and only if q’) is a short-hand or abbreviation for: (\textit{p}→\textit{q) $\wedge$} \textit{(q}→\textit{p)}. The biconditional operator is defined by the truth table in \REF{ex:4.11}:
 
 
-\ea \label{ex:4.11}
+\eabox{ \label{ex:4.11}
 \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
@@ -265,7 +265,7 @@ For convenience we will introduce one additional operator here, which is referre
  \sffamily F & \sffamily F & \sffamily T\\
 \lspbottomrule
 \end{tabular}
-\z
+}
 
 This table says that \textit{p}$\leftrightarrow $\textit{q} is true just in case \textit{p} and \textit{q} have the same truth value. Suppose the mother in our previous example had said \textit{I will take you to a movie if and only if it rains this afternoon}. If it did not rain but she took her children to a movie anyway, the truth table says that she would have spoken falsely. This prediction seems linguistically correct, although her children would very likely have forgiven her in this case.
 
@@ -280,7 +280,7 @@ In addition to using truth tables to define logical operators, we can also use t
 
 
 \ea \label{ex:4.12}
-\ea \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
+\eabox{ \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
  p &  & p$\vee$(¬p)\\\midrule
@@ -289,12 +289,12 @@ In addition to using truth tables to define logical operators, we can also use t
  \sffamily F &  & \\
 \lspbottomrule
 \end{tabular}
-\z \z
+} \z
 
 The proposition we are trying to prove (\textit{p$\vee$}\textit{(¬}\textit{p)}) is an \textit{or} statement; that is, the highest operator is $\vee$. The two propositions conjoined by $\vee$ are \textit{p} and \textit{¬p}. We already have a column for the truth values of \textit{p}, so the next step is to create a column for the corresponding truth values of \textit{¬p}, as shown in (\ref{ex:4.12}b).
 
 \usecounter{equation}\setcounter{equation}{11}
-\ea
+\eabox{
 \begin{xlista} \exi{b.} \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
@@ -304,13 +304,14 @@ The proposition we are trying to prove (\textit{p$\vee$}\textit{(¬}\textit{p)})
  \sffamily F & \sffamily T & \\
 \lspbottomrule
 \end{tabular}
-\end{xlista} \z
+\end{xlista} 
+}
 
 The final step in the proof is to calculate the possible truth values of the proposition \textit{p$\vee$}\textit{(¬}\textit{p)}, using the truth table in \REF{ex:} which defines the \textit{$\vee$} operator. The result is shown in (\ref{ex:4.12}c). 
 
 
 \usecounter{equation}\setcounter{equation}{11}
-\ea
+\eabox{
 \begin{xlista} \exi{c.} \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
@@ -320,7 +321,7 @@ The final step in the proof is to calculate the possible truth values of the pro
  \sffamily F & \sffamily T & \sffamily T\\
 \lspbottomrule
 \end{tabular}
-\end{xlista} \z
+\end{xlista} }
 
 Notice that both cells in the right-most column contain T. This means that the formula is always true, under any circumstances; in other words, it is a tautology. The truth of this tautology does not depend in any way on the meaning of \textit{p}, but only on the definitions of the logical operators \textit{$\vee$} and \textit{¬}. Propositions which are necessarily true just because of their logical structure (regardless of the meanings of words they contain) are sometimes said to be “logically true”.
 
@@ -329,7 +330,7 @@ Notice that both cells in the right-most column contain T. This means that the f
 Suppose we change the \textit{or} in the previous example to \textit{and}. This would produce the formula \textit{p$\wedge$}\textit{(¬}\textit{p)}, which corresponds to the logical structure of sentences like Y\textit{ou will graduate and you will not graduate}. It is hard to imagine any context where such a sentence could be true, and using the truth table in \REF{ex:4.13} we can show why this is impossible. Sentences of this type are contradictions; they are never true, under any possible circumstance, as reflected in the fact that both cells in the right-most column contain F.
 
 
-\ea \label{ex:4.13}
+\eabox{ \label{ex:4.13}
 \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
@@ -339,12 +340,12 @@ Suppose we change the \textit{or} in the previous example to \textit{and}. This 
  \sffamily F & \sffamily T & \sffamily F\\
 \lspbottomrule
 \end{tabular}
-\z
+}
 
 Now let us consider a slightly more complex example: \textit{((p$\vee$q) $\wedge$ (¬p))} → \textit{q}. To construct a truth table which will allow us to evaluate this formula, we begin by putting the basic propositions \textit{p} and \textit{q} in the left-hand columns (1\& 2). We put the complete formula that we want to prove in the far right column (6). We introduce a new column for each constituent part of the complete formula and calculate truth values for each cell, building from left to right, as seen in \REF{ex:4.14}. First, columns 1 \& 2 are used to construct column 3, based on the truth table for \textit{$\vee$}. Next, column 4 is calculated from column 1. Columns 3 \& 4 are used to construct column 5, based on the truth table for \textit{$\wedge$}. Finally, columns 2 \& 5 are used to construct column 6, based on the truth table for →.
 
 
-\ea \label{ex:4.14}
+\eabox{ \label{ex:4.14}
 \begin{tabular}[t]{*{6}{>{\sffamily}c}}
 \lsptoprule
 \tablehead{ 1 & 2 & 3 & 4 & 5 & 6 \\
@@ -356,7 +357,7 @@ Now let us consider a slightly more complex example: \textit{((p$\vee$q) $\wedge
  \sffamily F & \sffamily F & \sffamily F & \sffamily T & \sffamily F & \sffamily T\\
 \lspbottomrule
 \end{tabular}
-\z
+}
 
 Notice that every cell in the right-most column contains T. This means that the formula is always true, under any circumstances; in other words, it is a tautology. Furthermore, the truth of this tautology does not depend in any way on the meanings of \textit{p} and \textit{q}, but only on the definitions of the logical operators. This tautology predicts that whenever a proposition of the form \textit{((p$\vee$q) $\wedge$ (¬p))} is true, the proposition \textit{q} must also be true. For example, it explains why the sentence cited at the beginning of \sectref{sec:4.2} (\textit{Either Joe is crazy or he is lying, and he is not crazy}) must entail \textit{Joe is lying}. A similar entailment relation will hold for any other pair of sentences that have the same logical structure.
 
@@ -365,7 +366,7 @@ Notice that every cell in the right-most column contains T. This means that the 
 Now consider the biconditional formula \textit{(p$\vee$q) $\leftrightarrow $ ¬((¬p) $\wedge$ (¬q))}. Using the procedure outlined above, we can construct the truth table in \REF{ex:4.15}. First, columns 1 \& 2 are used to construct column 3, based on the truth table for \textit{$\vee$}. Next, columns 4 \& 5 are used to construct column 6, based on the truth table for \textit{$\wedge$}. Column 7 is calculated from column 6, and finally columns 3 \& 7 are used to construct column 8, based on the truth table for \textit{$\leftrightarrow $}.
 
 
-\ea \label{ex:4.15}
+\eabox{ \label{ex:4.15}
 \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily\cellcolor{lsLightGray}}c>{\sffamily}c>{\sffamily}c>{\sffamily}c>{\sffamily\cellcolor{lsLightGray}}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
@@ -377,7 +378,7 @@ Now consider the biconditional formula \textit{(p$\vee$q) $\leftrightarrow $ ¬(
  \sffamily F & \sffamily F & \sffamily F & \sffamily T & \sffamily T & \sffamily T & \sffamily F & \sffamily T\\
 \lspbottomrule
 \end{tabular}
-\z
+}
 
 Once again we see that every cell in the right-most column contains T, which means that this formula must always be true, purely because of its logical form. The biconditional operator in this formula expresses mutual entailment, that is, a paraphrase relation. This formula explains why the sentence \textit{Either he is crazy or he is lying} must always have the same truth value as \textit{It is not the case that he is both not crazy and not lying}. The first sentence is a paraphrase of the second, simply because of the logical structures involved.
 
@@ -386,7 +387,7 @@ Once again we see that every cell in the right-most column contains T, which mea
 As we noted in an earlier chapter, tautologies are not very informative because they make no claim about the world. But for that very reason, these logical tautologies can be extremely useful because they define logically valid rules of inference. A few tautologies are so famous as rules of inference that they are given Latin names. One of these is called \textsc{Modus Ponens} ‘method of positing/affirming’, also called ‘affirming the antecedent’: \textit{((p→q) $\wedge$ p) → q}. The proof of this tautology is presented in \REF{ex:4.16}.
 
 
-\ea \label{ex:4.16}
+\eabox{ \label{ex:4.16}
 \begin{tabular}[t]{*{5}{>{\sffamily}c}}
 \lsptoprule
 \tablehead{
@@ -398,7 +399,7 @@ As we noted in an earlier chapter, tautologies are not very informative because 
  \sffamily F & \sffamily F & \sffamily T & \sffamily F & \sffamily T\\
 \lspbottomrule
 \end{tabular}
-\z
+}
 
 Modus Ponens defines one of the valid ways of deriving an inference from a conditional statement. It says that if we know that \textit{p→q} is true, and in addition we know or assume that \textit{p} is true, it is valid to infer that \textit{q} is true. An illustration of this pattern of inference is presented as a \textsc{syllogism} in \REF{ex:4.17}.
 
@@ -653,24 +654,21 @@ Our emphasis in this chapter was on translating sentences of English (or some ot
 
 
 
-Good, brief introductions to propositional and predicate logic are provided in Allwood et al. (1977, chapters 4–5) and Kearns (2000, \chapref{sec:2}). More detailed introductions are provided in \citet{Martin1987} and \citet{Gamut1991a}.\footnote{L. T. F. Gamut is a collective pen-name for the Dutch logicians Johan van Benthem, Jeroen Groenendijk, Dick de Jongh, Martin Stokhof and Henk Verkuyl.}
+Good, brief introductions to propositional and predicate logic are provided in \citet[chapters 4--5]{AllwoodEtAl1977} and \citet[chapter 2]{Kearns2000}. More detailed introductions are provided in \citet{Martin1987} and \citet{Gamut1991a}.\footnote{L.\ T.\ F.\ Gamut is a collective pen-name for the Dutch logicians Johan van Benthem, Jeroen Groenendijk, Dick de Jongh, Martin Stokhof and Henk Verkuyl.}
 
 
 \subsection*{Discussion exercises}
-\ea
-\textbf{A}: Create a truth table to prove each of the following tautologies:
-\z
+
+\paragraph*{A: Create a truth table to prove each of the following tautologies}
 
 \ea
-  a. Law of Double Negation:  ¬(¬p) $\leftrightarrow $ p\\
+\ea Law of Double Negation:  ¬(¬p) $\leftrightarrow $ p\\
 \ex Law of Contradiction:  ¬(p ${\wedge}$ ¬p)\\
 \ex Modus Tollens:  [(p → q) ${\wedge}$ ¬q]  →  ¬p
 \z
-
-\ea
-\textbf{B}: Construct syllogisms, using English sentences, to illustrate each of the following patterns of inference:
 \z
 
+\paragraph*{B: Construct syllogisms, using English sentences, to illustrate each of the following patterns of inference}
 
 \ea
 \ea Modus Ponens:  [(p → q) ${\wedge}$ p]  →  q
@@ -680,17 +678,17 @@ Good, brief introductions to propositional and predicate logic are provided in A
                        \z
                        \z
 
+\paragraph*{C:  Translate the following sentences into logical notation}
 \ea
-\textbf{C:} Translate the following sentences into logical notation:\\
 \ea \textit{All unicorns are herbivores}.\\
 \ex \textit{No philosophers admire Nietzsche}.\\
 \ex \textit{Some green apples are edible}.\\
 \ex \textit{Bill feeds all stray cats}.
-                       \z
+\z
 \z
 
 \subsection*{Homework exercises}
-\paragraph{A. Using truth tables}
+\paragraph*{A. Using truth tables}
 
 Arthur has been selected to be a juror in a case which has generated a lot of local publicity. He is asked to promise not to read the newspaper or watch television until the trial is finished. There are two different ways in which he can make this commitment:\\
 (a) \textit{I will not read the newspaper or watch television until the trial is finished}.\\
@@ -698,21 +696,25 @@ Arthur has been selected to be a juror in a case which has generated a lot of lo
 
 Construct truth tables for these two sentences to show why they are logically equivalent. You may omit the adverbial clause (\textit{until the trial is finished}) from your table.  (\textbf{Hint}: Let \textbf{p} stand for \textit{I will read the newspaper} and \textbf{q} stand for \textit{I will watch television}. Assume the following translation for sentence (a): ¬(p $\vee$ q). Construct a truth table for this proposition, and a second truth table for sentence (b). If the right-most column of the two tables is identical, that means that the two propositions must have the same truth value under any circumstances.)
 
-sentence (a):
+sentence (a):\todo{more semantic markup}
 
-\begin{tabularx}{\textwidth}{XXXX} &  &  & \\
+\todo{columns must become clearer}
+\begin{tabular}{llll}
 \lsptoprule
+&  &  & \\
 \tablehead{
  p & q & p $\vee$ q & ¬(p $\vee$ q)\\
 }
+\midrule
 &  &  & \\
 &  &  & \\
 &  &  & \\
 \lspbottomrule
-\end{tabularx}
+\end{tabular}
+\\
 sentence (b):
 
-\begin{tabularx}{\textwidth}{XXXXX}
+\begin{tabular}{lllll}
 \lsptoprule
 &  &  &  & \\
  p & q &  &  & \\
@@ -721,9 +723,9 @@ sentence (b):
 &  &  &  & \\
 &  &  &  & \\
 \lspbottomrule
-\end{tabularx}
+\end{tabular}
 
-\paragraph{B. Translate the following sentences into logical notation}
+\paragraph*{B. Translate the following sentences into logical notation}
 
 \ea \ea \textit{All famous linguists quote Chomsky}.
 \ex \textit{David tutors some struggling students}.
