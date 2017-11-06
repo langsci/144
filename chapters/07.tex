@@ -171,7 +171,7 @@ Many different theories have been proposed for representing components of lexica
 One very influential approach during the middle of the 20\textsuperscript{th} century was to treat word meanings as bundles of distinctive semantic features, in much the same way that phonemes are defined in terms of distinctive phonetic/phonological features.\footnote{One early example of this approach is found in \citet{Nida1951}.} This approach is sometimes referred to as \textsc{componential analysis} of meaning. Some of the motivation for this approach can be seen in the following famous example from Hjemslev (1943/1953). The example makes it clear that the feature of gender is an aspect of meaning that distinguishes many pairs of lexical items within certain semantic domains. If we were to ignore this fact and just treat each word’s meaning as an \textsc{atom} (i.e., an unanalyzable unit), we would be missing a significant generalization.
 
 
-\ea
+\eabox{
 \begin{tabular}[t]{*{5}{l}}
 \lsptoprule
  & horse & human & child & sheep\\
@@ -180,7 +180,7 @@ One very influential approach during the middle of the 20\textsuperscript{th} ce
 “she” & mare & woman & girl & ewe\\
 \lspbottomrule
 \end{tabular}
-\z
+}
 
 Features like gender and adulthood are binary, and so lend themselves to representation in either tree or matrix format, as illustrated in \REF{ex:7.17}. Notice that in addition to the values + and –, features may be unspecified (represented by ⌀ in the matrix). For example, the word \textit{foal} is unspecified for gender, and the word \textit{horse} is unspecified for both age and gender.
 
@@ -344,11 +344,14 @@ While \textit{break} verbs (e.g., \textit{break, bend, fold, shatter, crack}) al
 
 
 \ea English transitive verb classes\footnote{\citet[8]{Levin1993}}\\
-\begin{tabularx}{\textwidth}{XXXXX} 
+\begin{tabularx}{.9\textwidth}{Qcccc} 
 \lsptoprule
-& \textit{touch} verbs & \textit{hit} verbs & \textit{cut} verbs & \textit{break} verbs\\\midrule
+& \textit{touch} verbs & \textit{hit} verbs & \textit{cut} verbs & \textit{break} verbs\\
+\midrule
 body-part possessor ascension & \scshape yes & \scshape yes & \scshape yes & \scshape no\\
+\tablevspace
 conative alternation & \scshape no & \scshape yes & \scshape yes & \scshape no\\
+\tablevspace
 middle & \scshape no & \scshape no & \scshape yes & \scshape yes\\
 \lspbottomrule
 \end{tabularx}
@@ -437,7 +440,7 @@ Many scholars do believe that word meanings are built up in some way from smalle
 
 
 
-\citet{Engelberg2011} provides a good overview of the various approaches to and controversies about lexical decomposition and componential analysis. Lyons (1977:317 ff) discusses some of the problems with the binary feature approach to componential analysis. The first chapter of \citet{Levin1993} gives a very good introduction to the Fillmore-type analysis of verb classes and what they can tell us about verb meanings, and \citet{Levin2015} presents an updated cross-linguistic survey of the topic. 
+\citet{Engelberg2011} provides a good overview of the various approaches to and controversies about lexical decomposition and componential analysis. \citet[317ff.]{Lyons1977} discusses some of the problems with the binary feature approach to componential analysis. The first chapter of \citet{Levin1993} gives a very good introduction to the Fillmore-type analysis of verb classes and what they can tell us about verb meanings, and \citet{Levin2015} presents an updated cross-linguistic survey of the topic. 
 
 
 \subsection*{Discussion exercises}
@@ -454,8 +457,8 @@ walk, run, march, limp, stroll
 cup, glass, mug, tumbler, chalice, goblet, stein
 \end{enumerate}
 
-\paragraph*{B.  Locative-alternation (“spray-load”) verbs}\footnotemark{}
-\footnotetext{Adapted from \citet{Saeed2009}, \chapref{sec:9}.}
+\paragraph*{B.  Locative-alternation (“spray-load”) verbs\footnotemark{}}
+\footnotetext{Adapted from \citet{Saeed2009}, ch. 9.}
 
 Based on the following examples, fill in the table below to show which verbs allow the goal or location argument to be expressed as direct object and which verbs allow the displaced theme argument to be expressed as direct object. Try to formulate an analysis in terms of meaning components to account for the patterns you find in the data.
 
@@ -527,9 +530,11 @@ Mike covered the ceiling with paint.\\
     \z
 \z
 
-\begin{tabularx}{\textwidth}{XXX}
+\noindent
+\begin{tabularx}{\textwidth}{lCC}
 \lsptoprule
-\bfseries\scshape Verb & \bfseries\scshape Theme = object & \bfseries\scshape Location = object\\\midrule
+\bfseries\scshape Verb & \bfseries\scshape Theme = object & \bfseries\scshape Location = object\\
+\midrule
 \itshape load &  & \\
 \itshape spray &  & \\
 \itshape fill &  & \\
@@ -541,10 +546,10 @@ Mike covered the ceiling with paint.\\
 \lspbottomrule
 \end{tabularx}
 \subsection*{Homework exercises}
-\paragraph*{A. Causative/inchoative alternation}\footnotemark{}
+\paragraph*{A. Causative/inchoative alternation\footnotemark{}}
 \footnotetext{Adapted from \citet[298]{Saeed2009}, ex. 9.3.}
-
-Levin \& Rappaport Hovav (1995:102–5) propose a semantic explanation for why some change of state verbs participate in the \textsc{causative/inchoative} alternation (\textit{John broke the window} vs. \textit{the window broke}), while others do not. They suggest that verbs which name events that must involve an animate, intentional and volitional agent never appear in the intransitive form. This hypothesis predicts that only (but not necessarily all) verbs which allow an inanimate force as subject should participate in the alternation, as illustrated in (a--b). Your tasks: (i) construct examples like those in (a--b) to test this prediction for the following verbs, and explain what your examples show us about the hypothesis: \textit{melt, write, shrink, destroy}; (ii) Use Levin \& Rappaport Hovav’s hypothesis to explain the contrasts in sentences (c--d).
+\citet[102--105]{LevinRappaportHovav1995} propose a semantic explanation for why some change of state verbs participate in the \textsc{causative/inchoative} alternation (\textit{John broke the window} vs. \textit{the window broke}), while others do not. They suggest that verbs which name events that must involve an animate, intentional and volitional agent never appear in the intransitive form. This hypothesis predicts that only (but not necessarily all) verbs which allow an inanimate force as subject should participate in the alternation, as illustrated in (a--b). Your tasks:
+(i) construct examples like those in (a--b) to test this prediction for the following verbs, and explain what your examples show us about the hypothesis: \textit{melt, write, shrink, destroy}; (ii) Use Levin \& Rappaport Hovav’s hypothesis to explain the contrasts in sentences (c--d).
 
 \begin{enumerate}[label=\alph*.]
 \item A terrorist/*tornado assassinated the governor.\\
