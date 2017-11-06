@@ -56,18 +56,20 @@ Sentence (\ref{ex:}c), \textit{Some man snores}, will be true in any situation i
 
 The key insight which has helped semanticists understand the meaning contributions of quantifier words like \textit{all}, \textit{some}, and \textit{no}, is that these words name relations between two sets. The table in \REF{ex:} lists these and several other quantifying determiners, showing their interpretations stated as a relation between two sets. In these examples the two sets are \textsc{$\llbracket$}STUDENT$\rrbracket$  (the set of all students), which for convenience we will refer to as S, and \textsc{$\llbracket$}BRILLIANT$\rrbracket$  (the set of all brilliant individuals) which for convenience we will refer to as B.
 
+\medskip
 
-\begin{tabularx}{\textwidth}{XXX}
-\lsptoprule
-& a. \textit{All students are brilliant}. & S ${\subseteq}$ B\\
-& b. \textit{No students are brilliant}. & \textsc{S} ${\cap}$ \textsc{B} = ⌀\\
-& c. \textit{Some students are brilliant}. & \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} ${\geq}$ 2\\
-& d. \textit{A/Some student is brilliant}. & \textsc{S} ${\cap}$ \textsc{B} ≠ ⌀; or:  \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} ${\geq}$ 1\\
-& e. \textit{Four students are brilliant}. & \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} = 4\footnotemark{}\\
-& f. \textit{Most students are brilliant}. & \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} > \textsc{{\textbar}S} – \textsc{B}{\textbar}; or: \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} > ½\textsc{{\textbar}S}{\textbar}\\
-& g. \textit{Few students are brilliant}. & \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} $\langle$ some contextually defined number\\
-& h. \textit{Both students are brilliant}. & S ${\subseteq}$ B  \& \textsc{{\textbar}S}{\textbar} = 2\\
-\lspbottomrule
+\noindent
+\begin{tabularx}{\textwidth}{lXX}
+% \lsptoprule
+a.&  \textit{All students are brilliant}. & S ${\subseteq}$ B\\
+b.&  \textit{No students are brilliant}. & \textsc{S} ${\cap}$ \textsc{B} = ⌀\\
+c.&  \textit{Some students are brilliant}. & \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} ${\geq}$ 2\\
+d.&  \textit{A/Some student is brilliant}. & \textsc{S} ${\cap}$ \textsc{B} ≠ ⌀; or:  \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} ${\geq}$ 1\\
+e.&  \textit{Four students are brilliant}. & \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} = 4\footnotemark{}\\
+f.&  \textit{Most students are brilliant}. & \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} > \textsc{{\textbar}S} – \textsc{B}{\textbar}; or: \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} > ½\textsc{{\textbar}S}{\textbar}\\
+g.&  \textit{Few students are brilliant}. & \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} $\langle$ some contextually defined number\\
+h.&  \textit{Both students are brilliant}. & S ${\subseteq}$ B  \& \textsc{{\textbar}S}{\textbar} = 2\\
+% \lspbottomrule
 \end{tabularx}
 \footnotetext{Recall from \chapref{sec:9} that numerals seem to allow two different interpretations. In light of that discussion, this sentence could mean either \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} = 4 or \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} ${\geq}$ 4 depending on context. For the purposes of this chapter we will ignore the ‘at least’ reading.}
 
@@ -151,7 +153,7 @@ Many other quantifier meanings can also be expressed using the basic predicate l
 
 \ea
 \textit{Four men snore}.\\
-${\exists}$w${\exists}$x${\exists}$y${\exists}$z[w${\neq}$x${\neq}$y${\neq}$z $\wedge$ MAN(w) $\wedge$ MAN(x) $\wedge$ MAN(y) $\wedge$ MAN(z) $\wedge$ SNORE(w) $\wedge$ SNORE(x) $\wedge$ SNORE(y) $\wedge$ SNORE(z)]
+${\exists}$w${\exists}$x${\exists}$y${\exists}$z[w≠x≠y≠z $\wedge$ MAN(w) $\wedge$ MAN(x) $\wedge$ MAN(y) $\wedge$ MAN(z) $\wedge$ SNORE(w) $\wedge$ SNORE(x) $\wedge$ SNORE(y) $\wedge$ SNORE(z)]
 \z
 
 
@@ -498,15 +500,13 @@ These concepts will be important in later chapters, especially in \chapref{sec:1
 Express the following sentences in restricted quantifier notation, and provide an interpretation in terms of set relations:
 
 \ea
-  a. \textit{Every Roman is patriotic}.\\
+  \ea \textit{Every Roman is patriotic}.\\
 \textsf{  model answer: [}\textsf{\textit{every}}\textsf{ x: ROMAN(x)] PATRIOTIC(x)\\} $\llbracket$ \textsf{ROMAN} $\rrbracket$ \textsf{} ${\subseteq}$\textsf{} $\llbracket$ \textsf{PATRIOTIC}$\rrbracket$ 
-\z
-
-\ea
-  b. \textit{Some wealthy Romans are patriotic}.\\
+\ex \textit{Some wealthy Romans are patriotic}.\\
 \ex \textit{Both Romans are patriotic}.\\
 \ex \textit{Caesar loves all Romans who obey him.}\\
 \ex \textit{Most loyal Romans love Caesar.}
+\z
 \z
 
 \paragraph*{B. Scope Ambiguities}
@@ -514,7 +514,7 @@ Express the following sentences in restricted quantifier notation, and provide a
 Use logical notation to express the two readings for the following sentences, and state which reading seems most likely to be intended, if you can tell.
 
 \ea
-  a. Some man loves every woman.\\
+\ea Some man loves every woman.\\
 \ex Many theologians do not understand this doctrine.\\
 \ex This doctrine is not understood by many theologians.\\
 \ex Two-thirds of the members did not vote for the amendment.\\
@@ -522,11 +522,10 @@ Use logical notation to express the two readings for the following sentences, an
 \ex A woman gives birth in the United States every five minutes.\\
 \ex He tries to read Plato’s \textit{Republic} every year.\footnote{Marilyn Quayle, on the reading habits of her husband; \textit{Wall Street Journal}, January 20, 1993.}
 \z
+\z
 
-\subsection*{Homework exercises}
-\begin{stylepoints}
-\textbf{Exercise A:} Translate the following sentences into predicate logic, using the \textbf{\textsc{standard}} [not restricted] format for the existential and universal quantifiers, ${\exists}$ and ${\forall}$. If any sentence allows two interpretations, provide the logical formulae for both readings.
-\end{stylepoints}
+\subsection*{Homework exercises} 
+\paragraph*{Exercise A:} Translate the following sentences into predicate logic, using the \textbf{\textsc{standard}} [not restricted] format for the existential and universal quantifiers, ${\exists}$ and ${\forall}$. If any sentence allows two interpretations, provide the logical formulae for both readings.
 
 \begin{enumerate}
 \item Solomon answered every riddle.\\
@@ -540,7 +539,7 @@ Use logical notation to express the two readings for the following sentences, an
 \item Socrates inspires all sincere scholars who read Plato.
 \end{enumerate}
 
-\textbf{Exercise B:} Translate the sentences below into logical formulae, using restricted quantifier notation.\footnote{Ex. B-C are patterned after Kearns (2000: 89–90).}
+\paragraph*{Exercise B:} Translate the sentences below into logical formulae, using restricted quantifier notation.\footnote{Ex. B-C are patterned after \citet[89--90]{Kearns2000}.}
 
 \textsf{Example:}  Arthur eats everything that Susan cooks.\\
 \textsf{[Every x: THING(x) \& COOK(s,x)] EAT(a,x)}
@@ -558,9 +557,8 @@ Use logical notation to express the two readings for the following sentences, an
 \item Rachel met and interviewed several famous musicians.
 \item Most children will not play if they are sad.
 \end{enumerate}
-\begin{stylepoints}
-\textbf{Exercise C:} The underlined phrases in the sentences below can be analyzed as quantifiers. State the truth conditions for these sentences in terms of set relations.
-\end{stylepoints}
+
+\paragraph*{Exercise C:} The underlined phrases in the sentences below can be analyzed as quantifiers. State the truth conditions for these sentences in terms of set relations.
 
 \begin{stylepoints}
 \textsf{Example:} \textsf{More than twenty}\textsf{ senators are guilty.   {\textbar}} $\llbracket$ \textsf{SENATOR}$\rrbracket$ \textsf{ ${\cap}$} $\llbracket$ \textsf{GUILTY}$\rrbracket$ \textsf{ {\textbar} > 20}
