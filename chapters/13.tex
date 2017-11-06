@@ -407,30 +407,33 @@ The denotation sets encode information about the current state of the world. For
 
 
 
-\ea \label{ex:13.21}
-\begin{tabularx}{\textwidth}{XXXXXX}
-\lsptoprule
+\eabox{ \label{ex:13.21}
+\fittable{
+\begin{tabular}{llllll}
+% \lsptoprule
 
-\bfseries\scshape English sentence & \multicolumn{2}{c}{\bfseries\scshape logical form} & \multicolumn{2}{c}{\bfseries\scshape interpretation} & \bfseries\scshape truth value\\
+\bfseries\scshape ~~~English sentence & \multicolumn{2}{l}{\bfseries\scshape logical form} & \multicolumn{2}{l}{\bfseries\scshape interpretation} & \bfseries\scshape truth value\\
+% \midrule
 
-a. \textit{Thomas More is a man}. & \multicolumn{2}{c}{MAN(t)
+a. \textit{Thomas More is a man}. & \multicolumn{2}{l}{MAN(t)
 \newline
-Thomas More ${\in}$ \textsc{$\llbracket$}MAN$\rrbracket$ } & \multicolumn{2}{c}{ T} & \\
+Thomas More ${\in}$ \textsc{$\llbracket$}MAN$\rrbracket$ } & \multicolumn{2}{l}{ T} & \\
 
-ex \textit{Anne Boleyn is} \textit{a man or} \textit{a woman}. & \multicolumn{2}{c}{MAN(a) $\vee$ WOMAN(a)} & \multicolumn{2}{c}{Anne Boleyn ${\in}$
+b. \textit{Anne Boleyn is} \textit{a man or} \textit{a woman}. & \multicolumn{2}{l}{MAN(a) $\vee$ WOMAN(a)} & \multicolumn{2}{l}{Anne Boleyn ${\in}$
 \newline
 (\textsc{$\llbracket$}MAN$\rrbracket$  ${\cup}$ \textsc{$\llbracket$}WOMAN$\rrbracket$ )} & T\\
 
-ex \textit{Henry VIII is a man who snores}. & \multicolumn{2}{c}{MAN(h) $\wedge$ \textsc{SNORE}(h)} & \multicolumn{2}{c}{Henry VIII ${\in}$ (\textsc{$\llbracket$}MAN$\rrbracket$  ${\cap}$ \textsc{$\llbracket$SNORE}$\rrbracket$ )} & T\\
-
- \textsc{$\llbracket$WO}MAN$\rrbracket$  ${\cap}$ \textsc{$\llbracket$SNORE}$\rrbracket$  = ∅Td. \textit{All men snore}.& \multicolumn{2}{c}{${\forall}$x[MAN(x) → \textsc{SNORE}(x)]} & \multicolumn{2}{c}{\textsc{$\llbracket$}MAN$\rrbracket$  ${\subseteq}$ \textsc{$\llbracket$SNORE}$\rrbracket$ } & F\\
+c. \textit{Henry VIII is a man who snores}. & \multicolumn{2}{l}{MAN(h) $\wedge$ \textsc{SNORE}(h)} & \multicolumn{2}{l}{Henry VIII ${\in}$ (\textsc{$\llbracket$}MAN$\rrbracket$  ${\cap}$ \textsc{$\llbracket$SNORE}$\rrbracket$ )} & T\\
+\biberror{sth missing}&
+ \textsc{$\llbracket$WO}MAN$\rrbracket$  ${\cap}$ \textsc{$\llbracket$SNORE}$\rrbracket$  = ∅Td.\\ \textit{All men snore}.& \multicolumn{2}{l}{${\forall}$x[MAN(x) → \textsc{SNORE}(x)]} & \multicolumn{2}{l}{\textsc{$\llbracket$}MAN$\rrbracket$  ${\subseteq}$ \textsc{$\llbracket$SNORE}$\rrbracket$ } & F\\
  
-\multicolumn{1}{c}{¬${\exists}$x[WOMAN(x) $\wedge$ \textsc{SNORE}(x)]
+\multicolumn{1}{l}{¬${\exists}$x[WOMAN(x) $\wedge$ \textsc{SNORE}(x)]
 \newline
-ex \textit{No women snore.}} &  & \multicolumn{2}{c}{} & \multicolumn{2}{c}{}\\
-\lspbottomrule
-\end{tabularx}
-\z
+d. \textit{No women snore.}} &  & \multicolumn{2}{l}{} & \multicolumn{2}{l}{}\\
+% \lspbottomrule
+\end{tabular}
+}
+}
 \todo{check alphabetical labels}
 
 The interpretations in (\ref{ex:13.21}b--e) can be derived from the corresponding logical forms, based on the definitions of intersection, union, and subset provided in \REF{ex:13.}. For example, the \textit{or} statement in (\ref{ex:13.19}b) constitutes a claim that a certain individual (Anne Boleyn) is a member of the union of two sets, because the definition of A${\cup}$B involves an \textit{or} statement. Once the truth conditions are stated in terms of set relations, we can determine the truth values for each sentence by inspecting the membership of the denotation sets specified in the model. The statement in (\ref{ex:13.21}b) is true relative to Model 1 because the individual Anne Boleyn is a member of the set $\llbracket$WOMAN$\rrbracket$ , and thus a member of $\llbracket$MAN$\rrbracket$  ${\cup}$ $\llbracket$WOMAN$\rrbracket$ .
@@ -585,112 +588,87 @@ Good brief introductions to set theory are provided in \citet[ch. 2]{AllwoodEtAl
 
 Fill in the following tables:
 
-\ea \label{ex:13.}%1
-    \label{ex:key:1}
-
-
-
-
-        
-
-\begin{tabularx}{\textwidth}{XXX}
+\eabox{ \label{ex:13.}%1
+    \label{ex:key:1} 
+\begin{tabularx}{\textwidth}{lQQQ}
 \lsptoprule
-
- Set A & Set B\par
-
- A${\cap}$B & \\
-a. the set of all mammals & the set of all animals that lay eggs & the set of all \textsc{monotremes} (Platypus plus four species of echidna)\\
-b. \{p,q,s,t\} & \{q,t,w,x\} & \\
-c. the set of all odd numbers & the set of all even numbers & \\
-d. the set of all Hollywood starspeople with 2-syllable first names
-
-e. the set containing all members of the Beatles & the set of all governors of California (past and present) & \\
-&  & \\
+ & Set A & Set B & A${\cap}$B  \\
+\midrule
+a. &  the set of all mammals & the set of all animals that lay eggs & the set of all \textsc{monotremes} (Platypus plus four species of echidna)\\
+\tablevspace
+b. &  \{p,q,s,t\} & \{q,t,w,x\} & \\
+\tablevspace
+c. &  the set of all odd numbers & the set of all even numbers & \\
+\tablevspace
+d. &  the set of all Hollywood stars & \biberror{people with 2-syllable first names}\\
+\tablevspace
+e. & the set containing all members of the Beatles & the set of all governors of California (past and present) & \\
 \lspbottomrule
 \end{tabularx}
- \z
+}
  
-\ea \label{ex:13.}%2
+\eabox{ \label{ex:13.}%2
     \label{ex:key:2}
-
-
-
-
-        
-
-\begin{tabularx}{\textwidth}{XXX}
+\begin{tabularx}{\textwidth}{lQQQ}
 \lsptoprule
-
- Set A & Set B & A${\cup}$B\\
-a. the set of all the books of the Old Testament
-   
-the set of all the books of the New Testament & the set of the canonical books of the Bible & \\
-b. \{p,q,s,t\} & \{q,t,w,x\} & \\
-c. the set of all odd numbers & the set of all even numbers & \\
-d. the set of all members of the \\
-    British House of Lords & the set of all members of the British House of Commons & \\
-e. the set of all female\\
-    British monarchs & the set of all female French monarchs\footnotemark{} & \\
+ &Set A & Set B & A${\cup}$B\\
+ \midrule
+a. & the set of all the books of the Old Testament & the set of all the books of the New Testament & the set of the canonical books of the Bible  \\
+\tablevspace
+b. & \{p,q,s,t\} & \{q,t,w,x\} & \\
+\tablevspace
+c. & the set of all odd numbers & the set of all even numbers & \\
+\tablevspace
+d. & the set of all members of the  British House of Lords & the set of all members of the British House of Commons & \\
+\tablevspace
+e. & the set of all female     British monarchs            & the set of all female French monarchs\footnote{Note: there were no female French monarchs.} & \\
 \lspbottomrule
-\end{tabularx}
-\footnotetext{Note: there were no female French monarchs.}
-
-    \z
-\ea \label{ex:13.}%3
+\end{tabularx} 
+    }
+    
+\eabox{ \label{ex:13.}%3
     \label{ex:key:3}
-
-
-
-
-        
-
-\begin{tabularx}{\textwidth}{XXX}
+    
+\begin{tabularx}{\textwidth}{lQQQ}
 \lsptoprule
-
  Set A & Set B & A–B\\
-a. nations that have won at least one FIFA World Cup title & nations that have won a FIFA World Cup title playing in their own homeland
-                       
-
-\{Brazil, Spain\}\\
-(as of Dec. 2016) & \\
-b. \{p,q,s,t\} & \{q,t,w,x\} & \\
-c. the set of all integers & the set of all even numbers & \\
-d. the set of all cordates & the set of all renates & \\
-e. the set of all French monarchs & the set of all female French monarchs & \\
+ \midrule
+a. & nations that have won at least one FIFA World Cup title & nations that have won a FIFA World Cup title playing in their own homeland
+& \{Brazil, Spain\} (as of Dec. 2016) \\
+\tablevspace
+b. & \{p,q,s,t\} & \{q,t,w,x\} & \\
+\tablevspace
+c. & the set of all integers & the set of all even numbers & \\
+\tablevspace
+d. & the set of all cordates & the set of all renates & \\
+\tablevspace
+e. & the set of all French monarchs & the set of all female French monarchs & \\
 \lspbottomrule
 \end{tabularx}
-    \z
-\ea \label{ex:13.}%4
+    }
+    
+\todo{check labels}    
+\eabox{ \label{ex:13.}%4
     \label{ex:key:4}
-
-
-
-
-        
-
-\begin{tabularx}{\textwidth}{XXX}
+\begin{tabularx}{\textwidth}{lQQQ}
 \lsptoprule
-
-YesSet A & Set B & A${\subseteq}$B?\\
-ex \{p,q,s,t\}the set of all mammals
-
-a. the set of all \textsc{monotremes} & \{q,t,w,x\} & \\
-b. the set of all odd numbers & the set of all integers & \\
-c. the set of all cordates & the set of all renates & \\
-d. the set of all Indo-European\\
-    languages & the set of all SVO languages & \\
-&  & \\
+& YesSet A & Set B & A${\subseteq}$B?\\
+\midrule
+\biberror{ex} \{p,q,s,t\} & \{q,t,w,x\} & \\
+a. & the set of all mammals & the set of all \textsc{monotremes} & \\
+\tablevspace
+b. & the set of all odd numbers & the set of all integers & \\
+\tablevspace
+c. & the set of all cordates & the set of all renates & \\
+\tablevspace
+d. & the set of all Indo-European  languages & the set of all SVO languages & \\
 \lspbottomrule
 \end{tabularx}
-    \z
+    }
 \paragraph*{B. Model theory}
 
 \ea \label{ex:13.}%1
-    \label{ex:key:1}
-
-
-
-
+    \label{ex:key:1} 
          Sketch a picture of the situation defined by the following model:
 
     \z
@@ -711,34 +689,27 @@ d. the set of all Indo-European\\
 \textsc{$\llbracket$}c$\rrbracket$  = Charlie  \textsc{$\llbracket$}g$\rrbracket$  = Geronimo\\
 \textsc{$\llbracket$}d$\rrbracket$  = Doug
 \end{enumerate}
-\begin{stylepoints}
+
 \ea \label{ex:13.}%2
-    \label{ex:key:2}
-
-
-
-
+    \label{ex:key:2} 
           Complete the following table by providing logical formulae and set-theoretic interpretations for sentences (e–i), and evaluate the truth value of each sentence relative to the model provided above.
-    \z
-\end{stylepoints}
+    \z 
 
-\begin{tabularx}{\textwidth}{XXXX}
+\begin{tabularx}{\textwidth}{lQQQQ}
 \lsptoprule
-
-\bfseries\scshape English sentence & \bfseries\scshape logical form & \bfseries\scshape set interpretation & \textbf{\textsc{current truth value}}\\
-a. \textit{Geronimo is a seahorse}. & SEAHORSE(g) & Geronimo ${\in}$ \textsc{$\llbracket$}SEAHORSE$\rrbracket$  & T\\
-b. \textit{Doug is a blue fish}.
+& \bfseries\scshape English sentence & \bfseries\scshape logical form & \bfseries\scshape set interpretation & \textbf{\textsc{current truth value}}\\
+\midrule
+a. & \textit{Geronimo is a seahorse}. & SEAHORSE(g) & Geronimo ${\in}$ \textsc{$\llbracket$}SEAHORSE$\rrbracket$  & T\\
+b. & \textit{Doug is a blue fish}.
 
 BLUE(d) $\wedge$ \textsc{FISH}(d) & Doug ${\in}$ (\textsc{$\llbracket$}BLUE$\rrbracket$  ${\cap}$ \textsc{$\llbracket$FISH}$\rrbracket$ ) & T & \\
-c. \textit{Charlie is red or green}. & RED(c) $\vee$ GREEN(c) & Charlie ${\in}$ (\textsc{$\llbracket$}RED$\rrbracket$  ${\cup}$ \textsc{$\llbracket$}GREEN$\rrbracket$ ) & T\\
-d. \textit{All fish are red}. & ${\forall}$x[\textsc{FISH}(x) → RED(x)] & \textsc{$\llbracket$FISH}$\rrbracket$  ${\subseteq}$ \textsc{$\llbracket$}RED$\rrbracket$  & F\\
-e. \textit{Echo swims}. &  &  & \\
-f. \textit{All fish swim}. &  &  & \\
-g. \textit{No submarine is red}. &  &  & \\
-h. \textit{Two fish are red}.
-
-i. \textit{Some seahorse is green}. &  &  & \\
-&  &  & \\
+c. & \textit{Charlie is red or green}. & RED(c) $\vee$ GREEN(c) & Charlie ${\in}$ (\textsc{$\llbracket$}RED$\rrbracket$  ${\cup}$ \textsc{$\llbracket$}GREEN$\rrbracket$ ) & T\\
+d. & \textit{All fish are red}. & ${\forall}$x[\textsc{FISH}(x) → RED(x)] & \textsc{$\llbracket$FISH}$\rrbracket$  ${\subseteq}$ \textsc{$\llbracket$}RED$\rrbracket$  & F\\
+e. & \textit{Echo swims}. &  &  & \\
+f. & \textit{All fish swim}. &  &  & \\
+g. & \textit{No submarine is red}. &  &  & \\
+h. & \textit{Two fish are red}. &  &  & \\
+i. & \textit{Some seahorse is green}. &  &  & \\
 \lspbottomrule
 \end{tabularx}
 \todo{check alphabetical labels}
@@ -769,7 +740,6 @@ i. \textit{Some seahorse is green}. &  &  & \\
 \end{stylepoints}
 
 \paragraph*{Example:}
-
 \begin{enumerate}
 \item LOVE(d,e)
 \end{enumerate}
