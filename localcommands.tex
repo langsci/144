@@ -16,8 +16,13 @@
 
 \newenvironment{stylepoints}{\ea}{\z}
 \newcommand{\furtherreading}[1]{\tblssy{book}{Further reading}{#1}}
-\newcommand{\discussionexercises}[1]{\tblssy{people}{Discussion Exercises}{#1}}
-\newcommand{\homeworkexercises}[1]{\tblssy{pencil}{Homework exercises}{#1}}
+
+\newcommand{\discussionexercises}[1]{\setcounter{equation}{0}
+\tblssy{people}{Discussion Exercises}{#1}}
+
+\newcommand{\homeworkexercises}[1]{\setcounter{equation}{0}
+\tblssy{pencil}{Homework exercises}{#1}}
+
 \newcommand{\modelanswer}[2]{\fbox{\parbox{.95\textwidth}{\small\sffamily #1
 \vspace*{2mm}
 
@@ -25,6 +30,7 @@
 
 \rule{0mm}{0pt} \vspace*{3mm}~}}
 }
+
 \newcommand{\tablehead}[1]{#1}
 \newcommand{\textstylest}[1]{\textsc{#1}}
 \newcommand{\biberror}[1]{{\color{red}#1}}
