@@ -10,7 +10,7 @@
 \renewcommand{\partname}{Unit}
 	
 \newcommand{\appref}[1]{Appendix \ref{#1}}
-\newcommand{\fnref}[1]{Appendix \ref{#1}}
+\newcommand{\fnref}[1]{Footnote \ref{#1}}
 \newcommand{\vernacular}[1]{\emph{#1}}
 \newcommand{\gloss}[1]{#1}
 
@@ -37,3 +37,8 @@
 
 
 \definecolor{RED}{cmyk}{0.05,1,0.8,0}
+
+\newfontfamily\cn[Mapping=tex-text,Ligatures=Common,Scale=MatchUppercase]{AR PL UMing CN} %Chinese
+\newcommand{\zh}[1]{{\cn #1}}
+\XeTeXlinebreaklocale 'zh'  
+\XeTeXlinebreakskip = 0pt plus 1pt
