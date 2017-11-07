@@ -6,17 +6,52 @@
   \usebibmacro{index:entry}{#1}
     {\iffieldundef{usera}{}{\thefield{usera}\actualoperator}\mkbibindexname{#2}{#3}{#4}{#5}}}
 
-% \newcommand{\noop}[1]{}
 
-\makeatletter
-\def\blx@maxline{77}
-\makeatother
-
+\renewcommand{\partname}{Unit}
+	
 \newcommand{\appref}[1]{Appendix \ref{#1}}
-\newcommand{\fnref}[1]{Appendix \ref{#1}}
-\newcommand{\regel}[1]{#1}
+\newcommand{\fnref}[1]{Footnote \ref{#1}}
 \newcommand{\vernacular}[1]{\emph{#1}}
 \newcommand{\gloss}[1]{#1}
 
 \newenvironment{stylepoints}{\ea}{\z}
-\newenvironment{furtherreading}{\section*\bgroup}{\egroup}
+\newcommand{\furtherreading}[1]{\tblssy{book}{Further reading}{#1}}
+\newcommand{\discussionexercises}[1]{\tblssy{people}{Discussion Exercises}{#1}}
+\newcommand{\homeworkexercises}[1]{\tblssy{pencil}{Homework exercises}{#1}}
+\newcommand{\modelanswer}[2]{\fbox{\parbox{.95\textwidth}{\small\sffamily #1\\\smallskip\parbox{.9\textwidth}{#2}}}}
+\newcommand{\tablehead}[1]{#1}
+\newcommand{\textstylest}[1]{\textsc{#1}}
+\newcommand{\biberror}[1]{{\color{red}#1}}
+
+\renewcommand{\emptyset}{⌀}
+
+% H-Rule of Inference ("Schlussstrich")
+\newcommand*{\WernersHRule}{% Slightly Modified
+	\par\kern\dimexpr.7\itemsep-\parskip-.6\baselineskip\relax%
+	\hrulefill%
+	\par\kern\dimexpr.3\itemsep-.3\parskip-.6\baselineskip\relax%
+}%
+
+\newcommand*{\FelixHRule}{% Slightly Modified
+	\par\kern\dimexpr.7\itemsep-\parskip-.6\baselineskip\relax%
+	\hrulefill%
+	\par\kern\dimexpr.3\itemsep-.2\baselineskip\relax%
+}%
+
+
+\definecolor{RED}{cmyk}{0.05,1,0.8,0}
+
+\newfontfamily\cn[Mapping=tex-text,Ligatures=Common,Scale=MatchUppercase]{AR PL UMing CN} %Chinese
+\newcommand{\zh}[1]{{\cn #1}}
+\XeTeXlinebreaklocale 'zh'  
+\XeTeXlinebreakskip = 0pt plus 1pt
+
+ 
+
+\tblssy[black!20]{bulb}{Übungsaufgaben (mit \texttt{\textbackslash tblssy})}{\lipsum[42]}
+
+\newcommand{\kroegertriple}[3]{\noindent%
+#1 %
+\parbox{6cm}{#2}%
+\parbox{6cm}{#3}\\\medskip
+}

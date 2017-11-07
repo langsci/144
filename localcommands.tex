@@ -15,7 +15,16 @@
 \newcommand{\gloss}[1]{#1}
 
 \newenvironment{stylepoints}{\ea}{\z}
-\newcommand{\furtherreading}{\section*{For further reading}}
+\newcommand{\furtherreading}[1]{\tblssy{book}{Further reading}{#1}}
+\newcommand{\discussionexercises}[1]{\tblssy{people}{Discussion Exercises}{#1}}
+\newcommand{\homeworkexercises}[1]{\tblssy{pencil}{Homework exercises}{#1}}
+\newcommand{\modelanswer}[2]{\fbox{\parbox{.95\textwidth}{\small\sffamily #1
+\vspace*{2mm}
+
+\parbox{.88\textwidth}{#2}
+
+\rule{0mm}{0pt} \vspace*{3mm}~}}
+}
 \newcommand{\tablehead}[1]{#1}
 \newcommand{\textstylest}[1]{\textsc{#1}}
 \newcommand{\biberror}[1]{{\color{red}#1}}
@@ -42,3 +51,13 @@
 \newcommand{\zh}[1]{{\cn #1}}
 \XeTeXlinebreaklocale 'zh'  
 \XeTeXlinebreakskip = 0pt plus 1pt
+
+ 
+
+\tblssy[black!20]{bulb}{Übungsaufgaben (mit \texttt{\textbackslash tblssy})}{\lipsum[42]}
+
+\newcommand{\kroegertriple}[3]{\noindent%
+#1 %
+\parbox{6cm}{#2}%
+\parbox{6cm}{#3}\\\medskip
+}
