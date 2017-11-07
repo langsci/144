@@ -404,8 +404,8 @@ Example \REF{ex:14.35} illustrates how ambiguity can (and frequently does) arise
 
 \ea \label{ex:14.35}
 \textit{Many linguists have read every paper by Chomsky}.\\
-\ea  [many x: LINGUIST(x)] ([every y: PAPER(y) $\wedge$ BY(y,c)] READ(x,y))\\
-\ex  [every y: PAPER(y) $\wedge$ BY(y,c)] ([many x: LINGUIST(x)] READ(x,y))
+\ea{}  [many x: LINGUIST(x)] ([every y: PAPER(y) $\wedge$ BY(y,c)] READ(x,y))\\
+\ex{}  [every y: PAPER(y) $\wedge$ BY(y,c)] ([many x: LINGUIST(x)] READ(x,y))
                        \z
 \z
 
@@ -490,7 +490,9 @@ Express the following sentences in restricted quantifier notation, and provide a
 
 \begin{enumerate}[label=\alph*.]
 \item \textit{Every Roman is patriotic}.\\
-\textsf{  model answer: [}\textsf{\textit{every}}\textsf{ x: ROMAN(x)] PATRIOTIC(x)\\} $\llbracket$\textsf{ROMAN} $\rrbracket$ \textsf{} ${\subseteq}$\textsf{} $\llbracket$\textsf{PATRIOTIC}$\rrbracket$ 
+\modelanswer{Model answer}{[\textit{every} x: ROMAN(x)] PATRIOTIC(x)\\
+$\llbracket$\textsf{ROMAN}$\rrbracket {\subseteq} \llbracket$\textsf{PATRIOTIC}$\rrbracket$ 
+}
 \item \textit{Some wealthy Romans are patriotic}.
 \item  \textit{Both Romans are patriotic}.
 \item \textit{Caesar loves all Romans who obey him.}
@@ -517,7 +519,7 @@ Use logical notation to express the two readings for the following sentences, an
 
 \begin{enumerate}
 \item Solomon answered every riddle.\\
-\textsf{Model answer:} ${\forall}$\textsf{x[RIDDLE(x) → ANSWER(s,x)]}
+\modelanswer{Model answer}{${\forall}$ x[RIDDLE(x) → ANSWER(s,x)]}
 \item All ambitious politicians visit Paris.
 \item Someone betrayed Caesar.
 \item All critical systems are not working.
@@ -548,9 +550,9 @@ Use logical notation to express the two readings for the following sentences, an
 
 \paragraph*{Exercise C:} The underlined phrases in the sentences below can be analyzed as quantifiers. State the truth conditions for these sentences in terms of set relations.
 
-\begin{stylepoints}
+\ea
 \textsf{Example:} \textsf{More than twenty}\textsf{ senators are guilty.   {\textbar}} $\llbracket$\textsf{SENATOR}$\rrbracket$ \textsf{ ${\cap}$} $\llbracket$\textsf{GUILTY}$\rrbracket$ \textsf{ {\textbar} > 20}
-\end{stylepoints}
+\z
 
 \begin{enumerate}
 \item Between six and twelve generals are loyal.
