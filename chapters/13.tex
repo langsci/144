@@ -403,40 +403,33 @@ As a first illustration of how the system works, let us return to our simple sit
 \end{enumerate}
 \z
 
-The denotation sets encode information about the current state of the world. For example, this model indicates that King Henry VIII is the only person in the current situation who snores. We can use the defined vocabulary items to build simple declarative sentences about the individuals in this situation, and then try to provide interpretations for each sentence in terms of set membership, as illustrated in \REF{ex:13.21}. These interpretations express the truth conditions for each sentence. We can use them to evaluate the truth of each sentence relative to Model 1. For example, the sentence in (\ref{ex:13.21}a), \textit{Thomas More is a man}, will be true in any situation where the individual Thomas More is a member of the denotation set of the word \textit{man}. Since this is the case in Model 1, the sentence is true relative to this model.
+The denotation sets encode information about the current state of the world. For example, this model indicates that King Henry VIII is the only person in the current situation who snores. We can use the defined vocabulary items to build simple declarative sentences about the individuals in this situation, and then try to provide interpretations for each sentence in terms of set membership, as illustrated in \tabref{extab:13.21}. These interpretations express the truth conditions for each sentence. We can use them to evaluate the truth of each sentence relative to Model 1. For example, the sentence in \tabref{extab:13.21}a, \textit{Thomas More is a man}, will be true in any situation where the individual Thomas More is a member of the denotation set of the word \textit{man}. Since this is the case in Model 1, the sentence is true relative to this model.
 
 
 
-\eabox{ \label{ex:13.21}
+\begin{table}
+\caption{\nocaption}
+\label{extab:13.21}
 \fittable{
-\begin{tabular}{llllll}
-% \lsptoprule
+\begin{tabular}{l >{\itshape}lllc}
+\lsptoprule
+ & English sentence &  logical form &  interpretation &  truth value\\
+\midrule
+a. &  Thomas More is a man. &  MAN(t) & Thomas More ${\in}$ \textsc{$\llbracket$}MAN$\rrbracket$  &   T \\
 
-\bfseries\scshape ~~~English sentence & \multicolumn{2}{l}{\bfseries\scshape logical form} & \multicolumn{2}{l}{\bfseries\scshape interpretation} & \bfseries\scshape truth value\\
-% \midrule
+b. &  Anne Boleyn is a man or a woman. &  MAN(a) $\vee$ WOMAN(a)  &  Anne Boleyn ${\in}$ (\textsc{$\llbracket$}MAN$\rrbracket$  ${\cup}$ \textsc{$\llbracket$}WOMAN$\rrbracket$ ) & T\\
 
-a. \textit{Thomas More is a man}. & \multicolumn{2}{l}{MAN(t)
-\newline
-Thomas More ${\in}$ \textsc{$\llbracket$}MAN$\rrbracket$ } & \multicolumn{2}{l}{ T} & \\
+c. &   {Henry VIII is a man who snores}. & MAN(h) $\wedge$ \textsc{SNORE}(h) & Henry VIII ${\in}$ (\textsc{$\llbracket$}MAN$\rrbracket$  ${\cap}$ \textsc{$\llbracket$SNORE}$\rrbracket$ ) & T\\
 
-b. \textit{Anne Boleyn is} \textit{a man or} \textit{a woman}. & \multicolumn{2}{l}{MAN(a) $\vee$ WOMAN(a)} & \multicolumn{2}{l}{Anne Boleyn ${\in}$
-\newline
-(\textsc{$\llbracket$}MAN$\rrbracket$  ${\cup}$ \textsc{$\llbracket$}WOMAN$\rrbracket$ )} & T\\
+d. & {All men snore}.& ${\forall}$x[MAN(x) → \textsc{SNORE}(x)] & \textsc{$\llbracket$}MAN$\rrbracket$  ${\subseteq}$ \textsc{$\llbracket$SNORE}$\rrbracket$  & F\\
 
-c. \textit{Henry VIII is a man who snores}. & \multicolumn{2}{l}{MAN(h) $\wedge$ \textsc{SNORE}(h)} & \multicolumn{2}{l}{Henry VIII ${\in}$ (\textsc{$\llbracket$}MAN$\rrbracket$  ${\cap}$ \textsc{$\llbracket$SNORE}$\rrbracket$ )} & T\\
-\biberror{sth missing}&
- \textsc{$\llbracket$WO}MAN$\rrbracket$  ${\cap}$ \textsc{$\llbracket$SNORE}$\rrbracket$  = ∅Td.\\ \textit{All men snore}.& \multicolumn{2}{l}{${\forall}$x[MAN(x) → \textsc{SNORE}(x)]} & \multicolumn{2}{l}{\textsc{$\llbracket$}MAN$\rrbracket$  ${\subseteq}$ \textsc{$\llbracket$SNORE}$\rrbracket$ } & F\\
- 
-\multicolumn{1}{l}{¬${\exists}$x[WOMAN(x) $\wedge$ \textsc{SNORE}(x)]
-\newline
-d. \textit{No women snore.}} &  & \multicolumn{2}{l}{} & \multicolumn{2}{l}{}\\
-% \lspbottomrule
+e. &   {No women snore.} &  ¬${\exists}$x[WOMAN(x) $\wedge$ \textsc{SNORE}(x)] & \textsc{$\llbracket$WOMAN}$\rrbracket$  ${\cap}$ \textsc{$\llbracket$SNORE}$\rrbracket$  = ∅ & T\\
+\lspbottomrule
 \end{tabular}
-}
-}
-\todo{check alphabetical labels}
+}  
+\end{table}
 
-The interpretations in (\ref{ex:13.21}b--e) can be derived from the corresponding logical forms, based on the definitions of intersection, union, and subset provided in \REF{extab:13.19}. For example, the \textit{or} statement in (\ref{extab:13.19}b) constitutes a claim that a certain individual (Anne Boleyn) is a member of the union of two sets, because the definition of A${\cup}$B involves an \textit{or} statement. Once the truth conditions are stated in terms of set relations, we can determine the truth values for each sentence by inspecting the membership of the denotation sets specified in the model. The statement in (\ref{ex:13.21}b) is true relative to Model 1 because the individual Anne Boleyn is a member of the set $\llbracket$WOMAN$\rrbracket$ , and thus a member of $\llbracket$MAN$\rrbracket$  ${\cup}$ $\llbracket$WOMAN$\rrbracket$ .
+The interpretations in \tabref{extab:13.21}b--e can be derived from the corresponding logical forms, based on the definitions of intersection, union, and subset provided in \REF{extab:13.19}. For example, the \textit{or} statement in \tabref{extab:13.19}b constitutes a claim that a certain individual (Anne Boleyn) is a member of the union of two sets, because the definition of A${\cup}$B involves an \textit{or} statement. Once the truth conditions are stated in terms of set relations, we can determine the truth values for each sentence by inspecting the membership of the denotation sets specified in the model. The statement in (\tabref{extab:13.21}b) is true relative to Model 1 because the individual Anne Boleyn is a member of the set $\llbracket$WOMAN$\rrbracket$ , and thus a member of $\llbracket$MAN$\rrbracket$  ${\cup}$ $\llbracket$WOMAN$\rrbracket$ .
 
 
 \section{Rules of interpretation}\label{sec:13.5}
@@ -588,25 +581,25 @@ Good brief introductions to set theory are provided in \citet[ch. 2]{AllwoodEtAl
 
 Fill in the following tables:
 
-\eabox{%1 
+% \eabox{%1 
 \begin{tabularx}{\textwidth}{lQQQ}
 \lsptoprule
  & Set A & Set B & A${\cap}$B  \\
 \midrule
-a. &  the set of all mammals & the set of all animals that lay eggs & the set of all \textsc{monotremes} (Platypus plus four species of echidna)\\
+a. &  the set of all mammals & the set of all animals that lay eggs & the set of all \textsc{monotremes}\footnote{Platypus plus four species of echidna}\\
 \tablevspace
 b. &  \{p,q,s,t\} & \{q,t,w,x\} & \\
 \tablevspace
 c. &  the set of all odd numbers & the set of all even numbers & \\
 \tablevspace
-d. &  the set of all Hollywood stars & \biberror{people with 2-syllable first names}\\
+d. &  the set containing all members of the Beatles& people with 2-syllable first names\\
 \tablevspace
-e. & the set containing all members of the Beatles & the set of all governors of California (past and present) & \\
+e. & the set of all Hollywood stars  & the set of all governors of California (past and present) & \\
 \lspbottomrule
 \end{tabularx}
-}
+% }
  
-\eabox{ 
+% \eabox{ 
 \begin{tabularx}{\textwidth}{lQQQ}
 \lsptoprule
  &Set A & Set B & A${\cup}$B\\
@@ -622,12 +615,12 @@ d. & the set of all members of the  British House of Lords & the set of all memb
 e. & the set of all female     British monarchs            & the set of all female French monarchs\footnote{Note: there were no female French monarchs.} & \\
 \lspbottomrule
 \end{tabularx} 
-    }
+%     }
     
-\eabox{ 
+% \eabox{ 
 \begin{tabularx}{\textwidth}{lQQQ}
 \lsptoprule
- Set A & Set B & A–B\\
+ & Set A & Set B & A–B\\
  \midrule
 a. & nations that have won at least one FIFA World Cup title & nations that have won a FIFA World Cup title playing in their own homeland
 & \{Brazil, Spain\} (as of Dec. 2016) \\
@@ -641,34 +634,37 @@ d. & the set of all cordates & the set of all renates & \\
 e. & the set of all French monarchs & the set of all female French monarchs & \\
 \lspbottomrule
 \end{tabularx}
-    }
+%     }
     
-\todo{check labels}    
-\eabox{ 
+% \todo{check labels}    
+% \eabox{ 
 \begin{tabularx}{\textwidth}{lQQQ}
 \lsptoprule
-& YesSet A & Set B & A${\subseteq}$B?\\
+&  Set A & Set B & A${\subseteq}$B?\\
 \midrule
-\biberror{ex} \{p,q,s,t\} & \{q,t,w,x\} & \\
-a. & the set of all mammals & the set of all \textsc{monotremes} & \\
+a. & the set of all \textsc{monotremes} &  the set of all mammals & \\
 \tablevspace
-b. & the set of all odd numbers & the set of all integers & \\
+
+b. & \{p,q,s,t\} & \{q,t,w,x\} & \\
 \tablevspace
-c. & the set of all cordates & the set of all renates & \\
+
+c. & the set of all odd numbers & the set of all integers & \\
 \tablevspace
-d. & the set of all Indo-European  languages & the set of all SVO languages & \\
+
+d. & the set of all cordates & the set of all renates & \\
+\tablevspace
+
+e. & the set of all Indo-European  languages & the set of all SVO languages & \\
 \lspbottomrule
 \end{tabularx}
-    }
+%     }
 \paragraph*{B. Model theory}
 
 \ea  
          Sketch a picture of the situation defined by the following model:
 
-    \z
-\begin{enumerate}
-\item the set of individuals U = \{Able, Baker, Charlie, Doug, Echo, Fred, Geronimo\}
-\item denotation assignments\textsc{:\\
+\ea the set of individuals U = \{Able, Baker, Charlie, Doug, Echo, Fred, Geronimo\}
+\ex denotation assignments\textsc{:\\
 {}$\llbracket$}\textsc{FISH}$\rrbracket$  = \{Able, Baker, Charlie, Doug\}\\
 \textsc{$\llbracket$}SUBMARINE$\rrbracket$  = \{Echo\}\\
 \textsc{$\llbracket$}SEAHORSE$\rrbracket$  = \{Fred, Geronimo\}\\
@@ -678,40 +674,50 @@ d. & the set of all Indo-European  languages & the set of all SVO languages & \\
 \textsc{$\llbracket$}SWIM$\rrbracket$  = \{Able, Baker, Charlie, Doug, Fred, Geronimo\}\\
 \textsc{$\llbracket$}OCTOPUS$\rrbracket$  = ∅\\
 {}$\llbracket$FOLLOW$\rrbracket$  = \{$\langle$Able, Echo$\rangle$, $\langle$Doug, Able$\rangle$, $\langle$Doug, Echo$\rangle$, $\langle$Charlie, Fred$\rangle$\}\\
-\textsc{$\llbracket$}a$\rrbracket$  = Able  \textsc{$\llbracket$}e$\rrbracket$  = Echo\\
-\textsc{$\llbracket$}b$\rrbracket$  = Baker  \textsc{$\llbracket$}f$\rrbracket$  = Fred\\
-\textsc{$\llbracket$}c$\rrbracket$  = Charlie  \textsc{$\llbracket$}g$\rrbracket$  = Geronimo\\
-\textsc{$\llbracket$}d$\rrbracket$  = Doug
-\end{enumerate}
+\textsc{$\llbracket$}a$\rrbracket$  = Able    \\
+\textsc{$\llbracket$}b$\rrbracket$  = Baker   \\
+\textsc{$\llbracket$}c$\rrbracket$  = Charlie \\
+\textsc{$\llbracket$}d$\rrbracket$  = Doug\\
+  \textsc{$\llbracket$}e$\rrbracket$  = Echo\\
+  \textsc{$\llbracket$}f$\rrbracket$  = Fred\\
+ \textsc{$\llbracket$}g$\rrbracket$  = Geronimo\\
+    \z \z
 
 \ea  
           Complete the following table by providing logical formulae and set-theoretic interpretations for sentences (e–i), and evaluate the truth value of each sentence relative to the model provided above.
     \z 
 
-\begin{tabularx}{\textwidth}{lQQQQ}
+\fittable{    
+\begin{tabular}{l@{~} L{2.2cm}llc}
 \lsptoprule
-& \bfseries\scshape English sentence & \bfseries\scshape logical form & \bfseries\scshape set interpretation & \textbf{\textsc{current truth value}}\\
+&   English sentence &  logical form &  set interpretation & \\% current truth value\\
 \midrule
 a. & \textit{Geronimo is a seahorse}. & SEAHORSE(g) & Geronimo ${\in}$ \textsc{$\llbracket$}SEAHORSE$\rrbracket$  & T\\
-b. & \textit{Doug is a blue fish}.
-
-BLUE(d) $\wedge$ \textsc{FISH}(d) & Doug ${\in}$ (\textsc{$\llbracket$}BLUE$\rrbracket$  ${\cap}$ \textsc{$\llbracket$FISH}$\rrbracket$ ) & T & \\
+\tablevspace
+b. & \textit{Doug is a blue fish}.    & BLUE(d) $\wedge$ \textsc{FISH}(d) & Doug ${\in}$ (\textsc{$\llbracket$}BLUE$\rrbracket$  ${\cap}$ \textsc{$\llbracket$FISH}$\rrbracket$ ) & T  \\
+\tablevspace
 c. & \textit{Charlie is red or green}. & RED(c) $\vee$ GREEN(c) & Charlie ${\in}$ (\textsc{$\llbracket$}RED$\rrbracket$  ${\cup}$ \textsc{$\llbracket$}GREEN$\rrbracket$ ) & T\\
-d. & \textit{All fish are red}. & ${\forall}$x[\textsc{FISH}(x) → RED(x)] & \textsc{$\llbracket$FISH}$\rrbracket$  ${\subseteq}$ \textsc{$\llbracket$}RED$\rrbracket$  & F\\
+\tablevspace
+d. & \textit{All fish are red}.       & ${\forall}$x[\textsc{FISH}(x) → RED(x)] & \textsc{$\llbracket$FISH}$\rrbracket$  ${\subseteq}$ \textsc{$\llbracket$}RED$\rrbracket$  & F\\
+\tablevspace
 e. & \textit{Echo swims}. &  &  & \\
+\tablevspace
 f. & \textit{All fish swim}. &  &  & \\
+\tablevspace
 g. & \textit{No submarine is red}. &  &  & \\
-h. & \textit{Two fish are red}. &  &  & \\
-i. & \textit{Some seahorse is green}. &  &  & \\
+\tablevspace
+h. & \textit{Some seahorse is green}. &  &  & \\
+\tablevspace
+i. & \textit{Two fish are red}. &  &  & \\
 \lspbottomrule
-\end{tabularx}
-\todo{check alphabetical labels}
+\end{tabular} 
+}
 
 \ea  
     Draw annotated tree diagrams for the following sentences showing how their truth conditions would be derived compositionally from our rules of interpretation:\\
-\ea  \textit{Henry snores}.\\
-\ex \textit{Henry loves Jane}.\\
-\ex \textit{Henry is a happy man}.
+\ea   {Henry snores}.\\
+\ex  {Henry loves Jane}.\\
+\ex  {Henry is a happy man}.
                        \z
     \z
 
