@@ -734,21 +734,30 @@ i. & \textit{Some seahorse is green}. &  &  & \\
 \z
 
 \paragraph*{Example:}
-\begin{enumerate}
-\item LOVE(d,e)
-\end{enumerate}
+\ea LOVE(d,e)
+\z
 
-\textsf{[Model answer]:\\
-English translation: ‘Mr. Darcy loves/loved Elizabeth.’\\
-truth conditions:} $\langle$\textsf{Darcy, Elizabeth}$\rangle$  ${\in}$  $\llbracket$\textsf{LOVE}$\rrbracket$ 
+\modelanswer{Model answer}{English translation: ‘Mr. Darcy loves/loved Elizabeth.’\\
+truth conditions: $\langle$\textsf{Darcy, Elizabeth}$\rangle$  ${\in}$  $\llbracket$\textsf{LOVE}$\rrbracket$ 
+}
 
-\begin{enumerate}
-\item REJECT(e,c)
-\item ${\forall}$x [(MAN(x) $\wedge$ WEALTHY(x)) → ADMIRE(b,x)]
-\item ${\exists}$x [MAN(x) $\wedge$ WEALTHY(x) $\wedge$ ADMIRE(b,x)]
-\item ¬${\exists}$x [WOMAN(x) $\wedge$ LOVE(x,c)]
-\item DECEIVE(w,l) $\wedge$ RESCUE(d,l)
-\item ${\forall}$x [WOMAN(x) → CHARM(w,x)] $\wedge$ ${\forall}$y [MAN(y) → ANGER(w,y)]
-\end{enumerate}
+\ea
+REJECT(e,c)
+\z
+\ea
+${\forall}$x [(MAN(x) $\wedge$ WEALTHY(x)) → ADMIRE(b,x)]
+\z
+\ea
+${\exists}$x [MAN(x) $\wedge$ WEALTHY(x) $\wedge$ ADMIRE(b,x)]
+\z
+\ea
+¬${\exists}$x [WOMAN(x) $\wedge$ LOVE(x,c)]
+\z
+\ea
+DECEIVE(w,l) $\wedge$ RESCUE(d,l)
+\z
+\ea
+${\forall}$x [WOMAN(x) → CHARM(w,x)] $\wedge$ ${\forall}$y [MAN(y) → ANGER(w,y)]
+\z
 }
 

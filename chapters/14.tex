@@ -488,86 +488,162 @@ These concepts will be important in later chapters, especially in \chapref{sec:1
 
 Express the following sentences in restricted quantifier notation, and provide an interpretation in terms of set relations:
 
-\begin{enumerate}[label=\alph*.]
-\item \textit{Every Roman is patriotic}.\\
-\modelanswer{Model answer}{[\textit{every} x: ROMAN(x)] PATRIOTIC(x)\\
+\ea
+\textit{Every Roman is patriotic}.\\
+\z
+\shortmodelanswer{Model answer}{[\textit{every} x: ROMAN(x)] PATRIOTIC(x)\\
 $\llbracket$\textsf{ROMAN}$\rrbracket {\subseteq} \llbracket$\textsf{PATRIOTIC}$\rrbracket$ 
-}
-\item \textit{Some wealthy Romans are patriotic}.
-\item  \textit{Both Romans are patriotic}.
-\item \textit{Caesar loves all Romans who obey him.}
-\item \textit{Most loyal Romans love Caesar.}
-\end{enumerate}
+} 
+\ea
+{Some wealthy Romans are patriotic}.
+\z
+\ea
+\z
+\ea
+{Both Romans are patriotic}.
+\z
+\ea
+{Caesar loves all Romans who obey him.}
+\z
+\ea
+{Most loyal Romans love Caesar.}
+\z
+ 
 
 \paragraph*{B. Scope Ambiguities}
 
 Use logical notation to express the two readings for the following sentences, and state which reading seems most likely to be intended, if you can tell.
 
-\begin{enumerate}[label=\alph*.]
-\item  Some man loves every woman.
-\item Many theologians do not understand this doctrine.
-\item This doctrine is not understood by many theologians.
-\item Two-thirds of the members did not vote for the amendment.
-\item You can fool some of the people all of the time.
-\item A woman gives birth in the United States every five minutes.
-\item He tries to read Plato’s \textit{Republic} every year.\footnote{Marilyn Quayle, on the reading habits of her husband; \textit{Wall Street Journal}, January 20, 1993.}
-\end{enumerate}
+\ea
+Some man loves every woman.
+\z
+\ea
+Many theologians do not understand this doctrine.
+\z
+\ea
+This doctrine is not understood by many theologians.
+\z
+\ea
+Two-thirds of the members did not vote for the amendment.
+\z
+\ea
+You can fool some of the people all of the time.
+\z
+\ea
+A woman gives birth in the United States every five minutes.
+\z
+\ea
+He tries to read Plato’s \textit{Republic} every year.\footnote{Marilyn Quayle, on the reading habits of her husband; \textit{Wall Street Journal}, January 20, 1993.}
+\z
+
 
 }
 \homeworkexercises{
 \paragraph*{Exercise A:} Translate the following sentences into predicate logic, using the \textbf{\textsc{standard}} [not restricted] format for the existential and universal quantifiers, ${\exists}$ and ${\forall}$. If any sentence allows two interpretations, provide the logical formulae for both readings.
+% 
+\ea
+Solomon answered every riddle.
+\z
 
-\begin{enumerate}
-\item Solomon answered every riddle.\\
 \modelanswer{Model answer}{${\forall}$ x[RIDDLE(x) → ANSWER(s,x)]}
-\item All ambitious politicians visit Paris.
-\item Someone betrayed Caesar.
-\item All critical systems are not working.
-\item No German general supported Stalin.
-\item Not every German general supported Hitler.
-\item Some people believe every wild rumor.
-\item Socrates inspires all sincere scholars who read Plato.
-\end{enumerate}
+ 
+\ea
+All ambitious politicians visit Paris.
+\z
+\ea
+Someone betrayed Caesar.
+\z
+\ea
+All critical systems are not working.
+\z
+\ea
+No German general supported Stalin.
+\z
+\ea
+Not every German general supported Hitler.
+\z
+\ea
+Some people believe every wild rumor.
+\z
+\ea
+Socrates inspires all sincere scholars who read Plato.
+\z
 
 \paragraph*{Exercise B:} Translate the sentences below into logical formulae, using restricted quantifier notation.\footnote{Ex. B-C are patterned after \citet[89--90]{Kearns2000}.}
 
-\textsf{Example:}  Arthur eats everything that Susan cooks.\\
-\textsf{[Every x: THING(x) \& COOK(s,x)] EAT(a,x)}
-
-\begin{enumerate}
-\item Donald mistrusts most reports from Brussels.\\
-{}[hint: treat \textit{from} as a two-place predicate]
-\item Few who know him like Arthur.
-\item William sold Betsy every arrowhead that he found.
-\item Twenty-one movies were directed and produced by Alfred Hitchcock.
-\item Most travelers entering or leaving Australia visit Sydney.
-\item No one\textsubscript{i} remembers every promise he\textsubscript{i} makes.
-\item Some officials who boycotted both meetings were sacked by Reagan.
-\item Jane Austen and E. M. Forster wrote six novels each.
-\item Rachel met and interviewed several famous musicians.
-\item Most children will not play if they are sad.
-\end{enumerate}
-
-\paragraph*{Exercise C:} The underlined phrases in the sentences below can be analyzed as quantifiers. State the truth conditions for these sentences in terms of set relations.
+\ea
+Arthur eats everything that Susan cooks.
+\z
+\modelanswer{Model answer}{[Every x: THING(x) \& COOK(s,x)] EAT(a,x)}
 
 \ea
-\textsf{Example:} \textsf{More than twenty}\textsf{ senators are guilty.   {\textbar}} $\llbracket$\textsf{SENATOR}$\rrbracket$ \textsf{ ${\cap}$} $\llbracket$\textsf{GUILTY}$\rrbracket$ \textsf{ {\textbar} > 20}
+Donald mistrusts most reports from Brussels.\\
+{}[hint: treat \textit{from} as a two-place predicate]
+\z
+\ea 
+Few who know him like Arthur.
+\z
+\ea 
+William sold Betsy every arrowhead that he found.
+\z
+\ea 
+Twenty-one movies were directed and produced by Alfred Hitchcock.
+\z
+\ea 
+Most travelers entering or leaving Australia visit Sydney.
+\z
+\ea 
+No one\textsubscript{i} remembers every promise he\textsubscript{i} makes.
+\z
+\ea 
+Some officials who boycotted both meetings were sacked by Reagan.
+\z
+\ea 
+Jane Austen and E. M. Forster wrote six novels each.
+\z
+\ea 
+Rachel met and interviewed several famous musicians.
+\z
+\ea 
+Most children will not play if they are sad.
 \z
 
-\begin{enumerate}
-\item Between six and twelve generals are loyal.
-\item Both sisters are champions.
-\item The twelve apostles were Jewish.
-\item Just two of the seven guides are bilingual.
-\item Neither candidate is honest.
-\item Fewer than five crewmen are sober.
-\end{enumerate}
+\paragraph*{Exercise C:} The underlined phrases in the sentences below can be analyzed as quantifiers. State the truth conditions for these sentences in terms of set relations.
+\todo{underlining lost}
+
+\ea
+More than twenty  senators are guilty.   
+\z
+\modelanswer{Model answer}{{{\textbar}} $\llbracket${SENATOR}$\rrbracket$  { ${\cap}$} $\llbracket${GUILTY}$\rrbracket$ {{\textbar} > 20}}
+
+\ea
+Between six and twelve generals are loyal.
+\z
+\ea 
+Both sisters are champions.
+\z
+\ea
+The twelve apostles were Jewish.
+\z
+\ea
+Just two of the seven guides are bilingual.
+\z
+\ea 
+Neither candidate is honest.
+\z
+\ea 
+Fewer than five crewmen are sober.
+\z
 
 The discontinuous determiners in the next examples express three-place quantifier meanings:
 
-\begin{enumerate}
-\item More men than women snore.
-\item Exactly as many Americans are lawyers as are prisoners.\footnote{Actually the figures are only approximately equal, but there are clearly too many of both.}
-\item Fewer wrestlers than boxers are famous.
-\end{enumerate}
+\ea
+More men than women snore.
+\z
+\ea 
+Exactly as many Americans are lawyers as are prisoners.\footnote{Actually the figures are only approximately equal, but there are clearly too many of both.} 
+\z
+\ea
+Fewer wrestlers than boxers are famous. 
+\z
 }
