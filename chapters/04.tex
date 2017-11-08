@@ -687,40 +687,48 @@ Good, brief introductions to propositional and predicate logic are provided in \
 \homeworkexercises{
 \paragraph*{A. Using truth tables}
 
-Arthur has been selected to be a juror in a case which has generated a lot of local publicity. He is asked to promise not to read the newspaper or watch television until the trial is finished. There are two different ways in which he can make this commitment:\\
-(a) \textit{I will not read the newspaper or watch television until the trial is finished}.\\
-(b) \textit{I will not read the newspaper and I will not watch television until the trial is finished}. 
+Arthur has been selected to be a juror in a case which has generated a lot of local publicity. He is asked to promise not to read the newspaper or watch television until the trial is finished. There are two different ways in which he can make this commitment:
+
+\ea
+\ea {I will not read the newspaper or watch television until the trial is finished}.
+\ex  {I will not read the newspaper and I will not watch television until the trial is finished}. 
+\z
+\z
 
 Construct truth tables for these two sentences to show why they are logically equivalent. You may omit the adverbial clause (\textit{until the trial is finished}) from your table.  (\textbf{Hint}: Let \textbf{p} stand for \textit{I will read the newspaper} and \textbf{q} stand for \textit{I will watch television}. Assume the following translation for sentence (a): ¬(p $\vee$ q). Construct a truth table for this proposition, and a second truth table for sentence (b). If the right-most column of the two tables is identical, that means that the two propositions must have the same truth value under any circumstances.)
 
-sentence (a):\todo{more semantic markup}
-
-\todo{columns must become clearer}
-\begin{tabular}{llll}
-\lsptoprule
+\begin{exe}
+ \exi{(1')} 
+ \begin{xlist}
+\exbox{
+\begin{tabularx}{.8\textwidth}{|X|X|X|X|}
+\hline 
+ p & q & p $\vee$ q & ¬(p $\vee$ q)\\ 
+\hline\hline
 &  &  & \\
-\tablehead{
- p & q & p $\vee$ q & ¬(p $\vee$ q)\\
+\hline
+&  &  & \\
+\hline
+&  &  & \\
+\hline
+\end{tabularx}
 }
-\midrule
-&  &  & \\
-&  &  & \\
-&  &  & \\
-\lspbottomrule
-\end{tabular}
-\\
-sentence (b):
 
-\begin{tabular}{lllll}
-\lsptoprule
-&  &  &  & \\
+\exbox{
+\begin{tabularx}{.8\textwidth}{|X|X|X|X|X|}
+\hline
  p & q &  &  & \\
-\midrule
+\hline\hline
 &  &  &  & \\
+\hline
 &  &  &  & \\
+\hline
 &  &  &  & \\
-\lspbottomrule
-\end{tabular}
+\hline 
+\end{tabularx}
+}
+ \end{xlist}
+\end{exe}
 
 \paragraph*{B. Translate the following sentences into logical notation}
 
