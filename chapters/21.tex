@@ -215,8 +215,11 @@ The most likely interpretation for ex. (\ref{ex:21.16}a) is diagrammed in \REF{e
 
 
 \ea \label{ex:21.17}
-TU  [  TT  ]  PT  \\
-      \textbf{{\textbar}}TSit: my departure\textbf{{\textbar}}    [ your arrival ]
+\begin{tabular}{ccc}
+TU &  \underline{[  TT  ]} & PT  \\
+\hline
+& {\textbar} TSit: my departure  {\textbar} &    [ your arrival ]
+\end{tabular}
 \z
 
 
@@ -310,13 +313,30 @@ The relative positions of TT, PT and TU for the italicized verbs in examples (\r
 
 
 \ea \label{ex:21.25}
-\ea       [  TT: 1905  ]  PT  TU   “past in the past” (b)\\
-         \textbf{{\textbar}}TSit\textbf{{\textbar}}    (1922)  (now)
-\ex    TU  [  TT: Mon. eve.  ]  PT  “past in the future” (a)\\
-  (now)      \textbf{{\textbar}}TSit\textbf{{\textbar}}    (Tues. pm)
-\ex    PT  [  TT: 1922  ]  TU  “future in the past” (b)\\
-  (1905)      \textbf{{\textbar}}TSit\textbf{{\textbar}}   (now)
-\z \z
+\begin{xlist}
+ \exbox{
+\begin{tabularx}{.9\textwidth}{cccS}
+\underline{[  TT: 1905  ]} &  PT & TU  &  “past in the past” (\ref{ex:21.23}b)\\
+\cline{1-3}
+{\textbar} TSit {\textbar} &     (1922) &   (now)&\\
+\end{tabularx}
+}
+\exbox{
+\begin{tabularx}{.9\textwidth}{cccS}
+TU &  \underline{[  TT: Mon. eve.  ]} &   PT &  “past in the future” (\ref{ex:21.23}a)\\
+\cline{1-3}
+  (now) &     {\textbar} TSit {\textbar} &      (Tues. pm) & \\
+\end{tabularx}
+}
+\exbox{
+\begin{tabularx}{.9\textwidth}{cccS}
+PT &  \underline{[  TT: 1922  ]} &   TU &  “future in the past” (\ref{ex:21.23}b)\\
+\cline{1-3}
+  (1905)   &    {\textbar} TSit {\textbar}  &   (now) &\\  
+\end{tabularx}
+}
+\end{xlist}
+\z
 
 
 As we will see in \chapref{sec:22}, the Pluperfect and Future Perfect forms are ambiguous. In addition to the complex tense readings illustrated in (\ref{ex:21.23}--\ref{ex:21.24}), they can also be used to indicate perfect aspect; but here we consider only their tense functions.\footnote{As discussed in \chapref{sec:22}, the temporal adverbs used here ensure that only the complex tense readings are available.}
@@ -571,23 +591,26 @@ Several of these points were illustrated in our discussion of the simple present
 
 
 
-\furtherreading{
-
-
-
+\furtherreading{ 
 \citet[ch. 1]{Comrie1985} provides a good introduction to the study of tense, and (in sec. 1.8) a good discussion of the importance of distinguishing meaning from usage, for tense markers in particular. \citet{Michaelis2006} is another helpful introduction, focusing primarily on English. \citet{Botne2012} summarizes what we know about “metrical tense” systems. 
 
 }
 \discussionexercises{
 
 \paragraph*{A: Draw time-line diagrams and provide an appropriate label for the italicized verb in the following sentences:}
+~\\
+
 
 \modelanswer{Model answer}{
 I managed to get to the station at 3:15 pm, but the train \textit{had left} promptly at 3:00.\\
-      {}[  TT: 3:00  ]  PT  TU     “past in the past”\\
-         \textbf{{\textbar}}TSit\textbf{{\textbar}}    (3:15)
+
+\begin{tabularx}{.9\textwidth}{cccS}
+      \underline{[  TT: 3:00  ]} &  PT &  TU &    “past in the past”\\
+      \cline{1-3}
+     {\textbar} TSit {\textbar} &    (3:15) & & \\     
+\end{tabularx}
          }
-\todo{drawing required}
+         
 \ea
 When I got home from the hospital, my wife \textit{wrote} a letter to my doctor.
 \z
@@ -608,16 +631,29 @@ This morning the President rescinded an executive order that he \textit{had issu
 \homeworkexercises{
 
 \paragraph*{A: Draw time-line diagrams for the clauses which contain the italicized verb forms, and name the tense/aspect expressed by those forms:}
-\textsf{Model answer:}
+~\\
+
+\modelanswer{Model answer}{
 
 Einstein published four ground-breaking papers in 1905, including the one for which he \textit{would win}  the Nobel prize in 1922.
-    PT  [  TT: 1922  ]  TU     “future in the past”\\
-  (1905)    \textbf{{\textbar}}TSit\textbf{{\textbar}}    (2016)
 
-\begin{enumerate}[label=\alph*.]
-\item When I got back from my trip, a family of stray cats \textit{were living} in my garage.
-\item The new President will move into the White House on Jan. 20\textsuperscript{th}; the previous President and his family \textit{will have vacated} the premises on Jan. 19\textsuperscript{th}.
-\item Kipling was sent back to England at the age of five; he \textit{would return} to India eleven years later to work as a journalist.
-\item The road to Fort Driant began for the United States Third Army when it landed on Utah Beach at 3 pm on August 5, 1944. The Third Army \textit{had been activated} four days earlier in England under the command of Lt. Gen. George S. Patton Jr.\footnote{\url{http://warfarehistorynetwork.com/daily/wwii/general-george-s-pattons-lost-battle/}} 
-\end{enumerate}
+\begin{tabularx}{.9\textwidth}{cccS}
+    PT  & [  TT: 1922  ]  & TU&      “future in the past”\\
+    \cline{1-3}
+  (1905)  &  {\textbar} TSit {\textbar} &     (2016) & 
+\end{tabularx}
+}
+
+\ea
+When I got back from my trip, a family of stray cats \textit{were living} in my garage.
+\z
+\ea
+The new President will move into the White House on Jan. 20\textsuperscript{th}; the previous President and his family \textit{will have vacated} the premises on Jan. 19\textsuperscript{th}.
+\z
+\ea
+Kipling was sent back to England at the age of five; he \textit{would return} to India eleven years later to work as a journalist.
+\z
+\ea
+The road to Fort Driant began for the United States Third Army when it landed on Utah Beach at 3 pm on August 5, 1944. The Third Army \textit{had been activated} four days earlier in England under the command of Lt. Gen. George S. Patton Jr.\footnote{\url{http://warfarehistorynetwork.com/daily/wwii/general-george-s-pattons-lost-battle/}} 
+\z
 }
