@@ -1,0 +1,383 @@
+\chapter{Lexical sense relations}\label{sec:6}
+
+\section{Meaning relations between words}\label{sec:6.1}
+
+A traditional way of investigating the meaning of a word is to study the relationships between its meaning and the meanings of other words: which words have the same meaning, opposite meanings, etc. Strictly speaking these relations hold between specific senses, rather than between words; that is why we refer to them as sense relations. For example, one sense of \textit{mad} is a synonym of \textit{angry}, while another sense is a synonym of \textit{crazy}.
+
+
+
+In \sectref{sec:6.2} we discuss the most familiar classes of sense relations: synonymy, several types of antonymy, hyponymy, and meronymy. We will try to define each of these relations in terms of relations between sentence meanings, since it is easier for speakers to make reliable judgments about sentences than about words in isolation. Where possible we will mention some types of linguistic evidence that can be used as diagnostics to help identify each relation. In \sectref{sec:6.3} we mention some of the standard ways of defining words in terms of their sense relations. This is the approach most commonly used in traditional dictionaries.
+
+
+\section{Identifying sense relations}\label{sec:6.2}
+
+Let’s begin by thinking about what kinds of meaning relations are likely to be worth studying. If we are interested in the meaning of the word \textit{big}, it seems natural to look at its meaning relations with words like \textit{large}, \textit{small}, \textit{enormous}, etc. But comparing \textit{big} with words like \textit{multilingual} or \textit{extradite} seems unlikely to be very enlightening. The range of useful comparisons seems to be limited by some concept of semantic similarity or comparability.
+
+
+
+Syntactic relationships are also relevant. The kinds of meaning relations mentioned above (same meaning, opposite meaning, etc.) hold between words which are mutually substitutable, i.e., which can occur in the same syntactic environments, as illustrated in (\ref{ex:6.1}a). These relations are referred to as \textsc{paradigmatic} sense relations. We might also want to investigate relations which hold between words which can occur in construction with each other, as illustrated in (\ref{ex:6.1}b). (In this example we see that \textit{big} can modify some head nouns but not others.) These relations are referred to as \textsc{syntagmatic} relations.
+
+
+\ea \label{ex:6.1}
+\ea Look at that \textit{big/large/small/enormous/?\#discontinuous/*snore} mosquito!\\
+\ex Look at that big \textit{mosquito/elephant/?\#surname/\#color/*discontinuous/*snore}!
+                       \z
+\z
+
+
+We will consider some syntagmatic relations in \chapref{sec:7}, when we discuss selectional restrictions. In this chapter we will be primarily concerned with paradigmatic relations.
+
+
+\subsection{Synonyms}\label{sec:6.2.1}
+
+We often speak of synonyms as being words that “mean the same thing”. As a more rigorous definition, we will say that two words are synonymous (for a specific sense of each word) if substituting one word for the other does not change the meaning of a sentence. For example, we can change sentence (\ref{ex:6.2}a) into sentence (\ref{ex:6.2}b) by replacing \textit{frightened} with \textit{scared}. The two sentences are semantically equivalent (each entails the other). This shows that \textit{frightened} is a synonym of \textit{scared}.
+
+
+\ea \label{ex:6.2}
+\ea John \textit{frightened} the children.\\
+\ex John \textit{scared} the children.
+                       \z
+\z
+
+
+“Perfect” synonymy is extremely rare, and some linguists would say that it never occurs. Even for senses that are truly equivalent in meaning, there are often collocational differences as illustrated in (\ref{ex:6.3}--\ref{ex:6.4}). Replacing \textit{bucket} with \textit{pail} in (\ref{ex:6.3}a) does not change meaning; but in (\ref{ex:6.3}b), the idiomatic meaning that is possible with \textit{bucket} is not available with \textit{pail}. Replacing \textit{big} with \textit{large} does not change meaning in most contexts, as illustrated in (\ref{ex:6.4}a); but when used as a modifier for certain kinship terms, the two words are no longer equivalent (\textit{big} becomes a synonym of \textit{elder}), as illustrated in (\ref{ex:6.4}b).
+
+
+\ea \label{ex:6.3}
+\ea John filled the \textit{bucket}/\textit{pail}.\\
+\ex John kicked the \textit{bucket}/??\textit{pail}.
+                       \z
+\z
+
+\ea \label{ex:6.4}
+\ea Susan lives in a \textit{big}/\textit{large} house.\\
+\ex Susan lives with her \textit{big}/\textit{large} sister.\footnote{Adapted from \citet[66]{Saeed2009}.}
+                       \z
+\z
+
+\subsection{Antonyms}\label{sec:6.2.2}
+
+Antonyms are commonly defined as words with “opposite” meaning; but what do we mean by “opposite”? We clearly do not mean ‘as different as possible’. As noted above, the meaning of \textit{big} is totally different from the meanings of \textit{multilingual} or \textit{extradite}, but neither of these words is an antonym of \textit{big}. When we say that \textit{big} is the opposite of \textit{small}, or that \textit{dead} is the opposite of \textit{alive}, we mean first that the two terms can have similar collocations. It is odd to call an inanimate object \textit{dead}, in the primary, literal sense of the word, because it is not the kind of thing that could ever be \textit{alive}. Second, we mean that the two terms express a value of the same property or attribute. \textit{Big} and \textit{small} both express degrees of size, while \textit{dead} and \textit{alive} both express degrees of vitality. So two words which are antonyms actually share most of their components of meaning, and differ only with respect to the value of one particular feature.
+
+
+
+The term \textsc{antonym} actually covers several different sense relations. Some pairs of antonyms express opposite ends of a particular scale, like \textit{big} and \textit{small}. We refer to such pairs as \textsc{scalar} or \textsc{gradable} antonyms. Other pairs, like \textit{dead} and \textit{alive}, express discrete values rather than points on a scale, and name the only possible values for the relevant attribute. We refer to such pairs as \textsc{simple} or \textsc{complementary} antonyms. Several other types of antonyms are commonly recognized as well. We begin with simple antonyms.
+
+
+\subsubsection{Complementary pairs (simple antonyms)}\label{sec:6.2.2.1}
+\begin{quote}\small
+“All men are created equal. Some, it appears, are created a little more equal than others.”\hfill 
+\footnotesize{[Ambrose Bierce, In \textit{The San Francisco Wasp} magazine, September 16, 1882]}
+\end{quote}
+
+
+Complementary pairs such as \textit{open/shut}, \textit{alive/dead}, \textit{male/female}, \textit{on/off}, etc. exhaust the range of possibilities, for things that they can collocate with. There is (normally) no middle ground; a person is either alive or dead, a switch is either on or off, etc. The defining property of simple antonyms is that replacing one member of the pair with the other, as in \REF{ex:6.5}, produces sentences which are \textsc{contradictory.} As discussed in \chapref{sec:3}, this means that the two sentences must have opposite truth values in every circumstance; one of them must be true and the other false in all possible situations where these words can be used appropriately.
+
+
+\ea \label{ex:6.5}
+\ea The switch is on.\\
+\ex The switch is off.\\
+\ex ??The switch is neither on nor off.
+                       \z
+\z
+
+
+If two sentences are contradictory, then one or the other must always be true. This means that simple antonyms allow for no middle ground, as indicated in (\ref{ex:6.5}c). The negation of one entails the truth of the other, as illustrated in \REF{ex:6.6}.
+
+
+\ea \label{ex:6.6}
+\ea ??The post office is not open today, but it is not closed either.\\
+\ex ??Your headlights are not off, but they are not on either.
+                       \z
+\z
+
+
+A significant challenge in identifying simple antonyms is the fact that they are easily coerced into acting like gradable antonyms.\footnote{\citet[463]{Cann2011}.} For example, \textit{equal} and \textit{unequal} are simple antonyms; the humor in the quote by Ambrose Bierce at the beginning of this section arises from the way he uses \textit{equal} as if it were gradable. In a similar vein, zombies are often described as being \textit{undead}, implying that they are not dead but not really alive either. However, the gradable use of simple antonyms is typically possible only in certain figurative or semi-idiomatic expressions. The gradable uses in \REF{ex:6.7} seem natural, but those in \REF{ex:6.8} are not. The sentences in \REF{ex:6.9} illustrate further contrasts. For true gradable antonyms, like those discussed in the following section, all of these patterns would generally be fully acceptable, not odd or humorous.
+
+
+\ea \label{ex:6.7}
+\ea half-dead, half-closed, half-open\\
+\ex more dead than alive\\
+\ex deader than a door nail
+                       \z
+\z
+
+\ea \label{ex:6.8}
+\ea ?half-alive\\
+\ex \#a little too dead\\
+\ex \#not dead enough\\
+\ex \#How dead is that mosquito?\\
+\ex \#This mosquito is deader than that one.
+                       \z
+\z
+
+\ea \label{ex:6.9}
+\ea I feel fully/very/??slightly alive.\\
+\ex This town/\#mosquito seems very/slightly dead.
+                       \z
+\z
+
+\subsubsection{Gradable (scalar) antonyms}\label{sec:6.2.2.2}
+
+A defining property of gradable (or scalar) antonyms is that replacing one member of such a pair with the other produces sentences which are \textsc{contrary}, as illustrated in (\ref{ex:6.10}a--b). As discussed in \chapref{sec:3}, contrary sentences are sentences which cannot both be true, though they may both be false (\ref{ex:6.10}c).
+
+
+\ea \label{ex:6.10}
+\ea My youngest son-in-law is extremely diligent.\\
+\ex My youngest son-in-law is extremely lazy.\\
+\ex My youngest son-in-law is neither extremely diligent nor extremely lazy.
+                       \z
+\z
+
+
+Note, however, that not all pairs of words which satisfy this criterion would normally be called “antonyms”. The two sentences in \REF{ex:6.11} cannot both be true (when referring to the same thing), which shows that \textit{turnip} and \textit{platypus} are \textsc{incompatibles}; but they are not antonyms. So our definition of gradable antonyms needs to include the fact that, as mentioned above, they name opposite ends of a single scale and therefore belong to the same semantic domain.
+
+
+\ea \label{ex:6.11}
+\ea This thing is a turnip.\\
+\ex This thing is a platypus.
+                       \z
+\z
+
+
+The following diagnostic properties can help us to identify scalar antonyms, and in particular to distinguish them from simple antonyms:\footnote{Adapted from \citet[67]{Saeed2009}; \citet[204ff.]{Cruse1986}.}
+
+{\sloppy
+\begin{enumerate}[label=\alph*.]
+\item Scalar antonyms typically have corresponding intermediate terms, e.g. \textit{warm, tepid, cool} which name points somewhere between \textit{hot} and \textit{cold} on the temperature scale.
+\item Scalar antonyms name values which are relative rather than absolute. For example, a small elephant will probably be much bigger than a big mosquito, and the temperature range we would call hot for a bath or a cup of coffee would be very cold for a blast furnace.
+\item As discussed in \chapref{sec:5}, scalar antonyms are often vague.
+\item Comparative forms of scalar antonyms are completely natural (\textit{hotter}, \textit{colder}, etc.), whereas they are normally much less natural with complementary antonyms, as illustrated in (\ref{ex:6.8}e) above.
+\item The comparative forms of scalar antonyms form a converse pair (see below).\footnote{\citet[232]{Cruse1986}.} For example, \textit{A is longer than B}  ↔   \textit{B is shorter than A}.
+\item One member of a pair of scalar antonyms often has privileged status, or is felt to be more basic, as illustrated in \REF{ex:6.12}.
+\end{enumerate}
+}
+
+\ea \label{ex:6.12}
+\ea How old/??young are you?\\
+\ex How tall/??short are you?\\
+\ex How deep/??shallow is the water?
+                       \z
+\z
+
+\subsubsection{Converse pairs}\label{sec:6.2.2.3}
+
+Converse pairs involve words that name an asymmetric relation between two entities, e.g. \textit{parent-child, above}-\textit{below}, \textit{employer-employee}.\footnote{\citet[231]{Cruse1986} refers to such pairs as \textsc{relational} \textsc{opposites}.} The relation must be asymmetric or there would be no pair; symmetric relations like \textit{equal} or \textit{resemble} are (in a sense) their own converses. The two members of a converse pair express the same basic relation, with the positions of the two arguments reversed. If we replace one member of a converse pair with the other, and also reverse the order of the arguments, as in (\ref{ex:6.13}--\ref{ex:6.14}), we produce sentences which are semantically equivalent (paraphrases).
+
+
+\ea \label{ex:6.13}
+\ea Michael is my advisor.\\
+\ex I am Michael’s advisee.
+                       \z
+\z
+
+\ea \label{ex:6.14}
+OWN(x,y) ↔  BELONG\_TO(y,x)\\
+ABOVE(x,y) ↔  BELOW(y,x)\\
+PARENT\_OF(x,y) ↔  CHILD\_OF(y,x)
+\z
+
+\subsubsection{Reverse pairs}\label{sec:6.2.2.4}
+
+Two words (normally verbs) are called \textsc{reverses} if they “denote motion or change in opposite directions… [I]n addition… they should differ only in respect of directionality” \citep[226]{Cruse1986}. Examples include \textit{push/pull, come/go}, \textit{fill/empty}, \textit{heat/cool}, \textit{strengthen/weaken}, etc. Cruse notes that some pairs of this type (but not all) allow an interesting use of \textit{again}, as illustrated in \REF{ex:6.15}. In these sentences, \textit{again} does not mean that the action named by the second verb is repeated (\textsc{repetitive} reading), but rather that the situation is restored to its original state (\textsc{restitutive} reading).
+
+
+\ea \label{ex:6.15}
+\ea The nurse heated the instruments to sterilize them, and then cooled them \textit{again}.\\
+\ex George filled the tank with water, and then emptied it \textit{again}.
+                       \z
+\z
+
+\subsection{Hyponymy and taxonomy}\label{sec:6.2.3}
+
+When two words stand in a generic-specific relationship, we refer to the more specific term (e.g. \textit{moose}) as the \textsc{hyponym} and to the more generic term (e.g. \textit{mammal}) as the \textsc{superordinate} or \textsc{hyperonym}. A generic-specific relationship can be defined by saying that a simple positive non-quantified statement involving the hyponym will entail the same statement involving the superordinate, as illustrated in \REF{ex:6.16}. (In each example, the hyponym and superordinate term are set in boldface.) We need to specify that the statement is positive, because negation reverses the direction of the entailments \REF{ex:6.17}.
+
+
+\ea \label{ex:6.16}
+\ea \textit{Seabiscuit was a \textbf{stallion}}  entails:  \textit{Seabiscuit was a \textbf{horse}}.\\
+\ex \textit{Fred \textbf{stole} my bicycle}  entails:  \textit{Fred \textbf{took} my bicycle}.\\
+\ex \textit{John \textbf{assassinated} the Mayor}  entails:  \textit{John \textbf{killed} the Mayor}.\\
+\ex \textit{Arthur looks like a \textbf{squirrel}}  entails:  \textit{Arthur looks like a \textbf{rodent}}.\\
+\ex \textit{This pot is made of \textbf{copper}}  entails:  \textit{This pot is made of \textbf{metal}}.
+                       \z
+\z
+
+\ea \label{ex:6.17}
+\ea \textit{Seabiscuit was not a \textbf{horse}}  entails:  \textit{Seabiscuit was not a \textbf{stallion}}.\\
+\ex \textit{John did not \textbf{kill} the Mayor}  entails:  \textit{John did not \textbf{assassinate} the Mayor}.\\
+\ex \textit{This pot is not made of \textbf{metal}}  entails:  \textit{This pot is not made of \textbf{copper}}.
+  \z
+\z
+
+
+\textsc{Taxonomy} is a special type of hyponymy, a classifying relation. \citet[137]{Cruse1986} suggests the following diagnostic: X is a \textsc{taxonym} of Y if it is natural to say \textit{An X is a kind/type of Y}. Examples of taxonomy are presented in (\ref{ex:6.18}a--b), while the examples in (\ref{ex:6.18}c--d) show that other hyponyms are not fully natural in this pattern. (The word \textsc{taxonymy} is also used to refer to a generic-specific hierarchy, or system of classification.)
+
+
+\ea \label{ex:6.18}
+\ea \textit{A beagle is a kind of dog}.\\
+\ex \textit{Gold is a type of metal}.\\
+\ex ?\textit{A stallion is a kind of horse.}\\
+\ex ??\textit{Sunday is a kind of day of the week}.
+                       \z
+\z
+
+
+\textsc{Taxonomic sisters} are taxonyms which share the same superordinate term, such as \textit{squirrel} and \textit{mouse} which are both hyponyms of \textit{rodent}.\footnote{More general labels for hyponyms of the same superordinate term, whether or not they are part of a taxonomy, include \textsc{hyponymic sisters} and \textsc{cohyponyms}.} Taxonomic sisters must be incompatible, in the sense defined above; for example, a single animal cannot be both a squirrel and a mouse. But that property alone does not distinguish taxonomy from other types of hyponymy. Taxonomic sisters occur naturally in sentences like the following:
+
+\ea \label{ex:6.19} \ea \textit{A beagle is a kind of dog, and so is a Great Dane}.\\
+\ex \textit{Gold is a type of metal, and copper is another type of metal}.
+\z \z
+
+
+Cruse notes that taxonomy often involves terms that name \textsc{natural kinds} (e.g., names of species, substances, etc.). Natural kind terms cannot easily be paraphrased by a superordinate term plus modifier, as many other words can (see §3 below):
+
+
+\ea 
+\label{ex:6.20}
+\ea “\textit{Stallion” means a male horse.}\\
+\ex \textit{“Sunday” mean}\textit{s the first day of the week}.\\
+\ex \textit{??“Beagle” means a {\longrule} dog}.\\
+\ex \textit{??“Gold” means a {\longrule} metal}.\\
+\ex \textit{??“Dog” means a {\longrule} animal}.
+\z \z
+
+
+We must remember that semantic analysis is concerned with properties of the object language, rather than scientific knowledge. The taxonomies revealed by linguistic evidence may not always match standard scientific classifications. For example, the authoritative \textit{Kamus Dewan} (a Malay dictionary published by the national language bureau in Kuala Lumpur) gives the following definition for \textit{labah-labah} ‘spider’:
+
+
+\ea \label{ex:6.21
+}\textit{labah-labah: sejenis \textbf{serangga} yang berkaki lapan}\\
+‘spider: a kind of \textbf{insect} that has eight legs’
+\z
+
+
+This definition provides evidence that in Malay, \textit{labah-labah} ‘spider’ is a taxonym of \textit{serangga} ‘insect’, even though standard zoological classifications do not classify spiders as insects. (Thought question: does this mean that \textit{serangga} is not an accurate translation equivalent for the English word \textit{insect}?)
+
+
+
+Similar examples can be found in many different languages. For example, in \ili{Tuvaluan} (a  {Polynesian} language), the words for ‘turtle’ and ‘dolphin/whale’ are taxonyms of \textit{ika} ‘fish’.\footnote{\citet[192]{Finegan1999}.} The fact that turtles, dolphins and whales are not zoologically classified as fish is irrelevant to our analysis of the lexical structure of \ili{Tuvaluan}.
+
+
+\subsection{Meronymy}\label{sec:6.2.4}
+
+A \textsc{meronymy} is a pair of words expressing a part-whole relationship. The word naming the part is called the meronym. For example, \textit{hand}, \textit{brain} and \textit{eye} are all meronyms of \textit{body}; \textit{door}, \textit{roof} and \textit{kitchen} are all meronyms of \textit{house}; etc.
+
+
+
+Once again, it is important to remember that when we study patterns of mero\-nymy, we are studying the structure of the lexicon, i.e., relations between words and not between the things named by the words. One linguistic test for identifying meronymy is the naturalness of sentences like the following: \textit{The parts of an X include the Y, the Z, ...} \citep[161]{Cruse1986}.
+
+
+
+A meronym is a name for a part, and not merely a piece, of a larger whole. Human languages have many words that name parts of things, but few words that name pieces. \citet[158--159]{Cruse1986} lists three differences between parts and pieces. First, a part has autonomous identity: many shops sell automobile parts which have never been structurally integrated into an actual car. A piece of a car, on the other hand, must have come from a complete car. (Few shops sell pieces of automobile.) Second, the boundaries of a part are motivated by some kind of natural boundary or discontinuity — potential for separation or motion relative to neighboring parts, joints (e.g. in the body), difference in material, narrowing of connection to the whole, etc. The boundaries of a piece are arbitrary. Third, a part typically has a definite function relative to the whole, whereas this is not true for pieces.
+
+
+\section{Defining words in terms of sense relations}\label{sec:6.3}
+
+Traditional ways of defining words depend heavily on the use of sense relations; hyponymy has played an especially important role. The classical form of a definition, going back at least to Aristotle (384–322 BC), is a kind of phrasal synonym; that is, a phrase which is mutually substitutable with the word being defined (same syntactic distribution) and equivalent or nearly equivalent in meaning.
+
+
+
+The standard way of creating a definition is to start with the nearest superordinate term for the word being defined (traditionally called the \textit{genus proximum}), and then add one or more modifiers (traditionally called the \textit{differentia specifica}) which will unambiguously distinguish this word from its hyponymic sisters. So, for example, we might define \textit{ewe} as ‘an adult female sheep’; \textit{sheep} is the superordinate term, while \textit{adult} and \textit{female} are modifiers which distinguish ewes from other kinds of sheep.
+
+
+\newpage 
+This structure can be further illustrated with the following well-known definition by Samuel Johnson (1709-1784), himself a famous lexicographer. It actually consists of two parallel definitions; the superordinate term in the first is \textit{writer}, and in the second \textit{drudge}. The remainder of each definition provides the modifiers which distinguish lexicographers from other kinds of writers or drudges.
+
+
+\ea \label{ex:6.22}
+\textit{Lexicographer}: A writer of dictionaries; a harmless drudge that busies himself in tracing the [origin], and detailing the signification of words.
+\z
+
+
+Some additional examples are presented in \REF{ex:6.23}. In each definition the superordinate term is bolded while the distinguishing modifiers are placed in square brackets.
+
+
+\ea \label{ex:6.23}
+\ea \textit{fir} (N): a kind of \textbf{tree} [with evergreen needles].\footnote{\citet[62]{HartmannJames1998}.}\\
+\ex \textit{rectangle} (N): a [right-angled] \textbf{quadrilateral}.\footnote{\citet[219]{Svensén2009}.}\\
+\ex \textit{clean} (Adj): \textbf{free} [from dirt].\footnote{\citet[219]{Svensén2009}.}
+                       \z
+\z
+
+
+However, as a number of authors have pointed out, many words cannot easily be defined in this way. In such cases, one common alternative is to define a word by using synonyms (\ref{ex:6.24}a--b) or antonyms (\ref{ex:6.24}c--d).
+
+
+\ea \label{ex:6.24}
+\ea \textit{grumpy}: moodily cross; surly.\footnote{\url{http://www.merriam-webster.com/dictionary/}}\\
+\ex \textit{sad}: affected with or expressive of grief or unhappiness.\footnote{\url{http://www.merriam-webster.com/dictionary/}}\\
+\ex \textit{free}: not controlled by obligation or the will of another;\\
+  not bound, fastened, or attached.\footnote{\url{http://www.thefreedictionary.com/free}} \\
+\ex \textit{pure}: not mixed or adulterated with any other substance or material.\footnote{\url{http://oxforddictionaries.com/us/definition/american_english/pure}} 
+                       \z
+\z
+
+
+Another common type of definition is the \textsc{extensional} definition. This definition spells out the denotation of the word rather than its sense as in a normal definition. This type is illustrated in \REF{ex:6.25}.
+
+
+\ea \label{ex:6.25}
+Definitions from Merriam-Webster on-line dictionary:\\
+\ea   \textit{New England}: the NE United States comprising the states of Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, \& Connecticut
+\ex  \textit{cat}: any of a family (Felidae) of carnivorous, usually solitary and nocturnal, mammals (as the domestic cat, lion, tiger, leopard, jaguar, cougar, wildcat, lynx, and cheetah)
+\z \z
+
+Some newer dictionaries, notably the COBUILD dictionary, make use of full sentence definitions rather than phrasal synonyms, as illustrated in \REF{ex:6.26}.
+
+\ea \label{ex:6.26}
+confidential: Information that is \textbf{confidential} is meant to be kept secret or private.\footnote{COBUILD dictionary, 3\textsuperscript{rd} edition (2001); cited in \citet{Rundell2006}.}
+\z
+
+\section{Conclusion}\label{sec:6.4}
+
+In this chapter we have mentioned only the most commonly used sense relations (some authors have found it helpful to refer to dozens of others). We have illustrated various diagnostic tests for identifying sense relations, many of them involving entailment or other meaning relations between sentences. Studying these sense relations provides a useful tool for probing the meaning of a word, and for constructing dictionary definitions of words.
+
+
+
+\furtherreading{
+
+
+
+\citet[chapters 4--12]{Cruse1986} offers a detailed discussion of each of the sense relations mentioned in this chapter. \citet{Cann2011} provides a helpful overview of the subject.
+
+}
+
+\discussionexercises{
+% \subsection*{Discussion exercise} %\label{sec:}
+\paragraph*{}\noindent
+Identify the meaning relations for the following pairs of words, and provide linguistic evidence that supports your identification:
+
+\medskip 
+
+\begin{tabular}{@{\hspace{2em}}>{\itshape}l@{\hspace{1em}}>{\itshape}l}
+sharp & dull\\
+finite & infinite\\
+two & too\\
+arm & leg\\
+hyponym &  hyperonym\\
+silver  & metal\\
+insert  & extract  \\
+\end{tabular}
+
+}
+
+\homeworkexercises{
+% \subsection*{Homework exercises}
+\paragraph*{Antonyms.\footnote{Adapted from \citet[82]{Saeed2009}, ex. 3.4.}}
+
+Below is a list of incompatible pairs. (i) Classify each pair into one of the following types of relation: \textsc{simple antonyms, gradable antonyms, reverses, converses,} or \textsc{taxonomic sisters}. (ii) For each pair, provide at least one type of linguistic evidence (e.g. example sentences) that supports your decision, and where possible mention other types of evidence that would lend additional support.\\
+
+\largerpage[4]
+\begin{tabular}{l l l}
+a. & \textit{legal} & \textit{illegal}\\
+b. & \textit{fat} & \textit{thin}\\
+c. & \textit{raise} & \textit{lower}\\
+d. & \textit{wine} & \textit{beer}\\
+e. & \textit{lend to} & \textit{borrow from}\\
+\end{tabular}
+\newpage
+\begin{tabular}{l l l}
+f. & \textit{lucky} & \textit{unlucky}\\
+g. & \textit{married} & \textit{unmarried}
+\end{tabular}
+}\vspace*{-33mm}

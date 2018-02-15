@@ -1,0 +1,655 @@
+\chapter{Grice’s theory of Implicature}\label{sec:8}
+
+\section{Sometimes we mean more than we say}\label{sec:8.1}
+
+The story in \REF{ex:8.1} concerns a ship’s captain and his first mate (second in command):
+
+\ea \label{ex:8.1}
+\textbf{The Story of the Mate and the Captain} (\citealt{Meibauer2005}, adapted from \citealt{Posner1980})\\
+\begin{quote}
+A captain and his mate have a long-term quarrel. The mate drinks more rum than is good for him, and the captain is determined not to tolerate this behaviour any longer. When the mate is drunk again, the captain writes in the logbook: “Today, 11th October, the mate is drunk.” When the mate reads this entry during his next watch, he gets angry. Then, after a short moment of reflection, he writes in the logbook: “Today, 14th October, the captain is not drunk.”
+\end{quote}
+\z
+
+
+The mate’s log entry communicates something bad and false (namely that the captain is frequently or habitually drunk) by saying something good and true (the captain is not drunk today). It provides a striking example of how widely \textsc{sentence meaning} (the semantic content of the sentence) may differ from \textsc{utterance meaning}. Recall that we defined utterance meaning as “the totality of what the speaker intends to convey by making an utterance;”\footnote{\citet[27]{Cruse2000}.} so utterance meaning includes the semantic content plus any pragmatic meaning created by the use of the sentence in a specific context.
+
+
+
+In this chapter and the next we will explore the question of how this kind of context-dependent meaning arises. Our discussion in this chapter will focus primarily on the ground-breaking work on this topic by the philosopher H. Paul Grice. Grice referred to the kind of inference illustrated in \REF{ex:8.1} as a \textsc{conversational implicature}, and suggested that such inferences arise when there is a real or apparent violation of our shared default expectations about how conversations work.
+
+
+
+In \sectref{sec:8.2} we introduce the concept of conversational implicature, and in \sectref{sec:8.3} we summarize the default expectations about conversation which Grice proposed as a way of explaining these implicatures. In \sectref{sec:8.4} we distinguish two different types of conversational implicature, and mention briefly a different kind of inference which Grice referred to as \textsc{conventional implicature}. In Sections~\ref{sec:8.5}--\ref{sec:8.6} we discuss various diagnostic properties of conversational implicatures, and talk about how to distinguish conversational implicatures from entailments and presuppositions.
+
+
+\section{Conversational implicatures}\label{sec:8.2}
+
+Let us begin by considering the simple conversation in \REF{ex:8.2}: 
+
+
+\ea \label{ex:8.2}
+\textbf{Arthur}: Can you tell me where the post office is?\\
+\textbf{Bill}: I’m a stranger here myself.
+\z
+
+
+As a reply to Arthur’s request for directions, Bill’s statement is clearly intended to mean ‘No, I cannot.’ But the sentence meaning, or semantic content, of Bill’s statement does not contain or entail this intended meaning. The statement conveys the intended meaning only in response to that specific question. In a different kind of context, such as the one in \REF{ex:8.3}, it could be intended to convey a very different meaning: willingness to engage in conversation on a wider range of topics, or at least sympathy for Arthur’s situation.
+
+
+\ea \label{ex:8.3}
+\textbf{Arthur}: I’ve just moved to this town, and so far I’m finding it pretty tedious; I haven’t met a single person who is willing to talk about anything except next week’s local elections.\\
+\textbf{Bill}: I’m a stranger here myself.
+\z
+
+
+When the same sentence is used in two different contexts, these are two distinct utterances which may have different utterance meanings. But since the sentence meaning is identical, the difference in utterance meaning must be due to pragmatic inferences induced by the different contexts. As mentioned above, Grice referred to the kind of pragmatic inference illustrated in these examples as \textsc{conversational implicature}. Examples (\ref{ex:8.2}--\ref{ex:8.3}) illustrate the following characteristics of conversational implicatures:
+
+
+\begin{enumerate}
+\item The implicature is different from the literal sentence meaning; in Grice’s terms, what is implicated is different from “what is said”.
+\item Nevertheless, the speaker intends for the hearer to understand both the sentence meaning and the implicature; and for the hearer to be aware that the speaker intends this.
+\item Conversational implicatures are context-dependent, as discussed above.
+\item Conversational implicatures are often unmistakable, but they are not “inevitable”, i.e. they are not logically necessary. In the context of \REF{ex:8.2}, for example, Bill’s statement is clearly intended as a negative reply; but it would not be logically inconsistent for Bill to continue as in \REF{ex:8.4}. In Grice’s terms we say that conversational implicatures are \textsc{defeasible}, meaning that they can be cancelled or blocked when additional information is provided.
+\end{enumerate}
+
+\ea \label{ex:8.4}
+\textbf{Arthur}: Can you tell me where the post office is?\\
+\textbf{Bill}: I’m a stranger here myself; but it happens that I have just come from the post office, so I think I can help you.
+\z
+
+
+Conversational implicatures are not something strange and exotic; they turn out to be extremely common in everyday language use. Once we become aware of them, we begin to find them everywhere. They are an indispensable part of the system we use to communicate with each other.
+
+
+\section{Grice’s Maxims of Conversation}\label{sec:8.3}
+
+The connection between what is said and what is implicated, taking context into account, cannot be arbitrary. It must be rule-governed to a significant degree, otherwise the speaker could not expect the hearer to reliably understand the intended meaning.
+
+
+
+Grice was not only the first scholar to describe the characteristic features of implicatures, but also the first to propose a systematic explanation for how they work. Grice’s lecture series at Harvard University in 1967, where he laid out his analysis of implicatures, triggered an explosion of interest in and research about this topic. It is sometimes cited as the birth date of Pragmatics as a separate field of study. Of course a number of authors have proposed revisions and expansions to Grice’s model, and we look briefly at some of these in the next chapter; but his model remains the starting point for much current work and is the model that we will focus on in this chapter.
+
+
+
+Grice’s fundamental insight was that conversation is a cooperative activity. In order to carry on an intelligible conversation, each party must assume that the other is trying to participate in a meaningful way. This is true even if the speakers involved are debating or quarreling; they are still trying to carry on a conversation. Grice proposed that there are certain default assumptions about how conversation works. He stated these in the form of a general \textsc{Cooperative Principle} \REF{ex:8.5} and several specific sub-principles which he labeled “maxims” \REF{ex:8.6}:
+
+
+\ea \label{ex:8.5}
+\textbf{The Cooperative Principle} \citep[45]{Grice1975}\\
+Make your conversational contribution such as is required, at the stage at which it occurs, by the accepted purpose or direction of the talk exchange in which you are engaged.
+\z
+
+\ea \label{ex:8.6}
+\textbf{The Maxims of Conversation} \citep[45-46]{Grice1975}
+
+QUALITY: Try to make your contribution one that is true.\\
+1. Do not say what you believe to be false.\\
+2. Do not say that for which you lack adequate evidence.
+
+QUANTITY:\\
+1. Make your contribution as informative as is required (for the current purposes of the exchange).\\
+2. Do not make your contribution more informative than is required.
+
+RELATION (or RELEVANCE): Be relevant.
+ 
+MANNER: Be perspicuous.\\
+1. Avoid obscurity of expression.\\
+2. Avoid ambiguity.\\
+3. Be brief (avoid unnecessary prolixity).\\
+4. Be orderly.
+\z
+
+
+It is important to remember that Grice did not propose the Cooperative Principle as a code of conduct, which speakers have a moral obligation to obey. A speaker may communicate either by obeying the maxims or by breaking them, as long as the hearer is able to recognize which strategy is being employed. The Cooperative Principle is a kind of background assumption: what is necessary in order to make rational conversation possible is not for the speaker to follow the principle slavishly, but for speaker and hearer to share a common awareness that it exists.
+
+
+
+We might draw an analogy with radio waves. Radio signals start with a “carrier wave” having a specific, constant frequency and amplitude. The informative part of the signal, e.g. the audio frequency wave that represents the music, news report, or football match being broadcast, is superimposed as variation in the frequency (for FM) or amplitude (for AM) of the carrier wave. The complex wave form which results is transmitted to receivers, where the intended signal is recovered by “subtracting” the carrier wave. In order for the correct signal to be recovered, the receiver must know the frequency and amplitude of the carrier wave. Furthermore, the receiver must assume that variations from this base frequency and amplitude are intended to be meaningful, and are not merely interference due to lightning, sunspots, or the neighbors’ electrical gadgets.
+
+
+
+The analogue of the wave form for pragmatic inferences is the sentence meaning, i.e. the literal semantic content of the utterance. The Cooperative Principle and maxims specify the default frequency and amplitude of the carrier wave. When a speaker appears to violate one of the maxims, a pragmatic inference is created; but this is only possible if the hearer assumes that the speaker is actually being cooperative, and thus the apparent violations are intended to be meaningful.
+
+
+
+For example, Bill’s reply to Arthur’s request for directions to the post office in \REF{ex:8.2} appears to violate the maxim of relevance. Arthur might interpret the reply as follows: “Bill’s statement that he is a stranger here has nothing to do with the location of the post office. Bill seems to be violating the maxim of relevance, but I assume that he is trying to participate in a rational conversation; so he must actually be observing the conversational maxims, or at least the Cooperative Principle. I know that strangers in a town typically do not know where most things are located. I believe that Bill knows this as well, and would expect me to understand that his being a stranger makes it unlikely that he can provide the information I am requesting. If his reply is intended to mean ‘No, I cannot,’ then it is actually relevant and there is no violation. So in order to maintain the assumption that Bill is observing the Cooperative Principle, I must assume that this is what he intends to communicate.”
+
+
+
+Of course, the sentence meaning is not just a means to trigger implicatures; it is itself part of the meaning which is being communicated. Utterance meaning is composed of the sentence meaning plus any pragmatic inference created by the specific context of use. Grice’s model is intended to explain the pragmatic part of the meaning. In example \REF{ex:8.2}, the answer to Arthur’s literal yes-no question is conveyed by pragmatic inference, while the sentence meaning explains the reason for this answer, and so is felt to be more polite than a blunt “No” would be.
+
+
+
+Grice described several specific patterns of reasoning which commonly give rise to conversational implicatures. First, there are cases in which there is an apparent violation, but no maxim is actually violated. Our analysis of example \REF{ex:8.2} was of this type. Bill’s statement \textit{I am a stranger here myself} was an apparent violation of the maxim of relevance, but the implicature that it triggered actually was relevant; so there was no real violation. Two of Grice’s classic examples of this type are shown in (\ref{ex:8.7}--\ref{ex:8.8}).\footnote{\citet[51]{Grice1975}.} In both cases the second speaker’s reply is an apparent violation of the maxim of relevance, but it triggers an implicature that is relevant (\textit{You can buy petrol there} in \REF{ex:8.7}, \textit{Maybe he has a girlfriend in New York} in \REF{ex:8.8}).
+
+
+\ea \label{ex:8.7}
+A: I am out of petrol [=gasoline].\\
+B: There is a garage [=service station] around the corner.
+\z
+
+\ea \label{ex:8.8}
+A: Smith doesn’t seem to have a girlfriend these days.\\
+B: He has been paying a lot of visits to New York lately.
+\z
+
+
+Second, Grice noted cases in which an apparent violation of one maxim is the result of conflict with another maxim. He illustrates this type with the example in \REF{ex:8.9}. 
+
+
+\ea \label{ex:8.9}
+A: Where does C live?\\
+B: Somewhere in the South of France.
+\z
+
+
+B’s reply here seems to violate the maxim of quantity, specifically the first sub-maxim, since it is not as informative as would be appropriate in this context. A is expected to be able to infer that B cannot be more informative without violating the maxim of quality (second sub-maxim) by saying something for which he lacks adequate evidence. So the intended implicature is, “I do not know exactly where C lives.”
+
+
+
+Third, Grice described cases in which one of the maxims is “flouted”, by which he meant a deliberate and obvious violation, intended to be recognized as such. Two of his examples of this type are presented in (\ref{ex:8.10}--\ref{ex:8.11}).
+
+
+\ea \label{ex:8.10}
+A professor is writing a letter of reference for a student who is applying for a job as a philosophy teacher:\\
+“Dear Sir, Mr. X’s command of English is excellent, and his attendance at tutorials has been regular. Yours, etc.”
+\z
+
+\ea \label{ex:8.11}
+Review of a vocal recital:\\
+“Miss X produced a series of sounds that corresponded closely with the score of \textit{Home sweet home}.”
+\z
+
+
+The professor’s letter in \REF{ex:8.10} flouts the maxims of quantity and relevance, since it contains none of the information that would be expected in an academic letter of reference. The review in \REF{ex:8.11} flouts the maxim of manner, since there would have been a shorter and clearer way of describing the event, namely “Miss X sang \textit{Home sweet home}.”
+
+
+
+As we noted in an earlier chapter, speakers sometimes utter sentences which are tautologies or contradictions. In such cases, the communicative value of the utterance comes primarily from the pragmatic inferences which are triggered; the semantic (i.e. truth conditional) content of the sentence contributes little or nothing. Grice observes that tautologies like those in \REF{ex:8.12} can be seen as flouting the maxim of quantity, since their semantic content is uninformative. Metaphors, irony, and other figures of speech like those in \REF{ex:8.13} can be seen as flouting the maxim of quality, since their literal semantic content is clearly untrue and intended to be recognized as such.
+
+
+\ea \label{ex:8.12}
+\ea War is war.\\
+\ex Boys will be boys.
+                       \z
+\z
+
+\ea \label{ex:8.13}
+\ea You are the cream in my coffee.\\
+\ex Queen Victoria was made of iron. (\citealt{Levinson1983}: 110)\\
+\ex A fine friend he turned out to be!
+                       \z
+\z
+
+
+\Citet{vonFintelMatthewson2008} consider the question of whether Grice’s Cooperative Principle and maxims hold for all languages. Of course, differences in culture, lexical distinctions, etc. will lead to differences in the specific implicatures which arise, since these are calculated in light of everything in the common ground between speaker and hearer.\footnote{See for example \citet{Matsumoto1995}.} They note a single proposed counter example to Grice’s model, from Malagasy \citep{Keenan1974}; but they endorse the response of \citet{Prince1982}, who points out that the speakers in Keenan’s examples actually do obey Grice’s principles, given their cultural values and assumptions. Their conclusion echoes that of \citet[419]{Green1990}:
+
+
+\begin{quote}
+“[I]t would astonish me to find a culture in which Grice’s maxims were not routinely observed, and required for the interpretation of communicative intentions, and all other things being equal, routinely exploited to create implicature.”
+\end{quote}
+
+\section{Types of implicatures}\label{sec:8.4}
+\subsection{Generalized Conversational Implicature}\label{sec:8.4.1}
+
+Grice distinguished two different types of conversational implicatures. He referred to examples like those we have considered up to this point as \textbf{\textsc{particularized conversational implicatures}}, meaning that the intended inference depends on particular features of the specific context of the utterance. The second type he referred to as \textbf{\textsc{generalized conversational implicatures}}. This type of inference does not depend on particular features of the context, but is instead typically associated with the kind of proposition being expressed. Some examples are shown in \REF{ex:8.14}.
+
+
+\ea \label{ex:8.14}
+\ea  She gave him the key and he opened the door.\\
+\textsc{Implicature}: She gave him the key \textit{and then} he opened the door.\\
+\ex  The water is warm.\\
+\textsc{Implicature}: The water is not hot.\\
+\ex  It is possible that we are related.\\
+\textsc{Implicature}: It is not necessarily true that we are related.\\
+\ex  Some of the boys went to the rugby match.\\
+\textsc{Implicature}: Not all of the boys went to the rugby match.\\
+\ex   John has most of the documents.\\
+\textsc{Implicature}: John does not have all of the documents.\\
+\ex That man is either Martha’s brother or her boyfriend.\\
+\textsc{Implicature}: The speaker does not know whether the man is Martha’s brother or boyfriend.\\
+\z \z
+
+
+Generalized conversational implicatures are motivated by the same set of maxims discussed above, but they typically do not involve a violation of the maxims. Rather, the implicature arises precisely because the hearer assumes that the speaker is obeying the maxims; if the implicated meaning were not true, then there would be a violation. In (\ref{ex:8.14}a) for example, assuming that the semantic content of English \textit{and} is simply logical \textit{and} ($\wedge$), the implicated sequential meaning (‘and then’) is motivated by the maxim of manner (sub-maxim: Be orderly). If the actual order of events was not the one indicated by the sequential order of the conjoined clauses, the speaker would have violated this maxim; therefore, unless there is evidence to the contrary, the hearer will assume that the sequential meaning is intended. (We will return in the next chapter to the question of whether this is an adequate analysis of the meaning of English \textit{and}.)
+
+
+
+A widely discussed type of generalized conversational implicature involves non-maximal degree modifiers, that is, words which refer to intermediate points on a scale. (Implicatures of this type are often referred to as \textsc{scalar implicatures}.) The word \textit{warm} in (\ref{ex:8.14}b), for example, belongs to a set of words which identify various points on a scale of temperature: \textit{frigid, cold, cool, lukewarm, warm, hot, burning/sizzling/scalding}, etc. The choice of the word \textit{warm} implicates ‘not hot’ by the maxim of quantity. If the speaker knew that the water was hot but only said that it was warm, he would not have been as informative as would be appropriate in most contexts; a hearer stepping into a full bath tub, for example, would be justified in complaining if the water turned out to be painfully hot and not just warm. This inference does not depend on particular features of the context, but is normally triggered by any use of the word \textit{warm} unless something in the context prevents it from arising. The same reasoning applies to \textit{possible} in (\ref{ex:8.14}c) \textit{some} in (\ref{ex:8.14}d), and \textit{three} in (\ref{ex:8.14}e).
+
+
+
+The maxim of quantity also motivates the implicature in (\ref{ex:8.14}f), since if the speaker knew which alternative was correct but only made an \textit{or} statement, he would not have been as informative as would be appropriate in most contexts. Again, this inference would normally be triggered by any similar use of the word \textit{or} unless something in the context prevents it from arising.
+
+
+
+The indefinite article can trigger generalized conversational implicatures concerning the possessor of the indefinite NP, with different implicatures depending on whether the head noun is alienable as in (\ref{ex:8.15}a--b) or inalienable as in (\ref{ex:8.15}c--d).\footnote{Exx. (\ref{ex:8.15}a--b) are adapted from \citet[56]{Grice1975}.} How to account for this difference is somewhat puzzling.
+
+
+\ea \label{ex:8.15}
+\ea  I walked into a house.\\
+\textsc{Implicature}: The house was not my house.
+\ex Arthur is meeting a woman tonight.\\
+\textsc{Implicature}: The woman is not Arthur’s wife or close relative.
+ \ex   I broke a finger yesterday.\\
+\textsc{Implicature}: The finger was my finger.
+\ex  \textbf{Lady Glossop}: How would you ever support a wife, Mr. Wooster?\\
+\textbf{Bertie}: Well, it depends on whose wife it was. I would’ve said a gentle pressure beneath the left elbow when crossing a busy street normally fills the bill.\\
+{}[\textit{Jeeves and Wooster}, Season 1, Episode 1; ITV1]
+\z
+\z
+
+\subsection{Conventional Implicature}\label{sec:8.4.2}
+
+Grice identified another type of inference which he called \textsc{conventional implicatures}; but he said very little about them, and never developed a full-blown analysis. In contrast to conversational implicatures, which are context-sensitive and motivated by the conversational maxims, conventional implicatures are part of the conventional meaning of a word or construction. This means that they are not context-dependent or pragmatically explainable, and must be learned on a word-by-word basis. However, unlike the kinds of lexical entailments that we discussed in \chapref{sec:6}, conventional implicatures do not contribute to the truth conditions of a sentence, and for this reason have sometimes been regarded as involving pragmatic rather than semantic content.
+
+
+
+Grice illustrated the concept of conventional implicature using the conjunction \textit{therefore}. He suggested that this word does not affect the truth value of a sentence; the claim of a causal relationship is only conventionally implicated and not entailed:
+
+
+\begin{quote}
+If I say (smugly), \textit{He is an Englishman; he is, therefore, brave}, I have certainly committed myself, by virtue of the meaning of my words, to its being the case that his being brave is a consequence of (follows from) his being an Englishman. But while I have said that he is an Englishman, and said that he is brave, I do not want to say that I have said (in the favored sense [i.e. as part of the truth-conditional semantic content—PK]) that it follows from his being an Englishman that he is brave, though I have certainly indicated, and so implicated, that this is so. I do not want to say that my utterance of this sentence would be, strictly speaking, false should the consequence in question fail to hold. (\citealt{Grice1975}: 44)
+\end{quote}
+
+
+Frege had earlier expressed very similar views concerning words like \textit{still} and \textit{but}, though he never used the term “conventional implicature”. He pointed out that the truth-conditional meaning of \textit{but} is identical to that of \textit{and}. The difference between the two is that \textit{but} indicates a contrast or counter-expectation. But this is only conventionally implicated, in Grice’s terms; if there is in fact no contrast between the two conjuncts, that does not make the sentence false.
+
+
+\begin{quote}
+With the sentence \textit{Alfred has still not come} one really says ‘Alfred has not come’ and, at the same time, hints that his arrival is expected, but it is only hinted. It cannot be said that, since Alfred’s arrival is not expected, the sense of the sentence is therefore false. … The word \textit{but} differs from \textit{and} in that with it one intimates that what follows is in contrast with what would be expected from what preceded it. Such suggestions in speech make no difference to the thought [i.e. the propositional content—PK]. [\citealt{Frege1918}-19/1956]
+\end{quote}
+
+
+A few more examples of conventional implicatures (CI) are given in \REF{ex:8.16}:
+
+
+\ea \label{ex:8.16}
+\ea  I was in Paris last spring \textit{too}.\footnote{\url{http://people.umass.edu/partee/MGU_2009/materials/MGU098_2up.pdf}} \\
+CI: some other specific/contextually salient person was in Paris last spring\\
+\ex   \textit{Even} Bart passed the test.\footnote{\citet{Potts2007a}.}\\
+CI: Bart was among the least likely to pass the test
+\z
+\z
+
+
+Conventional implicatures turn out to have very similar properties to certain kinds of presuppositions, and there has been extensive debate over the question of whether it is possible or desirable to distinguish conventional implicatures from presuppositions. We will have more to say about conventional implicatures in \chapref{sec:11}.
+
+
+\section{Distinguishing features of conversational implicatures}\label{sec:8.5}
+
+Grice’s analysis of conversational implicatures implies that they will have certain properties which allow us to distinguish them from other kinds of inference. We have already mentioned the most important of these, namely the fact that they are \textsc{defeasible}. This term means that the inference can be cancelled by adding an additional premise. For example, conversational implicatures can be explicitly negated or denied without giving rise to anomaly or contradiction, as illustrated in \REF{ex:8.17}. This makes them quite different from entailments, as seen in \REF{ex:8.18}.
+
+
+\ea \label{ex:8.17}
+\ea  Dear Sir, Mr. X’s command of English is excellent, and his attendance at tutorials has been regular. \textit{And, needless to say, he is highly competent in philosophy}. Yours, etc.
+\ex He has been paying a lot of visits to New York lately, \textit{but I don’t think he has a girlfriend there, either}.
+\ex John has most of the documents; \textit{in fact, he has all of them}.
+\z \z
+\ea \label{ex:8.18}
+John killed the wasp (\#but the wasp did not die).
+\z 
+
+
+A closely related property is that conversational implicatures are \textsc{suspendable}:\footnote{\citet{Horn1972}; \citet{Sadock1978}.} the speaker may explicitly choose not to commit to the truth or falsehood of the inference, without giving rise to anomaly or contradiction. This is illustrated in (\ref{ex:8.19}a). Again, the opposite is true for entailments, as seen in (\ref{ex:8.19}b).
+
+
+\ea \label{ex:8.19}
+\ea The water must be warm by now, \textit{if not boiling}.\\
+\ex \#The water must be warm by now, \textit{if not cold}.
+                       \z
+\z
+
+
+Conversational implicatures are \textsc{calculable}, that is, capable of being worked out on the basis of (i) the literal meaning of the utterance, (ii) the Cooperative Principle and its maxims, (iii) the context of the utterance, (iv) background knowledge, and (v) the assumption that (i)--(iv) are available to both participants of the exchange and that they are both aware of this. However, conversational implicatures are also \textsc{indeterminate}: sometimes multiple interpretations are possible for a given utterance in a particular context.
+
+
+
+Because conversational implicatures are not part of the conventional meaning of the linguistic expression, and because they are triggered by the semantic content of what is said rather than its linguistic form, replacing words with synonyms, or a sentence with its paraphrase as in \REF{ex:8.20}, will generally not change the conversational implicatures that are generated, assuming the context is identical. Grice used the somewhat obscure term \textsc{nondetachable} to identify this property. He explicitly notes that implicatures involving the maxim of Manner are exceptions to this generalization, since in those cases it is precisely the speaker’s choice of linguistic form which triggers the implicature.\footnote{\citet[58]{Grice1975}.}
+
+
+\ea \label{ex:8.20}
+A: Smith doesn’t seem to have a girlfriend these days.\\
+B1: He has been paying a lot of visits to New York lately.\\
+B2: He travels to New York quite frequently, I have noticed.
+\z
+
+
+\citet[294]{Sadock1978} noted another useful diagnostic property, namely that conversational implicatures are \textsc{reinforceable}. He used this term to mean that the implicature can be overtly stated without creating a sense of anomalous redundancy (\ref{ex:8.21}a--b). This is another respect in which conversational implicatures differ from entailments (\ref{ex:8.21}c).
+
+
+\ea \label{ex:8.21}
+\ea John is a capable fellow, \textit{but I wouldn’t call him a genius}.\\
+\ex Some of the boys went to the soccer match, \textit{but not all}.\\
+\ex ?*Some of the boys went to the soccer match, \textit{but not none}.
+                       \z
+\z
+
+\section{How to tell one kind of inference from another}\label{sec:8.6}
+
+The table in \REF{ex:8.22} summarizes some of the characteristic properties of entailments, conversational implicatures, and presuppositions.\footnote{Thanks to Seth Johnston for suggesting this type of summary table.} In this section we will work through some examples showing how we can use these properties as diagnostic tools to help us determine which kind of inference we are dealing with in any particular example.
+
+
+
+Two general comments need to be kept in mind. First, before we begin applying these tests, it is important to ask whether there is in fact a linguistic inference to be tested. The question is this: if a speaker whom we believe to be truthful and well-informed says \textit{p}, would this utterance in and of itself give us reason to believe \textit{q}? If so, we can apply the tests to determine the nature of the inference from \textit{p} to \textit{q}. But if not, applying the tests will only cause confusion. For example, if our truthful and well-informed speaker says \textit{My bank manager has just been murdered}, it seems reasonable to assume that the bank will soon be hiring a new manager.\footnote{This example comes from \citet[54]{Saeed2009}.} However, this expectation is based on our knowledge of how the world works, and not the meaning of the sentence itself; there is no linguistic inference involved. If the bank owners decided to leave the position unfilled, or even to close that branch office entirely, it would not render the speaker’s statement false or misleading.
+
+
+
+Second, any one test may give unreliable results in a particular example, because so many complex factors contribute to the meaning of an utterance. For this reason it is important to use several tests whenever possible, and choose the analysis that best explains the full range of available data. Presuppositions are especially tricky, partly because they are not a uniform class; different sorts seem to behave differently in certain respects. Some specific issues regarding presuppositions are discussed below.
+
+
+\ea\label{ex:8.22}
+\begin{tabularx}{\textwidth}{lXXXX}
+\lsptoprule
+&  & Entailment & Conversational Implicature & Presupposition\\\midrule
+a. & Cancellable\slash defeasible & \scshape no & \scshape yes & sometimes\footnotemark{}\\
+b. & Suspendable & \scshape no & \scshape yes & sometimes\\
+c. & Reinforceable & \scshape no & \scshape yes & \scshape no\\
+d. & Preserved under negation and questioning & \scshape no & \scshape no & \scshape yes\\
+\lspbottomrule
+\end{tabularx}
+\z
+\footnotetext{Some presuppositions seem to be cancellable, but only if the clause containing the trigger is negated. Presuppositions triggered by positive statements are generally not cancellable.}
+
+Let us begin with some simple examples. If our truthful and well-informed speaker makes the statement in \REF{ex:8.23}, we would certainly infer that the wasp is dead. We can test to see whether this inference is cancellable/defeasible, as in (\ref{ex:8.23}a); the result is a contradiction. We can test to see whether the inference can be suspended, as in (\ref{ex:8.23}b); the result is quite unnatural. We can test to see whether the inference is reinforceable, as in (\ref{ex:8.23}c); the result is unnaturally redundant.
+
+
+\ea \label{ex:8.23}
+\textsc{stated}: \textit{John killed the wasp}.\\
+\textsc{inferred}: The wasp died.\\
+\ea \#John killed the wasp, but the wasp did not die.\\
+\ex \#John killed the wasp, but I’m not sure whether the wasp died.\\
+\ex ?\#John killed the wasp, and the wasp died.\\
+\ex Did John kill the wasp?\\
+\ex John did not kill the wasp (and the wasp did not die).
+                       \z
+\z
+
+
+In applying the final test, we are asking whether the same inference is created by a family of related sentences, which includes negation and questioning of the original statement. Clearly if someone asks the question in (\ref{ex:8.23}d), that would not give us any reason to believe that the wasp died. Similarly, the negative statement in (\ref{ex:8.23}e) gives us no reason to believe that the wasp died. We can demonstrate this by showing that it would not be a contradiction to assert, in the same sentence, that the wasp did not die; note the contrast with (\ref{ex:8.23}a), which is a contradiction. We have seen that all four tests in this example produce negative results. This pattern matches the profile of entailment; so we conclude that \textit{John killed the wasp} entails \textit{The wasp died}.
+
+
+
+Now let us apply the tests to Grice’s example \REF{ex:8.24}; specifically we will be testing the inference that arises from B’s reply, \textit{There is a garage around the corner}. The sentences in (\ref{ex:8.24}a--c) show that this inference is defeasible (additional information can block the inference from arising), suspendable, and reinforceable. Neither the question in (\ref{ex:8.24}d) nor the negative statement in (\ref{ex:8.24}e) would give A any reason to believe that he could buy petrol around the corner. (The phrase \textit{any more} could be added in (\ref{ex:8.24}e) to make the negative statement sound a bit more natural. In applying these tests, it is important to give the test every opportunity to succeed. Since naturalness is an important criterion for success, it is often helpful to adjust the test sentences as needed to make them more natural, provided the key elements of meaning are not lost or distorted.)
+
+
+\ea \label{ex:8.24}
+A: \textit{I am out of petrol}.\\
+B: \textit{There is a garage around the corner}.\\
+\textsc{inferred}: You can buy petrol there.\\
+\ea There is a garage around the corner, but they aren’t selling petrol today.\\
+\ex There is a garage around the corner, but I’m not sure whether they sell petrol.\\
+\ex There is a garage around the corner, and you can buy petrol there.\\
+\ex Is there a garage around the corner?\\
+\ex There is no garage around the corner (any more).
+                       \z
+\z
+
+
+In this example the first three tests produce positive results, while the last one (the “family of sentences” test) is negative. This pattern matches the profile of conversational implicature; so we conclude that \textit{There is a garage around the corner} (when spoken in the context of A’s statement) conversationally implicates \textit{You can buy petrol there}. Of course, we already knew this, based on our previous discussion. What we are doing here is illustrating and validating the tests by showing how they work with relatively simple cases where we think we know the answer. This gives us a basis for expecting that the tests will work for more complex cases as well.
+
+
+
+Finally consider the inference shown in \REF{ex:8.25}. The sentences in (\ref{ex:8.25}a--c) show that this inference is not defeasible (\ref{ex:8.25}a) or reinforceable (\ref{ex:8.25}c), but it is suspendable (\ref{ex:8.25}b). Both the question in (\ref{ex:8.25}d) and the negative statement in (\ref{ex:8.25}e) seem to imply that John used to chew betel nut. These results match the profile of a presupposition, as expected (\textit{stopped chewing} presupposes \textit{used to chew}).
+
+
+\ea \label{ex:8.25}
+\textsc{stated}: \textit{John has stopped chewing betel nut}.\\
+\textsc{inferred}: John used to chew betel nut.\\
+\ea \#John has stopped chewing betel nut, and in fact he has never chewed it.\\
+\ex John has stopped chewing betel nut, if he (ever/really) did chew it.\\
+\ex ?\#John has stopped chewing betel nut, and he used to chew it.\\
+\ex Has John stopped chewing betel nut?\\
+\ex John has not stopped chewing betel nut.
+                       \z
+\z
+
+
+Recall that we mentioned in \chapref{sec:3} another test which is useful for identifying presuppositions, the “Hey, wait a minute” test.\footnote{\Citet{vonFintel2004}.} If a speaker’s utterance presupposes something that is not in fact part of the common ground, it is quite appropriate for the hearer to object in the way shown in (\ref{ex:8.26}a). However, it is not appropriate for the hearer to object in this way just because the main point of the assertion is not in fact part of the common ground (\ref{ex:8.26}b). In fact, it would be unnatural for the speaker to assert something that is already part of the common ground.
+
+\ea \label{ex:8.26}
+\textsc{statement}: \textit{John has stopped chewing betel nut}.\\
+\ea \textsc{response 1}: \textit{Hey, wait a minute, I didn’t know that John used to chew betel nut}!\\
+\ex \textsc{response 2}: \#\textit{Hey, wait a minute, I didn’t know that John has stopped\\
+  chewing chew betel nut}!
+   \z
+   \z
+
+We mentioned above that it is important to use several tests whenever possible, because any one test may run into unexpected complications in a particular context. For example, our discussion in \sectref{sec:4.1} would lead us to believe that the word \textit{most} should trigger the generalized conversational implicature \textit{not all}. The examples in \REF{ex:8.27} are largely consistent with this prediction. They indicate that the inference is defeasible (\ref{ex:8.27}a), suspendable (\ref{ex:8.27}b), and reinforceable (\ref{ex:8.27}c). However, the “family of sentences” tests produce inconsistent results. The question in (\ref{ex:8.27}d) fails to trigger the inference, as expected, but the negative statement in (\ref{ex:8.27}e) seems to \textit{entail} (not just implicate) that not all of the boys went to the soccer match.
+
+\ea \label{ex:8.27}
+\textsc{stated}: \textit{Most of the boys went to the soccer match}.\\
+\textsc{inferred}: Not all of the boys went to the soccer match.\\
+\ea Most of the boys went to the soccer match; in fact, I think all of them went.\\
+\ex Most of the boys went to the soccer match, if not all of them.\\
+\ex Most of the boys went to the soccer match, but not all of them.\\
+\ex Did most of the boys go to the soccer match?\\
+\ex Most of the boys didn’t go to the soccer match.\\
+\ex If most of the boys went to the soccer match, dinner will probably be late this evening.
+                       \z
+\z
+
+As mentioned in \chapref{sec:4}, combining clausal negation with quantified noun phrases often creates ambiguity; we see here that it can introduce other complexities as well. This is a situation where preservation under negation is not a reliable indicator. However, other members of the “family of sentences”, including the question (\ref{ex:8.27}d) and conditional clause (\ref{ex:8.27}f), can be used, and show that the inference is not preserved. So the overall pattern of results confirms that this is a conversational implicature.
+
+
+
+The table in \REF{ex:8.22} indicates that presuppositions are normally preserved under negation, and this is the first (and often the only) test that many people use for identifying presuppositions. But as we have seen, negating a sentence can introduce new complications. In discussing the presupposition in \REF{ex:8.25} we noted that the negative statement (\ref{ex:8.25}e), repeated here as (\ref{ex:8.28}a), seems to imply that John used to chew betel nut. This is true if the sentence is read with neutral intonation; but if it is read with what \citet{Jespersen1933} calls “the peculiar intonation indicative of contradiction”, indicated in (\ref{ex:8.28}b), it becomes possible to explicitly deny the presupposition without contradiction or anomaly. This is an instance of \textsc{presupposition-cancelling negation}.
+
+\ea \label{ex:8.28}
+\ea John hasn’t stopped chewing betel nut.\\
+\ex John hasn’t \textsc{stopped} chewing betel nut, he never \textsc{did} chew it.
+                       \z
+\z
+
+\citet{Horn1985,Horn1989} argues that cases of presupposition-cancelling negation like (\ref{ex:8.28}b) involve a special kind of negation which he refers to as \textsc{metalinguistic} \textsc{negation}. Metalinguistic negation is typically used to contradict something that the addressee has just said, implied, or implicitly accepted.\footnote{\citet[46--47]{KarttunenPeters1979}.} The negated clause is generally spoken with the special intonation pattern mentioned above, and is typically followed by a correction or “rectification” as in (\ref{ex:8.28}b).
+
+
+
+Some additional examples of metalinguistic negation are presented in \REF{ex:8.29}. These examples show clearly that metalinguistic negation is different from normal, logical negation which is used to deny the truth of a proposition. If the negation used in these examples was simply negating the propositional content, the sentences would be contradictions, because \textit{horrible} entails \textit{bad}, \textit{all} entails \textit{most}, etc. Horn claims that what is negated in such examples is not the propositional content but the conversational implicature: asserting \textit{bad} implicates \textit{not horrible}; asserting \textit{most} implicates \textit{not all}. Metalinguistic negation is used to reject the statements in the first clause as being inappropriate or “infelicitous”, because they are not strong enough.
+
+
+\ea \label{ex:8.29}
+\ea That [1983] wasn’t a \textsc{bad} year, it was \textsc{horrible}.\footnote{A quote from the famous baseball player Reggie Jackson, cited in \citet[382]{Horn1989}.}\\
+\ex I’m not \textsc{hungry}, I’m \textsc{starving}.\\
+\ex \textsc{Most} of the boys didn’t go to the soccer match, \textsc{all} of them went.
+                       \z
+\z
+
+
+For our present purposes what we need to remember is that, in testing to see whether an inference is preserved under negation (one of the “family of sentences” tests), we must be careful to use normal, logical negation rather than metalinguistic negation.
+
+
+\section{Conclusion}\label{sec:8.7}
+
+Conversational implicatures are the paradigm example of a pragmatic inference: meaning derived not from the words themselves but from the way those words are used in a particular context. They are an indispensable part of our everyday communication. In order for a hearer to correctly interpret the part of the speaker’s intended meaning which is not encoded by the words themselves, these implicatures must be derived in a systematic way, based on principles which are known to both speaker and hearer. Grice proposed a fairly simple account of these principles, starting with some basic assumptions about the nature of conversation as a cooperative activity. Some later modifications to Grice’s theory will be mentioned in \chapref{sec:9}.
+
+
+
+\furtherreading{
+
+
+
+\citet[ch. 3]{Levinson1983} and \citet[ch. 2]{Birner2013} present good introductions to Grice’s treatment of conversational implicature. Grice’s most famous papers (e.g. \citeyear{Grice1975,Grice1978,Grice1981}) are also quite readable. (References to more recent work on conversational implicature will provided in the next chapter.)
+
+}
+\discussionexercises{
+\paragraph*{A. Identifying types of inference}
+
+For each of the examples in (\ref{ex:8:exercise:1}–\ref{ex:8:exercise:4}), determine whether the inference triggered by the statement is \textsc{(A)} a \textsc{particularized conversational implicature}, \textsc{(B)} a \textsc{generalized conversational implicature}, \textsc{(C)} a \textsc{presupposition}, (D) an \textsc{entailment}, or (E) none of these.
+
+ 
+\ea%1
+    \label{ex:8:exercise:1}
+
+
+
+
+          \textsc{stated}: My mother is the mayor of Waxahachie.\\
+\textsc{inferred}: The mayor of Waxahachie is a woman.
+    \z 
+    
+\ea%2
+    \label{ex:8:exercise:2}
+
+
+
+
+          \textsc{stated}: That man is either Martha’s brother or her boyfriend.\\
+\textsc{inferred}: The speaker does not know whether the man is Martha’s brother or boyfriend.
+    \z
+    
+\ea%3
+    \label{ex:8:exercise:3}
+
+
+
+
+          \textsc{stated}: My great-grandfather was arrested this morning for drag racing.\\
+\textsc{inferred}: I have a great-grandfather.
+    \z
+    
+\ea%4
+    \label{ex:8:exercise:4}
+
+
+
+
+          \textsc{stated}: That’s a great joke – Ham, Shem and Japheth couldn’t stop laughing when\\
+  they heard it from Noah.\\
+\textsc{inferred}: The joke has lost some of its freshness.
+    \z 
+
+For each of the sentences in \REF{ex:8:exercise:5}, determine what inference is most likely to be triggered by the statement, and what kind of inference it is, using the same five options as above.
+
+\ea
+    \label{ex:8:5:exercise}
+\ea%5
+ I didn’t realize that they are husband and wife.
+\ex Charles continues to wear a cabbage on his head.
+\ex It is possible that we are related.
+\ex  Who stole my durian smoothie?
+\ex  Q: Who is that guy over there?\\
+A: That is the male offspring of my parents.  [Kearns]
+\ex  Arthur is almost as unscrupulous as Susan.
+\z
+\z
+
+What kind of inference is involved in the following joke?
+
+
+\ea%6 
+Q: How many months have 28 days? \\
+A: All of them.    
+\z
+
+}
+\homeworkexercises{
+\paragraph*{A. Conversational implicature}
+
+\todo{check labels}
+For each pair of sentences, (i) identify the likely implicature carried by B’s reply; (ii) state which maxim is most important in triggering the implicature, and (iii) explain how the implicature is derived.\footnote{adapted from \citet[226, ex. 7.6]{Saeed2009}.}
+
+\ea
+\ea  A: Are you coming out for a pint tonight?\\
+  B: My in-laws are coming over for dinner.\\
+  \modelanswer{Model answer}{the most likely implicature here is that B is unable to go out with A. It is triggered by the maxims of quantity and relevance: the literal meaning of B’s reply does not provide the information requested (yes or no), and does not seem to be relevant. By assuming that B intends to communicate that he is obligated to eat with his in-laws, A can interpret B’s statement as being both appropriately informative and relevant.}
+
+\ex  A: Who is that couple?\\
+  B: That is my mother and her husband.
+
+\ex  A: Did you enjoy having your sister and her family come to visit?\\
+  B: The children were perfect angels. We didn’t really want that antique table anyway,\\
+    and I’m sure the cat likes to have its tail pulled.
+
+\ex  A: Jones has just taken a second mortgage on his house.\\
+  B: I think I saw him at the casino last weekend.
+
+\ex  A: Did you make us a reservation for dinner tonight?\\
+  B: I meant to.
+\z
+\z
+
+\paragraph*{B. Presupposition, Entailment, Implicature\footnotemark{}}
+\footnotetext{adapted from MIT course notes.}
+
+What is the relation (if any) between each statement and the bracketed statements which follow? Pick one of the following four answers:\\
+  Presupposition; Entailment; Conversational Implicature; no inference.
+
+\ea%1 
+
+          John is allegedly a good player.
+
+{}[John is a good player.]
+    \z
+
+\ea%2 
+          Oscar and Jenny are middle-aged.
+
+{}[Jenny is middle-aged.]
+    \z
+
+\ea%3 
+          Maria is an Italian radiologist.
+
+\ea {}[Some Italian is a radiologist.]
+
+\ex {}[Maria is Italian.]
+    \z \z
+
+\ea%4 
+    Not everyone will get the correct answer.
+
+{}[Someone will get the correct answer.]
+    \z
+
+\ea%5 
+    Pete installed new cabinets after Hans painted the walls.
+
+{}[Hans painted the walls.]
+    \z
+
+\ea%6 
+          Dempsey and Tunney fought in Philadelphia in  September (1926).
+
+{}[Dempsey and Tunney fought each other.]
+    \z
+
+\ea%7 
+          John believes that pigs do not have wings.
+
+{}[Pigs do not have wings.]
+    \z
+
+\ea%8 
+
+          John realizes that pigs do not have wings.
+
+{}[Pigs do not have wings.]
+    \z
+
+\ea%9 
+    Don is at home or at work.
+
+\ea {}[Don is at home.]
+
+\ex {}[I don't know whether Don is at home or at work.]
+    \z
+    \z
+
+\ea%10 
+          My older brother called.
+
+{}[I have an older brother.]
+    \z
+
+\ea%11 
+          Max has quit jogging, at least until his ankle heals.
+\ea
+{}[Max does not jog now.]
+\ex
+{}[Max used to jog.]
+    \z
+    \z
+
+}

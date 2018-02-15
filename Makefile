@@ -22,14 +22,14 @@ main.bbl:  $(SOURCE) localbibliography.bib
 	biber   main 
 
 
-main.snd: main.bbl
+main.snd: FORCE
 	touch main.adx main.sdx main.ldx
 	sed -i s/.*\\emph.*// main.adx #remove titles which biblatex puts into the name index
 	sed -i 's/hyperindexformat{\\\(infn {[0-9]*\)}/\1/' main.sdx # ordering of references to footnotes
 	sed -i 's/hyperindexformat{\\\(infn {[0-9]*\)}/\1/' main.adx
 	sed -i 's/hyperindexformat{\\\(infn {[0-9]*\)}/\1/' main.ldx
-# 	python3 fixindex.py
-# 	mv mainmod.adx main.adx
+	python3 fixindex.py
+	mv mainmod.adx main.adx
 	makeindex -o main.and main.adx
 	makeindex -o main.lnd main.ldx
 	makeindex -o main.snd main.sdx 
@@ -59,25 +59,7 @@ openreview.pdf: main.pdf
 
 proofreading: proofreading.pdf
 	
-githubrepo: localmetadata.tex proofreading versions.json
-	grep lsID localmetadata.tex |egrep -o "[0-9]*" > ID	
-	git clone https://github.com/langsci/`cat ID`.git
-	cp proofreading.pdf Makefile versions.json `cat ID`
-	mv `cat ID` ..
-	
-versions.json: localmetadata.tex
-	grep "^.title{" localmetadata.tex|grep -o "{.*"|egrep -o "[^{}]+">title
-	grep "^.author{" localmetadata.tex|grep -o "{.*"|egrep -o "[^{}]+" |sed 's/\\\(last\)\?and/"},{"name":"/g'>author
-	echo -n '{ "versions": [{ "versiontype": "proofreading", "title": "'>versions.json
-	cat title >> versions.json
-	echo -n '","authors": [{"name": "'>> versions.json
-	cat author >> versions.json
-	echo -n '"}],"publishedAt": "'>> versions.json
-	date --rfc-3339=s|sed s/" "/T/|sed s/+.*/.000Z/ >> versions.json
-	echo -n '"}]}'>> versions.json
-	rm author title
-	
-paperhive: versions.json	
+paperhive: 
 	git branch gh-pages
 	git checkout gh-pages
 	git add proofreading.pdf versions.json
@@ -85,12 +67,9 @@ paperhive: versions.json
 	git push origin gh-pages
 	git checkout master 
 	echo "langsci.github.io/BOOKID"
-	firefox https://paperhive.org/documents/new	
-	cd ..
-	mv `cat ID` ..
-	rm ID 
+	firefox https://paperhive.org/documents/new
 	
-proofreading.pdf:
+proofreading.pdf: main.pdf
 	pdftk main.pdf multistamp prstamp.pdf output proofreading.pdf 
 
 blurb: blurb.html blurb.tex biosketch.tex biosketch.html
@@ -127,12 +106,6 @@ chapterlist:
 
 podcover:
 	bash podcovers.sh
-
-barechapters:
-	cat *tex | detex > barechapters.txt
-
-languagecandidates:
-	egrep -oh "[a-z] [A-Z][a-z]+" chapters/*tex| grep -o  [A-Z].* |sort -u >languagelist.txt
 
  
 

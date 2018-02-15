@@ -1,0 +1,545 @@
+\chapter{Intensional contexts}\label{sec:15}
+
+\section{Introduction}\label{sec:15.1}
+
+In \chapref{sec:12} we discussed the apparent failure of compositionality in the complement clauses of propositional attitude verbs (\textit{believe, expect, want,} etc.). This apparent failure is observable in several ways. First, the principle of substitutivity does not seem to hold in these complement clauses: replacing one NP with another that has the same referent can change the truth value of the proposition expressed by the sentence as a whole. For example, even if sentences (\ref{ex:15.1}a--b) are assumed to be true, we cannot apply the principle of substitutivity to conclude that (\ref{ex:15.1}c) must be true as well.
+
+
+\ea \label{ex:15.1}
+\ea  Charles Dickens was the author of \textit{Oliver Twist}.\\
+\ex George Cruikshank claimed to be the author of \textit{Oliver Twist}.\footnote{Actually, George Cruikshank only claimed that “the original ideas and characters… emanated from me.” (\url{http://www.bl.uk/collection-items/george-cruikshanks-claims-of-plagiarism-against-charles-Dickens} )}\\
+\ex George Cruikshank claimed to be Charles Dickens.
+                       \z
+\z
+
+
+Second, the presence within one of these complement clauses of a NP which lacks a denotation does not prevent the proposition expressed by the sentence as a whole from having a truth value. A third special property of these complement clauses is that NPs occurring within them may exhibit the \textit{de re} vs. \textit{de dicto} ambiguity.
+
+
+
+These three properties are characteristic of \textsc{opaque} contexts, i.e., contexts in which the denotation of a complex expression cannot be composed or predicted just by looking at the denotations of its constituents; we must look at senses as well. In recent work these contexts are often referred to as \textsc{intensional} contexts, for reasons that will be explained in \sectref{sec:15.2}.
+
+
+
+In this chapter we discuss several types of intensional contexts. \sectref{sec:15.2} reviews our earlier discussion of propositional attitude verbs, and explains the term \textsc{intension}. \sectref{sec:15.3} discusses certain types of adjectives whose composition with the noun they modify cannot be modeled as simple set intersection. These adjectives are often referred to as \textsc{intensional adjectives}. \sectref{sec:15.4} briefly discusses some other intensional contexts involving tense, modality, counterfactuals, and “intensional verbs” such as \textit{want} and \textit{seek}. \sectref{sec:15.5} provides some examples of languages in which the subjunctive mood is used as a grammatical marker of intensionality. \sectref{sec:15.6} briefly discusses the lambda operator, which is used to define functions, and how it can be used to represent intensions as functions.
+
+
+\section{When substitutivity fails}\label{sec:15.2}
+
+In \chapref{sec:12} we used the following examples to illustrate the apparent failure of the law of substitutivity in the complement clauses of propositional attitude verbs:
+
+
+\ea \label{ex:15.2}
+\ea  Mary believes [that \textit{The Prince and the Pauper} was written by Mark Twain].\\
+\ex Mary does not believe [that \textit{The Prince and the Pauper} was written by\\
+  Samuel Clemens].
+                       \z
+\z
+
+
+Normally we can replace one word or phrase in a sentence by another word or phrase that has the same denotation, without affecting the truth value of the sentence as a whole. So, since the names \textit{Mark Twain} and \textit{Samuel Clemens} refer to the same individual, we would expect the two sentences in \REF{ex:15.2} to be contradictory. But this is not the case; it would be possible for both sentences to be true at the same time and for the same person named \textit{Mary}, without any logical inconsistency. Since the denotation of the sentence is its truth value, such examples seem to challenge the Principle of Compositionality, at least as it applies to denotations.
+
+
+
+As you will recall, Frege’s solution to this apparent failure of compositionality was to suggest that the denotation of the complement clauses of these verbs is not their truth value when evaluated as independent clauses, but rather the propositions which they express. Essentially, Frege was pointing out that the speaker in \REF{ex:15.2} is not making a claim about the authorship of the book, but about Mary’s current beliefs. The truth value of the sentence as a whole depends not on who the actual author was, but only on what propositions Mary believes.
+
+
+
+The denotation of a sentence is its truth value, while the proposition which it expresses is its sense. A technical synonym for ‘sense’ is the term \textsc{intension}. Frege showed that sentences which contain propositional attitude verbs are in fact compositional, but we can only calculate their denotation based on the intension (sense) of the complement clause. Thus these sentences are an example of an \textsc{intensional context}, that is, a context where the denotation of a complex expression depends on the sense (intension) of one or more of its constituents.
+
+
+
+Another special property of propositional attitude verbs discussed in \chapref{sec:12} is the potential for \textit{de dicto} vs. \textit{de re} ambiguity, illustrated in \REF{ex:15.3}. The speaker in (\ref{ex:15.3}a), for example, may be expressing either a desire to meet the individual who is the Prime Minister at the moment of speaking (\textit{de re}), or a desire to meet the individual who will be serving in that role at the specified time (\textit{de dicto}).
+
+
+\ea \label{ex:15.3}
+\ea  I hope to meet with \textit{the Prime Minister} next year.\\
+\ex I think that \textit{your husband} is a lucky man.\\
+  (\textit{de re}: because I saw him winning at the casino last night.)\\
+  (\textit{de dicto}: any man who is married to you would be considered fortunate.)
+                       \z
+\z
+
+
+Under the \textit{de re} reading, the noun phrase gets its normal denotation in the relevant context, referring to the specific individual who is the Prime Minister at the moment of speaking (\ref{ex:15.3}a), or who is married to the addressee at the moment of speaking (\ref{ex:15.3}b). Under the \textit{de dicto} reading, the denotation of the noun phrase is the property which corresponds to its sense: the property of being Prime Minister in (\ref{ex:15.3}a), the property of being married to the addressee in (\ref{ex:15.3}b). So under the \textit{de dicto} reading, the truth value of the whole proposition depends on the sense, rather than the denotation, of a particular constituent.
+
+
+
+In the next section we look at certain kinds of adjectives which pose a similar challenge to compositionality.
+
+
+\section{Non-intersective adjectives}\label{sec:15.3}
+
+Our paradigm example of an adjective modifier has been the word \textit{yellow}. As we have discussed a number of times, the phrase \textit{yellow} \textit{submarine} is compositional in a very straightforward way: its denotation set will be the intersection of the denotation sets $\llbracket$ \textit{yellow}$\rrbracket$  and $\llbracket$ \textit{submarine}$\rrbracket$ . This intersection corresponds to the set of all things in our universe of discourse which are both yellow and submarines.
+
+
+
+Adjectives that behave like \textit{yellow} are referred to as \textsc{intersective} adjectives, because they obey the rule of interpretation formulated in \chapref{sec:13}: $\llbracket$ Adj N$\rrbracket$  = $\llbracket$ Adj$\rrbracket$  ${\cap}$ $\llbracket$ N$\rrbracket$ . Some examples of noun phrases involving other intersective adjectives are presented in \REF{ex:15.4}.
+
+
+\ea \label{ex:15.4}
+\ea  Otacilio is a \textit{Brazilian} poet.\\
+\ex Marilyn was a \textit{blonde} actress.\\
+\ex Arnold is a \textit{carnivorous} biped.
+                       \z
+\z
+
+
+Now the definition of intersection guarantees that if one of the sentences in \REF{ex:15.4} is true, then the individual named by the subject NP must be a member of both the denotation set of the head noun and the denotation set of the adjective modifier. This means that the inference in \REF{ex:15.5} will be valid.
+
+
+\ea \label{ex:15.5}
+\textit{Arnold is a carnivorous biped.}\\
+\textit{Arnold is a mammal.\\
+\FelixHRule
+Therefore, Arnold is a carnivorous mammal.}
+\z
+
+
+However, there are other adjectives for which this pattern of inference will not be valid. Consider for example the syllogism in \REF{ex:15.6}. It would be possible for a rational speaker of English to believe the two premises but not believe the conclusion, without being logically inconsistent. A similar example from \textit{The} \textit{Wizard of Oz} is presented in \REF{ex:15.7}. Such examples force us to conclude that adjectives like \textit{typical} are not intersective.\footnote{This is also true for \textit{bad} in the sense Oz intended in the phrase \textit{bad Wizard}; but \textit{bad} is a tricky word, and the various senses probably do not all belong to the same semantic type. Of course the polysemy is also part of the problem with the invalid inference in \REF{ex:15.7}.}
+
+
+\ea \label{ex:15.6}
+\textit{Bill Clinton is a typical politician.}\\
+\textit{Bill Clinton is a Baptist.}\\\FelixHRule
+??\textit{Therefore, Bill Clinton is a typical Baptist.} \hfill  [\textbf{\textsc{not valid}}]
+\z
+
+\ea \label{ex:15.7}
+\ea  Dorothy: \textit{Oh — you’re a very bad man!}\\
+Wizard: \textit{Oh, no, my dear. I — I’m a very good man. I’m just a very bad Wizard.} [\textit{Wizard of Oz} (movie)]
+\ex  
+  \textit{Oz is a bad Wizard.}\\
+\textit{Oz is a man.\\
+\FelixHRule
+??Therefore, Oz is a bad man.}  \hfill [\textbf{\textsc{not valid}}]
+\z \z
+
+
+Barbara \citet{Partee1995} suggested the following illustration: imagine a situation in which all surgeons are also violinists. For example, suppose that a certain hospital wanted to put on a benefit concert, and all the staff members were assigned to play instruments according to their specialties: all the surgeons would play the violin, anesthesiologists the cello, nurses would play woodwinds, administrative staff the brass instruments, etc. Within this universe of discourse, the words \textit{surgeon} and \textit{violinist} have the same denotation sets; in other words, $\llbracket$ \textit{surgeon}$\rrbracket$  = $\llbracket$ \textit{violinist}$\rrbracket$ . However, the phrases \textit{skillful surgeon} and \textit{skillful violinist} do not necessarily have the same denotation sets, as seen by the failure of the following inference:
+
+
+\ea \label{ex:15.8}
+\textit{Francis is a skillful surgeon.}\\
+\textit{Francis is a violinist.}\\
+\FelixHRule
+??\textit{Therefore, Francis is a skillful violinist.}  \hfill [\textbf{\textsc{not valid}}]
+\z
+
+
+This example provides another instance in which two expressions having the same denotation (\textit{surgeon} and \textit{violinist}) are not mutually substitutable, keeping the truth conditions constant. Yet the meanings of phrases like \textit{typical politician} and \textit{skillful surgeon} are still compositional, because if we know what each word means we will be able to predict the meanings of the phrases. The trick is that with adjectives like these, as with propositional attitude verbs, we need to combine senses rather than denotations.
+
+
+
+We have seen that the meanings of adjectives like \textit{typical} and \textit{skillful} do not combine with meanings of the nouns they modify as the simple intersection of the two denotation sets. In other words, the rule of interpretation $\llbracket$ Adj~N$\rrbracket$  = $\llbracket$ Adj$\rrbracket$  ${\cap}$ $\llbracket$ N$\rrbracket$  does not hold for these adjectives. However, the following constraint on the denotation of the phrases does hold: $\llbracket$ Adj~N$\rrbracket$  ${\subseteq}$ $\llbracket$ N$\rrbracket$ . In other words, the denotation set of the phrase will be a subset of the denotation set of the head noun. This means that anyone who is a typical politician must be a politician; and anyone who is a skillful surgeon must be a surgeon. Adjectives that satisfy this constraint are referred to as \textsc{subsective} adjectives. (Of course, all intersective adjectives are subsective as well; but since the term “intersective” makes a stronger claim, saying that a certain adjective is subsective will trigger an implicature that it is not intersective, by the maxim of Quantity.)
+
+
+
+Subsective adjectives are intensional in the sense defined in \sectref{sec:15.2}: they combine with the senses, rather than the denotations, of the nouns they modify. One way of representing this is suggested in the following informal definition of \textit{skillful}:
+
+
+\ea \label{ex:15.9}
+\textit{skillful} combines with common nouns (N) to form a phrase which denotes a set of individuals. Any given individual within the universe of discourse will belong to the set of all “skillful Ns” just in case that individual belongs to the set of all Ns and is extremely good at the activity named by N.\\
+{}[\textsc{selectional restriction}: \textit{skillful} combines with nouns that name the actor of a volitional activity.]
+\z
+
+
+Certain types of adjectives turn out to be neither intersective nor subsective. Some examples are presented in (Error: Reference source not found).
+
+
+\ea \label{ex:15.10}
+\ea  \textit{former} Member of Parliament\\
+\ex \textit{alleged} terrorist
+\z \z
+
+
+The adjective \textit{former} is not subsective because a former Member of Parliament is no longer a Member of Parliament; so any person who can be referred to as a “former Member of Parliament” will not belong to the denotation set of \textit{Member of Parliament}. This also proves that \textit{former} is not intersective. Moreover, it is not clear that the adjective \textit{former} even has a denotation set; how could we identify the set of all “former” things? Similarly, an alleged terrorist may or may not actually be a terrorist; we can’t be sure whether or not such a person will belong to the denotation set of \textit{terrorist}. This means that \textit{alleged} is not subsective. And once again, the adjective by itself doesn’t seem to have a denotation set; it would have to be the set of all “alleged” things, whatever that might mean. So \textit{alleged} cannot be intersective either.
+
+
+
+How do we calculate the denotation of phrases like those in (Error: Reference source not found)? Although they cannot be defined as a simple intersection, the phrases are still compositional; knowing what each word means allows us to predict the meanings of the phrases. The trick is that with adjectives like these, as with propositional attitude verbs, we need to combine senses rather than denotations. In other words, these adjectives are intensional: they combine with the senses of the nouns they modify. Informal definitions of \textit{former} and \textit{alleged} are suggested in \REF{ex:15.11}:
+
+
+\ea \label{ex:15.11}
+\ea   \textit{former} combines with common nouns (N) to form a phrase which denotes a set of individuals. Any given individual within the universe of discourse will belong to the set of all “former Ns” just in case that individual has belonged to the set of all Ns at some time in the past, but no longer does.
+\ex  \textit{alleged} combines with common nouns (N) to form a phrase which denotes a set of individuals. Any given individual (x) within the universe of discourse will belong to the set of all “alleged Ns” just in case there is some other individual who claims that x belongs to the set of all Ns.
+\z \z
+
+
+The adjective \textit{former} has the interesting property that a “former N” cannot be a member of the denotation set $\llbracket$ N$\rrbracket$ . In other words, denotation sets of phrases containing the word \textit{former} are subject to the following constraint: $\llbracket$ Adj~N$\rrbracket$  ${\cap}$ $\llbracket$ N$\rrbracket$  = ⌀. Adjectives that satisfy this constraint are referred to as \textsc{privative} adjectives. Other privative adjectives include: \textit{counterfeit, spurious, imaginary, fictitious, fake, would-be, wannabe, past, fabricated} (in one sense). Some prefixes have similar semantics, e.g. \textit{ex-, pseudo-, non-}.
+
+
+
+As we have seen, the adjective \textit{alleged} is not subsective; but it is not privative either, because an alleged terrorist may or may not belong to the denotation set of \textit{terrorist}. We can refer to this type of adjectives as \textsc{non-subsective}. Other non-subsective adjectives include: \textit{potential, possible, arguable, likely, predicted, putative, questionable}.
+
+
+
+At first glance, many common adjectives like \textit{big}, \textit{old}, etc. seem to be intensional as well. \citet{Partee1995} discusses the invalid inference in \REF{ex:15.12}, which seems to indicate that adjectives like \textit{tall} are non-intersective. The crucial point is that a height which is considered tall for a 14-year-old boy would probably not be considered tall for an adult who plays on a basketball team. This variability in the standard of tallness could lead us to conclude that \textit{tall} does not define a denotation set on its own but combines with the sense of the head noun that it modifies, in much the same way as \textit{typical} and \textit{skillful}.
+
+
+\ea \label{ex:15.12}
+\textit{Win is a tall 14-year-old.}\\
+\textit{Win is a basketball player.\\
+\FelixHRule
+??Therefore, Win is a tall basketball player.}   [\textbf{\textsc{not valid}}]
+\z
+
+
+However, \citet{Siegel1976} argues that words like \textit{tall}, \textit{old}, etc. are in fact intersective; but they are also context-dependent and vague. The boundaries of their denotation sets are determined by context, including (but not limited to) the specific head noun which they modify. Once the boundary is determined, then the denotation set of the adjective can be identified, and the denotation set of the NP can be defined by simple intersection.
+
+
+
+One piece of evidence supporting this analysis is the fact that a variety of contextual factors may contribute to determining the boundaries, and not just the meaning of the head noun. Partee notes that the standard of tallness which would apply in (\ref{ex:15.13}a) is probably much shorter than the standard which would apply in (\ref{ex:15.13}b), even though the same head noun is being modified in both examples.
+
+
+\ea \label{ex:15.13}
+\ea  My two-year-old son built a really tall snowman yesterday.\\
+\ex The fraternity brothers built a really tall snowman last weekend.
+                       \z
+\z
+
+
+She adds:
+\begin{quote}
+“Further evidence that there is a difference between truly non-intersective subsective adjectives like \textit{skillful} and intersective but vague and context-dependent adjectives like \textit{tall} was noted by \citet{Siegel1976}: the former occur with \textit{as}-phrases, as in \textit{skillful as a surgeon}, whereas the latter take \textit{for}-phrases to indicate comparison class: \textit{tall for an East coast mountain}.” (\citealt{Partee2007})
+\end{quote}
+
+
+\citet{Bolinger1967} noted that some adjectives are ambiguous between an intersective and a (non-intersective) subsective sense; examples are presented in (\ref{ex:15.14}--\ref{ex:15.16}).\footnote{Adapted from \citealt{Morzycki2013} (\chapref{sec:2}). The adjective \textit{bad} mentioned above is probably also ambiguous in this way.} The fact that the (b) sentences can have a non-contradictory interpretation shows that this is a true lexical ambiguity; contrast \#\textit{Arnold is a carnivorous biped, but he is not carnivorous}.
+
+
+\ea \label{ex:15.14}
+\ea   \textit{Marya is a beautiful dancer}.   (\citealt{Siegel1976})\\
+intersective: Marya is beautiful and a dancer.\\
+subsective: Marya dances beautifully.
+\ex  \textit{Marya is not beautiful, but she is a beautiful dancer}.
+\z \z
+
+\ea \label{ex:15.15}
+\ea  \textit{Floyd is an old friend}.  \hfill [\citealt{Morzycki2013} ms, ch. 2]\\
+intersective: Floyd is old and a friend.\\
+subsective: Floyd has been a friend for a long time.
+\ex  \textit{Floyd is an old friend, but he is not old}.
+\z \z
+
+\ea \label{ex:15.16}
+\ea   \textit{He is a poor liar}.  \hfill [cf. \citealt{Bolinger1967}]\\
+intersective: Floyd is poor and a liar.\\
+subsective: Floyd is not skillful in telling lies.
+\ex  \textit{He is a poor liar, but he is not poor}.
+\z \z
+
+
+Thus far we have only considered adjectives which occur as modifiers within a noun phrase; but many adjectives can also function as clausal predicates, as illustrated in \REF{ex:15.17}. In order to be used as a predicate in this way, the adjective must have a denotation set. Since all intersective adjectives must have a denotation set, they can generally (with a few idiosyncratic exceptions) be used as predicates, as seen in \REF{ex:15.18}.
+
+
+\ea \label{ex:15.17}
+John is happy/sick/rich/Australian.
+\z
+
+\ea \label{ex:15.18}
+\ea  Otacilio is a Brazilian poet; therefore he is Brazilian.\\
+\ex Marilyn was a blonde actress; therefore she was blonde.\\
+\ex Arnold is a carnivorous biped; therefore he is carnivorous.
+                       \z
+\z
+
+
+When an adjective which is ambiguous between an intersective and a subsective sense is used as a predicate, generally speaking only the intersective sense is available \REF{ex:15.19}. So, for example, (\ref{ex:15.19}c) is most naturally interpreted as a pun which makes a somewhat cynical commentary on the way of the world.
+
+
+\ea \label{ex:15.19}
+\ea[\#]{Marya is a beautiful dancer; therefore she is beautiful.\\}
+\ex[\#]{Floyd is an old friend; therefore he is old.\\}
+\ex[]{He is a poor liar; therefore he is poor.}
+                       \z
+\z
+
+
+We have already noted that the adjectives \textit{former} and \textit{alleged} don’t seem to have a denotation set. As predicted, these adjectives cannot be used as predicates, and the same is true for many other non-subsective adjectives as well (\ref{ex:15.20}a). However, given the right context, some non-subsective adjectives can be used as predicates (\ref{ex:15.20}b,~c). In such cases it appears that information from the context must be used in order to construct the relevant denotation set. In addition, cases like (\ref{ex:15.20}c) may require a kind of coercion to create a new sense of the word \textit{money}, one which refers to things that look like money. As Partee points out, similar issues arise with phrases like \textit{stone lion} and \textit{chocolate bunny}.
+
+
+\ea \label{ex:15.20}
+\ea[*]{That terrorist is former/alleged/potential/…\\}
+\ex[]{His illness is imaginary.\\}
+\ex[]{This money is counterfeit.\\}
+                       \z
+\z
+
+
+The main conclusion to be drawn from this brief introduction to the semantics of adjectives is that compositionality cannot always be demonstrated by looking only at denotations. All of the adjectives that we have discussed turned out to be fully compositional in their semantic contributions; but we have seen several classes of adjectives whose semantic contributions cannot be defined in terms of simple set intersection. These adjectives are said to be \textsc{intensional}, because their meanings must combine with the sense (intension) of the head nouns being modified.
+
+
+\section{Other intensional contexts}\label{sec:15.4}
+
+As discussed above, intensional contexts are contexts where the denotation of an expression (e.g., the truth value of a sentence) cannot be determined from the denotations of its constituent parts. In addition to those we have already mentioned, namely propositional attitude verbs and non-intersective adjectives, a number of other linguistic features are known to create such contexts as well. These include tense, modality, and counterfactuals. We will discuss these topics in more detail in later chapters; here we focus only on issues of compositionality.
+
+
+
+To begin with, let us contrast the intensional behavior of modality (markers of possibility and necessity) with the behavior of a non-intensional operator, negation. Modals are similar to negation in certain ways: both combine with a single proposition to create a new proposition. The crucial difference is this: in order to determine the truth value of a negated proposition, we only need to know the truth value of the original proposition. For example, both of the sentences in \REF{ex:15.21}, if spoken in 2006, would have been false. For that reason, we can be sure that both of the negated sentences in \REF{ex:15.22}, if spoken in 2006, would have been true.
+
+
+\ea \label{ex:15.21}
+(spoken in 2006)\\
+\ea  Barack Obama is the first black President of the United States. \hfill  [F]\\
+\ex Nelson Mandela is the first black President of the United States.  \hfill [F]
+                       \z
+\z
+
+\ea \label{ex:15.22}
+(spoken in 2006)\\
+\ea  Barack Obama is not the first black President of the United States. \hfill [T]\\
+\ex Nelson Mandela is not the first black President of the United States.  \hfill [T]
+                       \z
+\z
+
+
+But with modal operators like \textit{might}, \textit{could}, \textit{must}, etc., it is not enough to know the truth value of the original proposition; we need to evaluate its meaning, in combination with that of the modal operator. Even though both of the sentences in \REF{ex:15.21} had the same truth value in 2006, the addition of the modal in \REF{ex:15.23} creates sentences which would have had different truth values at that time.
+
+
+\ea \label{ex:15.23}
+(spoken in 2006)\\
+\ea  Barack Obama could be the first black President of the United States. \hfill  [T]\\
+\ex Nelson Mandela could be the first black President of the United States. \hfill  [F]
+                       \z
+\z
+
+
+Tense is another operator which combines with a single proposition to create a new proposition. As with modality, knowing the truth value of the original proposition does not allow us to determine the truth value of the tensed proposition. Both of the present tense sentences in (\ref{ex:15.24}a--b), spoken in 2014, are false; but the corresponding past tense sentences in (\ref{ex:15.24}c--d) have different truth values.
+
+
+\ea \label{ex:15.24}
+(spoken in 2014)\\
+\ea  Hillary Clinton is the Secretary of State.  [F]\\
+\ex Lady Gaga is the Secretary of State.  [F]\\
+\ex Hillary Clinton was/has been the Secretary of State.  [T]\\
+\ex Lady Gaga was/has been the Secretary of State.  [F]
+                       \z
+\z
+
+
+Similarly, knowing that the present tense sentence in (\ref{ex:15.25}a) is true does not allow us to determine the truth value of the corresponding future tense sentence (\ref{ex:15.25}b).
+
+
+\ea \label{ex:15.25}
+\ea  Henry is Anne’s husband. \hfill [assume T]\\
+\ex In five years, Henry will (still) be Anne’s husband.  \hfill [?]
+                       \z
+\z
+
+
+As we have seen, one of the standard diagnostics for intensional contexts is the failure of substitutivity: in intensional contexts, substituting one expression with another that has the same denotation may affect the truth value of the sentence as a whole. The examples in \REF{ex:15.26} illustrate again the failure of substitutivity in the complement clause of a propositional attitude verb. They refer to an Englishman named James Brooke who, through a combination of military success and diplomacy, made himself the king (or \textit{Rajah}) of Sarawak, comprising most of northwestern Borneo. During the years 1842 to 1868, the phrases \textit{James Brooke} and \textit{the White Rajah of Borneo} referred to the same individual. Suppose that sentence (\ref{ex:15.26}a) was spoken in 1850, perhaps by one of Brooke’s old mates from the Bengal Army. Even if (\ref{ex:15.26}a) was true at the time of speaking, sentence (\ref{ex:15.26}b) spoken at that same time by the same speaker would certainly have been false.
+
+
+\ea \label{ex:15.26}
+(spoken in 1850)\\
+\ea  I do not believe that James Brooke is the White Rajah of Borneo.\\
+\ex I do not believe that James Brooke is James Brooke.
+                       \z
+\z
+
+
+The examples in \REF{ex:15.27} illustrate the failure of substitutivity in a counterfactual statement. Sentence (\ref{ex:15.27}a) is something that a rational person might believe; at least it is a claim which could be debated. Sentence (\ref{ex:15.27}b) is derived from (\ref{ex:15.27}a) by substituting one NP (\textit{the first black President of the United States}) with another (\textit{Barack Obama}) that has the same denotation. Clearly sentence (\ref{ex:15.27}b) is not something that a rational person could believe.
+
+
+\ea \label{ex:15.27}
+\ea  Martin Luther King might have become the first black President of the United States.\\
+\ex Martin Luther King might have become Barack Obama.
+                       \z
+\z
+
+
+The examples in \REF{ex:15.28} also illustrate the failure of substitutivity in a counterfactual; but instead of replacing one NP with another, this time we replace one clause with another. The two consequent clauses are based on propositions which have the same truth value in our world: both would be false if expressed as independent assertions. But replacing one clause with the other changes the truth value of the sentence as a whole: (\ref{ex:15.28}a) is clearly true, while (\ref{ex:15.28}b) is almost certainly false.
+
+
+\ea \label{ex:15.28}
+\ea  If Beethoven had died in childhood, we would never have heard his\\
+  magnificent symphonies.\\
+\ex If Beethoven had died in childhood, Columbus would never have\\
+  discovered America.
+                       \z
+\z
+
+
+Another class of verbs which create intensional contexts are the so-called \textsc{intensional verbs}. Prototypical examples of this type are the verbs of searching and desiring. These verbs license \textit{de dicto} vs. \textit{de re} ambiguities in their direct objects, as illustrated in \REF{ex:15.29}. Sentence (\ref{ex:15.29}a) could mean that the speaker is looking for a specific dog (\textit{de re}), perhaps because it got lost or ran away; or it could mean that the speaker wants to acquire a dog that fits that description but does not have a specific dog in mind (\textit{de dicto}). Sentence (\ref{ex:15.29}b) could mean that John happens to be interested in the same type of work as the addressee (\textit{de re}); or that John wants to be doing whatever the addressee is doing (\textit{de dicto}).
+
+
+\ea \label{ex:15.29}
+\ea  I’m looking for \textit{a black cocker spaniel}.\\
+\ex John wants \textit{the same job as you}.
+                       \z
+\z
+
+
+The direct objects of such verbs are referentially opaque, meaning that substitution of a coreferential NP can affect the truth value of a sentence. Suppose that your friend John is bitten by a dog; and suppose that the dog belongs to the notorious gangster Al Capone, but John does not know this. If John goes around looking for the owner in order to demand compensation, then sentence (\ref{ex:15.30}a) would be true, but (\ref{ex:15.30}b) would be false.
+
+
+\ea \label{ex:15.30}
+\ea  John is looking for \textit{the owner of the dog that bit him}.\\
+\ex John is looking for \textit{Al Capone}.
+                       \z
+\z
+
+
+Furthermore, if the direct objects of intensional verbs fail to refer in a particular situation, it may still be possible to assign a truth value to the sentence. Both sentences in \REF{ex:15.31} could be true even though in each case the denotation set of the direct object is empty. All of these properties are characteristic of intensional contexts.
+
+
+\ea \label{ex:15.31}
+\ea  Arthur is looking for \textit{the fountain of youth}.\\
+\ex John wants \textit{a unicorn} for Christmas.
+                       \z
+\z
+
+\section{Subjunctive mood as a marker of intensionality}\label{sec:15.5}
+
+In some languages, intensional contexts may require special grammatical marking. A number of European languages (among others) use subjunctive mood for this purpose. Let us note from the very beginning that the distribution of the subjunctive is a very complex topic, and that there can be significant differences in this regard even between closely related dialects.\footnote{See for example \citet{Marques2004}.} It is very unlikely that all uses of subjunctive mood in any particular language can be explained on the basis of intensionality alone. But it is clear that intensionality is one of the factors which determine the use of the subjunctive.
+
+
+
+Consider the Spanish sentences in \REF{ex:15.32}, which are discussed by \citet{Partee2008}.\footnote{This contrast is also discussed by \citet{Quine1956} and a number of subsequent authors.} Partee states that neither sentence is ambiguous in the way that the English translations are. The relative clause in indicative mood (\ref{ex:15.32}a) can only refer to a specific individual, whereas the relative clause in subjunctive mood (\ref{ex:15.32}b) can only have a non-specific interpretation.
+
+
+\ea \label{ex:15.32}
+\ea  \gll María  busca  a  un  profesor  que  enseña  griego.\\
+Maria  looks.for  to  a  professor  who  teaches-\textsc{indic}  Greek.\\
+\glt ‘Maria is looking for a professor who teaches Greek.’  (\textit{de re})
+\ex \gll María  busca  (a)  un  profesor  que  enseñe  griego.\\
+Maria  looks.for  to  a  professor  who  teaches-\textsc{subjunc}  Greek.\\
+\glt ‘Maria is looking for a professor who teaches Greek.’  (\textit{de dicto})
+\z \z
+
+
+A similar pattern is found in relative clauses in modern Greek. The marker for subjunctive mood in modern Greek is the particle \textit{na}. \citet{Giannakidou2011} says that the indicative relative clause in (\ref{ex:15.33}a) can only refer to a specific individual, whereas the subjunctive relative clause in (\ref{ex:15.33}b) can only have a non-specific interpretation.
+
+
+\ea \label{ex:15.33}
+\ea  \gll Theloume  na  proslavoume  mia  gramatea  [pu  gnorizi  kala  japonezika.]\\
+want.1pl  \textsc{subjunc}  hire.1pl  a  secretary  \textsc{rel}  know.3sg  good  Japanese\\
+\glt ‘We want to hire a secretary that has good knowledge of Japanese.’  (\textit{de re})\\
+(Her name is Jane Smith.)\\
+\ex \gll  Theloume  na  proslavoume  mia  gramatea [pu  na  gnorizi  kala  japonezika.]\\
+want.1pl  \textsc{subjunc}  hire.1pl  a  secretary \textsc{rel}  \textsc{subjunc}  know.3sg  good  Japanese\\
+\glt ‘We want to hire a secretary that has good knowledge of Japanese.’  (\textit{de dicto})\\
+(But it is hard to find one, and we are not sure if we will be successful).\\
+\z \z
+
+
+Giannakidou states that because of this restriction, a definite NP cannot contain a subjunctive relative clause \REF{ex:15.34}. Also, the object of a verb of creation with future time reference cannot contain an indicative relative clause, because it refers to something that does not exist at the time of speaking \REF{ex:15.34}.
+
+
+\ea \label{ex:15.34} 
+\ea  \gll I  Roxani  theli  na  pandrefti  \{enan/*ton\}  andra\\
+the  R.  want.3sg  \textsc{subjunc}  marry.3sg  \{a/*the\}  man\\
+\ex \gll\relax    [pu  na  exi  pola  lefta].\\
+ \textsc{rel}  \textsc{subjunc}  have  much  money\\
+\glt ‘Roxanne wants to marry a/*the man who has a lot of money.’\\
+\z \z
+
+\ea \label{ex:15.35}
+\gll Prepi  na  grapso  mia  ergasia  [pu  *(na)\footnotemark  ine  pano  apo  15  selidhes.]\\
+must.3sg  \textsc{subjunc}  write.1sg  an  essay  \textsc{rel}  \textsc{subjunc}  is  more  than  15  pages\\
+\glt ‘I have to write an essay longer than 15 pages.’\\
+\z
+\footnotetext{This notation indicates that the subjunctive marker is obligatory; that is, the sentence is ungrammatical without the subjunctive marker.}
+
+The pattern that emerges from these and other examples is that subjunctive mood is used when the noun phrase containing the relative clause refers to a property rather than to a specific individual.
+
+
+\section{Defining functions via lambda abstraction}\label{sec:15.6}
+
+In our brief discussion of compositionality in Chapters~\ref{sec:13}--\ref{sec:14} we focused primarily on denotations, and expressed the truth conditions of sentences in terms of set membership. So, for example, the denotation of a predicate like \textit{yellow} or \textit{snore}, in a particular context or universe of discourse, is the set of individuals within that context which are yellow, or which snore. The sentence \textit{Henry snores} will be true in any model in which the individual named Henry belongs to the denotation set of \textit{snore}.
+
+
+
+We noted in \chapref{sec:13} that the membership of a set can always be expressed as a function, namely its characteristic function. So it is possible to restate the truth conditions of sentences, and to show how these truth conditions are derived compositionally, in terms of functions rather than set membership. The two approaches (sets vs. functions) are essentially equivalent, but for a number of constructions the functional representation provides a simpler, more general, and more convenient way of stating the rules of interpretation.
+
+
+
+We will not explore this approach in any detail in the present book, but it will be useful for the reader to be aware of a notation for defining functions that is very widely used in formal semantics. In the standard function-argument format that we learn in secondary school, functions generally have names. For example, the two functions defined in (\ref{ex:15.36}a) are named “f\textsubscript{1}” and “f\textsubscript{2}”. In this kind of definition, the function takes a bound variable (x) as argument and expresses the value as a formula which contains the bound variable. When the function is applied to a real argument, we calculate the value by substituting that argument for the bound variable in the formula. So for example, f\textsubscript{1}(13)$ = 13 – 4 = 9$.
+
+
+\ea \label{ex:15.36}
+\ea   named functions:\\
+f\textsubscript{1}(x) = x – 4  \hfill f\textsubscript{1}(13) = 9\\
+f\textsubscript{2}(x) = 3x\textsuperscript{2} + 1  \hfill f\textsubscript{2}(2) = 13
+\ex  anonymous functions:\\
+{}[λx. x – 4] \hfill [λx. x – 4](13) = 9\\
+{}[λx. 3x\textsuperscript{2} + 1] \hfill [λx. 3x\textsuperscript{2} + 1](2) = 13
+\z \z
+
+
+Another way of defining functions, using the Greek letter lambda (λ), is illustrated in (\ref{ex:15.36}b). These two functions are identical to f\textsubscript{1} and f\textsubscript{2}, but written in a different format. Once again, when the function is applied to an argument, we calculate the value by substituting that argument for the bound variable which is introduced by the λ. However, in this format the functions have no names. Functions defined using λ are sometimes described as “anonymous functions”.
+
+
+
+We can also think of lambda (λ) as an operator which changes propositions into predicates by replacing some element of the proposition with an appropriate bound variable. For example, from the proposition \textit{Caesar loves Brutus} we can derive “[λy.~Caesar~loves~y]” by replacing the object NP with the variable y. This formula represents a predicate which corresponds to the property of being loved by Caesar. Alternatively, we can derive “[λx.~x~loves~Brutus]” by replacing the subject NP with the variable x. This formula represents a predicate which corresponds to the property of being someone who loves Brutus.
+
+
+
+This process is referred to as \textsc{lambda abstraction}. Once again, when we apply these derived predicates to an argument, as illustrated in (\ref{ex:15.37}a-c), the result is calculated by replacing the bound variable with the argument. (The argument in the first example is b, representing Brutus; in the second example the argument is c, representing Caesar; and in the third example the argument is a, representing Marc Antony.)
+
+
+\ea \label{ex:15.37}
+\ea [λy. LOVE(c,y)](b) = LOVE(c,b) ‘Caesar loves Brutus’\\
+\ex [λx. LOVE(x,b)](c) = LOVE(c,b) ‘Caesar loves Brutus’\\
+\ex [λx. LOVE(x,c) $\wedge$ HATE(x,b)](a) = LOVE(a,c) $\wedge$ HATE(a,b)\\
+\glt  ‘Antony loves Caesar and hates Brutus’
+\z \z
+
+
+Predicates derived by lambda abstraction can be interpreted as characteristic functions of the corresponding denotation set, as described in \chapref{sec:13}:
+
+
+\ea \label{ex:15.38} 
+\ea   [λy. LOVE(c,y)](n) =  1 iff Caesar loves n,  0 otherwise
+\ex   [λx. LOVE(x,b)](n) =  1 iff n loves Brutus,  0 otherwise
+\ex  [λx. LOVE(x,c) $\wedge$ HATE(x,b)](n) =  1 iff n loves Caesar and hates Brutus,  0 otherwise
+\z \z
+
+
+The semantic value of an intransitive predicate like \textit{snore} can be represented as a function which takes a single argument: [λx.~SNORE(x)]. The semantic value of the sentence \textit{Henry snores} can be derived by applying this function to the semantic value of the subject NP, as shown in \REF{ex:15.39}:
+
+
+\ea \label{ex:15.39}
+\begin{tabbing}\relax
+[λx. SNORE(x)](h)  \= = \=  1 iff Henry snores \kill
+[λx. SNORE(x)](h)  \> = \>  SNORE(h)\\
+                   \> = \> 1 iff Henry snores\\
+                   \>   \> 0 otherwise
+\end{tabbing}
+\z
+
+
+The semantic value of a transitive predicate like \textit{love} can be represented as a function which takes two arguments: [λy.~[λx.~LOVE(x,y)]]. In calculating the truth conditions for a sentence like \textit{Caesar loves Brutus}, the function named by the verb is applied first to the semantic value of the object NP, as shown in (\ref{ex:15.40}a), to derive the semantic value of the VP. The function named by the VP is then applied to the semantic value of the subject NP, as shown in (\ref{ex:15.40}b), to derive the semantic value of the sentence as a whole.
+
+
+\ea \label{ex:15.40}
+\ea  [λy. [λx. LOVE(x,y)]](b) = [λx. LOVE(x,b)] ‘is someone who loves Brutus’
+\ex  [λx. LOVE(x,b)](c) =  LOVE(c,b) ‘Caesar loves Brutus’
+\z \z
+
+
+In formal semantics, intensions (senses) are often defined as functions from possible worlds to denotations. (Roughly speaking, a “possible world” is any way the universe might conceivably be without changing the structure of the language being investigated.) The intuition behind this analysis is that, as discussed in \chapref{sec:2}, it is knowing the meaning (sense) of a word like \textit{yellow} or \textit{speak} that allows us to identify the set of all yellow things or speaking things in any particular context. So we can think of the senses of these words as a mapping, or function, from each possible world to the expression’s denotation in that world.
+
+
+
+Using the lambda abstraction operator, and using w as a variable over the domain of possible worlds, we might represent the intension of \textit{speak} as: “[λw.~[λx.~SPEAK(x)~in~w]]”; and the intension of \textit{yellow} as: “[λw.~[λx.~YELLOW(x)~in~w]]”.
+
+
+\section{Conclusion}\label{sec:15.7}
+In \chapref{sec:13} we worked through some simple examples showing how the truth value of a sentence uttered at a particular time and situation can be calculated based on the denotations of the constituent parts of the sentence at that same time and situation. In this chapter we discussed a variety of linguistic features which make this calculation more complex. For many of these opaque (or intensional) contexts, we can only calculate the truth value of a sentence in a given situation if we know what the denotation of a constituent would be in some other situation.\footnote{Cf. \citet[204–208]{ChierchiaMcConnell-Ginet1990}.} For example, statements in the past or future tense, like examples (\ref{ex:15.24}--\ref{ex:15.25}), require knowledge about denotations at some time other than the time of speaking. Statements of possibility (ex. \ref{ex:15.23}) and counterfactuals (\ref{ex:15.27}--\ref{ex:15.28}) require judgments about ways that the world might have been, i.e., other possible situations or “possible worlds”. Some of the non-intersective adjectives, such as \textit{former} and \textit{potential}, have similar effects.
+
+
+
+As we stated in \chapref{sec:2}, it is knowing the sense of an expression that allows speakers to identify the denotation of that expression in various situations. What all the phenomena discussed in this chapter have in common is that the denotation of some complex expression (e.g., the truth value of a sentence) cannot be compositionally determined from the denotations of its parts alone; we have to refer to senses as well.
+
+
+
+\furtherreading
+
+
+
+\citet[ch. 7]{Kearns2011} presents a good overview of referential opacity, and \citet[ch. 8]{ZimmermannSternefeld2013} provide a good introduction to the analysis of intensions as functions on possible worlds.  \Citet{vanBenthem1988} and \citet{Gamut1991b} provide more detailed discussions of intensional logic and its applications. \citet{Partee1995} discusses non-intersective adjectives (among other issues) in relation to compositionality. For an introduction to lambda abstraction, see 
+\citet[93ff.]{Coppock2016};
+\citet[62–75]{Kearns2011};
+\citet[34ff.]{HeimKratzer1998}.

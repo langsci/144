@@ -1,0 +1,571 @@
+\chapter{Quantifiers}\label{sec:14}
+
+\section{Introduction}\label{sec:14.1}
+
+As we noted in \chapref{sec:13}, sentences like those in (\ref{ex:14.1}a--c) seem to require some modifications to the simple rules of interpretation we have developed thus far:
+
+
+\ea \label{ex:14.1}
+\ea \textit{All men snore}.\\
+\ex \textit{No women snore}.\\
+\ex \textit{Some man snores}.
+                       \z
+\z
+
+
+Most of the sentences that we discussed in that chapter had proper names for arguments. We analyzed those sentences as asserting that a specific individual (the referent of the subject NP) is a member of a particular set (the denotation set of the VP). The sentences in (\ref{ex:14.1}a--c) present a new challenge because the subject NPs are quantified noun phrases, and do not refer to specific individuals.
+
+
+
+Quantifier words like \textit{all}, \textit{some}, and \textit{no} have been intensively studied by semanticists, and the present chapter summarizes some of this research. In \sectref{sec:14.2} we present evidence for the somewhat surprising claim that quantifier words express a relationship between two sets. This insight, which we will argue follows from the general principle of compositionality, provides the critical foundation for all that follows. In \sectref{sec:14.3} we show why the standard predicate logic notation that we introduced in \chapref{sec:4} cannot express the meanings of certain kinds of quantifiers. We then introduce a different format, called the \textsc{restricted quantifier} notation, which overcomes this problem. In \sectref{sec:14.4} we discuss two classes of quantifier words, \textsc{cardinal quantifiers} vs. \textsc{proportional quantifiers}, which differ in both semantic properties and syntactic distribution. \sectref{sec:14.5} discusses an important property of quantifiers which was mentioned briefly in \chapref{sec:4}, namely their potential for ambiguous scope relations with other quantifiers (or various other types of expressions) occurring within the same sentence.
+
+
+\section{Quantifiers as relations between sets}\label{sec:14.2}
+
+Let us begin by asking what claim sentence (\ref{ex:14.1}a) makes about the world. Under what circumstances will it be true? Intuitively, it will be true in any situation in which all of the individuals that are men have the property of snoring; that is, when every member of the denotation set $\llbracket$MAN$\rrbracket$  is also a member of the denotation set $\llbracket$SNORE$\rrbracket$ . But this is equivalent to saying that $\llbracket$MAN$\rrbracket$  is a subset of $\llbracket$SNORE$\rrbracket$ , as indicated in \tabref{tab:13.9} of \chapref{sec:13}.
+
+
+
+Now let us think about how this meaning is composed. We have said that the sentence \textit{All men snore} expresses an assertion that the set of all men is a subset of the set of entities that snore. This interpretation is expressed in the formula in \REF{ex:14.2}. Clearly the semantic contribution of \textit{men} is $\llbracket$MAN$\rrbracket$ , and the semantic contribution of \textit{snore} is $\llbracket$SNORE$\rrbracket$ . That means that the semantic contribution of \textit{all} can only be the subset relation itself.
+
+
+\ea \label{ex:14.2}
+{}$\llbracket$\textit{All men snore}$\rrbracket$  = true $\leftrightarrow $ $\llbracket$MAN$\rrbracket$  ${\subseteq}$ $\llbracket$SNORE$\rrbracket$ 
+\z
+
+
+Now it may seem odd to suggest that \textit{all} really means ‘subset’, but that is what the principle of compositionality seems to lead us to. The subset relation is a relation between two sets. More abstractly, we can think of the determiner \textit{all} as naming a relation between two sets, in this case the set of all men and the set of all individuals that snore.
+
+
+
+Now let us consider sentence (\ref{ex:14.1}b), \textit{No women snore}. Under what circumstances will this sentence be true? Intuitively, it will be true in any situation in which no individual who is a woman has the property of snoring; that is, when no individual is a member both of the denotation set $\llbracket$WOMAN$\rrbracket$  and of the denotation set $\llbracket$SNORE$\rrbracket$ . But this is equivalent to saying that the intersection of $\llbracket$WOMAN$\rrbracket$  with $\llbracket$SNORE$\rrbracket$  is empty, as indicated in \tabref{tab:13.19} of \chapref{sec:13}. This interpretation is expressed in the formula in \REF{ex:14.3}. By the same reasoning that we used above, the principle of compositionality leads us to the conclusion that the determiner \textit{no} means ‘empty intersection’. Once again, this is a relation between two sets.
+
+
+\ea \label{ex:14.3}
+{}$\llbracket$\textit{No woman snores}$\rrbracket$  = true $\leftrightarrow $ ($\llbracket$WOMAN$\rrbracket$  ${\cap}$ $\llbracket$SNORE$\rrbracket$  = ⌀)
+\z
+
+
+Sentence (\ref{ex:14.1}c), \textit{Some man snores}, will be true in any situation in which at least one individual who is a man has the property of snoring. This is equivalent to saying that the intersection of $\llbracket$MAN$\rrbracket$  with $\llbracket$SNORE$\rrbracket$  is non-empty, as indicated in \REF{ex:14.4}. The principle of compositionality leads us to the conclusion that the determiner \textit{some} means ‘non-empty intersection’.
+
+
+\ea \label{ex:14.4}
+{}$\llbracket$\textit{Some man snores}$\rrbracket$  = true $\leftrightarrow $ ($\llbracket$MAN$\rrbracket$  ${\cap}$ $\llbracket$SNORE$\rrbracket$  ≠ ⌀)
+\z
+
+
+The key insight which has helped semanticists understand the meaning contributions of quantifier words like \textit{all}, \textit{some}, and \textit{no}, is that these words name relations between two sets. The table in \REF{ex:14.5} lists these and several other quantifying determiners, showing their interpretations stated as a relation between two sets. In these examples the two sets are \textsc{$\llbracket$}STUDENT$\rrbracket$  (the set of all students), which for convenience we will refer to as S, and \textsc{$\llbracket$}BRILLIANT$\rrbracket$  (the set of all brilliant individuals) which for convenience we will refer to as B.
+
+\ea \label{ex:14.5}
+\ea   \textit{All students are brilliant}.\\ \jambox{S ${\subseteq}$ B}
+\ex  \textit{No students are brilliant}. \\ \jambox{\textsc{S} ${\cap}$ \textsc{B} = ⌀}
+\ex  \textit{Some students are brilliant}.\\ \jambox{\textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} ${\geq}$ 2}
+\ex \textit{A/Some student is brilliant}.\\ \jambox{\textsc{S} ${\cap}$ \textsc{B} ≠ ⌀; or:  \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} ${\geq}$ 1}
+\ex  \textit{Four students are brilliant}.\\ \jambox{\textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} = 4\footnotemark{}}
+\ex  \textit{Most students are brilliant}.\\ \jambox{\textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} > \textsc{{\textbar}S} – \textsc{B}{\textbar}; or: \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} > ½\textsc{{\textbar}S}{\textbar}}
+\ex   \textit{Few students are brilliant}.\\ \jambox{\textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} $\langle$ some contextually defined number}
+\ex   \textit{Both students are brilliant}.\\ \jambox{S ${\subseteq}$ B  \& \textsc{{\textbar}S}{\textbar} = 2}
+% \lspbottomrule
+\z \z
+\footnotetext{Recall from \chapref{sec:9} that numerals seem to allow two different interpretations. In light of that discussion, this sentence could mean either \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} = 4 or \textsc{{\textbar}S} ${\cap}$ \textsc{B}{\textbar} ${\geq}$ 4 depending on context. For the purposes of this chapter we will ignore the ‘at least’ reading.}
+
+Notice that we have distinguished plural vs. singular uses of \textit{some} by stating that plural \textit{some} (ex. \ref{ex:14.5}c) indicates an intersection with cardinality of two or more. The interpretation suggested in (h) indicates that the meaning of \textit{both} includes the subset relation and the assertion that the cardinality of the first set equals two. This amounts to saying that \textit{both} means ‘all two of them’. Strictly speaking, it might be more accurate to treat the information about cardinality as a presupposition, because that part of the meaning is preserved in questions (\textit{Are} \textit{both students brilliant?}), conditionals (\textit{If} \textit{both students are brilliant, then …}), etc. However, we will not pursue that issue here.
+
+
+
+All of the examples in \REF{ex:14.5} involve relations between two sets. We might refer to quantifiers of this type as two-place quantifiers. Three-place quantifiers are also possible, i.e., quantifiers that express relations among three sets. Some examples are provided in \REF{ex:14.6}.
+
+
+\ea \label{ex:14.6}
+\ea  \textit{Half as many} guests attended \textit{as} were invited.\\
+\textsc{{\textbar}} \textsc{$\llbracket$}GUEST$\rrbracket$  ${\cap}$ \textsc{$\llbracket$}ATTEND$\rrbracket$  {\textbar}  =  ½\textsc{{\textbar}} \textsc{$\llbracket$}GUEST$\rrbracket$  ${\cap}$ \textsc{$\llbracket$}INVITE$\rrbracket$  {\textbar}
+\ex In every Australian election from 1967 to 1998, \textit{more} men \textit{than} women voted for the Labor party.\\
+{\textbar} \textsc{$\llbracket$}MAN$\rrbracket$  ${\cap}$ \{x: <x,l> ${\in}$ $\llbracket$VOTE\_FOR$\rrbracket$ \}{\textbar}  >  {\textbar} \textsc{$\llbracket$WO}MAN$\rrbracket$  ${\cap}$ \{x: <x,l> ${\in}$ $\llbracket$VOTE\_FOR$\rrbracket$ \}{\textbar}
+\z \z
+
+
+The kinds of meanings expressed by quantifying determiners can also be expressed by adverbs. \citet{Lewis1975} refers to adverbs like \textit{always}, \textit{sometimes}, \textit{never}, etc. as “unselective quantifiers”, because they can quantify over various kinds of things. The examples in \REF{ex:14.7} show these adverbs quantifying over times: \textit{always} means ‘at all times’, \textit{never} means ‘at no time’, etc. The examples in \REF{ex:14.8} show these same adverbs quantifying over individual entities. If \textit{usually} in (\ref{ex:14.8}b) were interpreted as quantifying over times, it would imply that the color of a dog’s eyes might change from one moment to the next. If \textit{sometimes} in (\ref{ex:14.8}c) were interpreted as quantifying over times, it would imply that the sulfur content of a lump of coal might change from one moment to the next.
+
+
+\ea \label{ex:14.7}
+Quantifying over times:\\
+\ea In his campaigns Napoleon \textit{always} relied upon surprise and speed.\footnote{\url{http://www.usafa.edu/df/dfh/docs/Harmon28.pdf}} \\
+\ex Churchill \textit{usually} took a nap after lunch.\\
+\ex De Gaulle \textit{sometimes} scolded his aide-de-camp (= Chief of Staff).\\
+\ex George Washington \textit{never} told a lie.
+                       \z
+\z
+
+\ea \label{ex:14.8}
+Quantifying over individual entities:\\
+\ea A triangle \textit{always} has three sides. (= ‘\textit{All} triangles have three sides.’)\\
+\ex Dogs \textit{usually} have brown eyes. (= ‘\textit{Most} dogs have brown eyes.’)\\
+\ex Bituminous coal \textit{sometimes} contains more than one percent sulfur by weight.\\
+  (= ‘\textit{Some} bituminous coal contains more than one percent sulfur by weight.’)\\
+\ex A rectangle \textit{never} has five corners. (= ‘\textit{No} rectangles have five corners.’)
+                       \z
+\z
+
+
+In a number of languages, including English, quantifying determiners like \textit{all} can optionally occur in adverbial positions, as illustrated in \REF{ex:14.9}. This alternation is often referred to as \textsc{quantifier float}:
+
+
+\ea \label{ex:14.9}
+\ea \textit{All} the children will go to the party.\\
+\ex The children will \textit{all} go to the party.
+                       \z
+\z
+
+
+Not all languages make use of quantifying determiners; adverbial quantifiers seem to be more common cross-linguistically. Other strategies for expressing quantifier meanings are attested as well: quantificational verb roots, verbal affixes, particles, etc. For some languages it has been claimed that the syntactic means available for expressing quantification limits the range of quantifier meanings which can be expressed.\footnote{\citet{Baker1995}; \citet{Bittner1995}; \citet{KoenigMichelson2010}.} Most of the examples in our discussion below involve English quantifying determiners, and these have been the focus of a vast amount of study. However, we should not forget that other quantification strategies are also common.
+
+
+\section{Quantifiers in logical form}\label{sec:14.3}
+
+Our analysis of \textit{all} as denoting a subset relation, \textit{no} as meaning ‘empty intersection’, and \textit{some} as meaning ‘non-empty intersection’, is reflected in the logical forms we proposed in \chapref{sec:4} for sentences involving these words. These logical forms are repeated here in \REF{ex:14.10}.
+
+
+\ea \label{ex:14.10}
+\ea  \textit{All men snore}.  ${\forall}$x[MAN(x) → SNORE(x)]\\
+\ex \textit{No women snore}.  ${\lnot}$${\exists}$x[WOMAN(x) $\wedge$ SNORE(x)]\\
+\ex \textit{Some man snores}.  ${\exists}$x[MAN(x) $\wedge$ SNORE(x)]
+                       \z
+\z
+
+
+Now we are in a position to understand why these forms work as translations of the English quantifier words. The use of material implication (→) in (\ref{ex:14.10}a) follows from the definition of the subset relation which we presented in \chapref{sec:13}, repeated here in (\ref{ex:14.11}a). The use of logical $\wedge$ ‘and’ in (\ref{ex:14.10}b--c) follows from the definition of set intersection presented in \chapref{sec:13}, repeated here in (\ref{ex:14.11}b).
+
+
+\ea \label{ex:14.11}
+\ea (A ${\subseteq}$ B)  $\leftrightarrow $  ${\forall}$x[(x${\in}$A) → (x${\in}$B)]  [\textsc{subset}]\\
+  ($\llbracket$MAN $\rrbracket$  ${\subseteq} \llbracket$ SNORE $\rrbracket$ )  $\leftrightarrow $  ${\forall}$x[(x${\in}\llbracket$ MAN$\rrbracket$ ) → (x${\in}\llbracket$ SNORE $\rrbracket$ )]
+\ex  ${\forall}$x[x ${\in}$ (A${\cap}$B)  $\leftrightarrow $  ((x${\in}$A) $\wedge$ (x${\in}$B))]  [\textsc{intersection}]\\
+  ($\llbracket$MAN$\rrbracket$ ${\cap}$ $\llbracket$SNORE$\rrbracket$  ≠ ⌀) $\leftrightarrow $  ${\exists}$x[(x${\in}\llbracket$ MAN $\rrbracket$ ) $\wedge$ (x${\in} \llbracket$  SNORE $\rrbracket$ )]
+\z \z
+
+
+Many other quantifier meanings can also be expressed using the basic predicate logic notation. For example, the NP \textit{four men} could be translated as shown in \REF{ex:14.12}:
+
+
+\ea \label{ex:14.12}
+\textit{Four men snore}.\\
+${\exists}$w${\exists}$x${\exists}$y${\exists}$z[w≠x≠y≠z $\wedge$ MAN(w) $\wedge$ MAN(x) $\wedge$ MAN(y) $\wedge$ MAN(z) $\wedge$ SNORE(w) $\wedge$ SNORE(x) $\wedge$ SNORE(y) $\wedge$ SNORE(z)]
+\z
+
+
+As we can see even in this simple example, the standard predicate logic notation is a somewhat clumsy tool for this task. Moreover, it turns out that there are some quantifier meanings which cannot be expressed at all using the predicate logic we have introduced thus far. For example, the interpretation for \textit{most} suggested in (\ref{ex:14.5}f) is that the cardinality of the intersection of the two sets is greater than half of the cardinality of the first set. The basic problem here is that the logical predicates we have been using thus far represent properties of individual entities. This type of logic is called \textsc{first-order logic}. However, the cardinality of a set is not a property of any individual, but rather a property of the set as a whole. What we would need in order to express quantifier meanings like \textit{most} is some version of \textsc{second-order logic}, which deals with properties of sets of individuals.
+
+
+
+For example, we could define the denotation set of a NP like \textit{most men} to be the set of all properties which are true of most men. The sentence \textit{Most men snore} would be true just in case the property of snoring is a member of $\llbracket$\textit{most men}$\rrbracket$ .\footnote{This analysis, under which quantified NPs denote sets of sets, is called the Generalized Quantifier approach. The meanings of the quantified NPs themselves are referred to as Generalized Quantifiers, which leads to a certain amount of ambiguity in the use of the word \textit{quantifier}. Sometimes it is used to refer to the whole NP, and sometimes just to the quantifying determiner.} However, the mathematical formalism of this approach is more complex than we can handle in the present book. Rather than trying to work out all the technical details, we will proceed from here on with a more descriptive approach.
+
+
+
+One convenient way of expressing propositions which contain quantifier meanings like \textit{most} is called the \textsc{restricted quantifier} notation. This notation consists of three parts: the quantifier operator, the restriction, and the nuclear scope. In example (\ref{ex:14.13}a), the operator is \textit{most}; the restriction is the open proposition “STUDENT(x)”; and the nuclear scope is the open proposition “BRILLIANT(x)”. This same format can be used for other quantifiers as well, as illustrated in (\ref{ex:14.13}b--c).
+
+
+\ea \label{ex:14.13}
+\ea \textit{Most students are brilliant}.  [\textit{most} x: STUDENT(x)] BRILLIANT(x)\\
+\textsc{(operator} = “\textit{most}”; \textsc{restriction} = “STUDENT(x)”; \textsc{scope} = “BRILLIANT(x)”)
+\ex  \textit{No women snore}.  [\textit{no} x: WOMAN(x)] SNORE(x)\\
+\ex \textit{All brave men are lonely}.  [\textit{all} x: MAN(x) $\wedge$ BRAVE(x)] LONELY(x)
+\z \z
+
+
+In contrast to the standard logical notation, using this restricted quantifier notation allows us to adopt a uniform procedure for interpreting sentences which contain quantifying determiners:
+
+
+\begin{itemize}
+\item the quantifying determiner itself specifies the operator;
+\item the remainder of the NP which contains the quantifying determiner specifies the material in the restriction;
+\item the rest of the sentence specifies the material in the nuclear scope.
+\end{itemize}
+
+For example, the quantifying determiner in (\ref{ex:14.13}c) is \textit{all}; this determines the operator. The remainder of the NP which contains the quantifying determiner is \textit{brave men}; this specifies the material in the restriction (MAN(x) $\wedge$ BRAVE(x)). The rest of the sentence (\textit{are lonely}) specifies the material in the nuclear scope (LONELY(x)). Some additional examples are provided in \REF{ex:14.14}.
+
+
+\ea \label{ex:14.14}
+\ea  \textit{Most men who snore are libertarians}.\\
+  {}[\textit{most} x: MAN(x) $\wedge$ SNORE(x)] LIBERTARIAN(x)\\
+\ex \textit{Few strict Baptists drink or smoke}.\\
+  {}[\textit{few} x: BAPTIST(x) $\wedge$ STRICT(x)] DRINK(x) $\vee$ SMOKE(x)
+                       \z
+\z
+
+
+Of course, translations in this format do not tell us what the quantifying determiners actually mean; the meaning of each quantifier needs to be defined separately, as illustrated in \REF{ex:14.15}:
+
+
+\ea \label{ex:14.15}
+\ea \relax [\textit{all} x: P(x)] Q(x)  $\leftrightarrow $  \textsc{$\llbracket$}P$\rrbracket$  ${\subseteq}$ \textsc{$\llbracket$}Q$\rrbracket$ \\
+\ex{} [\textit{no} x: P(x)] Q(x)  $\leftrightarrow $  \textsc{$\llbracket$}P$\rrbracket$  ${\cap}$ \textsc{$\llbracket$}Q$\rrbracket$  = ⌀\\
+\ex{} [\textit{four} x: P(x)] Q(x)  $\leftrightarrow $  {\textbar} \textsc{$\llbracket$}P$\rrbracket$  ${\cap}$ \textsc{$\llbracket$}Q$\rrbracket$  {\textbar}  = 4\\
+\ex{} [\textit{most} x: P(x)] Q(x)  $\leftrightarrow $  {\textbar} \textsc{$\llbracket$}P$\rrbracket$  ${\cap}$ \textsc{$\llbracket$}Q$\rrbracket$  {\textbar}  >  ½\textsc{{\textbar}}\textsc{$\llbracket$}P$\rrbracket$ {\textbar}
+                       \z
+\z
+
+
+As these definitions show, a quantifying determiner names a relation between two sets: one defined by the predicate(s) in the restriction (represented by P in the formulae in \ref{ex:14.15}), and the other defined by the predicate(s) in the scope (represented by Q). Interpretations for the examples in \REF{ex:14.13} are shown in \REF{ex:14.16}. Use these examples to study how the content of the restriction and scope of the logical form in restricted quantifier notation get inserted into the set theoretic interpretation.
+
+
+\ea \label{ex:14.16}
+\ea  \textit{Most students are brilliant}.\\
+{}[\textit{most} x: STUDENT(x)] BRILLIANT(x)\\
+{\textbar} \textsc{$\llbracket$}STUDENT$\rrbracket$  ${\cap}$ \textsc{$\llbracket$}BRILLIANT$\rrbracket$  {\textbar}  >  ½\textsc{{\textbar}}\textsc{$\llbracket$}STUDENT$\rrbracket$ {\textbar}
+\ex \textit{No women snore}.\\
+{}[\textit{no} x: WOMAN(x)] SNORE(x)\\
+\textsc{$\llbracket$}WOMAN$\rrbracket$  ${\cap}$ \textsc{$\llbracket$}SNORE$\rrbracket$  = ⌀
+\ex   \textit{All brave men are lonely}.\\
+{}[\textit{all} x: MAN(x) $\wedge$ BRAVE(x)] LONELY(x)\\
+\textsc{($\llbracket$}MAN$\rrbracket$  ${\cap}$ \textsc{$\llbracket$}BRAVE$\rrbracket$ )  ${\subseteq}$ \textsc{$\llbracket$}LONELY$\rrbracket$ 
+\z \z
+
+
+This same procedure applies whether the quantified NP is a subject, object, or oblique argument. Some examples of quantified object NPs are given in \REF{ex:14.17}.
+
+
+\ea \label{ex:14.17}
+\ea \textit{John loves all pretty girls.}\\
+{}[\textit{all} x: GIRL(x) $\wedge$ PRETTY(x)] LOVE(j,x)\\
+($\llbracket$GIRL$\rrbracket$  ${\cap}$ $\llbracket$PRETTY$\rrbracket$ ) ${\subseteq}$ \{x: <j,x> ${\in}$ $\llbracket$LOVE$\rrbracket$ \}
+\ex \textit{Susan has married a cowboy who teases her.}\\
+{}[\textit{an} x: COWBOY(x) $\wedge$ TEASE(x,s)] MARRY(s,x)\\
+($\llbracket$COWBOY$\rrbracket$  ${\cap}$ \{x: <x,s> ${\in}$ $\llbracket$TEASE$\rrbracket$ ) ${\cap}$ \{y: <s,y> ${\in}$ $\llbracket$MARRY$\rrbracket$ \} ≠ ⌀
+\z \z
+
+
+At least for the moment, we will provisionally treat the articles \textit{the} and \textit{a(n)} as quantifying determiners. We will discuss the definite article below in \sectref{sec:14.4}. For now we will treat the indefinite article as an existential quantifier, as illustrated in (\ref{ex:14.17}b). (Note that this applies to indefinite articles occurring in argument NPs, not predicate NPs. We suggested in \chapref{sec:13} that indefinite articles occurring in predicate NPs typically do not contribute any independent meaning.)
+
+
+
+Compound words such as \textit{someone}, \textit{everyone}, \textit{no one}, \textit{something}, \textit{nothing}, \textit{anything}, \textit{everywhere}, etc. include a quantifier root plus another root that restricts the quantification to a general class (people, things, places, etc.). It is often helpful to include this “classifier” meaning as a predicate within the restriction of the quantifier, as illustrated in \REF{ex:14.18}.
+
+
+\ea \label{ex:14.18}
+\ea \textit{Everyone loves Snoopy}.         \hfill  [\textit{all} x: PERSON(x)] LOVE(x,s)\\
+\ex \textit{Columbus discovered something}. \hfill [\textit{some} x: THING(x)] DISCOVER(c,x)\\
+\ex \textit{Nowhere on Earth is safe}.      \hfill [\textit{no} x: PLACE(x) $\wedge$ ON(x,e)] SAFE(x)
+                       \z
+\z
+
+\section{Two types of quantifiers}\label{sec:14.4}
+
+Quantifier determiners like \textit{all}, \textit{every}, and \textit{most}, are referred to as \textsc{proportional quantifiers} because they express the idea that a certain proportion of one class is included in some other class. Certain complex determiners like \textit{four out of (every) five} are also proportional quantifiers. Quantifier determiners like \textit{no}, \textit{some}, \textit{four}, and \textit{several}, in contrast, are referred to as \textsc{cardinal quantifiers} because they provide information about the cardinality of the intersection of two sets.\footnote{Proportional quantifiers are sometimes referred to as \textsc{strong} \textsc{quantifiers}, and cardinal quantifiers are sometimes referred to as \textsc{weak} \textsc{quantifiers}.} \textit{Several} is vague; for most speakers it probably indicates a set containing more than two members, but not too much more (less than ten? less than seven?). Nevertheless, it clearly expresses cardinality rather than proportion.
+
+
+
+The determiners \textit{many} and \textit{few} are ambiguous between a cardinal sense and a proportional sense. Sentence (\ref{ex:14.19}a) can be interpreted in a way which is not a contradiction, even though the student body at Cal Tech is a tiny fraction of the total population of America. However, this interpretation must involve the proportional senses of \textit{many} and \textit{few}; the cardinal senses would give rise to a contradiction. Sentence (\ref{ex:14.19}b) can only be interpreted as involving the cardinal senses of \textit{many} and \textit{few}, since the sentence does not invoke any specific set of problems or solutions from which a certain proportion could be specified.
+
+
+\ea \label{ex:14.19}
+\ea Few people in America have an IQ over 145, but many students at Cal Tech are in that range.\\
+\ex Today we are facing many problems, but we have few solutions.
+                       \z
+\z
+
+
+Both the cardinal and proportional senses of \textit{many} and \textit{few} are vague, and this can make it tricky to distinguish the two senses in some contexts. Cardinal \textit{many} probably means more than several, but how much more? Generally speaking, proportional \textit{many} should probably be more than half, and proportional \textit{few} should probably be less than half; but how much more, or how much less? And in certain contexts, even this tendency need not hold. In a country where 80\% of the citizens normally come out to vote, we might say \textit{Few people bothered to vote this year} if the turnout dropped below 60\%. In a city where less than 20\% of the citizens normally bother to vote in local elections, we might say \textit{Many people came to vote this year} if the turnout reached 40\%. So, like other vague expressions, the meanings of \textit{many} and \textit{few} are partly dependent on context.
+
+
+
+Relationships expressed by cardinal quantifiers are generally symmetric, as illustrated in the examples in (\ref{ex:14.20}--\ref{ex:14.23}):\footnote{This symmetry follows from the fact that cardinal quantifiers generally have meanings of the form {\textbar}A${\cap}$B{\textbar}=n; and the intersection function is commutative (A ${\cap}$ B = B ${\cap}$ A).}
+
+
+\ea \label{ex:14.20}
+\ea No honest men are lawyers. \hfill  (a entails b)\\
+\ex No lawyers are honest men.
+                       \z
+\z
+
+\ea \label{ex:14.21}
+\ea Three senators are Vietnam War veterans. \hfill  (a entails b)\\
+\ex Three Vietnam War veterans are senators.
+\z \z
+
+\ea \label{ex:14.22}
+\ea Some drug dealers are federal employees. \hfill  (a entails b)\\
+\ex Some federal employees are drug dealers.
+\z \z
+
+\ea \label{ex:14.23}
+\ea Several Indo-European languages are verb-initial. \hfill  (a entails b)\\
+\ex Several verb-initial languages are Indo-European.
+                       \z
+\z
+
+
+Relationships expressed by proportional quantifiers, in contrast, are not symmetric, as illustrated in the examples in (\ref{ex:14.24}--\ref{ex:14.26}):
+
+
+\ea \label{ex:14.24}
+\ea All brave men are lonely. \hfill  (a does not entail b)\\
+\ex All lonely men are brave.
+                       \z
+\z
+
+\ea \label{ex:14.25}
+\ea  Most Popes are Italian.  \hfill  (a does not entail b)\\
+\ex Most Italians are Popes.
+\z \z
+
+\ea \label{ex:14.26}
+\ea Few people are Zoroastrians.  \hfill (a does not entail b, in proportional sense of \textit{few})\\
+\ex Few Zoroastrians are people.
+                       \z
+\z
+
+
+There are several distributional differences which distinguish these two classes of determiners. The best known of these has to do with existential constructions. Only cardinal quantifiers can occur as the “pivot” in the existential \textit{there} construction; proportional quantifiers are ungrammatical in this environment.\footnote{\citet{Milsark1977}.} (It is important to distinguish the existential \textit{there} from several other constructions involving \textit{there}. Sentences like (\ref{ex:14.27}b--c) might be grammatical with the locative \textit{there}, or with the list \textit{there} as in \textit{There’s John, there’s Bill, there’s all our cousins, …}; but these other uses are irrelevant to the present discussion.)
+
+
+\ea \label{ex:14.27}
+\ea \relax {There are several/some/no/many/six unicorns in the garden.\\}
+\ex[*]{There are all/most unicorns in the garden.\\}
+\ex[*]{There is every unicorn in the garden.\\}
+                       \z
+\z
+
+
+This contrast may be related to the fact that proportional quantifiers seem to presuppose the existence of a contextually relevant and identifiable set.\footnote{\citet{BarwiseCooper1981} suggest that asserting existence is a tautology for most proportional quantifier phrases, vacuously true if the reference set is empty and necessarily true if it is not empty. It is a contradiction for proportional quantifiers like \textit{neither}.} In order for sentence (\ref{ex:14.28}a) to be a sensible statement, a special context is required which specifies the relevant set of people. For example, we might be discussing a town where most people are Baptist. Similarly, if sentence (\ref{ex:14.28}b) is intended to be a sensible statement, a special context is required to specify the relevant set of students. For example, we might be discussing graduation requirements for a particular linguistics program. This “discourse familiarity” of the restriction set is required by proportional quantifiers, but not by cardinal quantifiers. The sentences in \REF{ex:14.29} do not require any specific context in order to be acceptable. (Of course context could be relevant in determining what the vague quantifier \textit{many} means.)
+
+
+\ea \label{ex:14.28}
+\ea Most people attend the Baptist church.\\
+\ex All students are required to pass phonetics.
+                       \z
+\z
+
+\ea \label{ex:14.29}
+\ea Many people attend the Baptist church.\\
+\ex Six hundred students got grants from the National Science Foundation this year.\\
+\ex No aircraft are allowed to fly over the White House.
+                       \z
+\z
+
+
+Discourse familiarity is of course one type of definiteness. We suggested above that the indefinite article \textit{a(n)} could be analyzed as an existential quantifier, roughly synonymous with singular \textit{some}. Under this analysis, \textit{a(n)} would be a cardinal quantifier, because it specifies a non-empty intersection. Similarly, one way of analyzing the definite article \textit{the} is to treat it as a special universal quantifier, meaning something like ‘all of them’ with plural nouns and ‘all one of them’ with singular nouns. Since \textit{all} is a proportional quantifier, this analysis predicts that \textit{the} should also function as a proportional quantifier. \textit{The} seems to trigger a presupposition that the individual or group named by the NP in which it occurs is uniquely identifiable in the context of the utterance. This presupposition might be seen as following from the general requirement of discourse familiarity for the restriction set of a proportional quantifier.\footnote{\citet{Kearns2000}.}
+
+
+
+This analysis of the articles gets some support from the observation that \textit{a(n)} can, but \textit{the} cannot, occur with existential \textit{there}. This is exactly what we would expect if \textit{a(n)} is a cardinal quantifier while \textit{the} is a proportional quantifier.
+
+
+\ea \label{ex:14.30}
+  There is a/*the unicorn in the garden.  (under existential reading)
+\z
+
+\section{Scope ambiguities}\label{sec:14.5}
+
+As noted in \chapref{sec:4}, when a quantifier combines with another quantifier, negation, or certain other kinds of elements, it can give rise to ambiguities of scope. For example, the sentence \textit{I did not find many valuable books} allows for two readings, as shown in \REF{ex:14.31}. The first reading could be paraphrased as ‘there were many valuable books which I did not find’. The second reading could be paraphrased as ‘there were not many valuable books which I found.’ The difference in the two readings depends on the scope of negation: it takes scope over the quantified NP in reading (b), but not in reading (a).
+
+
+\ea \label{ex:14.31}
+\textit{I did not find many valuable books}.\\
+\ea   [\textit{many} x: BOOK(x) $\wedge$ VALUABLE(x)] ¬FIND(speaker,x)\\
+\ex  ¬[\textit{many} x: BOOK(x) $\wedge$ VALUABLE(x)] FIND(speaker,x)
+                       \z
+\z
+
+
+This is a real semantic ambiguity because the two readings have different truth conditions. For example, suppose that a library contains 10,000 books, of which 600 are considered valuable. One day the library catches fire. The next day the librarian goes in to search for the surviving books, and finds 300 which are considered valuable. In this context, 300 books could plausibly be described as “many”, in which case the first reading would be true while the second reading would be false.
+
+
+
+In \chapref{sec:4} we noted that the proverb \textit{All that glitters is not gold} actually has two possible readings. Once again the ambiguity arises from the interaction between the quantifier and clausal negation: either may occur within the scope of the other, as shown in \REF{ex:14.32}. However, many English speakers are not aware of any ambiguity in this proverb. The mock syllogism in \REF{ex:14.33} has been proposed as an example of fallacious reasoning. In fact, the reasoning is sound under one possible reading of the proverb (the (a) reading), but not under the intended reading of the proverb (the (b) reading).
+
+
+\ea \label{ex:14.32}
+\textit{All that glitters is not gold.}\\
+\ea   [\textit{all} x: GLITTER(x)] ¬GOLD(x)\\
+\ex  ¬[\textit{all} x: GLITTER(x)] GOLD(x)
+                       \z
+\z
+
+\ea \label{ex:14.33}
+All that glitters is not gold.\\
+This rock glitters.\\
+Therefore, this rock is not gold.\footnote{http://www.fallacyfiles.org/scopefal.html}
+\z
+
+
+Part of the reason that speakers do not feel the proverb to be ambiguous is that only one reading is consistent with what we know about the world. However, it also seems to be the case that the (b) reading is generally preferred in sentences of this type. On the other hand, naturally occurring examples of the (a) reading can be found as well, such as those listed in \REF{ex:14.34}. (In each case the context makes it clear that the intended reading gives widest scope to the quantifier; so (\ref{ex:14.34}c) for example is intended to mean that no person is perfect.)
+
+
+\ea \label{ex:14.34}
+\ea All social features are not working.\\
+\ex All external storage devices are not being detected as drives.\\
+\ex Every person is not perfect.
+                       \z
+\z
+
+
+Example \REF{ex:14.35} illustrates how ambiguity can (and frequently does) arise from the interaction between the two quantifiers: either may occur within the scope of the other. The (a) reading says that there are many individual linguists who have read every paper by Chomsky. The (b) reading says that for any given paper by Chomsky there are many individual linguists who have read it. It would be possible for the (b) reading to be true while the (a) reading is false under the same circumstances.
+
+
+\ea \label{ex:14.35}
+\textit{Many linguists have read every paper by Chomsky}.\\
+\ea  [many x: LINGUIST(x)] ([every y: PAPER(y) $\wedge$ BY(y,c)] READ(x,y))\\
+\ex  [every y: PAPER(y) $\wedge$ BY(y,c)] ([many x: LINGUIST(x)] READ(x,y))
+                       \z
+\z
+
+
+A similar example is presented in \REF{ex:14.36}. The (a) reading says that every student in some contextually-determined set, e.g. all those enrolled in a certain course, knows two languages; but each student could know a different pair of languages. The (b) reading says that there is some specific pair of languages, e.g. Urdu and Swahili, which every student in the relevant set knows. (Another example of this type was mentioned in \chapref{sec:4}, \ref{ex:4.29}a.)
+
+
+\ea \label{ex:14.36}
+\textit{Every student knows two languages}.\\
+\ea  [every x: STUDENT(x)] ([two y: LANGUAGE(y)] KNOW(x, y))\\
+\ex  [two y: LANGUAGE(y)] ([every x: STUDENT(x)] KNOW(x, y))
+                       \z
+\z
+
+
+Scope ambiguities can also arise when a quantifier combines with a modal auxiliary, as illustrated in (\ref{ex:14.37}--\ref{ex:14.38}). (The symbol ${\lozenge}$ stands for ‘possibly true’ and the symbol ${\square}$ stands for ‘necessarily true’.) As we will see in \chapref{sec:16}, many modals appear to be lexically ambiguous; but that is not the source of the ambiguity in these examples. As with negation, the modal operator can either be interpreted within the scope of the quantifier (the (a) readings), or it can take scope over the quantifier (the (b) readings). Try to paraphrase the two readings for each of these sentences.
+
+
+\ea \label{ex:14.37}
+\textit{Every student might fail the course}.\footnote{\citet[48]{Abbott2010}.}\\
+\ex ${\forall}$x[STUDENT(x) → ${\lozenge}$ FAIL(x)]\\
+\ex ${\lozenge}$ ${\forall}$x[STUDENT(x) → FAIL(x)]
+\z
+
+\ea \label{ex:14.38}
+\textit{Some sanctions must be imposed}.\\
+\ex ${\exists}$x[SANCTION(x) $\wedge$ ${\square}$ BE-IMPOSED(x)]\\
+\ex ${\square}$ ${\exists}$x[SANCTION(x) $\wedge$ BE-IMPOSED(x)]
+\z
+
+
+We will mention just one more possible source of scope ambiguity, namely the interaction between a quantifier and a propositional attitude verb. Consider the example in \REF{ex:14.39}:
+
+
+\ea \label{ex:14.39}
+\textit{John thinks that he has visited every state.}\\
+\ea \label{ex:14.}  [\textit{all} x: STATE(x)] (THINK(j, VISIT(j,x)))\\
+\ex  THINK(j, [\textit{all} x: STATE(x)] VISIT(j,x))
+                       \z
+\z
+
+
+The (a) reading could be true and the (b) reading false if John has no idea how many states there are in the United States; but for each of the 50 states, when you ask him whether he has visited that specific state, he answers “I think so.” The (b) reading could be true and the (a) reading false if John believes that there are only 48 states, and knows that he has visited all of them; he knows that he has not visited Alaska or Hawaii, but doesn’t believe that they are states.
+
+
+
+It is possible to analyze many cases of \textit{de dicto-de re} ambiguity (\chapref{sec:12}) as scope ambiguities involving propositional attitude verbs, if we treat the indefinite article as an existential quantifier. An example is presented in \REF{ex:14.40}. The (a) reading says that there is some specific individual who is a cowboy, and Susan wants to marry this individual. This is the \textit{de re} reading. It could be true even if Susan does not realize that her prospective husband is a cowboy. The (b) reading says that whoever Susan marries, she wants him to be a cowboy. This is the \textit{de dicto} reading. It could be true even if Susan does not yet have a specific individual in mind.
+
+
+\ea \label{ex:14.40}
+\textit{Susan wants to marry a cowboy.}\\
+\ea  ${\exists}$x[COWBOY(x) $\wedge$ WANT(s, MARRY(s,x))]\\
+\ex  WANT(s, ${\exists}$x[COWBOY(x) $\wedge$ MARRY(s,x)])
+                       \z
+\z
+
+
+Based on this analysis, the \textit{de re} reading is often referred to as the “wide scope” reading, meaning that the existential quantifier takes scope over the propositional attitude verb. The \textit{de dicto} reading is often referred to as the “narrow scope” reading, meaning that the quantifier occurs within the scope of the propositional attitude verb.\footnote{Some scholars argue that \textit{de dicto-de re} ambiguity cannot always be reduced to scope relations; see for example \citet{FodorSag1982}.}
+
+
+\section{Conclusion}\label{sec:14.6}
+
+We have argued that the meaning contribution of a quantifier, whether expressed by a determiner, adverb, or some other category, is best understood as a relationship between two sets. We introduced a new format for logical formulae involving quantification, the restricted quantifier notation, which is flexible enough to handle all sorts of quantifiers. This notation also makes it possible to state rules of semantic interpretation which treat quantifiers in a more uniform way, although we did not spell out the technical details of how we might do this. A very important step in the interpretation of a quantifier is determining its scope, and we discussed several contexts in which scope interactions can create ambiguous sentences.
+
+
+
+These concepts will be important in later chapters, especially in \chapref{sec:16} where we discuss modality. As discussed in that chapter, a very influential analysis of modality is based on the claim that modal expressions like \textit{may}, \textit{must}, \textit{could}, etc. are really a special type of quantifier.
+
+
+
+\furtherreading{
+
+
+
+\citet[ch. 4]{Kearns2000} provides a clear and helpful introduction to quantification. A brief overview of this very large topic is provided in \citet{Gutierrez-Rexach2013}, a longer overview in \citet{Szabolcsi2015}. \citet{Lewis1975} is the classic work on quantifying adverbs.   \citet{BarwiseCooper1981} is one of the foundational works on Generalized Quantifiers, and a detailed discussion is presented in \citet{PetersWesterståhl2006}.
+
+}
+\discussionexercises{
+\paragraph*{A. Restricted quantifier notation} 
+
+Express the following sentences in restricted quantifier notation, and provide an interpretation in terms of set relations:
+
+\begin{enumerate}[label=\alph*.]
+\item \textit{Every Roman is patriotic}.\\
+\textsf{  model answer: [}\textsf{\textit{every}}\textsf{ x: ROMAN(x)] PATRIOTIC(x)\\} $\llbracket$\textsf{ROMAN} $\rrbracket$ \textsf{} ${\subseteq}$\textsf{} $\llbracket$\textsf{PATRIOTIC}$\rrbracket$ 
+\item \textit{Some wealthy Romans are patriotic}.
+\item  \textit{Both Romans are patriotic}.
+\item \textit{Caesar loves all Romans who obey him.}
+\item \textit{Most loyal Romans love Caesar.}
+\end{enumerate}
+
+\paragraph*{B. Scope Ambiguities}
+
+Use logical notation to express the two readings for the following sentences, and state which reading seems most likely to be intended, if you can tell.
+
+\begin{enumerate}[label=\alph*.]
+\item  Some man loves every woman.
+\item Many theologians do not understand this doctrine.
+\item This doctrine is not understood by many theologians.
+\item Two-thirds of the members did not vote for the amendment.
+\item You can fool some of the people all of the time.
+\item A woman gives birth in the United States every five minutes.
+\item He tries to read Plato’s \textit{Republic} every year.\footnote{Marilyn Quayle, on the reading habits of her husband; \textit{Wall Street Journal}, January 20, 1993.}
+\end{enumerate}
+
+}
+\homeworkexercises{
+\paragraph*{Exercise A:} Translate the following sentences into predicate logic, using the \textbf{\textsc{standard}} [not restricted] format for the existential and universal quantifiers, ${\exists}$ and ${\forall}$. If any sentence allows two interpretations, provide the logical formulae for both readings.
+
+\begin{enumerate}
+\item Solomon answered every riddle.\\
+\textsf{Model answer:} ${\forall}$\textsf{x[RIDDLE(x) → ANSWER(s,x)]}
+\item All ambitious politicians visit Paris.
+\item Someone betrayed Caesar.
+\item All critical systems are not working.
+\item No German general supported Stalin.
+\item Not every German general supported Hitler.
+\item Some people believe every wild rumor.
+\item Socrates inspires all sincere scholars who read Plato.
+\end{enumerate}
+
+\paragraph*{Exercise B:} Translate the sentences below into logical formulae, using restricted quantifier notation.\footnote{Ex. B-C are patterned after \citet[89--90]{Kearns2000}.}
+
+\textsf{Example:}  Arthur eats everything that Susan cooks.\\
+\textsf{[Every x: THING(x) \& COOK(s,x)] EAT(a,x)}
+
+\begin{enumerate}
+\item Donald mistrusts most reports from Brussels.\\
+{}[hint: treat \textit{from} as a two-place predicate]
+\item Few who know him like Arthur.
+\item William sold Betsy every arrowhead that he found.
+\item Twenty-one movies were directed and produced by Alfred Hitchcock.
+\item Most travelers entering or leaving Australia visit Sydney.
+\item No one\textsubscript{i} remembers every promise he\textsubscript{i} makes.
+\item Some officials who boycotted both meetings were sacked by Reagan.
+\item Jane Austen and E. M. Forster wrote six novels each.
+\item Rachel met and interviewed several famous musicians.
+\item Most children will not play if they are sad.
+\end{enumerate}
+
+\paragraph*{Exercise C:} The underlined phrases in the sentences below can be analyzed as quantifiers. State the truth conditions for these sentences in terms of set relations.
+
+\begin{stylepoints}
+\textsf{Example:} \textsf{More than twenty}\textsf{ senators are guilty.   {\textbar}} $\llbracket$\textsf{SENATOR}$\rrbracket$ \textsf{ ${\cap}$} $\llbracket$\textsf{GUILTY}$\rrbracket$ \textsf{ {\textbar} > 20}
+\end{stylepoints}
+
+\begin{enumerate}
+\item Between six and twelve generals are loyal.
+\item Both sisters are champions.
+\item The twelve apostles were Jewish.
+\item Just two of the seven guides are bilingual.
+\item Neither candidate is honest.
+\item Fewer than five crewmen are sober.
+\end{enumerate}
+
+The discontinuous determiners in the next examples express three-place quantifier meanings:
+
+\begin{enumerate}
+\item More men than women snore.
+\item Exactly as many Americans are lawyers as are prisoners.\footnote{Actually the figures are only approximately equal, but there are clearly too many of both.}
+\item Fewer wrestlers than boxers are famous.
+\end{enumerate}
+}

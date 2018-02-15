@@ -1,0 +1,566 @@
+\chapter{Components of lexical meaning}\label{sec:7}
+
+\section{Introduction}\label{sec:7.1}
+
+The traditional model of writing definitions for words, which we discussed in \chapref{sec:6}, seems to assume that word meanings can (in many cases) be broken down into smaller elements of meaning.\footnote{\citet[126]{Engelberg2011}.} For example, we defined \textit{ewe} as ‘an adult female sheep’, which seems to suggest that the meanings of the words \textit{sheep}, \textit{adult}, and \textit{female} are included in the meaning of \textit{ewe}.\footnote{\citet[218]{Svensén2009}, in his \textit{Handbook of Lexicography}, identifies such intensional definitions as “the classic type of definition”. He explicitly defines intension (i.e. sense) in terms of components of meaning: “The term \textsc{intension} denotes the content of the concept, which can be defined as the combination of the distinctive features comprised by the concept.” Svensén seems to have in mind the representation of components of word meaning as binary distinctive features, the approach discussed in \sectref{sec:7.4} below.} In fact, if the phrase ‘adult female sheep’ is really a synonym for \textit{ewe}, one might say that the meaning of \textit{ewe} is simply the combination of the meanings of \textit{sheep}, \textit{adult}, and \textit{female}. Another way to express this intuition is to say that the meanings of \textit{sheep}, \textit{adult}, and \textit{female} are \textsc{components} of the meaning of \textit{ewe}.
+
+
+
+In this chapter we introduce some basic ideas about how to identify and represent a word’s components of meaning. Most components of meaning can be viewed as entailments or presuppositions which the word contributes to the meaning of a sentence in which it occurs. We discuss lexical entailments in \sectref{sec:7.2} and \textsc{selectional restrictions} in \sectref{sec:7.3}. Selectional restrictions are constraints on word combinations which rule out collocations such as \#\textit{Assassinate that cockroach!} or \#\textit{This cabbage is nervous}, and we will treat them as a type of presupposition.
+
+
+
+In \sectref{sec:7.4} we summarize one influential approach to word meanings, in which components of meaning were represented as binary distinctive features. We will briefly discuss the advantages and limitations of this approach, which is no longer widely used. In \sectref{sec:7.5} we introduce some of the foundational work on the meanings of verbs.
+
+
+\newpage 
+Our study of the components of word meanings will primarily be based on evidence from sentence meanings, for reasons discussed in earlier chapters. We focus here on descriptive meaning. Of course, words can also convey various kinds of expressive (or \textsc{affective}) meaning, signaling varying degrees of politeness, intimacy, formality, vulgarity, speaker’s attitudes, etc., but we will not attempt to deal with these issues in the current chapter.
+
+
+\section{Lexical entailments}\label{sec:7.2}
+
+When people talk about the meaning of one word (e.g. \textit{sheep}) being “part of”, or “contained in”, the meaning of some other word (e.g. \textit{ewe}), they are generally describing a lexical entailment. Strictly speaking, of course, entailment is a meaning relation between propositions or sentences, not words. When we speak of “lexical entailments”, we mean that the meaning relation between two words creates an entailment relation between sentences that contain those words. This is illustrated in (\ref{ex:7.1}--\ref{ex:7.4}). In each pair of sentences, the (a) sentence entails the (b) sentence because the meaning of the italicized word in the (b) sentence is part of, or is contained in, the meaning of the italicized word in the (a) sentence. We can say that \textit{ewe} lexically entails \textit{sheep}, \textit{assassinate} lexically entails \textit{kill}, etc.
+
+
+\ea \label{ex:7.1}
+\ea John \textit{assassinated} the Mayor.\\
+\ex John \textit{killed} the Mayor.
+                       \z
+\z
+
+\ea
+\label{ex:7.2}
+\ea John is a \textit{bachelor}.\\
+\ex John is \textit{unmarried}.
+\z \z
+
+\ea \label{ex:7.3}
+\ea  John \textit{stole} my bicycle.\\
+\ex John \textit{took} my bicycle.
+\z \z
+
+\ea \label{ex:7.4}
+\ea Fido is a \textit{dog}.\\
+\ex Fido is an \textit{animal}.
+                       \z
+\z
+
+
+These intuitive judgments about lexical entailments can be supported by additional linguistic evidence. Speakers of English feel sentences like \REF{ex:7.5}, which explicitly describe the entailment relation, to be natural. Sentences like \REF{ex:7.6}, however, which seem to cast doubt on the entailment relation, are unnatural or incoherent:\footnote{Examples from \citet[14]{Cruse1986}.}
+
+
+\ea \label{ex:7.5}
+\ea It can’t possibly be a dog and not an animal.\\
+\ex It’s a dog and therefore it’s an animal.\\
+\ex If it’s not an animal, then it follows that it’s not a dog.
+                       \z
+\z
+
+\ea \label{ex:7.6}
+\ea \#It’s not an animal, but it’s just possible that it’s a dog.\\
+\ex \#It’s a dog, so it might be an animal.
+                       \z
+\z
+
+
+\citet[12]{Cruse1986} mentions several additional tests for entailments which can be applied here, including the following:
+
+
+\ea \label{ex:7.7}
+Denying the entailed component leads to contradiction:\\
+\ea \#John killed the Mayor but the Mayor did not die.\\
+\ex \#It’s a dog but it’s not an animal.\\
+\ex \#John is a bachelor but he is happily married.\\
+\ex \#The child fell upwards.
+\z
+                       \z
+
+\ea \label{ex:7.8}
+Asserting the entailed component leads to unnatural redundancy (or \textsc{pleonasm}):\\
+\ea \#It’s a dog and it’s an animal.\\
+\ex ??Kick it with one of your feet.  (\citealt{Cruse1986}: 12)\\
+\ex ??He was murdered illegally.  (\citealt{Cruse1986}: 12)
+                       \z
+\z
+
+\section{Selectional restrictions}\label{sec:7.3}
+
+In addition to lexical entailments, another important aspect of word meanings has to do with constraints on specific word combinations. These constraints are referred to as \textsc{selectional restrictions}. The sentences in \REF{ex:7.9} all seem quite odd, not really acceptable except as a kind of joke, because they violate selectional restrictions.
+
+
+\ea \label{ex:7.9}
+\ea \#This sausage doesn’t appreciate Mozart.\\
+\ex \#John drank his sandwich and took a big bite out of his coffee.\\
+\ex \#Susan folded/perforated/caramelized her reputation.\\
+\ex \#Your exam results are sleeping.\\
+\ex \#The square root of oatmeal is Houston.\\
+\ex \textit{My Feet Are Smiling} (title of guitarist Leo Kottke’s sixth album)\\
+\ex “They’ve a temper, some of them — particularly verbs: they’re the proudest…”
+\small \hfill [Humpty Dumpty, in \textit{Through the Looking Glass}]
+                       \z
+\z
+
+
+As we noted in \REF{ex:7.7}, denying an entailment leads to a contradiction. In contrast, violations of selectional restrictions like those in \REF{ex:7.9} lead to dissonance rather than contradiction.\footnote{Such violations are sometimes called “category mistakes”, or “sortal errors”, especially in philosophical literature.} \citet[95]{Chomsky1965} proposed that selectional restrictions were triggered by syntactic properties of words, but McCawley, Lakoff and other authors have argued that they derive from word meanings. If they were purely syntactic, they should hold even in contexts like those in \REF{ex:7.10}. The fact that these sentences are acceptable suggests that the constraints are semantic rather than syntactic in nature.
+
+\ea \label{ex:7.10}
+\ea He’s become irrational – he thinks his exam results are sleeping.\\
+\ex You can’t say that John drank his sandwich.
+                       \z
+\z
+
+The lexical entailments of words which occur in questions or negated statements can often be denied without contradiction, as illustrated in \REF{ex:7.11}. Selectional restrictions, in contrast, hold even in questions, negative statements, and other non-assertive environments \REF{ex:7.12}. This suggests that they are a special type of presupposition, and we will assume that this is the case.\footnote{The idea that selectional restrictions can be treated as lexical presuppositions was apparently first proposed by Fillmore, but was first published by \citet{McCawley1968}.}
+
+
+\ea \label{ex:7.11}
+\ea John didn’t kill the Mayor; the Mayor is not even dead.\\
+\ex Is that a dog, or even an animal?\\
+\ex John is not a bachelor, he is happily married.\\
+\ex The snowflake did not fall, it floated upwards.
+                       \z
+\z
+
+\ea \label{ex:7.12}
+\ea \#Did John drink his sandwich?\\
+\ex \#John didn’t drink his sandwich; maybe he doesn’t like liverwurst.\\
+\ex \#Are your exam results sleeping?\\
+\ex \#My feet aren’t smiling.
+                       \z
+\z
+
+\largerpage[-1]% long distance 
+Selectional restrictions are part of the meanings of specific words; that is, they are linguistic in nature, rather than simply facts about the world. \citet[21]{Cruse1986} points out that hearers typically express astonishment or disbelief on hearing a statement that is improbable, given what we know about the world (\ref{ex:7.13}--\ref{ex:7.14}). This is quite different from hearers’ reactions to violations of selectional restrictions like those in \REF{ex:7.9}. Those sentences are linguistically unacceptable, and hearers are more likely to respond, “You can’t say that.”
+
+\ea \label{ex:7.13}
+A: Our kitten drank a bottle of claret.\\
+B: No! Really?  (\citealt{Cruse1986}: 21)
+\z
+
+\largerpage[-1]% long distance 
+\ea \label{ex:7.14}
+\ea A: I know an old woman who swallowed a goat/cow/bulldozer.\\
+B: That’s impossible!
+\ex \#I know an old woman who swallowed a participle/prime number.
+\z
+\z
+
+It is fairly common for words with the same basic entailments to differ with respect to their selectional restrictions. \ili{German} has two words corresponding to the English word \textit{eat}: \textit{essen} for people and \textit{fressen} for animals. (One might use \textit{fressen} to insult or tease someone — basically saying they eat like an animal.) In a \ili{Kimaragang}\footnote{An {Austronesian} language of northern Borneo.} version of the Christmas story, the translator used the word \textit{paalansayad} to render the phrase which is expressed in the King James Bible as \textit{great with child}. This word correctly expresses the idea that Mary was in a very advanced stage of pregnancy when she arrived in Bethlehem; but another term had to be found when someone pointed out that \textit{paalansayad} is normally used only for water buffalo and certain other kinds of livestock.
+
+
+
+It is sometimes helpful to distinguish selectional restrictions (a type of presupposition triggered by specific words, as discussed above) from \textsc{collocational restrictions}.\footnote{We follow the terminology of \citet[107, 279--280]{Cruse1986} here. Not everyone makes this distinction. In some work on translation principles, e.g. \citet{BeekmanCallow1974}, a violation of either type is referred to as a \textsc{collocational clash}.} Collocational restrictions are conventionalized patterns of combining two or more words. They reflect common ways of speaking, or “normal” usage, within the speech community. Some examples of collocational restrictions are presented in \REF{ex:7.15}.
+
+
+\ea \label{ex:7.15}
+\ea John died/passed away/kicked the bucket.\\
+\ex My prize rose bush died/\#passed away/\#kicked the bucket.\\
+\ex When we’re feeling under the weather, most of us welcome\\a big/\#large hug.\\
+\ex He is (stark) raving mad/\#crazy.\footnote{Jim Roberts, p.c.}\\
+\ex dirty/\#unclean joke\\
+\ex unclean/\#dirty spirit
+                       \z
+\z
+
+
+Violations of a collocational restriction are felt to be odd or unnatural, but they can typically be repaired by replacing one of the words with a synonym, suggesting that collocational restrictions are not, strictly speaking, due to lexical meaning \textit{per se}.
+
+
+\section{Componential analysis}\label{sec:7.4}
+
+Many different theories have been proposed for representing components of lexical meaning. All of them aim to develop a formal representation of meaning components which will allow us to account for semantic properties of words, such as their sense relations, and perhaps some syntactic properties as well.
+
+
+
+One very influential approach during the middle of the 20\textsuperscript{th} century was to treat word meanings as bundles of distinctive semantic features, in much the same way that phonemes are defined in terms of distinctive phonetic/phonological features.\footnote{One early example of this approach is found in \citet{Nida1951}.} This approach is sometimes referred to as \textsc{componential analysis} of meaning. Some of the motivation for this approach can be seen in the following famous example from \citet{Hjelmslev1953}. The example makes it clear that the feature of gender is an aspect of meaning that distinguishes many pairs of lexical items within certain semantic domains. If we were to ignore this fact and just treat each word’s meaning as an \textsc{atom} (i.e., an unanalyzable unit), we would be missing a significant generalization.
+
+
+\eabox{
+\begin{tabular}[t]{*{5}{l}}
+\lsptoprule
+ & horse & human & child & sheep\\
+\midrule 
+“he” & stallion & man & boy & ram\\
+“she” & mare & woman & girl & ewe\\
+\lspbottomrule
+\end{tabular}
+}
+
+Features like gender and adulthood are binary, and so lend themselves to representation in either tree or matrix format, as illustrated in \REF{ex:7.17}. Notice that in addition to the values + and –, features may be unspecified (represented by ⌀ in the matrix). For example, the word \textit{foal} is unspecified for gender, and the word \textit{horse} is unspecified for both age and gender.
+
+
+\ea \label{ex:7.17}
+Binary feature analysis for horse terms:\\
+\begin{multicols}{2}
+\begin{tabular}[t]{lcc}
+\lsptoprule
+& [adult] & [male]\\\midrule
+\itshape horse & ⌀ & ⌀\\
+\itshape stallion & + & +\\
+\itshape mare & + & –\\
+\itshape foal & – & ⌀\\
+\itshape colt & – & +\\
+\itshape filly & – & –\\
+\lspbottomrule
+\end{tabular}\\
+\begin{forest}
+[\scshape horse
+  [??, edge label={node[midway,above left,font=\scriptsize]{[+A]}}
+    [\itshape stallion,edge label={node[midway,above left,font=\scriptsize]{[+M]}}]
+    [\itshape mare, edge label={node[midway,above right,font=\scriptsize]{[−M]}}]
+  ] [foal, edge label={node[midway,above right,font=\scriptsize]{[-A]}}
+    [\itshape colt,edge label={node[midway,above left,font=\scriptsize]{[+M]}}]
+    [\itshape filly, edge label={node[midway,above right,font=\scriptsize]{[−M]}}]
+  ]
+]
+\end{forest}
+\end{multicols}
+\z
+
+
+\ea  \label{ex:7.18} Binary feature analysis for human terms:\\
+\begin{tabular}[t]{lcc} 
+\lsptoprule
+& [adult] & [male]\\ \midrule
+\textit{man\textsubscript{1}}\textit{/human} & ⌀ & ⌀\\
+\textit{man\textsubscript{2}} & + & +\\
+\itshape woman & + & –\\
+\itshape child & – & ⌀\\
+\itshape boy & – & +\\
+\itshape girl & – & –\\
+\lspbottomrule
+\end{tabular}
+\z
+
+Componential analysis provides neat explanations for some sense relations. Synonymous senses can be represented as pairs that share all the same components of meaning. Complementary pairs are perfectly modeled by binary features: the two elements differ only in the polarity for one feature, e.g. [+/– alive], [+/– awake], [+/– possible], [+/– legal], etc. The semantic components of a hyperonym (e.g. \textit{child} [+human, –adult]) are a proper subset of the semantic components of its hyponyms (e.g. \textit{boy} [+human, –adult, +male]); \textit{girl} [+human, –adult, –male])). In other words, each hyponym contains all the semantic components of the hyperonym plus at least one more; and these “extra” components are the ones that distinguish the meanings of taxonomic sisters. Reverse pairs might be treated in a way somewhat similar to complementary pairs; they differ in precisely one component of meaning, typically a direction, with the dimension and manner of motion and the reference point held steady.
+
+
+
+On the other hand, it is not so easy to define gradable antonyms, converse pairs, or meronyms in this way. Moreover, while many of the benefits of this kind of componential analysis are shared by other approaches, a number of problems have been pointed out which are specific to the binary feature approach.\footnote{The following discussion is based on \citet[129--130]{Engelberg2011}; \citet[317ff.]{Lyons1977}.}
+
+
+
+First, there are many lexical distinctions which do not seem to be easily expressible in terms of binary features, at least not in any plausible way. Species names, for example, are a well-known challenge to this approach. What features distinguish members of the cat family (\textit{lion, tiger, leopard, jaguar, cougar, wildcat, lynx, cheetah}, etc.) from each other? Similar issues arise with color terms, types of metal, etc. In order to deal with such cases, it seems that the number of features would need to be almost as great as the number of lexical items.
+
+
+
+Second, it is not clear how to use simple binary features to represent the meanings of two-place predicates, such as \textit{recognize}, \textit{offend}, \textit{mother (of)}, etc. The word \textit{recognize} entails a change of state in the first argument, while the word \textit{offend} entails a change of state in the second argument. A simple feature matrix like those above cannot specify which argument a particular feature applies to.
+
+
+
+Third, some word meanings cannot be adequately represented as an unordered bundle of features, whether binary or not. For example, many studies have been done concerning the semantic components of kinship terms in various languages. This is one domain in which the components need to be ordered or structured in some way; ‘mother’s brother’s spouse’ (one sense of \textit{aunt} in English) would probably not, in most languages, be called by the same term as ‘spouse’s mother’s brother’ (no English term available). Verb meanings also seem to require structured components. For example, ‘want to cause to die’ (part of the meaning of \textit{murderous}) is quite different from ‘cause to want to die’ (similar to one sense of \textit{mortify}).
+
+
+
+Fourth, we need to ask how many features would be needed to describe the entire lexicon of a single language? Binary feature analysis can be very efficient within certain restricted semantic domains, but when we try to compare a wider range of words, it is not clear that the inventory of features could be much smaller than the lexicon itself.
+
+
+\section{Verb meanings}\label{sec:7.5}
+
+Much of the recent research on lexical semantics has focused on verb meanings. One reason for this special interest in verbs is the fact that verb meanings have a direct influence on syntactic structure, and so syntactic evidence can be used to supplement traditional semantic methods.
+
+
+
+A classic paper by Charles \citet{Fillmore1970} distinguishes two classes of transitive verbs in English: “surface contact” verbs (e.g., \textit{hit, slap, strike, bump, stroke}) vs. “change of state” verbs (e.g., \textit{break, bend, fold, shatter, crack}). Fillmore shows that the members of each class share certain syntactic and semantic properties which distinguish them from members of the other class. He further argues that the correlation between these syntactic and semantic properties supports a view of lexical semantics under which the meaning of a verb is made up of two kinds of elements: (a) systematic components of meaning that are shared by an entire class; and (b) idiosyncratic components that are specific to the individual root. Only the former are assumed to have syntactic effects. This basic insight has been foundational for a large body of subsequent work in the area of verbal semantics.
+
+
+
+Fillmore begins by using syntactic criteria to distinguish the two classes, which we will refer to for convenience as the \textit{hit} class vs. the \textit{break} class. Subsequent research has identified additional criteria for making this distinction. One of the best-known tests is the \textsc{causative-inchoative} alternation.\footnote{\citet[122--123]{Fillmore1970}.} \textit{Break} verbs generally exhibit systematic polysemy between a transitive and an intransitive sense. The intransitive sense has an \textsc{inchoative} (change of state) meaning while the transitive sense has a causative meaning \REF{ex:7.19}. As illustrated in \REF{ex:7.20}, \textit{hit} verbs do not permit this alternation, and often lack intransitive senses altogether.
+
+
+\ea \label{ex:7.19}
+\ea  John broke the window (with a rock).\\
+\ex  The window broke.
+                       \z
+\z
+
+\ea \label{ex:7.20}
+\ea  John hit the tree (with a stick).\\
+\ex *The tree hit.
+                       \z
+\z
+
+
+Additional tests include “body-part possessor ascension” (\ref{ex:7.21}--\ref{ex:7.22}),\footnote{\citet[126]{Fillmore1970}.} the \textsc{conative} alternation (\ref{ex:7.23}--\ref{ex:7.24}),\footnote{\citet{GuersselEtAl1985,Levin1993}.} and the \textsc{middle} alternation \REF{ex:7.25}.\footnote{\citet{Fillmore1977,HaleKeyser1987,Levin1993}.} Each of these tests demonstrates a difference between the two classes in terms of the potential syntactic functions (subject, direct object, oblique argument, or unexpressed) of the agent and patient.
+
+
+\ea \label{ex:7.21}
+\ea  I \{hit/slapped/struck\} his leg.\\
+\ex  I \{hit/slapped/struck\} him on the leg.
+                       \z
+\z
+
+\ea \label{ex:7.22}
+\ea  I \{broke/bent/shattered\} his leg.\\
+\ex *I \{broke/bent/shattered\} him on the leg.
+                       \z
+\z
+
+\ea \label{ex:7.23}
+\ea  Mary hit the piñata.\\
+\ex  Mary hit at the piñata.\\
+\ex  I slapped the mosquito.\\
+\ex  I slapped at the mosquito.
+                       \z
+\z
+
+\ea \label{ex:7.24}
+\ea  Mary broke the piñata.\\
+\ex  *Mary broke at the piñata.\\
+\ex  I cracked the mirror.\\
+\ex  *I cracked at the mirror.
+                       \z
+\z
+
+\ea \label{ex:7.25}
+\ea  This glass breaks easily.\\
+\ex *This fence hits easily.
+                       \z
+\z
+
+
+These various syntactic tests (and others not mentioned here) show a high degree of \textsc{convergence}; that is, the class of \textit{break} verbs identified by any one test matches very closely the class of \textit{break} verbs identified by the other tests. This convergence strongly supports the claim that the members of each class share certain properties in common. \citet[125]{Fillmore1970} suggests that these shared properties are semantic components: “change of state” in the case of the \textit{break} verbs and “surface contact” in the case of the \textit{hit} verbs. Crucially, he provides independent semantic evidence for this claim, specifically evidence that \textit{break} verbs do but \textit{hit} verbs do not entail a change of state \REF{ex:7.26}.\footnote{\citet[125]{Fillmore1970}.} Sentence (\ref{ex:7.26}a) is linguistically acceptable, although surprising based on our knowledge of the world, while (\ref{ex:7.26}b) is a contradiction. Example \REF{ex:7.27} presents similar evidence for the entailment of “surface contact” in the case of the \textit{hit} verbs.
+ 
+\ea \label{ex:7.26}
+\ea  I \textit{hit} the window with a hammer; it didn’t faze the window,\\
+  but the hammer shattered.\\
+\ex *I \textit{broke} the window with a hammer; it didn’t faze the window,\\
+  but the hammer shattered.
+                       \z
+\z
+
+\ea \label{ex:7.27}
+\ea *I \textit{hit} the window without touching it.\\
+\ex  I \textit{broke} the window without touching it.
+                       \z
+\z
+
+
+Without this kind of direct semantic evidence, there is a great danger of falling into circular reasoning, e.g.: \textit{break} verbs permit the causative-inchoative alternation because they contain the component “change of state”, and we know they contain the component “change of state” because they permit the causative-inchoative alternation. As many linguists have learned to our sorrow, it is all too easy to fall into this kind of trap.
+
+
+
+While \textit{break} verbs (e.g., \textit{break, bend, fold, shatter, crack}) all share the “change of state” component, they do not all mean the same thing. Each of these verbs has aspects of meaning which distinguish it from all the other members of the class, such as the specific nature of the change and selectional restrictions on the object/patient. \citet[131]{Fillmore1970} suggests that only the shared component of meaning has syntactic consequences; the idiosyncratic aspects of meaning that distinguish one \textit{break} verb from another do not affect the grammatical realization of arguments.
+
+
+
+\citet{Levin1993} builds on and extends Fillmore’s study of verb classes in English. In her introduction she compares the \textit{break} and \textit{hit} verbs with two additional classes, \textit{touch} verbs (\textit{touch, pat, stroke, tickle}, etc.) and \textit{cut} verbs (\textit{cut, hack, saw, scratch, slash}, etc.). Using just three of the diagnostic tests discussed above, she shows that each of these classes has a distinctive pattern of syntactic behavior, as summarized in \REF{ex:7.28}. The examples in (\ref{ex:7.29}--\ref{ex:7.31}) illustrate the behavior of \textit{touch} verbs and \textit{cut} verbs.\footnote{Examples adapted from \citet[6--7]{Levin1993}.}
+
+
+\ea \label{ex:7.28} English transitive verb classes\footnote{\citet[8]{Levin1993}}\\
+\begin{tabularx}{.9\textwidth}{Qcccc} 
+\lsptoprule
+& \textit{touch} verbs & \textit{hit} verbs & \textit{cut} verbs & \textit{break} verbs\\
+\midrule
+body-part possessor ascension & \scshape yes & \scshape yes & \scshape yes & \scshape no\\
+\tablevspace
+conative alternation & \scshape no & \scshape yes & \scshape yes & \scshape no\\
+\tablevspace
+middle & \scshape no & \scshape no & \scshape yes & \scshape yes\\
+\lspbottomrule
+\end{tabularx}
+\z
+
+\ea \label{ex:7.29}
+\textsc{body-part possessor ascension}:\\
+\ea  I touched Bill’s shoulder.\\
+\ex  I touched Bill on the shoulder.\\
+\ex  I cut Bill’s arm.\\
+\ex  I cut Bill on the arm.
+                       \z
+\z
+
+\ea \label{ex:7.39}  \textsc{conative alternation}:\\
+\ea  Terry touched the cat.\\
+\ex *Terry touched at the cat.\\
+\ex  Margaret cut the rope.\\
+\ex  Margaret cut at the rope.
+                       \z
+\z
+
+\ea \label{ex:7.31}
+\textsc{middle}:\\
+\ea  The bread cuts easily.\\
+\ex *Cats touch easily.
+                       \z
+\z
+
+
+Levin proposes the following explanation for these observations. Body-part possessor ascension is possible only for verb classes which share the surface contact component of meaning. The conative alternation is possible only for verb classes whose meanings include both contact and motion. The middle construction is possible only for transitive verb classes whose meanings include a caused change of state. The four classes pattern differently with respect to these tests because each of the four has a distinctive set of meaning components, as summarized in \REF{ex:7.32}.
+
+
+\ea \label{ex:7.32}
+{Shared components of meaning}\footnote{Adapted from \citet[268]{Saeed2009}.}\\
+\parbox{4cm}{\textit{touch} verbs}  \textsc{contact}\\
+\parbox{4cm}{\textit{hit} verbs}  \textsc{motion, contact}\\
+\parbox{4cm}{\textit{cut} verbs}  \textsc{motion, contact, change}\\
+\parbox{4cm}{\textit{break} verbs}  \textsc{change}
+\z
+
+
+These verb classes have been found to be grammatically relevant in other languages as well. \citet{Levin2015} cites the following examples: \citet{DeLancey1995,DeLancey2000} on Lhasa Tibetan; \citet{GuersselEtAl1985} on \ili{Berber}, \ili{Warlpiri}, and \ili{Winnebago}; \citet{Kroeger2010} on \ili{Kimaragang} Dusun; \citet{Vogel2005} on \ili{Jarawara}.
+
+In the remainder of her book, \citet{Levin1993} identifies 192 classes of English verbs, using 79 diagnostic patterns of \textsc{diathesis} alternations (changes in the way that arguments are expressed syntactically). She shows that these verb classes are supported by a very impressive body of evidence. However, she states that establishing these classes is only a means to an end; the real goal is to understand meaning components:
+
+
+\begin{quote}
+{}[T]here is a sense in which the notion of verb class is an artificial construct. Verb classes arise because a set of verbs with one or more shared meaning components show similar behavior… The important theoretical construct is the notion of meaning component, not the notion of verb class.\footnote{\citet[9–10]{Levin1993}.}
+\end{quote}
+
+
+Like Fillmore, Levin argues that not all meaning components are grammatically relevant, but only those which define class membership. The aspects of meaning that distinguish one verb from another within the same class (e.g. \textit{punch} vs. \textit{slap}) are idiosyncratic, and do not affect syntactic behavior. Evidence from diathesis alternations can help us determine the systematic, class-defining meaning components, but will not provide an analysis for the idiosyncratic aspects of the meaning of a particular verb.
+
+As noted above, verb meanings cannot be represented as an unordered bundle of components, but must be structured in some way. One popular method, referred to as \textsc{lexical decomposition}, is illustrated in \REF{ex:7.33}. This formula was proposed by   \citet[109]{RappaportHovavLevin1998} as a partial representation of the systematic components of meaning for verbs like \textit{break}. In this formula, \textit{x} represents the agent and \textit{y} the patient. The idiosyncratic aspects of meaning for a particular verb root would be associated with the \textsc{state} predicate (e.g. \textit{broken}, \textit{split}, etc.).
+
+
+\ea \label{ex:7.33}
+{}[[x ACT] CAUSE [BECOME [y <\textsc{state}> ]]]
+\z
+
+\section{Conclusion}\label{sec:7.6}
+
+The idea that verb meanings may consist of two distinct parts, a systematic, class-defining part vs. an idiosyncratic, verb-specific part, is similar to proposals that have been made for content words in general. \citet[131]{Fillmore1970} notes that a very similar idea is found in the general theory of word meaning proposed by \citet{KatzFodor1963}. These authors suggest that word meanings are made up of systematic components of meaning, which they refer to as \textsc{semantic markers}, plus an idiosyncratic residue which they refer to as the \textsc{distinguisher}.
+
+
+
+This proposal is controversial, but there do seem to be some good reasons to distinguish systematic vs. idiosyncratic aspects of meaning. As we have seen, Fillmore and Levin demonstrate that certain rules of syntax are sensitive to some components of meaning but not others, and that the grammatically relevant components are shared by whole classes of verbs. Additional motivation for making this distinction comes from the existence of systematic polysemy. It seems logical to expect that rules of systematic polysemy must be stated in terms of systematic aspects of meaning.
+
+
+
+However, there is no general consensus as to what the systematic aspects of meaning are, or how they should be represented.\footnote{For one influential proposal, see \citet{Pustejovsky1995}.} Some scholars even deny that components of meaning exist, arguing that word meanings are \textsc{atoms}, in the sense defined in \sectref{sec:7.4}.\footnote{E.g. \citet{Fodor1975} and subsequent work.} Under this “atomic” view of word meanings, lexical entailments might be expressed in the form of \textsc{meaning postulates} like the following:
+
+
+\ea
+${\forall}$x[STALLION(x) → MALE(x)]\\
+${\forall}$x[BACHELOR(x) → ¬MARRIED(x)]
+\z
+
+
+Many scholars do believe that word meanings are built up in some way from smaller elements of meaning. However, a great deal of work remains to be done in determining what those smaller elements are, and how they are combined.
+
+
+
+\furtherreading{
+\citet{Engelberg2011} provides a good overview of the various approaches to and controversies about lexical decomposition and componential analysis. \citet[317ff.]{Lyons1977} discusses some of the problems with the binary feature approach to componential analysis. The first chapter of \citet{Levin1993} gives a very good introduction to the Fillmore-type analysis of verb classes and what they can tell us about verb meanings, and \citet{Levin2015} presents an updated cross-linguistic survey of the topic. 
+
+}
+\discussionexercises{
+\paragraph*{A.  Componential analysis of meaning}
+
+Construct a table of semantic components, represented as binary features, for each of the following sets of words:
+
+\begin{enumerate}[noitemsep]
+\item \itshape
+bachelor, spinster, widow, widower, husband, wife, boy, girl
+\item \itshape
+walk, run, march, limp, stroll
+\item \itshape
+cup, glass, mug, tumbler, chalice, goblet, stein
+\end{enumerate}
+
+\paragraph*{B. Locative-alternation (“spray-load”) verbs.\footnote{Adapted from \citet{Saeed2009}, ch. 9.}}
+
+Based on the following examples, fill in the table below to show which verbs allow the goal or location argument to be expressed as direct object and which verbs allow the displaced theme argument to be expressed as direct object. Try to formulate an analysis in terms of meaning components to account for the patterns you find in the data.
+
+\ea
+\label{ex:7:1}
+\ea%1
+Jack sprayed paint on the wall.\\
+\ex Jack sprayed the wall with paint.
+    \z
+\z
+
+\ea
+\label{ex:7:2}
+\ea%2
+Bill loaded the cart with apples.\\
+\ex Bill loaded the apples onto the cart.
+    \z
+\z
+
+\ea
+\label{ex:7:3}
+\ea%3
+William filled his mug with guava juice.\\
+\ex *William filled guava juice into his mug.
+    \z
+\z
+
+\ea
+    \label{ex:7:4}
+\ea%4
+ *William poured his mug with guava juice.\\
+\ex  William poured guava juice into his mug.
+    \z
+\z
+
+\ea
+    \label{ex:7:5}
+\ea%5
+Ailbhe pushed the bicycle into the shed.\\
+\ex \#Ailbhe pushed the shed with the bicycle.  [different meaning]
+    \z
+\z
+
+\ea
+    \label{ex:7:6}
+\ea%6
+ Harvey pulled me onto the stage.\\
+\ex \#Harvey pulled the stage with me.   [different meaning]
+    \z
+\z
+
+\ea
+    \label{ex:7:7}
+\ea%7
+ Libby coated the chicken with oil.\\
+\ex ?*Libby coated the oil onto the chicken.
+    \z
+\z
+
+\ea
+    \label{ex:7:8}
+\ea%8
+Mike covered the ceiling with paint.\\
+\ex *Mike covered the paint onto the ceiling.
+    \z
+\z
+
+\noindent
+\begin{tabularx}{\textwidth}{lCC}
+\lsptoprule
+\bfseries\scshape Verb & \bfseries\scshape Theme = object & \bfseries\scshape Location = object\\
+\midrule
+\itshape fill & no & yes \\
+\midrule
+\itshape load &  & \\
+\midrule
+\itshape spray &  & \\
+\midrule
+\itshape cover &  & \\
+\midrule
+\itshape coat &  & \\
+\midrule
+\itshape pour &  & \\
+\midrule
+\itshape push &  & \\
+\midrule
+\itshape pull &  & \\
+\lspbottomrule
+\end{tabularx}
+}
+
+\homeworkexercises{
+\sloppy
+\paragraph*{Causative/inchoative alternation.\footnote{Adapted from \citet[298]{Saeed2009}, ex. 9.3.}}
+\citet[102--105]{RappaportHovavLevin1998} propose a semantic explanation for why some change of state verbs participate in the \textsc{causative/inchoative} alternation (\textit{John broke the window} vs. \textit{the window broke}), while others do not. They suggest that verbs which name events that must involve an animate, intentional and volitional agent never appear in the intransitive form. This hypothesis predicts that only (but not necessarily all) verbs which allow an inanimate force as subject should participate in the alternation, as illustrated in (a--b). Your tasks:
+(i) construct examples like those in (a--b) to test this prediction for the following verbs, and explain what your examples show us about the hypothesis: \textit{melt, write, shrink, destroy}; (ii) Use Levin \& Rappaport Hovav’s hypothesis to explain the contrasts in sentences (c--d).
+
+\begin{enumerate}[label=\alph*.]
+\item A terrorist/*tornado assassinated the governor.\\
+*The governor assassinated.
+\item The storm broke all the windows in my office.\\
+All the windows in my office broke.
+\item The sky/*table cleared.
+\item Paul’s window/*contract/*promise broke.
+\end{enumerate}
+}

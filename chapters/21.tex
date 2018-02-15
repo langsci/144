@@ -6,11 +6,11 @@ As we discussed in \chapref{sec:20}, tense markers are frequently described as l
 
 
 
-In \sectref{sec:21.2} we will compare Klein’s theory of tense with some other well-known approaches. In \sectref{sec:21.3} we discuss in some detail the simple present tense in English. This turns out to be a useful case study, because it illustrates how a wide range of uses can be explained in terms of a single basic sense plus coercion effects triggered by selectional restrictions etc.
+In \sectref{sec:21.2} we will compare Klein’s theory of tense with some other well-known approaches. In \sectref{sec:21.3} we discuss in some detail the simple present tense in English. This turns out to be a useful case study, because it illustrates how a wide range of uses can be explained in terms of a single basic sense plus coercion effects triggered by selectional restrictions, etc.
 
 
 
-\sectref{sec:21.4} discusses the difference between \textsc{absolute tense}, which defines past, present, or future relative to the time of speaking, from \textsc{relative tense}, in which the reference point for tense marking is some time other than the time of speaking. Some languages also have \textsc{complex tense} forms, which combine absolute with relative time reference. In example \REF{ex:21.1}, for example, the first clause specifies a topic time (3:15 pm) that is in the past relative to the time of speaking. That time becomes the reference point for the tense marking in the second clause, which specifies a new topic time (3:00 pm) that is in the past relative to this reference point. The form \textit{had left} is an example of a complex tense, namely “past-in-the-past”.
+\sectref{sec:21.4} discusses the difference between \textsc{absolute tense}, which defines past, present, or future relative to the time of speaking, from \textsc{relative tense}, in which the reference point for tense marking is some time other than the time of speaking. Some languages also have \textsc{complex tense} forms, which combine absolute with relative time reference. In sentence \REF{ex:21.1}, for example, the first clause specifies a topic time (3:15 pm) that is in the past relative to the time of speaking. That time becomes the reference point for the tense marking in the second clause, which specifies a new topic time (3:00 pm) that is in the past relative to this reference point. The form \textit{had left} is an example of a complex tense, namely “past-in-the-past”.
 
 
 \ea \label{ex:21.1}
@@ -28,20 +28,20 @@ In \chapref{sec:20} we quoted the following standard definitions of tense:
 
 \ea \label{ex:21.2}
 \ea   “\textbf{\textsc{Tense}} is grammaticalised expression of location in time… [T]enses locate situations either at the same time as the present moment…, or prior to the present moment, or subsequent to the present moment.” (\citealt{Comrie1985}: 9, 14)
-\ex   “\textbf{\textsc{Tense}} refers to the grammatical expression of the time of the situation described in the proposition, relative to some other time.” \citep{Bybee1985}
+\ex   “\textbf{\textsc{Tense}} refers to the grammatical expression of the time of the situation described in the proposition, relative to some other time.” (\citealt[144]{Bybee1992})
 \z \z
 
 
-An important feature of these definitions is the restriction to “grammatical(ized) expressions” of location in time. Every language has a variety of content words which can be used to specify the time of an event. These may include NPs (\textit{last year, that week, the next day}), PPs (\textit{in the morning, after the election}), temporal adverbs (\textit{soon, later, then}), adverbial clauses (\textit{While Hitler was in Vienna,} …), etc. But not all languages have tense markers. The traditional use of the term \textsc{tense} in linguistics has been restricted to grammatical morphemes: inflectional affixes, auxiliary verbs, particles, etc.
+An important feature of these definitions is that they are restricted to “grammatical(ized) expressions” of location in time. Every language has a variety of content words which can be used to specify the time of an event. These may include NPs (\textit{last year, that week, the next day}), PPs (\textit{in the morning, after the election}), temporal adverbs (\textit{soon, later, then}), adverbial clauses (\textit{While Hitler was in Vienna,} …), etc. But not all languages have tense markers. The traditional use of the term \textsc{tense} in linguistics has been restricted to grammatical morphemes: inflectional affixes, auxiliary verbs, particles, etc.
 
 
 
-One way to represent the “location” of a situation in time is to define logical operators (e.g. \textsc{past} and \textsc{future}) which will add tense information to a basic proposition. These tense operators can be defined as existential quantifiers over times, as suggested in \REF{ex:21.3}.\footnote{\citet{Prior1957,Prior1967}.} This definition says that \textsc{past}(p) will be true at the time of speaking just in case there was some time prior to the time of speaking when p was true; and similarly for \textsc{future}(p). (The letter “t” stands for ‘time’, and “<” in this context means ‘prior to’. TU represents the time of speaking; this is typically the time for which the truth value of a statement is evaluated.)
+One way to represent the “location” of a situation in time is to define logical operators (e.g. \textsc{past} and \textsc{future}) which will add tense information to a basic proposition. These tense operators can be defined as existential quantifiers over times, as suggested in \REF{ex:21.3}.\footnote{\citet{Prior1957,Prior1967}.} This definition says that \textsc{past}(p) will be true at the time of speaking just in case there was some time prior to the time of speaking when p was true; and similarly for \textsc{future}(p). (The letter \textit{t} stands for ‘time’, and “<” in this context means ‘prior to’. TU represents the time of speaking; this is typically the time for which the truth value of a statement is evaluated.)
 
 
 \ea \label{ex:21.3}
-\textsc{past}(p) is true at TU  iff  ${\exists}$\textsubscript{t}[t < TU $\wedge$ p is true at time t]\\
-\textsc{future}(p) is true at TU  iff  ${\exists}$\textsubscript{t}[TU < t $\wedge$ p is true at time t]
+\textsc{past}(p) is true at TU  iff  ${\exists}$\textsubscript{t}[t < TU $\wedge$ (p is true at time t)]\\
+\textsc{future}(p) is true at TU  iff  ${\exists}$\textsubscript{t}[TU < t $\wedge$ (p is true at time t)]
 \z
 
 
@@ -57,9 +57,11 @@ If the positive statement \textit{I turned off the stove} is interpreted as show
 
 
 \ea \label{ex:21.5}
-\ea   \textit{I turned off the stove}.  ${\exists}$\textsubscript{t} [t < TU $\wedge$ TURN\_OFF(speaker, stove) is true at t]
-\ex   \textit{I didn’t turn off the stove}.  \textit{¬}${\exists}$\textsubscript{t} [t < TU $\wedge$ TURN\_OFF(speaker, stove) is true at t]\\
-  or:  ${\exists}$\textsubscript{t} [t < TU $\wedge$ \textit{¬}TURN\_OFF(speaker, stove) is true at t]
+\ea   \textit{I turned off the stove}. \\ 
+${\exists}$\textsubscript{t} [t < TU $\wedge$ (TURN\_OFF(speaker, stove) is true at t)]
+\ex   \textit{I didn’t turn off the stove}. \\
+$¬{\exists}$\textsubscript{t} [t < TU $\wedge$ (TURN\_OFF(speaker, stove) is true at t)]\\
+  or:  ${\exists}$\textsubscript{t} [t < TU $\wedge$ ($¬$TURN\_OFF(speaker, stove) is true at t)]
 \z \z
 
 In \chapref{sec:20} we introduced Klein’s analysis of tense, which crucially defines tense as indicating the location of Topic Time rather than the location in time of the situation itself. Under Klein’s analysis, the past tense in \REF{ex:21.4} \textit{I didn’t turn off the stove} indicates that Topic Time is prior to the Time of Utterance. The Topic Time is determined by the context; in this situation, it would be the time immediately before leaving the house. The speaker is asserting that at that particular time, she didn’t turn off the stove. No assertion is made about other times. This analysis provides the correct interpretation.
@@ -78,7 +80,7 @@ To review, Klein defines tense and aspect as shown in \REF{ex:21.6}, where TT = 
 So, for example, past tense can be defined as a grammatical marker which indicates that TT is prior to TU. Future tense can be defined as indicating that TU is prior to TT. Present tense might be defined as indicating that TU is contained within TT.
 
 
-
+\largerpage
 Klein’s framework is based on the very influential work of \citet{Reichenbach1947}. Reichenbach defined tense categories in terms of three cardinal points in time: \textsc{speech time} (S), the time of the utterance; \textsc{event time} (E), the time of the event or situation which is being described; and \textsc{reference time} (R). S and E correspond to Klein’s TU and TSit, respectively. Reichenbach’s “reference time” can be seen as analogous to Klein’s TT, although there is some disagreement as to what Reichenbach actually meant by this term. In the discussion that follows we will use Klein’s terminology, but Reichenbach’s terms (E, S, and R) are also widely used, and it will be helpful to be aware of these as well.
 
 
@@ -96,19 +98,18 @@ The simple present tense in English is notoriously puzzling, as \citet{Langacker
 
 
 \begin{quote}
-	\relax [T]he English present is notorious for the descriptive problems it poses. Some would even refer to it as “the so-called present tense in English”, so called because a characterization in terms of present time seems hopelessly unworkable. On the one hand, it typically cannot be used for events occurring at the time of speaking. To describe what I am doing right now, I cannot felicitously use sentence [a], with the simple present, but have to resort to the progressive, as in [b]. On the other hand, many uses of the so-called present do not refer to present time at all, but to the future [a], to the past [b], or to transcendent situations where time seems irrelevant [c]. It appears, in fact, that the present tense can be used for \textbf{anything but} the present time.
+	\relax [T]he English present is notorious for the descriptive problems it poses. Some would even refer to it as “the so-called present tense in English”, so called because a characterization in terms of present time seems hopelessly unworkable. On the one hand, it typically cannot be used for events occurring at the time of speaking. To describe what I am doing right now, I cannot felicitously use sentence [\ref{ex:21.7}a], with the simple present, but have to resort to the progressive, as in [\ref{ex:21.7}b]. On the other hand, many uses of the so-called present do not refer to present time at all, but to the future [\ref{ex:21.8}a], to the past [\ref{ex:21.8}b], or to transcendent situations where time seems irrelevant [\ref{ex:21.8}c]. It appears, in fact, that the present tense can be used for \textit{anything but} the present time.
 \end{quote}
 
 \ea \label{ex:21.7}
-\ea  *I \textit{write} this paper right now.\\
-\ex I am writing this paper right now.
+\ea[*]{I \textit{write} this paper right now.}
+\ex[]{I am writing this paper right now.}
                        \z
 \z
 
 \ea \label{ex:21.8}
 \ea  My brother \textit{leaves} for China next month.
-\ex  I’m eating dinner last night when the phone \textit{rings}. I \textit{answer} it but there’s no\\
-  response. Then I \textit{hear} this buzzing sound.
+\ex  I’m eating dinner last night when the phone \textit{rings}. I \textit{answer} it but there’s no response. Then I \textit{hear} this buzzing sound.
 \ex  The area of a circle \textit{equals} pi times the square of its radius. 
 \z \z
 
@@ -117,7 +118,7 @@ The concept of \textsc{aspectual sensitivity} (the potential for tense forms to 
 
 
 
-What happens when an event-type predicate is expressed in the simple present? Eventive predicates in the progressive can be interpreted as referring to specific events occurring at the time of speaking, as seen in (\ref{ex:21.9}a) and (\ref{ex:21.10}a), but this interpretation is not available for the simple present because of the aspectual sensitivity described in the preceding paragraph. For this reason, an event-type predicate in the simple present frequently gets a habitual interpretation, as seen in examples (\ref{ex:21.9}b) and (\ref{ex:21.10}b).\footnote{Examples (\ref{ex:21.9}b) and (\ref{ex:21.10}b) are taken from \citet[185]{Smith1997}.}
+What happens when an event-type predicate is expressed in the simple pres\-ent? Eventive predicates in the progressive can be interpreted as referring to specific events occurring at the time of speaking, as seen in (\ref{ex:21.9}a) and (\ref{ex:21.10}a), but this interpretation is not available for the simple present because of the aspectual sensitivity described in the preceding paragraph. For this reason, an event-type predicate in the simple present frequently gets a habitual interpretation, as seen in examples (\ref{ex:21.9}b) and (\ref{ex:21.10}b).\footnote{Examples (\ref{ex:21.9}b) and (\ref{ex:21.10}b) are taken from \citet[185]{Smith1997}.}
 
 
 \ea \label{ex:21.9}
@@ -158,16 +159,18 @@ As Langacker illustrated in (\ref{ex:21.8}a), the simple present can also be use
 \citet[47]{Comrie1976} notes that “there is a heavy constraint on the use of the present tense with future reference, namely that the situation referred to must be one that is scheduled.” He illustrates this constraint with the examples in \REF{ex:21.13}. Comrie notes that (\ref{ex:21.13}b) would only be acceptable if God is talking, or if humans develop new technology that allows them to schedule rain.
 
 \ea \label{ex:21.13}
-\ea  The train departs at five o’clock tomorrow morning.\\
-\ex ?\#It rains tomorrow.
+\ea  The train \textit{departs} at five o’clock tomorrow morning.\\
+\ex ?\#It \textit{rains} tomorrow.
                        \z
 \z
 
 Note also that the future interpretation of the simple present is not available within the scope of a conditional or temporal adverbial clause, as seen in (\ref{ex:21.14}b), since these seem to block the inference that the event is independently scheduled.
 
 \ea \label{ex:21.14}
-\ea  If/When you touch me, I will scream.  (main clause refers to specific event)\\
-\ex If/When you touch me, I \textit{scream}.  (only gnomic/universal interpretation is possible)
+\ea  If/When you touch me, I \textit{will scream}. \\ 
+\hfill  (main clause refers to specific event)\\
+\ex If/When you touch me, I \textit{scream}. \\ 
+\hfill  (only gnomic/universal interpretation is possible)
                        \z
 \z
 
@@ -186,24 +189,25 @@ In this example the identity of the speaker and location of the speech event are
 
 
 
-Other eventive uses of the simple present include explicit performatives, play-by-play reports by sportscasters, stage directions in the scripts of plays, etc.\footnote{See \citet{Klein2009} for a discussion of other special uses of the present.} For now, we will simply consider these to be idiosyncratic exceptions to the general rule, that is, idiomatic uses of the simple present form.
+Other eventive uses of the simple present include explicit performatives, play-by-play reports by sportscasters, stage directions in the scripts of plays, etc.\footnote{See \citet{Klein2009} for a discussion of other special uses of the present.} For now, we will simply consider these to be idiosyncratic exceptions to the general rule; that is, idiomatic uses of the simple present form.
 
 
 \section{Relative tense}\label{sec:21.4}
 
-As noted in the definitions we cited from Comrie and Bybee, tense systems typically specify location in time relative to the time of the current utterance (TU). This type of tense marking is called \textsc{absolute tense}. For certain tense markers, however, some other, contextually determined reference point is used. This type of tense marking is called \textsc{relative tense}. Because absolute tense marking is anchored to the time of the current utterance, absolute tenses are deictic elements; relative tenses might be considered anaphoric rather than deictic. A Brazilian Portuguese example is presented in (\ref{ex:21.16}a).
+As noted in the definitions we cited from Comrie and Bybee, tense systems typically specify location in time relative to the time of the current utterance (TU). This type of tense marking is called \textsc{absolute tense}. For certain tense markers, however, some other reference point is used, which must be determined by the context. This type of tense marking is called \textsc{relative tense}. Because absolute tense marking is anchored to the time of the current utterance, absolute tenses are deictic elements; relative tenses might be considered anaphoric rather than deictic. A \il{Portuguese!Brazilian} Brazilian Portuguese example is presented in (\ref{ex:21.16}a).\footnote{\citet[31]{Comrie1985}. A reviewer notes that the \ili{Persian} translation for this example would use exactly the same tenses as the {Portuguese}. Note that the {Portuguese} future subjunctive is homophonous with the infinitive paradigm for most verbs, including \textit{chegar}; but the paradigms are distinct for certain irregular verbs, including \textit{ter} ‘have’, \textit{haver} ‘have’, \textit{ser} ‘be’, \textit{estar} ‘be’, \textit{querer} ‘want’, \textit{trazer} ‘bring’, \textit{ver} ‘see’, \textit{vir} ‘come’ (Jeff Shrum, p.c.).}
 
 
 \ea \label{ex:21.16}
-\ea  \gll Quando  você  chegar,{\rmfnm}  eu  já  saí.\\
-when  \textsc{2sg}  arrive.\textsc{fut.sbjnctv}  \textsc{1sg}  already  leave.\textsc{past}\\
-\glt ‘When you arrive, I will already have left.’   [Brazilian Portuguese; \citealt{Comrie1985}: 31]
+\ea  \gll Quando  você  chegar, eu  já  saí.\\
+when  \textsc{2sg}  arrive.\textsc{fut.sbjv}  \textsc{1sg}  already  leave.\textsc{past}\\
+\glt ‘When you arrive, I will already have left.’   [{Brazilian} {Portuguese}]
 \ex   *When you arrive, I already left.
-\z \z
-\footnotetext{The future subjunctive is homophonous with the infinitive paradigm for most verbs, including \textit{chegar}; but the paradigms are distinct for certain irregular verbs, including \textit{ter} ‘have’, \textit{haver} ‘have’, \textit{ser} ‘be’, \textit{estar} ‘be’, \textit{querer} ‘want’, \textit{trazer} ‘bring’, \textit{ver} ‘see’, \textit{vir} ‘come’ (Jeff Shrum, p.c.).}
+\z 
+\z
 
 
-The simple past tense form \textit{saí} ‘left’ would normally have past reference; but in this context it gets a relative tense interpretation, indicating that the event described in the main clause is located in the past relative to the time of the event described in the adverbial clause. So in this context a verb marked for past tense can refer to an event which is actually in the future relative to the time of the speech event (TU). As demonstrated in (\ref{ex:21.16}b), the literal English translation of this sentence is ungrammatical, because the simple past tense in English normally does not allow this kind of relative tense interpretation.
+
+The simple past tense form \textit{saí} ‘left’ would normally have past reference, but in this context it gets a relative tense interpretation, indicating that the event described in the main clause is located in the past relative to the time of the event described in the adverbial clause. So in this context a verb marked for past tense can refer to an event which is actually in the future relative to the time of the speech event (TU). As demonstrated in (\ref{ex:21.16}b), the literal English translation of this sentence is ungrammatical, because the simple past tense in English normally does not allow this kind of relative tense interpretation.
 
 
 
@@ -215,29 +219,32 @@ The most likely interpretation for ex. (\ref{ex:21.16}a) is diagrammed in \REF{e
 
 
 \ea \label{ex:21.17}
-TU  [  TT  ]  PT  \\
-      \textbf{{\textbar}}TSit: my departure\textbf{{\textbar}}    [ your arrival ]
+\begin{tabular}{ccc}
+TU &  [  TT  ] & PT  \\
+\hline
+& {\textbar} TSit: my departure  {\textbar} &    [ your arrival ]
+\end{tabular}
 \z
 
 
-In Imbabura Quechua, main clause verbs have absolute tense reference.\footnote{\citet{Cole1982}, \citet[61]{Comrie1985}.} Most subordinate verbs use a distinct set of tense affixes which get a relative tense interpretation.\footnote{Verbs in relative clauses use the main-clause tense markers with absolute tense reference.} In the following examples, the subordinate verb ‘live’ is marked for relative past, present or future tense according to whether it refers to a situation which existed before, during or after the situation named by the main verb, which determines the perspective time. Since the main verb is marked for past tense, the actual time referred to by the subordinate verb may have been before the time of the utterance even when it is marked for ‘future’ tense, as in (\ref{ex:21.18}c):
+In {Imbabura} \ili{Quechua}, main clause verbs have absolute tense reference.\footnote{\citet{Cole1982}, \citet[61]{Comrie1985}.} Most subordinate verbs use a distinct set of tense affixes which get a relative tense interpretation.\footnote{Verbs in relative clauses use the main-clause tense markers with absolute tense reference.} In the following examples, the subordinate verb ‘live’ is marked for relative past, present or future tense according to whether it refers to a situation which existed before, during or after the situation named by the main verb, which determines the perspective time. Since the main verb is marked for past tense, the actual time referred to by the subordinate verb may have been before the time of the utterance even when it is marked for ‘future’ tense, as in (\ref{ex:21.18}c):
 
 
 \ea \label{ex:21.18}
-\textbf{Imbabura Quechua} (Peru; \citealt{Cole1982}: 143)\\
-\ea   [Marya  Agatu-pi  kawsa-j]-ta  kri-rka-ni\\
-Mary  Agato-in  live-\textsc{pres}-\textsc{acc}  believe-\textsc{past}-\textsc{1subj}\\
-‘I believed that Mary was living (at that time) in Agato.’
-\ex  [Marya  Agatu-pi  kawsa-shka]-ta  kri-rka-ni\\
+\textbf{{Imbabura} Quechua} (Peru; \citealt{Cole1982}: 143)\\
+\ea \gll [Marya  Agatu-pi  kawsa-j]-ta  kri-rka-ni.\\
+Mary  Agato-in  live-\textsc{pres}-\textsc{acc}  believe-\textsc{past}-\textsc{1subj} \\
+\glt ‘I believed that Mary was living (at that time) in Agato.’
+\ex  \gll  [Marya  Agatu-pi  kawsa-shka]-ta  kri-rka-ni.\\
 Mary  Agato-in  live-\textsc{past}-\textsc{acc}  believe-\textsc{past}-\textsc{1subj}\\
-‘I believed that Mary had lived (at some previous time) in Agato.’
-\ex  [Marya  Agatu-pi  kawsa-na]-ta  kri-rka-ni\\
+\glt ‘I believed that Mary had lived (at some previous time) in Agato.’
+\ex \gll  [Marya  Agatu-pi  kawsa-na]-ta  kri-rka-ni.\\
 Mary  Agato-in  live-\textsc{fut}-\textsc{acc}  believe-\textsc{past}-\textsc{1subj}\\
-‘I believed that Mary would (some day) live in Agato.’
+\glt ‘I believed that Mary would (some day) live in Agato.’
 \z \z
 
 
-Relative past tense is sometimes referred to as \textsc{anterior} tense, relative future as \textsc{posterior} tense, and relative present as \textsc{simultaneous} tense. Relative tense is most common in subordinate clauses, but is also found in main clauses in some languages (e.g., classical Arabic). \citet{Comrie1985} points out that participles in many languages, including English and Latin, get a relative tense interpretation. Example \REF{ex:21.19} illustrates the simultaneous meaning of the English present participle (\textit{flying}). Example \REF{ex:21.10} illustrates the posterior meaning of the Latin future participle: the event of crossing the river is described for a topic time which is in the future relative to the perspective time defined by the main clause (the time when he failed to send over the provisions). Example \REF{ex:21.21} illustrates the anterior meaning of the Latin past participle: the event of delaying is described for a topic time which is in the past relative to the perspective time defined by the main clause (the time when he orders them to give the signal).
+Relative past tense is sometimes referred to as \textsc{anterior} tense, relative future as \textsc{posterior} tense, and relative present as \textsc{simultaneous} tense. Relative tense is most common in subordinate clauses, but is also found in main clauses in some languages (e.g., classical \ili{Arabic}). \citet{Comrie1985} points out that participles in many languages, including English and \ili{Latin}, get a relative tense interpretation. Example \REF{ex:21.19} illustrates the simultaneous meaning of the English present participle (\textit{flying}). Example \REF{ex:21.10} illustrates the posterior meaning of the \ili{Latin} future participle: the event of crossing the river is described for a topic time which is in the future relative to the perspective time defined by the main clause (the time when he failed to send over the provisions). Example \REF{ex:21.21} illustrates the anterior meaning of the \ili{Latin} past participle: the event of delaying is described for a topic time which is in the past relative to the perspective time defined by the main clause (the time when he orders them to give the signal).\footnote{Example \REF{ex:21.21} comes from Sallust, Catilina 59; cited in \citet[§496]{AllenGreenough1903}. The past participle in \ili{Latin}, as in English, normally has a passive meaning; but the verb meaning ‘delay’ in \ili{Latin} is a \textsc{deponent} verb, meaning that passive morphology does not create a passive meaning.}
 
 
 \ea \label{ex:21.19}
@@ -248,16 +255,16 @@ Relative past tense is sometimes referred to as \textsc{anterior} tense, relativ
 
 \ea \label{ex:21.20}
 \gll Trāiectūrus  Rhēnum  commeātum  nōn  trānsmīsit.\\
-cross-\textsc{fut.prtcpl}  Rhine  provisions  \textsc{neg}  send.over-\textsc{past.pfctv.3}sg\\
-\glt ‘Being about to cross the Rhine, he did not send over the provisions.’\\
-{}[Suetonius; cited in \citealt{Comrie1985}: 61]
+cross-\textsc{fut.ptcp}  Rhine  provisions  \textsc{neg}  send.over-\textsc{past.pfv.3}sg\\
+\glt ‘Being about to cross the Rhine, he did not send over the provisions.’\footnote{Suetonius; cited in \citet[61]{Comrie1985}.} \\
+
 \z
 
 \ea \label{ex:21.21}
-Paululum  \textit{commorātus},\footnote{The past participle in Latin, as in English, normally has a passive meaning; but the verb meaning ‘delay’ in Latin is a \textsc{deponent} verb, meaning that passive morphology does not create a passive meaning.}  sīgna  canere  iubet.\\
-little.bit  delay-\textsc{pst.prtcpl}  signal.\textsc{pl}  to.sound  order-\textsc{pres.3}sg\\
-‘Having delayed a little while, he orders them to give the signal.’\\
-{}[Sallust, Catilina 59; cited in \citealt{AllenGreenough1931}, §496]
+\gll Paululum  \textit{commorātus},  sīgna  canere  iubet.\\
+little.bit  delay-\textsc{pst.ptcp}  signal.\textsc{pl}  to.sound  order-\textsc{pres.3}sg\\
+\glt ‘Having delayed a little while, he orders them to give the signal.’\\
+
 \z
 
 
@@ -265,8 +272,7 @@ The English \textit{be} \textit{going to} construction is sometimes identified a
 
 
 \ea \label{ex:21.22}
-\ea  I was just \textit{going to tell} you when you first came in, only you began about\\
-  Castle Richmond.\footnote{Anthony  Trollope (1860), \textit{Castle Richmond}; cited at: \url{http://grammar.about.com/od/fh/g/Future-In-The-Past.htm}} \\
+\ea  I was just \textit{going to tell} you when you first came in, only you began about Castle Richmond.\footnote{Anthony  Trollope (1860), \textit{Castle Richmond}; cited at: \url{http://grammar.about.com/od/fh/g/Future-In-The-Past.htm}} \\
 \ex John keeps saying that he is \textit{going to visit} Paris some day.\\
 \ex Dibber always did tell me Pat was \textit{going to study} to be a doctor.\footnote{John Fante, “Horselaugh on Dibber Lannon”; cited at: \url{http://grammar.about.com/od/fh/g/Future-In-The-Past.htm}} \\
 \ex John \textit{is going to visit} you very soon.
@@ -279,7 +285,7 @@ The English \textit{be} \textit{going to} construction is sometimes identified a
 
 \subsection{Complex (“absolute-relative”) tense marking}\label{sec:21.4.1}
 
-The perspective time (PT) for relative tense markers like those discussed above is not grammatically specified, but is determined by contextual features. However, Comrie points out that some languages do have tense forms which grammatically specify both the location of PT (relative to TU) and the location of TT (relative to PT). Comrie refers to such cases as “absolute-relative” tense marking; we will use the term \textsc{complex tense}.
+The perspective time (PT) for relative tense markers like those discussed above is not grammatically specified but is determined by contextual features. However, Comrie points out that some languages do have tense forms which grammatically specify both the location of PT (relative to TU) and the location of TT (relative to PT). Comrie refers to such cases as “absolute-relative” tense marking; we will use the term \textsc{complex tense}.
 
 
 
@@ -288,8 +294,7 @@ The English Pluperfect construction (\textit{I had eaten}) can be used to expres
 
 \ea \label{ex:21.23}
 \ea  I reached the base camp Tuesday afternoon; Sam \textit{had arrived} the previous evening.\\
-\ex Einstein was awarded the Nobel prize in 1922, for a paper that he \textit{had published}\\
-  in 1905.
+\ex Einstein was awarded the Nobel prize in 1922, for a paper that he \textit{had published} in 1905.
                        \z
 \z
 
@@ -298,10 +303,8 @@ Similarly, the Future Perfect construction (\textit{I will have eaten}) can be u
 
 
 \ea \label{ex:21.24}
-\ea  I expect to reach the base camp on Tuesday afternoon; Sam \textit{will have arrived} \\
-  the previous evening.\\
-\ex Einstein published four ground-breaking papers in 1905, including the one for which\\
-  he \textit{would win} the Nobel prize in 1922.
+\ea  I expect to reach the base camp on Tuesday afternoon; Sam \textit{will have arrived} the previous evening.\\
+\ex Einstein published four ground-breaking papers in 1905, including the one for which he \textit{would win} the Nobel prize in 1922.
                        \z
 \z
 
@@ -310,20 +313,39 @@ The relative positions of TT, PT and TU for the italicized verbs in examples (\r
 
 
 \ea \label{ex:21.25}
-\ea       [  TT: 1905  ]  PT  TU   “past in the past” (b)\\
-         \textbf{{\textbar}}TSit\textbf{{\textbar}}    (1922)  (now)
-\ex    TU  [  TT: Mon. eve.  ]  PT  “past in the future” (a)\\
-  (now)      \textbf{{\textbar}}TSit\textbf{{\textbar}}    (Tues. pm)
-\ex    PT  [  TT: 1922  ]  TU  “future in the past” (b)\\
-  (1905)      \textbf{{\textbar}}TSit\textbf{{\textbar}}   (now)
-\z \z
+\begin{xlist}
+ \exbox{
+\begin{tabularx}{.9\textwidth}{cccS}
+[ TT: 1905 ] &  PT & TU  &  “past in the past” (\ref{ex:21.23}b)\\
+\cline{1-3}
+{\textbar} TSit {\textbar} &     (1922) &   (now)&\\
+\end{tabularx}
+}
+\medskip
+\exbox{
+\begin{tabularx}{.9\textwidth}{cccS}
+TU &  [ TT: Mon. eve. ] &   PT &  “past in the future” (\ref{ex:21.23}a)\\
+\cline{1-3}
+  (now) &     {\textbar} TSit {\textbar} &      (Tues. pm) & \\
+\end{tabularx}
+}
+\medskip
+\exbox{
+\begin{tabularx}{.9\textwidth}{cccS}
+PT &  [ TT: 1922 ] &   TU &  “future in the past” (\ref{ex:21.23}b)\\
+\cline{1-3}
+  (1905)   &    {\textbar} TSit {\textbar}  &   (now) &\\  
+\end{tabularx}
+}
+\end{xlist}
+\z
 
 
-As we will see in \chapref{sec:22}, the Pluperfect and Future Perfect forms are ambiguous. In addition to the complex tense readings illustrated in (\ref{ex:21.23}--\ref{ex:21.24}), they can also be used to indicate perfect aspect; but here we consider only their tense functions.\footnote{As discussed in \chapref{sec:22}, the temporal adverbs used here ensure that only the complex tense readings are available.}
+As we will see in \chapref{sec:22}, the Pluperfect and Future Perfect forms are ambiguous. In addition to the complex tense readings illustrated in (\ref{ex:21.23}--\ref{ex:21.24}), they can also be used to indicate perfect aspect. In this chapter we consider only their tense functions.\footnote{As discussed in \chapref{sec:22}, the temporal adverbs used here ensure that only the complex tense readings are available.}
 
 
 
-\citet{Comrie1985} points out that cross-linguistically, most forms which express complex tense meanings are morphologically complex, i.e. involve combinations of two or more morphemes, like the English Pluperfect and Future Perfect constructions. However, occasional exceptions to this generalization do exist, e.g. the mono-morphemic pluperfect \textit{–ara} in literary Portuguese.
+\citet{Comrie1985} points out that cross-linguistically, most forms which express complex tense meanings are morphologically complex; that is, they involve combinations of two or more morphemes, like the English Pluperfect and Future Perfect constructions. However, occasional exceptions to this generalization do exist, e.g. the mono-morphemic pluperfect \textit{–ara} in literary \ili{Portuguese}.
 
 
 \subsection{Sequence of tenses in indirect speech}\label{sec:21.4.2}
@@ -332,13 +354,15 @@ The difference between direct vs. indirect speech is that direct speech purports
 
 
 \ea \label{ex:21.26}
-\ea  Yesterday Arthur told me, “I will meet you here again tomorrow.”  [\textsc{direct}]\\
-\ex Yesterday Arthur told me that he would meet me there again today.  [\textsc{indirect}]
+\ea  Yesterday Arthur told me, “I will meet you here again tomorrow.” \\ 
+\hfill  [\textsc{direct}]\\
+\ex Yesterday Arthur told me that he would meet me there again today. \\
+\hfill [\textsc{indirect}]
                        \z
 \z
 
 
-One of the most important differences between the two forms is seen in the use of the deictic elements. Deictics within the direct quote (\ref{ex:21.26}a) are anchored to the perspective of the original speaker (Arthur) and the time and place of the original speech event: \textit{I} = Arthur; \textit{you} = the addressee in the original speech event, who is also the speaker in the current, reporting event; \textit{here} = place of the original speech event; \textit{tomorrow} = the day following the original speech event; etc. Deictics within the indirect quote (\ref{ex:21.26}b) are anchored to the perspective of the speaker in the current, reporting event (= the addressee in the original speech event), and the time and place of the current speech event. So \textit{I} shifts to \textit{he}; \textit{you} shifts to \textit{me}; \textit{here} shifts to \textit{there}; \textit{tomorrow} shifts to \textit{today}; etc.
+One of the most important differences between the two forms is seen in the use of the deictic elements. Deictics within the direct quote (\ref{ex:21.26}a) are anchored to the perspective of the original speaker (Arthur) and the time and place of the original speech event: \textit{I} = Arthur; \textit{you} = the addressee in the original speech event, who is also the speaker in the current, reporting event; \textit{here} = place of the original speech event; \textit{tomorrow} = the day following the original speech event; etc. Deictics within the indirect quote (\ref{ex:21.26}b) are anchored to the perspective of the speaker in the current, reporting event (= the addressee in the original speech event), and the time and place of the current speech event. So \textit{I} shifts to \textit{he}; \textit{you} shifts to \textit{me}; \textit{here} shifts to \textit{there}; \textit{tomorrow} shifts to \textit{today}, etc.
 
 
 
@@ -346,26 +370,27 @@ Notice that the tense of the verb also shifts: \textit{will meet} in the direct 
 
 
 
-\citet{Comrie1985} presents an interesting contrast between the use of tense in indirect speech in English vs. Russian. In Russian, the tense of the verb in indirect speech is identical to the tense in direct speech, i.e., the tense that was used by the original speaker in the original speech act. However, all of the other deictic elements shift to the perspective of the current speaker, just as they do in English. An example is presented in \REF{ex:21.27}, reporting a speech act by John at some unspecified time in the past:\footnote{Data from \citet[109]{Comrie1985}. The non-past tense used in these examples would be interpreted with future reference in this context.}
+\citet{Comrie1985} presents an interesting contrast between the use of tense in indirect speech in English vs. \ili{Russian}. In \ili{Russian}, the tense of the verb in indirect speech is identical to the tense in direct speech, i.e., the tense that was used by the original speaker in the original speech act. However, all of the other deictic elements shift to the perspective of the current speaker, just as they do in English. An example is presented in \REF{ex:21.27}, reporting a speech act by John at some unspecified time in the past:\footnote{Data from \citet[109]{Comrie1985}. The non-past tense used in these examples would be interpreted with future reference in this context.}
 
 
 \ea \label{ex:21.27}
 \ea  
 \gll Džon  skazal:  “Ja  ujdu  zavtra.”\\
 John  said  \textsc{1sg}  will.leave  tomorrow\\
-\glt John said, “I will leave tomorrow.”  [\textsc{direct}]
+\glt John said, “I will leave tomorrow.” \hfill  [\textsc{direct}]
 \ex 
 \gll Džon  skazal,  čto  on  ujdet  na  sledujuščij  den.\\
 John  said  \textsc{comp}  \textsc{3sg}  will.leave  on  next  day\\
-\glt John said that he would leave (lit: will leave) on the following day.  [\textsc{indirect}]
+\glt John said that he would leave (lit: will leave) on the following day. \\
+\hfill  [\textsc{indirect}]
 \z \z
 
+\largerpage
+In other words, verbs in \ili{Russian} indirect speech complements (and other finite complements) get relative tense marking: the reference point is not the current time of speaking, but the time of the reported speech event (or, more generally, the topic time of the main clause). English verbs behave differently in this regard. For example, in (\ref{ex:21.26}b) and the English translation of (\ref{ex:21.27}b), where the original speaker used a simple future tense (\textit{will leave}), the form used in indirect speech is the complex “future in the past” tense (\textit{would leave}). As noted above, this is what we would expect to happen due to the shift in the deictic reference point, from the time of the original speech event to the time of the current, reporting speech event. However, there are other contexts where this shift by itself cannot account for the English tense forms.
 
-In other words, verbs in Russian indirect speech complements (and other finite complements) get relative tense marking: the reference point is not the current time of speaking, but the time of the reported speech event (or, more generally, the topic time of the main clause). English verbs behave differently in this regard. For example, in (\ref{ex:21.26}b) and the English translation of (\ref{ex:21.27}b), where the original speaker used a simple future tense (\textit{will leave}), the form used in indirect speech is the complex “future in the past” tense (\textit{would leave}). As noted above, this is what we would expect to happen due to the shift in the deictic reference point, from the time of the original speech event to the time of the current, reporting speech event. However, there are other contexts where this shift by itself cannot account for the English tense forms.
 
 
-
-The examples in \REF{ex:21.28} suggest that the form of the complement verb depends on the tense of the matrix (main clause) verb. Assume that John’s actual words in both (\ref{ex:21.28}a) and (\ref{ex:21.28}b) use the present progressive form (\textit{I am studying}). When the matrix verb occurs in the future tense, as in (\ref{ex:21.28}b), English seems to follow the same pattern as Russian: the tense of the complement verb in indirect speech is identical to the tense that would have been used by the original speaker. However, when the matrix verb occurs in the past tense, this is not always true: in (\ref{ex:21.28}a), for example, we see the past progressive form (\textit{was studying}) instead of the present progressive (\textit{is studying}).
+The examples in \REF{ex:21.28} suggest that the form of the complement verb depends on the tense of the matrix (main clause) verb. Assume that John’s actual words in both (\ref{ex:21.28}a) and (\ref{ex:21.28}b) use the present progressive form (\textit{I am studying}). When the matrix verb occurs in the future tense, as in (\ref{ex:21.28}b), English seems to follow the same pattern as \ili{Russian}: the tense of the complement verb in indirect speech is identical to the tense that would have been used by the original speaker. However, when the matrix verb occurs in the past tense, this is not always true: in (\ref{ex:21.28}a), for example, we see the past progressive form (\textit{was studying}) instead of the present progressive (\textit{is studying}).
 
 
 \ea \label{ex:21.28}
@@ -380,9 +405,10 @@ Some additional examples illustrating this contrast are presented below. One gen
 
 \ea \label{ex:21.29}
 \ea  Yesterday I invited John to go out for pizza, but he said that he \textit{had/*has} just \textit{eaten}.\\
-\ex If you invite him for pizza tomorrow, he will say that he \textit{has/*will have} just \textit{eaten}.
+\ex If you invite him for pizza tomorrow, he will say that he \textit{has/\\*will have} just \textit{eaten}.
                        \z
 \z
+
 
 \ea \label{ex:21.30}
 (spoken in 1998):\\
@@ -444,11 +470,11 @@ Our purpose in this section has been to show that verb forms in indirect speech 
 
 \section{Temporal Remoteness markers (“metrical tense”)}\label{sec:21.5}
 
-Among languages in which tense is marked morphologically, the most common tense systems involve a two-way distinction: either past vs. non-past or future vs. non-future.\footnote{\citet{ChungTimberlake1985}.} A three-way morphological distinction, like the Lithuanian past vs. present vs. future paradigm mentioned in \chapref{sec:20} (and repeated here as \ref{ex:21.36}) is actually somewhat unusual.
+Among languages in which tense is marked morphologically, the most common tense systems involve a two-way distinction: either past vs. non-past or future vs. non-future.\footnote{\citet{ChungTimberlake1985}.} A three-way morphological distinction, like the \ili{Lithuanian} past vs. present vs. future paradigm mentioned in \chapref{sec:20} (and repeated here as \ref{ex:21.36}) is actually somewhat unusual.
 
 
 \ea \label{ex:21.36}
-\textbf{Lithuanian tense marking} (\citealt{ChungTimberlake1985}: 204)\\
+{\ili{Lithuanian} tense marking} (\citealt{ChungTimberlake1985}: 204)\\
 \ea  
 \gll dirb-\textit{au}\\
 work-\textsc{1sg}\textsc{.past} \\
@@ -466,10 +492,10 @@ work-\textsc{future}-\textsc{1sg} \\
 \z
 \z
 
-However, a number of languages have verbal affixes which distinguish more than one degree of past and/or future time reference, e.g. ‘immediate past’ vs. ‘near past’ vs. ‘distant past’. Such systems are especially well-known among the Bantu languages. Example \REF{ex:21.37} presents a paradigm from the Bantu language ChiBemba, which has (in addition to the present tense, not shown here) a symmetric set of four past and four future time markers.
+However, a number of languages have verbal affixes which distinguish more than one degree of past and/or future time reference, e.g. ‘immediate past’ vs. ‘near past’ vs. ‘distant past’. Such systems are especially well-known among the  {Bantu} languages. Example \REF{ex:21.37} presents a paradigm from the {Bantu} language \ili{ChiBemba}, which has (in addition to the present tense, not shown here) a symmetric set of four past and four future time markers.
 
 \ea \label{ex:21.37}
-\textbf{ChiBemba (Bantu)} (Chung and \citealt{Timberlake1985}: 208, based on \citealt{Givón1972})\\
+{ChiBemba ({Bantu})}\footnote{\citet[208]{ChungTimberlake1985}, based on \citet{Givón1972}.} \\
 \ea  remote past\\
     ba-\textit{àlí}-bomb-\textit{ele}   \\
 \glt‘they worked (before yesterday)’
@@ -504,10 +530,10 @@ ba-\textit{ká} -bomba   \\
 \z
 \z
 
-A slightly less complex system is found in Grebo (Niger-Kordufanian), as illustrated in \REF{ex:21.38}:
+A slightly less complex system is found in Grebo (Niger-Kordofanian), as illustrated in \REF{ex:21.38}:
 
 \ea \label{ex:21.38} 
-Grebo (Niger-Kordufanian) (\citealt{Frawley1992}: 365–367; based on \citet{Innes1966}) \\
+{\ili{Grebo} (Niger-Kordofanian)}\footnote{\citet[365–367]{Frawley1992}; based on \citet{Innes1966}.} \\
 \ea  remote past \\
 ne du-\textit{da} bla \\ 
 \glt‘I pounded rice (before yesterday)’
@@ -516,7 +542,7 @@ ne du-\textit{da} bla \\
 ne du-\textit{də} bla\\
 \glt ‘I pounded rice (yesterday)’ 
 
-\ex today (past or fut) \\
+\ex today (past or future) \\
 ne du-\textit{e} bla \\ 
 \glt‘I pounded/will pound rice (today)’
 
@@ -530,15 +556,16 @@ ne du-\textit{də\textsubscript{2}} bla \\
 \z
 \z
 
+\largerpage
 These systems are sometimes referred to as “metrical tense” or “graded tense” systems. However, some recent research has argued that at least in some languages, these markers indicate the location of the situation time (TSit), rather than the topic time (TT), relative to the time of speaking.\footnote{\citet{Cable2013,LaCross2016}.} If this is true, then these markers would not fit Klein’s definition of tense. The widely-used label \textsc{Temporal Remoteness} is general enough to include this type as well.
 
 
 
-As examples (\ref{ex:21.37}--\ref{ex:21.38}) illustrate, Temporal Remoteness systems frequently make distinctions such as ‘today’ vs. ‘yesterday’, ‘yesterday’ vs. ‘before yesterday’, etc. In such systems, the “today” category is sometimes referred to as \textsc{Hodiernal}, and the “yesterday past” category is sometimes referred to as \textsc{Hesternal}, based on the Latin words for ‘today’ and ‘yesterday’. In some languages, temporal remoteness is measured in other units of time, e.g. months or years; and in some, there can be a shift in the choice of unit depending on which unit would be contextually most relevant. Some languages make other kinds of distinctions, e.g. between remembered past vs. non-remembered past.\footnote{\citet{Botne2012}.}
+As examples (\ref{ex:21.37}--\ref{ex:21.38}) illustrate, Temporal Remoteness systems frequently make distinctions such as ‘today’ vs. ‘yesterday’, ‘yesterday’ vs. ‘before yesterday’, etc. In such systems, the “today” category is sometimes referred to as \textsc{Hodiernal}, and the “yesterday past” category is sometimes referred to as \textsc{Hesternal}, based on the \ili{Latin} words for ‘today’ and ‘yesterday’. In some languages, temporal remoteness is measured in other units of time, e.g. months or years; and in some, there can be a shift in the choice of unit depending on which unit would be contextually most relevant. Some languages make other kinds of distinctions, e.g. between remembered past vs. non-remembered past.\footnote{\citet{Botne2012}.}
 
 
 
-The ChiBemba and Grebo systems illustrated above are both symmetrical, with equal numbers of past and future categories. It is also fairly common for a language with Temporal Remoteness markers to make more distinctions in the past than in the future. \citet{Nurse2008} reports that in his sample of 210 Bantu languages, about half have only a single future category, whereas 80\% have more then one degree of past time marking. 
+The \ili{ChiBemba} and \ili{Grebo} systems illustrated above are both symmetrical, with equal numbers of past and future categories. It is also fairly common for a language with Temporal Remoteness markers to make more distinctions in the past than in the future. \citet{Nurse2008} reports that in his sample of 210 {Bantu} languages, about half have only a single future category, whereas 80\% have more than one degree of past time marking. 
 
 
 
@@ -551,64 +578,81 @@ We have adopted Klein’s definition of (absolute) tense as indicating a tempora
 
 
 \begin{itemize}
-\item 
-\textit{aspectual sensitivity} (restriction to specific aktionsart/situation types);
-\item 
-potential for different semantic functions in different situation types;
-\item 
-coercion effects;
-\item 
-potential for different uses in main vs. subordinate clauses;
-\item 
-presuppositions triggered by the marker;
-\item 
-implicatures which may add extra meaning;
-\item 
-potential polysemy and/or idiomatic senses.
+\item \textit{aspectual sensitivity} (restriction to specific aktionsart/situation types);
+\item potential for different semantic functions in different situation types;
+\item coercion effects;
+\item potential for different uses in main vs. subordinate clauses;
+\item presuppositions triggered by the marker;
+\item implicatures which may add extra meaning;
+\item potential polysemy and/or idiomatic senses.
 \end{itemize}
 
 Several of these points were illustrated in our discussion of the simple present tense in English.
 
 
 
-\furtherreading{
-
-
-
-\citet[ch. 1]{Comrie1985} provides a good introduction to the study of tense, and (in sec. 1.8) a good discussion of the importance of distinguishing meaning from usage, for tense markers in particular. \citet{Michaelis2006} is another helpful introduction, focusing primarily on English. \citet{Botne2012} summarizes what we know about “metrical tense” systems. 
+\furtherreading{ 
+\citet[ch. 1]{Comrie1985} provides a good introduction to the study of tense, and (in §1.8) a good discussion of the importance of distinguishing meaning from usage, for tense markers in particular. \citet{Michaelis2006} is another helpful introduction, focusing primarily on English. \citet{Botne2012} summarizes what we know about “metrical tense” systems. 
 
 }
 \discussionexercises{
 
 \paragraph*{A: Draw time-line diagrams and provide an appropriate label for the italicized verb in the following sentences:}
+~\\
 
-\textsf{Model answer:\\
-I managed to get to the station at 3:15 pm, but the train} \textsf{\textit{had left}}\textsf{ promptly at 3:00.}\\
-      {}[  TT: 3:00  ]  PT  TU     “past in the past”\\
-         \textbf{{\textbar}}TSit\textbf{{\textbar}}    (3:15)
 
-\begin{enumerate}[label=\alph*.]
+\modelanswer{Model answer}{
+I managed to get to the station at 3:15 pm, but the train \textit{had left} promptly at 3:00.\\
+
+\begin{tabularx}{.85\textwidth}{cccS}
+      [  TT: 3:00  ] &  PT &  TU &    “past in the past”\\
+      \cline{1-3}
+     {\textbar} TSit {\textbar} &    (3:15) & & \\     
+\end{tabularx}
+         }
+         \medskip
+         
+\begin{enumerate}
 \item When I got home from the hospital, my wife \textit{wrote} a letter to my doctor.
+
 \item When I got home from the hospital, my wife \textit{was writing} a letter to my doctor.
-\item I fled from the Khmer Rouge in 1976; my brother \textit{would escape} two years later.
-\item I can get to the station by 5:00 pm, but the train \textit{will} \textit{have departed} at 3:00 pm.
+
+\item I fled from the  {Khmer} Rouge in 1976; my brother \textit{would escape} two years later.
+
+\item  I can get to the station by 5:00 pm, but the train \textit{will} \textit{have departed} at 3:00 pm.
+
 \item This morning the President rescinded an executive order that he \textit{had issued} just 12 hours earlier.
 \end{enumerate}
-
 }
+
 \homeworkexercises{
 
 \paragraph*{A: Draw time-line diagrams for the clauses which contain the italicized verb forms, and name the tense/aspect expressed by those forms:}
-\textsf{Model answer:}
+~\\
+\vspace*{1mm}
+\smallskip
+ 
+
+\modelanswer{Model answer}{
 
 Einstein published four ground-breaking papers in 1905, including the one for which he \textit{would win}  the Nobel prize in 1922.
-    PT  [  TT: 1922  ]  TU     “future in the past”\\
-  (1905)    \textbf{{\textbar}}TSit\textbf{{\textbar}}    (2016)
 
-\begin{enumerate}[label=\alph*.]
+\begin{tabularx}{.8\textwidth}{cccS}
+    PT  & [  TT: 1922  ]  & TU&      “future in the past”\\
+    \cline{1-3}
+  (1905)  &  {\textbar} TSit {\textbar} &     (2016) & 
+\end{tabularx}
+}
+
+\medskip
+
+\begin{enumerate}
 \item When I got back from my trip, a family of stray cats \textit{were living} in my garage.
+
 \item The new President will move into the White House on Jan. 20\textsuperscript{th}; the previous President and his family \textit{will have vacated} the premises on Jan. 19\textsuperscript{th}.
+
 \item Kipling was sent back to England at the age of five; he \textit{would return} to India eleven years later to work as a journalist.
+
 \item The road to Fort Driant began for the United States Third Army when it landed on Utah Beach at 3 pm on August 5, 1944. The Third Army \textit{had been activated} four days earlier in England under the command of Lt. Gen. George S. Patton Jr.\footnote{\url{http://warfarehistorynetwork.com/daily/wwii/general-george-s-pattons-lost-battle/}} 
 \end{enumerate}
 }

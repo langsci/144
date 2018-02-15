@@ -1,0 +1,462 @@
+\chapter{Conventional implicature and “use-conditional” meaning}\label{sec:11}
+
+\section{Introduction}\label{sec:11.1}
+
+In \chapref{sec:8} we mentioned the somewhat mysterious concept of \textsc{conventional implicature}. This term was coined by Grice, but he commented only briefly on what he meant by it. The most widely cited example of an expression that carries a conventional implicature is the word \textit{but}. Grice used the example in (\ref{ex:11.1}a), based on a cliché of the Victorian era:
+
+
+\ea \label{ex:11.1}
+\ea She is poor but she is honest.\\
+\ex She is poor and she is honest.  [\citealt{Grice1961}: 127]
+                       \z
+\z
+
+
+Grice argued that a speaker who says (\ref{ex:11.1}a) only \textsc{asserts} (\ref{ex:11.1}b). The word \textit{but} provides an additional element of meaning, indicating that the speaker believes there to be a contrast between poverty and honesty. This extra element of meaning (implied contrast or counter-expectation) is the conventional implicature. It is said to be conventional because it is an inherent part of the meaning of \textit{but}, and is not derived from the context of use. Grice called it an “implicature” because he, like Frege before him, felt that if this additional element of meaning is false but (\ref{ex:11.1}b) is true, we would not say that the person who says (\ref{ex:11.1}a) is making a false statement. In other words, the conventional implicature does not contribute to the truth conditions of the statement.\footnote{Recall similar comments by Frege regarding \textit{but}, which were quoted in \chapref{sec:8}.}
+
+
+
+Nevertheless, someone might object to (\ref{ex:11.1}a) as in \REF{ex:11.2}, claiming that the word \textit{but} has been misused. The core of this objection would not be the truth of the statement in (\ref{ex:11.1}a) but the appropriateness of the conjunction which was chosen.
+
+
+\ea \label{ex:11.2}
+What do you mean “but”? There is no conflict between poverty and honesty!
+\z
+
+
+Recent work by Christopher Potts and others has tried to clarify the nature of conventional implicature, and has greatly extended the range of expressions which are included under this label. In this chapter we will look at some of these expression types.
+
+
+
+A core property of conventional implicatures is that they do not change the conditions under which the sentence will be true, but rather the conditions under which the sentence can be appropriately used. For this reason, some authors have made a distinction between \textsc{truth-conditional meaning} vs. \textsc{use-conditional meaning}.\footnote{\citet{Gutzmann2015}, \citet{Recanati2004}.} The truth-conditional meaning that is asserted in (\ref{ex:11.1}a) would be equivalent to the meaning of (\ref{ex:11.1}b), while the implied contrast between \textit{poor} vs. \textit{honest} comes from the use-conditional meaning of \textit{but}. The term “use-conditional meaning” seems to cover essentially the same range of phenomena as “conventional implicature”, and we will treat these terms as synonyms.\footnote{In this we follow the usage of \citet{Gutzmann2015}.}
+
+
+
+We begin in \sectref{sec:2} with a discussion of the definition and diagnostic properties of conventional implicatures, as described by Potts. We illustrate this discussion using certain types of adverbs in English which seem to contribute use-conditional meaning rather than truth-conditional meaning. In the rest of the chapter we look at some use-conditional expressions in other languages: honorifics in Japanese (sec. 3), politeness markers in Korean (sec. 4), honorific pronouns and other polite register lexical choices (sec. 5), and discourse particles in German (sec. 6).
+
+
+\section{Distinguishing truth-conditional vs. use-conditional meaning}\label{sec:11.2}
+\subsection{Diagnostic properties of conventional implicatures}\label{sec:11.2.1}
+
+A passage from Grice’s comments on conventional implicatures was quoted in \chapref{sec:8}, which included the following discussion of the meaning of \textit{therefore}:
+
+
+\begin{quote}
+If I say (smugly), \textit{He is an Englishman; he is, therefore, brave}, I have certainly committed myself, by virtue of the meaning of my words, to its being the case that his being brave is a consequence of (follows from) his being an Englishman…  I do not want to say that my utterance of this sentence would be, strictly speaking, false should the consequence in question fail to hold.  (\citealt{Grice1975}: 44)
+\end{quote}
+
+
+Based on Grice’s comments, Potts formulates a definition of conventional implicatures that includes the following points: (i) conventional implicatures are (normally) beliefs of the speaker (“I have certainly committed \textsc{myself}”), and so in a sense “speaker-oriented”; (ii) they are part of the intrinsic, conventional meaning of a given expression or construction (“by virtue of the meaning of my words”), and so are not cancellable; (iii) they do not contribute to the truth-conditional content which is the main point of the assertion.\footnote{\citet{Potts2005,Potts2012}; see also \citet[39]{Horn1997}.}
+
+
+
+Potts uses the term “at issue content” to refer to the main point of an utterance: the core information which is asserted in a statement or queried in a question.\footnote{Another way of thinking about this is to say that the “at issue” content represents the change which the speaker intends to make in the common ground.} So in Grice’s example, the at issue content of the assertion is \textit{He is English and brave}. The conventional implicature contributed by \textit{therefore} is that a causal relationship exists between two situations (in this case, between being an Englishman and being brave).
+
+
+
+The definition outlined above leads us to expect that conventional implicatures will have certain properties that allow us to distinguish them from other kinds of meaning. Potts suggests that conventional implicatures are:\footnote{\citet{Potts2015}; a similar list is presented for expressives in \citet{Potts2007c}.}
+
+
+\textsc{conventional}, i.e., semantic in nature rather than pragmatic (as we defined those terms in \chapref{sec:9}). They must be learned as part of the meaning of a given word or construction, and cannot be calculated from context.
+
+
+
+\textsc{secondary}: not part of the “at-issue” content, but rather used to provide supporting content, contextual information, editorial comments, evaluation, etc.
+
+
+
+\textsc{independent}: separate from and logically independent of the at-issue content.
+
+
+
+\textsc{“scopeless”:} since conventional implicatures are not part of the “at-issue” content, they are typically not altered by negation, interrogative mood, etc. Often they take scope over the whole sentence even when embedded in subordinate clauses.
+
+
+
+\textsc{not presupposed:}\footnote{Potts uses the term “Backgrounded” for this concept.} not assumed to be shared by the addressee, in contrast to presuppositions. So, for example, while the addressee might challenge a conventional implicature, as illustrated in \REF{ex:11.2} above, the “Hey, wait a minute” response seems less natural (\ref{ex:11.3}d).
+
+
+
+Many of these properties are similar to the properties of expressive meaning that we listed in \chapref{sec:2}. This is no accident, since expressives provide a clear example of use-conditional meaning. The expressive term \textit{jerk} in example (\ref{ex:11.3}a) reflects a negative attitude toward Peterson, and this negative attitude is a belief of the speaker. The negative attitude is not calculated from the context, but comes directly from the conventional meaning of the word \textit{jerk}. It is not part of the “at-issue” content of the sentence, so a hearer who does not share this negative attitude would not judge (\ref{ex:11.3}a) to be a false statement. The negative attitude is still expressed if the sentence is negated or questioned (\ref{ex:11.3}b--c).
+
+
+\ea \label{ex:11.3}
+\ea That jerk Peterson is the only economist on this committee.\\
+\ex That jerk Peterson isn’t the only economist on this committee.\\
+\ex Is that jerk Peterson the only economist on this committee?\\
+\ex \#Hey, wait a minute! I didn’t know that Peterson was a jerk!
+                       \z
+\z
+
+
+Potts lists a wide variety of other expression types that illustrate these properties, including non-restrictive relative clauses and other kinds of parenthetical comments. In the remainder of this section we will focus on certain types of adverbs which seem to express use-conditional meanings.
+
+
+\subsection{Speaker-oriented adverbs}\label{sec:11.2.2}
+
+In this section we will discuss two classes of English adverbs. The \textsc{evaluative adverbs (}e.g. \textit{(un)fortunately, oddly, sadly, surprisingly, inexplicably}) provide information about the speaker’s attitude toward the proposition being expressed. The \textsc{speech act adverbials (}e.g. \textit{frankly}, \textit{honestly}, \textit{seriously}, \textit{confidentially}) provide information about the manner in which the speaker is making the current statement. We will use the term \textsc{speaker-oriented adverbs} as a generic term that includes both of these classes.\footnote{The label \textsc{evaluative adverbs} comes from \citet{Ernst2009}. Ernst uses the term \textsc{speaker-oriented adverbs} as to include not only evaluative adverbs and speech act adverbials, but also modal adverbs like \textit{probably}. \citet{Potts2005} uses the term \textsc{speaker-oriented adverbs} to refer to the class that I call \textsc{evaluative adverbs}.}
+
+
+
+There are several reasons for thinking that speaker-oriented adverbs occurring in statements do not contribute to the truth-conditional content that is being asserted. The adverbs in \REF{ex:11.4}, for example, seem to contradict the asserted proposition: one cannot tell a lie \textit{frankly}; the faculty are unlikely to make their demand \textit{confidentially}; and the mayor, it seems, was not curious enough. Yet these sentences are not contradictions, precisely because these adverbs are not understood as contributing to the “at issue” propositional content of the sentence. Rather, they provide information about the manner in which the speech act is being performed (\ref{ex:11.4}a--b) or the speaker’s attitude toward the proposition expressed (\ref{ex:11.4}c).
+
+
+\ea \label{ex:11.4}
+\ea \textit{Frankly}, your cousin is a habitual liar.\\
+\ex \textit{Confidentially}, the faculty are planning to demand that the provost resign.\\
+\ex \textit{Curiously} the mayor never asked where all the money came from.
+                       \z
+\z
+
+
+Because they do not contribute to the proposition that is being asserted, it would be inappropriate to challenge the truth of a statement based on the content expressed by these adverbs (\ref{ex:11.5}--\ref{ex:11.6}). The hearer may express disagreement with the adverbial content by saying something like: \textit{I agree that p, but I do not consider that curious/fortunate/etc}. But this would not be grounds for calling the original statement false.
+
+
+\ea \label{ex:11.5}
+A: \textit{Curiously}/\textit{fortunately} the mayor never asked where all the money came from.\\
+B: That’s not true; he asked me just last week.\\
+B': \#That’s not true; he never asked, but there is nothing curious/fortunate about that.
+\z
+
+\ea \label{ex:11.6}
+A: \textit{Frankly/confidentially}, Jones is not the best-qualified candidate for this job.\\
+B: That’s not true; he is the only candidate who holds a relevant degree.\\
+B': \#That’s not true; he is not qualified, but you are not speaking frankly/confidentially.
+\z
+
+
+Further evidence for the claim that these speaker-oriented adverbs are not part of the propositional content being asserted comes from their behavior under negation and questioning. When a sentence containing an evaluative or speech act adverbial is negated or questioned, the adverb itself cannot be interpreted as part of what is being negated or questioned. For example, (\ref{ex:11.7}a) cannot mean ‘It is not fortunate that the best team won’ but only ‘It is fortunate that the best team did not win.’ Example (\ref{ex:11.7}b) cannot mean ‘Was it unfortunate that he lost the vision in that eye?’ but only ‘Did he lose the vision in that eye? If so, it was unfortunate.’ Speech act adverbials in questions like (\ref{ex:11.7}c) are not part of what is being questioned, but generally describe the manner in which the speaker wants the addressee to answer the question. As such examples show, evaluative and speech act adverbials are not interpreted as being under the scope of sentence negation or interrogative mood.
+
+
+\ea \label{ex:11.7}
+\ea  … the best team \textit{fortunately} didn’t win on this occasion.\footnote{\url{http://sportwitness.ning.com/forum/topics/nextgen}} \\
+\ex Was it ok or did he \textit{unfortunately} lose the vision in that eye?\footnote{\url{https://www.inspire.com/groups/preemie/discussion/rop-after-2-ops-scarring-is-pulling-the-retina-away/}} \\
+\ex Is he, \textit{frankly}, combative enough? (referring to a potential presidential candidate)\footnote{\href{http://www.wbur.org/2011/12/21/romney-nh-6}{{www.wbur.org/2011/12/21/romney-nh-6}}} 
+                       \z
+\z
+
+
+These claims about speaker-oriented adverbs apply only to their use as sentence adverbs, where the speaker uses them to describe his own manner of speaking or attitude toward the current speech act. Sentence adverbs occur most freely in sentence initial position, as in (\ref{ex:11.8}a) and (\ref{ex:11.9}a); but other positions are also possible (normally with the adverb set off from the rest of the sentence by pauses) as illustrated in (\ref{ex:11.8}b--d) and (\ref{ex:11.9}b--d).
+
+
+\ea \label{ex:11.8}
+\ea \textit{Curiously}, the mayor never asked where all the money came from.\\
+\ex The mayor, c\textit{uriously}, never asked where all the money came from.\\
+\ex The mayor never asked, c\textit{uriously}, where all the money came from.\\
+\ex The mayor never asked where all the money came from, c\textit{uriously}.
+                       \z
+\z
+
+\ea \label{ex:11.9}
+\ea \textit{Frankly/confidentially}, Jones is not the best-qualified candidate for this job.\\
+\ex Jones, \textit{confidentially}, is not the best-qualified candidate for this job.\\
+\ex Jones is not, \textit{frankly}, the best-qualified candidate for this job.\\
+\ex Jones is not the best-qualified candidate for this job, \textit{frankly}.
+                       \z
+\z
+
+
+A number of speech act adverbials also have a second use as manner adverbs, typically occurring within the VP as in (\ref{ex:11.10}A). In this use they describe the manner of the agent of a reported speech act. When these forms are used as manner adverbs, they do contribute to the “at issue” content of the sentence. We can see that this is so because the truth of an assertion can be challenged if such an adverb is misused, as in (\ref{ex:11.10}B).
+
+
+\ea \label{ex:11.10}
+A: Jones told the committee \textit{frankly/confidentially} about his criminal record.\\
+B: That’s not true; he told them, but he did not speak frankly/confidentially.
+\z
+
+
+Moreover, these manner adverbs are part of the propositional content which can be negated (\ref{ex:11.11}b) and questioned (\ref{ex:11.12}b). This contrasts with the behavior of the same forms used as sentence adverbs, which are not interpreted as being included under negation (\ref{ex:11.11}a) or questioning (\ref{ex:11.12}a).
+
+
+\ea \label{ex:11.11}
+\ea Jones did not, \textit{confidentially}, inform the committee about his criminal record.\\
+\ex Jones did not inform the committee \textit{confidentially} about his criminal record;\\
+  he told them in a public hearing.
+                       \z
+\z
+
+\ea \label{ex:11.12}
+\ea \textit{Confidentially}, did Jones tell the committee about this?\\
+\ex Did Jones tell you this \textit{confidentially}, or can we inform the other members   of the committee?
+                       \z
+\z
+
+
+A number of the evaluative adverbs are morphologically related to an adjective that takes a propositional argument. In simple sentences, the adverb and adjective can be used to paraphrase each other, as seen in (\ref{ex:11.13}--\ref{ex:11.15}).
+
+
+\ea \label{ex:11.13}
+\ea \textit{Fortunately}, Jones doesn’t realize how valuable this parchment is.\\
+\ex It is \textit{fortunate} that Jones doesn’t realize how valuable this parchment is.
+                       \z
+\z
+
+\ea \label{ex:11.14}
+\ea \textit{Curiously} the mayor never asked where all the money came from.\\
+\ex It is \textit{curious} that the mayor never asked where all the money came from.
+\z \z
+
+\ea \label{ex:11.15}
+\ea \textit{Oddly}, Jones never got that parchment appraised before he put it up for auction.\\
+\ex It is \textit{odd} that Jones never got that parchment appraised before he put it up for auction.
+                       \z
+\z
+
+
+However, evaluative adjectives, in contrast to the corresponding evaluative adverbs, do contribute to the “at issue” content of the utterance. They can provide grounds for challenging the truth of a statement, as in \REF{ex:11.16}, and they are part of the propositional content which can be negated \REF{ex:11.17} or questioned \REF{ex:11.18}.
+
+
+\ea \label{ex:11.16}
+A: It is \textit{curious/fortunate} that the mayor never asked where all the money came from.\\
+B: That’s not true; the fact that he never asked is \{not curious at all/most unfortunate\}.
+\z
+
+\ea \label{ex:11.17}
+It is not \textit{odd} that Jones asked for an appraisal before he bought that parchment;\\
+  it seems natural under the circumstances.
+\z
+
+\ea \label{ex:11.18}
+A: Was it \textit{odd} that Jones did not ask for an appraisal?\\
+B. No, I think it was fairly natural under the circumstances.
+\z
+
+
+To summarize, we have argued that evaluative adverbs and speech act adverbials in English contribute use-conditional rather than truth-conditional meaning to the utterances in which they occur. We argued this on the grounds that they are independent of and secondary to the “at issue” propositional content of the utterance, they cannot be negated or questioned, and they do not affect the truth value of a statement. But clearly the meaning which these adverbs contribute is conventional: it has to be learned, rather than being calculated from the context of use. Moreover, they are not presupposed, that is, they are not treated as if they were already part of the common ground.
+
+
+\section{Japanese honorifics}\label{sec:11.3}
+
+Honorifics are grammatical markers which speakers use to show respect or deference to someone whom they consider to be higher in social status than themselves. Japanese has two major types of honorifics. One type is used to show respect toward someone referred to in the sentence, with different forms used for subjects vs. non-subjects. We will refer to this type as “argument honorifics”.\footnote{This term is based on the term used by \citet{Potts2005}, “argument-oriented honorifics”. \citet{Harada1976}, one of the first detailed discussions of this topic in English, refers to these as “propositional honorifics”. Harada was the original source of the term “performative honorifics” for those which show respect to the addressee, a terminology which is now widely adopted.} The other type is used to show respect to the addressee, and so are considered to be a mark of polite speech. This type is often referred to as “performative honorifics”, because they indicate something about the context of the current speech event, specifically the relationship between speaker and addressee. We will instead refer to this second type as “addressee honorifics”.
+
+
+
+The use of an argument honorific to indicate the speaker’s respect for a person referred to in the sentence is illustrated in (\ref{ex:11.19}a), which shows respect for the referent of the subject NP (Prof. Sasaki). The use of an addressee honorific to indicate the speaker’s respect for the addressee is illustrated in (\ref{ex:11.19}b).
+
+
+\ea \label{ex:11.19}
+\ea   \gll Sasaki  sensei=wa  watasi=ni  koo  \textbf{o}-hanasi.\textbf{ni.nat}-ta.\\
+Sasaki  teacher=\textsc{top}  1sg=\textsc{dat}  this.way  speak.\textsc{hon-past}\\
+\glt ‘Prof. Sasaki told me this way.’  [\citealt{Harada1976}: 501]
+\ex \gll
+    Watasi=wa  sono  hito=ni  koo  hanasi-\textbf{masi}-ta.\\
+\textsc{1sg}=\textsc{top}  that  man=\textsc{dat}  this.way  speak-\textsc{hon-past}\\
+\glt ‘I told him (=that man) this way.’  (polite speech)   [\citealt{Harada1976}: 502]
+\z \z
+
+
+Argument honorifics are only allowed in sentences which refer to someone socially superior to the speaker; sentence (\ref{ex:11.20}a) is unacceptable, because no such person is referred to. But addressee honorifics are not subject to this constraint (\ref{ex:11.20}b).
+
+
+\ea \label{ex:11.20} \ea  \gll *Ame=ga  \textbf{o}-huri.\textbf{ni.nat}-ta.\\
+  rain=\textsc{nom}  fall.\textsc{hon-past}\\
+\glt (intended: ‘It rained.’)  [\citealt{Harada1976}: 502]
+\ex \gll
+Ame=ga  huri-\textbf{masi}-ta.\\
+rain=\textsc{nom}  fall-\textsc{hon-past}\\
+\glt ‘It rained.’  (polite speech)   [\citealt{Harada1976}: 502]
+\z \z
+
+
+In the remainder of this section we will focus primarily on addressee honorifics. \citet{Potts2005} analyzes addressee honorifics as conventional implicature triggers, specifically as a kind of expressive. This means that addressee honorifics do not contribute to the truth-conditional “at-issue” content of the sentence. The truth conditions of (\ref{ex:11.20}b) would not be changed if the honorific marker were deleted. Misuse of the honorific (e.g. for referring to someone socially inferior), or dropping the honorific when it is expected, would not make the statement false, only rude and/or inappropriate.\footnote{Thanks to Eric Shin Doi for very helpful discussion of these issues, and for providing the examples in \REF{ex:11.21}.}
+
+
+
+As we would predict under Pott’s proposal, the honorific meaning cannot be part of the propositional content that is negated or questioned. (\ref{ex:11.21}a--b) are felt to be just as polite as (\ref{ex:11.20}b); the element of respect is neither negated in (\ref{ex:11.21}a) nor questioned in (\ref{ex:11.21}b).
+
+
+\ea \label{ex:11.21}
+\ea  \gll Ame=ga  huri-\textbf{mas-en}  desi-ta.\\
+rain=\textsc{nom}  fall-\textsc{hon-neg  cop-past}\\
+\glt ‘It didn’t rain.’  (polite speech)
+
+\ex
+ \gll  Ame=wa  huri-\textbf{masi}-ta-ka?\\
+rain=\textsc{top}  fall-\textsc{hon-past-ques}\\
+\glt ‘Did it rain?’  (polite speech)
+\z \z
+
+
+We have seen that addressee honorifics express beliefs or attitudes of the speaker. They are independent of and secondary to the “at issue” propositional content of the utterance. They cannot be negated or questioned, and do not affect the truth value of a statement. Thus they clearly fit Potts’ definition of conventional implicatures.
+
+
+\section{Korean “speech style” markers}\label{sec:11.4}
+
+Korean also has the same two types of honorifics as Japanese, argument honorifics vs. addressee honorifics.\footnote{\citet{KimSells2007}} As part of the addressee honorific system, Korean distinguishes grammatically six levels of politeness, often referred to as “speech styles”: formal, semiformal, polite, familiar, intimate, and plain.\footnote{\citet{Martin1992}, \citet{Pak2008}, \citet{Sohn1999}} A seventh level, “super-polite”, was used for addressing kings and queens; it is now considered archaic, and is used mostly in prayers. The choice of speech style marking depends on “(i) the \textit{relationship} between speaker and addressee (e.g., intimacy, politeness), and (ii) the \textit{formality} of the situation”.\footnote{\citet{PakEtAl2013}} The uses of these styles, as described by \citet[120]{Pak2008}, is summarized in \ref{ex:11.22}:
+
+\eabox{ \label{ex:11.22}
+\begin{tabularx}{.9\textwidth}{lQ}
+\lsptoprule
+ Speech styles & Contexts of use\\
+ \midrule
+ Formal & used for speaking to someone to whom deference is due (e.g., ones superior or employer, a professor, a high official, etc.); or on formal occasions such as oral news reports and public lectures\\
+ Semiformal & could be used by a husband speaking to his wife, or by a younger superior speaking to an older subordinate; gradually disappearing from daily usage\\
+ Polite & used by adults for speaking to adults who are not close friends or family members; to address a socially equal or superior person; or by children speaking to adults in a polite way\\
+ Familiar & mostly used by male adults, for speaking to male adult friends, an adolescent, or a son-in-law\\
+ Intimate (also\\
+called “half-talk”) & used for talking to family members or close friends\\
+ Plain & used by adults for speaking to children or younger siblings, and by children among themselves; also used in written texts and newspapers\\
+\lspbottomrule
+\end{tabularx}
+}
+\todo{should be a float}
+
+Speech style is marked grammatically by a verbal suffix referred to as the “sentence ender”. Since Korean is an SOV language, the main clause verb typically occurs at the end of the sentence and hosts the sentence ender. The sentence ender is actually a portmanteau suffix which encodes three distinct grammatical features: (a) “speech style” (i.e. politeness); (b) “special mood” (not discussed here); and (c) “sentence type” (i.e. speech act; this corresponds to the major mood category in other languages).\footnote{\citet{Sohn1999}, \citet{Pak2008}.} Korean has an unusually rich inventory of speech act markers. The exact number is a topic of controversy; \citet{Sohn1999} lists four major sentence types (declarative, interrogative, imperative, and “propositive” or hortative); plus several minor types including admonitive (warning), promissive, exclamatory, and apperceptive (new or currently perceived information?). Combinations of four of the speech styles with two sentence types (declarative and imperative) are illustrated in \ref{ex:11.23}; the “sentence enders” are italicized.\footnote{These examples are taken from \citet{PakEtAl2013}.}
+
+\todo{parboxes with gll}
+\eabox{ \label{ex:11.23}\small
+\begin{tabularx}{.9\textwidth}{lQQQQ}
+\lsptoprule
+& \bfseries Declarative &  & \bfseries Imperative & \\
+\hhline{~----}
+\bfseries Formal: & chayk=ul & ilk-ess-\textit{supnita}. & chayk=ul & ilk-\textit{usipsio.}\\
+& book=\textsc{acc} & read-\textsc{past-decl.form} & book=\textsc{acc} & read-\textsc{imper.form}\\
+& \multicolumn{2}{c}{‘I read the book.’} & \multicolumn{2}{c}{‘Please read the book!’}\\
+% \hhline{~----}
+\tablevspace
+\bfseries Polite: & chayk=ul & ilk-ess-\textit{eyo}. & chayk=ul & ilk-\textit{useyyo.}\\
+& book=\textsc{acc} & read-\textsc{past-decl.pol} & book=\textsc{acc} & read-\textsc{imper.pol}\\
+& \multicolumn{2}{c}{‘I read the book.’} & \multicolumn{2}{c}{‘Please read the book.’}\\
+% \hhline{~----}
+\tablevspace
+\bfseries Intimate: & chayk=ul & ilk-ess-\textit{e}. & chayk=ul & ilk-\textit{e}.\\
+& book=\textsc{acc} & read-\textsc{past-decl.int} & book=\textsc{acc} & read-\textsc{imper.int}\\
+& \multicolumn{2}{c}{‘I read the book.’} & \multicolumn{2}{c}{‘Read the book!’}\\
+% \hhline{~----}
+\tablevspace
+\bfseries Plain: & chayk=ul & ilk-ess-\textit{ta}. & chayk=ul & ilk-\textit{ela}.\\
+& book=\textsc{acc} & read-\textsc{past-decl} & book=\textsc{acc} & read-\textsc{imper}\\
+& \multicolumn{2}{c}{‘I read the book.’} & \multicolumn{2}{c}{‘Read the book’}\\ 
+\lspbottomrule
+\end{tabularx}
+}
+
+Like Japanese honorifics, the Korean speech style markers contribute information about the current speech act, specifically the relationship between speaker and hearer, rather than contributing to the “at-issue” propositional content of the utterance. Use of the wrong speech style marker in a particular situation would not cause a statement to be considered false, but would be felt to be inappropriate. A speaker who committed such an error would probably be corrected quickly and emphatically. Moreover, the information contributed by the speech style markers cannot be negated or questioned. The negative statement in (\ref{ex:11.24}b) and the question in (\ref{ex:11.24}c) are felt to be just as polite as the corresponding positive statement in (\ref{ex:11.24}a), and would be appropriate in the same range of situations.\footnote{Thanks to Shin-Ja Hwang for very helpful discussion of these issues.}
+
+
+\ea \label{ex:11.24} 
+\ea  \gll Pi=ka  w-ayo.\\
+rain=\textsc{nom}  come-\textsc{decl.pol}\\
+\glt ‘It is raining.’ (polite)
+
+\ex \gll Pi=ka  an-w-ayo.\\
+rain=\textsc{nom}  \textsc{neg}-come-\textsc{decl.pol}\\
+\glt ‘It is not raining.’ (polite)
+
+\ex \gll  Pi=ka  w-ayo?\\
+rain=\textsc{nom}  come-\textsc{decl.pol}\\
+\glt ‘Is it raining?’ (polite)  [\citealt{Sohn1999}: 269–270]
+\z
+\z
+
+\section{Other ways of marking politeness}\label{sec:11.5}
+
+Honorific markers and speech style markers like those discussed in the previous two sections have no descriptive content, but only a use-conditional, utterance modifying function. However, there are words in many languages which express both normal descriptive content plus a use-conditional function as a marker of politeness.
+
+
+
+One of the most common ways across languages of showing respect or politeness to the addressee is by distinguishing polite vs. familiar forms of the second person pronoun, e.g. \textit{vous} vs. \textit{tu} in French, \textit{Sie} vs. \textit{du} in German, etc. Malay has a very complex system of first and second person pronouns. The neutral first person singular form is \textit{saya}; \textit{aku} is considered more intimate, for use with friends and family members. \textit{Beta} is the first person singular form used by royalty, and \textit{patik} is the first person singular form used by commoners when addressing royalty. There is no native Malay second person singular pronoun which is truly neutral; \textit{kamu}, \textit{awak}, and \textit{engkau} are all felt to be informal or intimate to varying degrees. The term \textit{anda} was invented as part of the standardization of Malaysian as a national language to fill this gap, but is rarely used in conversational speech. Second person pronouns tend to be avoided when addressing royalty or other highly respected people, by using titles, kin terms, etc. instead.
+
+
+
+Lexical substitution as a means of honorification is not limited to pronouns. Balinese and Javanese are famous for their speech levels, or registers. In these languages, two or more forms are available for thousands of lexical items, e.g. Balinese \textit{makita} (high) vs. \textit{edot} (low) ‘want’; \textit{sanganan} (high) vs. \textit{jaja} (low) ‘cake’.\footnote{\citet{Arka2005}} The choice of which form to use is determined by the relative social status, caste, etc. of the speaker and addressee. Korean and Japanese also have suppletive forms for some words, e.g. Korean \textit{pap} (plain) vs. \textit{cinci} (polite) ‘cooked rice, meal’. The primary meaning contributed by words of this sort is to the truth-conditional content of the sentence; their use-conditional politeness function is in a sense secondary.
+
+
+\section{Discourse particles in German}\label{sec:11.6}
+
+German and Dutch are well-known for their large inventories of discourse particles. These particles have been intensively studied, but their meanings are difficult to define or paraphrase. Those that occur in the “middlefield” (i.e., between the V2/Aux position and the position of clause-final verbs) have traditionally been referred to as \textit{modalpartikeln} ‘modal particles’ in German, although they do not express modality in the standard sense of that term.\footnote{\citet[45--46]{Palmer1986}.} Some examples and a description from \citeauthor{Zimmermann2011} (2011, p. 2013) are presented in \REF{ex:11.25}.
+
+
+\ea \label{ex:11.25}
+\ea  Max ist \textit{ja} auf See.\\
+\ex Max ist \textit{doch} auf See.\\
+\ex Max ist \textit{wohl} auf See.\\
+‘Max is \textsc{prtcl} at sea.’
+\z
+
+\begin{quote}
+“The sentences in (\ref{ex:11.25}a–c) do not differ in propositional content: they all have the same truth-conditions… A difference in the choice of the particle (\textit{ja}, \textit{doch}, \textit{wohl}) leads to a difference in felicity conditions, however, such that each sentence will be appropriate in a different context. As a first approximation, (\ref{ex:11.25}a) indicates that the speaker takes the hearer to be aware of the fact that Max is at sea. In contrast, (\ref{ex:11.25}b) signals that the speaker takes the hearer not to be aware of this fact at the time of utterance. (\ref{ex:11.25}c), finally, indicates a degree of speaker uncertainty concerning the truth of the proposition expressed. In each case, the discourse particle does not contribute to the descriptive, or propositional, content of the utterance, but to its expressive content.”
+\end{quote}
+\z
+
+
+Most of the German “modal particles” are homophonous with a stressed variant belonging to one of the standard parts of speech. For example, stressed \textit{ja} means ‘yes’ and stressed \textit{wohl} means ‘probably’. However, when used as particles these words are unstressed and take on a variety of meanings, many of which are difficult to paraphrase or translate. Some of the variant meanings of \textit{ja} and \textit{doch} are illustrated in (\ref{ex:11.26}--\ref{ex:11.27}).
+
+
+\ea \label{ex:11.26}
+\ea  Die Malerei war \textit{ja} schon immer sein Hobby.\\
+\glt ‘<\textit{As you know}>, painting has always been his hobby.’
+
+\ex  Dein Mantel ist \textit{ja} ganz schmutzig.\\
+\glt ‘<\textit{Hey}> your coat is all dirty.’ (not previously known to hearer)
+
+\ex Fritz hat \textit{ja} noch gar nicht bezahlt.\\
+\glt ‘<\textit{Hey}> Fred has not paid yet.’ (newly discovered by speaker)\\
+{}[\citealt{König1991,KönigEtAl1990,Waltereit2001}]
+\z \z
+
+\ea \label{ex:11.27} \ea  A: Maria kommt mit. ‘Maria is coming with me.’\\
+    B: Sie ist \textit{doch} verreist. ‘She has left, <\textit{hasn’t she}>?’
+\ex  Du bist also \textit{doch} gekommen! ‘So you came <\textit{after all}>!’
+\ex Ich war \textit{doch} letztes Jahr schon dort. ‘<\textit{Did you forget?}> I was here last year.’  [\citet{Karagjosova2000}; \url{http://en.wikipedia.org/wiki/German\_modal\_particle}]
+\z \z 
+
+
+In the passage quoted above, \citet{Zimmermann2011} states that these particles contribute to the expressive content of the utterance rather than its descriptive, or at-issue, content; they affect the felicity conditions of the utterance, but not its truth-conditions. So, for example, all of the sentences in \REF{ex:11.25} would be true if Max is in fact at sea at the time of speaking. Using the wrong particle would make the utterance infelicitous, but not false. Other authors have reached similar conclusions. \citet{Waltereit2001} states:
+
+
+\begin{quote}
+{}[“Modal particles”] modify the preparatory conditions, as they evoke a speech situation in which the desired preparatory conditions are fulfilled… Preparatory conditions describe the way the speech act fits into the social relation of speaker and addressee, and they describe how their respective interests are concerned by the act.\footnote{cf. \citet{Searle1969}}
+\end{quote}
+
+
+\citet{Karagjosova2000} states that “[modal particles] indicate if and how incoming information in dialogue is processed by the interlocutors in terms of its consistency with the information or beliefs the interlocutors already have.” For example, modal particles may indicate whether a proposition has succeeded in becoming \textsc{grounded}, i.e., part of the shared assumptions (\textsc{common ground}) of the speaker and hearer. She continues:
+
+
+\begin{quote}
+{}[T]he meaning of [modal particles] seems not to be part of the proposition indeed and thus not part of the truth conditions of the sentence they occur in. …  [W]e conclude that \textit{doch} does not contribute to the sentence meaning but to the utterance meaning and represents thus semantically an utterance modifier rather than a sentence modifier.
+\end{quote}
+
+
+The hypothesis that German modal particles function as utterance modifiers, and do not contribute to truth-conditional content, is supported by the fact that they cannot be negated, as seen in \REF{ex:11.28}. Moreover, they cannot be questioned and cannot function as the answer to a question.\footnote{This point is mentioned in most descriptions of the German modal particles, including \citet{Bross2012} and \citet{Gutzmann2015}.}
+
+
+\ea \label{ex:11.28}
+Hein ist \textit{ja} nicht zuhause.\\
+\glt ‘\textit{As you know}, Hein is not at home.’  [\citealt{Gutzmann2015}, sec. 7.2.2.2]\\
+(cannot mean: ‘You do not know that Hein is not at home.’)
+\z
+
+\section{Conclusion}\label{sec:11.7}
+
+In this chapter we have looked at several types of expressions in various languages that seem to contribute “use-conditional” rather than truth-conditional meanings. The characteristic properties of such expressions are those identified by Potts in his work on conventional implicatures. They tend to be speaker-oriented; independent of and secondary to the “at-issue”, truth-conditional content of the utterance; excluded from negation and questioning; and not assumed to be part of common ground.
+
+
+
+We noted that speech act adverbials in English (e.g. \textit{frankly}, \textit{confidentially}) can function either as sentence adverbs with use-conditional meanings, or as manner adverbs with truth-conditional meanings. In future chapters we will see that similar ambiguities arise with certain conjunctions, notably \textit{because} (\chapref{sec:18}) and \textit{if} (\chapref{sec:19}). We will argue that, at least for \textit{because}, such ambiguities need not be treated as polysemy (distinct senses), but can be seen as a kind of pragmatic ambiguity: a single sense that can function on two levels, modifying the sentence meaning or the utterance meaning. In the first case, it contributes truth-conditional meaning, while in the second case it contributes use-conditional meaning.
+
+
+
+\furtherreading
+
+
+
+\citet{Potts2007a,Potts2007b} and (\citeyear{Potts2012}) provide concise introductions to his analysis of conventional implicatures. \citet{Potts2007c} focuses more specifically on expressives. \citet{Scheffler2013} applies this analysis to sentence adverbs in English and German. \citet{Gutzmann2015} presents an introduction to the idea of use-conditional meaning in \chapref{sec:2}, and an analysis of the German “modal particles” in \chapref{sec:7}.
+
+
+\subsection*{Discussion exercise}\label{sec:}
+
+\paragraph*{A. Use the kinds of evidence discussed in this chapter to determine whether the italicized expressions in the following examples contribute truth-conditional or use-conditional meaning}:
+
+\ea \label{ex:11.}
+\ea \label{ex:11.} Sir Richard Whittington, \textit{a medieval cloth merchant}, served four terms as Lord Mayor of London.
+
+\ex Wilma \textit{probably} loves sauerkraut.
+
+\ex Fred loves sauerkraut \textit{too}.
+
+\ex Mrs. Natasha Griggs, \textit{who served six years as MP for Darwin}, is a cancer survivor.
+
+\ex Baxter \textit{reportedly} supported Suharto.
+\z
+\z

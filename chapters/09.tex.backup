@@ -1,0 +1,471 @@
+\chapter{Pragmatic inference after Grice}\label{sec:9}
+
+\section{Introduction}\label{sec:9.1}
+
+Grice’s work on implicatures triggered an explosion of interest in pragmatics. In the subsequent decades, a wide variety of applications, extensions, and modifications of Grice’s theory have been proposed.
+
+
+
+One focus of the theoretical discussion has been the apparent redundancy in the set of maxims and sub-maxims proposed by Grice. Many pragmaticists have argued that the same work can be done with fewer maxims.\footnote{See \citet[ch. 3]{Birner20122013} for a good summary of the competing positions on this issue.} In the extreme case, proponents of Relevance Theory have argued that only the Principle of Relevance is needed.
+
+
+
+Rather than focusing on such theoretical issues directly, in this chapter we will discuss some of the analytical questions that have been of central importance in the development of pragmatics after Grice. In \sectref{sec:9.2} we return to the question raised in \chapref{sec:4} concerning the degree to which the English words \textit{and}, \textit{or}, and \textit{if} have the same meanings as the corresponding logical operators. Grice himself suggested that some apparently distinct “senses” of these words could be analyzed as generalized conversational implicatures. \sectref{sec:9.3} discusses a type of pragmatic “enrichment” that seems to be required in order to determine the truth-conditional meaning of a sentence. \sectref{sec:9.4} discusses how the relatively clean and simple distinction between semantics vs. pragmatics which we have been assuming up to now is challenged by recent work on implicatures.
+
+
+\section{Meanings of English words vs. logical operators}\label{sec:9.2}
+
+As we hinted in \chapref{sec:4}, the logical operators $\wedge$ ‘and’, $\vee$ ‘or’, and → ‘if…then’ seem to have a different and often narrower range of meaning than the corresponding English words. A number of authors have claimed that the English words are ambiguous, with the logical operators corresponding to just one of the possible senses. Grice argued that each of the English words actually has only a single sense, which is more or less the same as the meaning of the corresponding logical operator, and that the different interpretations arise through pragmatic inferences. Before we examine these claims in more detail, we will first illustrate the variable interpretations of the English words, in order to show why such questions arise in the first place.
+
+
+
+Let us begin with \textit{and}.\footnote{We focus here on the use of \textit{and} to conjoin two clauses (or VPs), since this is closest to the function of logical $\wedge$. We will not be concerned with coordination of other categories in this chapter.} The truth table in \chapref{sec:4} makes it clear that logical $\wedge$ is commutative; that is, \textit{p$\wedge$}\textit{q} is equivalent to \textit{q$\wedge$}\textit{p}. This is also true for some uses of English \textit{and}, such as \REF{ex:9.1}. In other cases, however, such as (\ref{ex:9.2}--\ref{ex:9.4}), reversing the order of the clauses produces a very different interpretation.
+
+
+\ea \label{ex:9.1}
+\ea The \ili{Chinese} invented the folding umbrella and the Egyptians invented the sailboat.\\
+\ex The Egyptians invented the sailboat and the \ili{Chinese} invented the folding umbrella.
+                       \z
+\z
+
+\ea \label{ex:9.2}
+\ea She gave him the key and he opened the door.\\
+\ex He opened the door and she gave him the key.
+                       \z
+\z
+
+\ea \label{ex:9.3}
+\ea The Lone Ranger jumped onto his horse and rode into the sunset.\footnote{\citet[56]{Kempson1975}, cited in \citet{Gazdar1979}.}\\
+\ex ?The Lone Ranger rode into the sunset and jumped onto his horse.
+                       \z
+\z
+
+\ea \label{ex:9.4}
+\ea The janitor left the door open and the prisoner escaped.\\
+\ex ?The prisoner escaped and the janitor left the door open.
+                       \z
+\z
+
+
+It has often been noted that when \textit{and} conjoins clauses which describe specific events, as (\ref{ex:9.2}--\ref{ex:9.3}), there is a very strong tendency to interpret it as meaning ‘and then’, i.e., to assume a sequential interpretation. When the second event seems to depend on or follow from the first, as in (\ref{ex:9.4}a), there is a tendency to assume a causal interpretation, ‘and therefore’. The question to be addressed is, do such examples prove that English \textit{and} is ambiguous, having two or three (or more) distinct senses?
+
+
+
+We stated in \chapref{sec:4} that the $\vee$ of standard logic is the “inclusive or”, corresponding to the English \textit{and/or}. We also noted that the English word \textit{or} is often used in the “exclusive” sense (XOR), meaning ‘either … or … but not both’. Actually either interpretation is possible, depending on the context, as illustrated in \REF{ex:9.5}. (The reader should determine which of these examples contains an \textit{or} that would most naturally be interpreted with the exclusive reading, and which with the inclusive reading.) Does this variable interpretation mean that English \textit{or} is ambiguous? 
+
+
+\ea \label{ex:9.5}
+\ea Every year the Foundation awards a scholarship to a student of \ili{Swedish} or \ili{Norwegian} ancestry.\\
+\ex You can take the bus or the train and still arrive by 5 o’clock.\\
+\ex If the site is in a particularly sensitive area, or there are safety considerations, we can refuse planning permission.\footnote{\citet[113]{Saeed2009}.}\\
+\ex Stop or I’ll shoot!\footnote{\citet[113]{Saeed2009}.}
+                       \z
+\z
+
+
+Finally let us briefly consider the meaning of material implication (→) compared with English \textit{if}. If these two meant the same thing, then according to the truth table for material implication in \chapref{sec:4}, all but one of the sentences in \REF{ex:9.6} should be true. (The reader can refer to the truth table to determine which of these sentences is predicted to be false.) However, most English speakers find all of these sentences very odd; many speakers are unwilling to call any of them true.
+
+
+\ea \label{ex:9.6}
+\ea If Socrates was a woman then $1+1=3$.\footnote{\url{http://en.wikipedia.org/wiki/Material_conditional}} \\
+\ex If 2 is odd then 2 is even.\footnote{\url{http://en.wikipedia.org/wiki/Material_conditional}}\\
+\ex If a triangle has three sides then the moon is made of green cheese.\\
+\ex If the \ili{Chinese} invented gunpowder then Martin Luther was \ili{German}.
+                       \z
+\z
+
+
+Similarly, analyzing English \textit{if} as material implication in \REF{ex:9.7} would predict some unlikely inferences, based on the rule of \textit{modus tollens}.
+
+
+\ea \label{ex:9.7}
+\ea If you’re hungry, there’s some pizza in the fridge.\\
+  (predicted inference: \#If there’s no pizza in the fridge, then you’re not hungry.)\\
+\ex If you really want to know, I think that dress is incredibly ugly.\\
+  (predicted inference: \#If I don’t think that dress is ugly, then you don’t really want to know.)
+                       \z
+\z
+
+
+Part of the oddness of the “true” sentences in \REF{ex:9.6} relates to the fact that material implication is defined strictly in terms of truth values; there does not have to be any connection between the meanings of the two propositions. English \textit{if}, on the other hand, is normally used only where the two propositions do have some sensible connection. Whether this preference can be explained purely in pragmatic terms is an interesting issue, as is the question of how many senses we need to recognize for English \textit{if} and whether any of these senses are equivalent to →. We will return to these questions in \chapref{sec:19}. In the present chapter we focus on the meanings of \textit{and} and \textit{or}.
+
+
+\subsection{On the ambiguity of \textit{and}}\label{sec:9.2.1} 
+
+In \chapref{sec:8} we mentioned that the sequential (‘and then’) use of English \textit{and} can be analyzed as a generalized conversational implicature motivated by the maxim of manner, under the assumption that its semantic content is simply logical \textit{and} ($\wedge$). An alternative analysis, as mentioned above, involves the claim that English \textit{and} is polysemous, with logical \textit{and} ($\wedge$) and sequential ‘and then’ as two distinct senses. Clearly both uses of \textit{and} are possible, given the appropriate context; example (\ref{ex:9.8}a) (like (\ref{ex:9.1}a) above) is an instance of the logical \textit{and} use, while (\ref{ex:9.8}b) (like (\ref{ex:9.1}b-c) above) is most naturally interpreted as involving the sequential ‘and then’ use. The question is whether we are dealing with semantic ambiguity (two distinct senses) or pragmatic inference (one sense plus a potential conversational implicature). How can we decide between these two analyses?
+
+
+\ea \label{ex:9.8}
+\ea Hitler was Austrian and Stalin was \ili{Georgian}.\\
+\ex They got married and had a baby.
+                       \z
+\z
+
+
+\citet{Horn2004} mentions several arguments against the lexical ambiguity analysis for \textit{and}:
+
+
+\begin{enumerate}[label=\roman*.]
+\item The same two uses of \textit{and} are found in most if not all languages. Under the semantic ambiguity analysis, the corresponding conjunction in (almost?) every language would just happen to be ambiguous in the same way as in English.
+\item No natural language contains a conjunction \textit{shmand} that would be ambiguous between “and also” and “and earlier” readings so that \textit{They had a baby shmand they got married} would be interpreted either atemporally (logical \textit{and}) or as “They had a baby and, before that, they got married.”
+\item Not only temporal but causal asymmetry (‘and therefore’, illustrated in (\ref{ex:9.1}d)) would need to be treated as a distinct sense. And a variety of other uses (involving “stronger” or more specific uses of the conjunction) arise in different contexts of utterance. How many senses are we prepared to recognize?
+\item The same “ambiguity” exhibited by \textit{and} arises when two clauses describing related events are simply juxtaposed (\textit{They had a baby. They got married.}). This suggests that the sequential interpretation is not in fact contributed by the conjunction \textit{and}.
+\item The sequential ‘and then’ interpretation is defeasible, as illustrated in \REF{ex:9.9}. This strongly suggests that we are dealing with conversational implicature rather than semantic ambiguity.
+\end{enumerate}
+
+\ea \label{ex:9.9}
+They got married and had a baby, but not necessarily in that order.
+\z
+
+
+Taken together, these arguments seem quite persuasive. They demonstrate that English \textit{and} is not polysemous; its semantic content is logical \textit{and} ($\wedge$). The sequential ‘and then’ use can be analyzed as a generalized conversational implicature.
+
+
+\subsection{On the ambiguity of \textit{or}}\label{sec:9.2.2}
+
+As noted in \chapref{sec:4}, similar questions arise with respect to the meaning(s) of \textit{or}. The English word \textit{or} can be used in either the inclusive sense ($\vee$) or the exclusive sense (XOR). The inclusive reading is most likely in (\ref{ex:9.10}a--b), while the exclusive reading is most likely in (\ref{ex:9.10}c--d).
+
+
+\ea \label{ex:9.10}
+\ea Mary has a son or daughter.\footnote{Barbara Partee, 2004 lecture notes. \url{http://people.umass.edu/partee/RGGU_2004/RGGU047.pdf}} \\
+\ex We would like to hire a sales manager who speaks \ili{Chinese} or \ili{Korean}.\\
+\ex I can’t decide whether to order fried noodles or pizza.\\
+\ex Stop or I’ll shoot!\footnote{\citet[113]{Saeed2009}.}
+                       \z
+\z
+
+
+Barbara Partee points out that examples like \REF{ex:9.11} are sometimes cited as sentences where only the exclusive reading of \textit{or} is possible; but in fact, such examples do not distinguish the two senses. These are cases where our knowledge of the world makes it clear that both alternatives cannot possibly be true. She says that such cases involve “intrinsically mutually exclusive alternatives”. Because we know that \textit{p$\wedge$q} cannot be true in such examples, \textit{p$\vee$q} and \textit{pXORq} are indistinguishable; if one is true, the other must be true as well.
+
+
+\ea \label{ex:9.11}
+\ea Mary is in Prague or she is in Stuttgart.\footnote{Barbara Partee, 2004 lecture notes. \url{http://people.umass.edu/partee/RGGU_2004/RGGU047.pdf}} \\
+\ex Christmas falls on a Friday or Saturday this year.
+                       \z
+\z
+
+
+\citet{Grice1978} argues that English \textit{or}, like \textit{and}, is not polysemous. Rather, its semantic content is inclusive \textit{or} ($\vee$), and the exclusive reading arises through a conversational implicature motivated by the maxim of quantity.
+
+
+
+In fact, using \textit{or} can trigger more than one implicature. If a speaker says \textit{p or q} but actually knows that \textit{p} is true, or that \textit{q} is true, he is not being as informative as required or expected. So the statement \textit{p or q} triggers the implicature that the speaker does not know \textit{p} to be true or \textit{q} to be true. By the same reasoning, it triggers the implicature that the speaker does not know either \textit{p} or \textit{q} individually to be false. Now if \textit{p} and \textit{q} are both true, and the speaker knows it, it would be more informative (and thus expected) for the speaker to say \textit{p and q}. If he instead says \textit{p or q}, he is violating the maxim of quantity. Thus the statement \textit{p or q} also triggers the implicature that the speaker is not in a position to assert \textit{p and q}.
+
+
+
+So in contexts where the speaker might reasonably be expected to know if \textit{p and q} were true, the statement \textit{p or q} will trigger the implicature that \textit{p and q} is not true, which produces the exclusive reading. When nothing can be assumed about the speaker’s knowledge, it is harder to see how to derive the exclusive reading from Gricean principles; several different explanations have been proposed. But another reason for thinking that the exclusive reading arises through a conversational implicature is that it is defeasible, e.g. \textit{I will order either fried noodles or pizza; in fact I might get both}.
+
+
+
+\citet[81--82]{Gazdar1979} presents another argument against analyzing English \textit{or} as being polysemous. If \textit{or} is ambiguous between an inclusive and an exclusive sense, then when sentences containing \textit{or} are negated, the result should also be ambiguous, with senses corresponding to \textit{¬(p$\vee$q)} vs. \textit{¬(pXORq)}. The crucial difference is that \textit{¬(pXORq)} will be true and \textit{¬(p$\vee$q)} false if \textit{p$\wedge$q} is true. (The reader should consult the truth tables in \chapref{sec:4} to see why this is the case.) For example, if \textit{or} were ambiguous, sentence (\ref{ex:9.12}a) should allow a reading which is true if Mary has both a son and a daughter, and (\ref{ex:9.12}b) should allow a reading under which I would allow my daughter to marry a man who both smokes and drinks. However, for most English speakers these readings of (\ref{ex:9.12}a--b) are not possible, at least when read the sentences are with normal intonation.
+
+ 
+\ea \label{ex:9.12}
+\ea Mary doesn’t have a son or daughter.\footnote{Barbara Partee, 2004 lecture notes. \url{http://people.umass.edu/partee/RGGU_2004/RGGU047.pdf}} \\
+\ex The man who marries my daughter must not smoke or drink.
+                       \z
+\z
+
+
+\citet[47]{Grice1978}, in the context of discussing the meaning of \textit{or}, proposed a principle which he called \textbf{Modified Occam’s Razor}: “Senses are not to be multiplied beyond necessity.” This principle would lead us to favor an analysis of words like \textit{and} and \textit{or} as having only a single sense, with additional uses being derived by pragmatic inference, unless there is clear evidence in favor of polysemy.
+
+
+\section{Explicatures: bridging the gap between what is said vs. what is implicated}\label{sec:9.3}
+
+Grice’s model seems to assume that the speaker meaning (total meaning that the speaker intends to communicate) is the sum of the sentence meaning (“what is said”, i.e., the meaning linguistically encoded by the words themselves) plus implicatures. Moreover, implicatures were assumed not to affect the truth value of the proposition expressed by the sentence; truth values were assumed to depend only on sentence meaning.\footnote{Of course, the implicatures themselves also have propositional content, which may be true or false/misleading even if the literal sentence meaning is true.}
+
+
+
+In many cases, however, the meaning linguistically encoded by the words themselves does not amount to a complete proposition, and so cannot be evaluated as being either true or false. Grice recognized that the proposition expressed by a sentence like (\ref{ex:9.13}a) is not complete, and its truth value cannot be determined, until the referents of pronouns and deictic elements are specified. Most authors also assume that any potential ambiguities in the linguistic form (like the syntactic and lexical ambiguities in \ref{ex:9.13}b) must be resolved before the propositional content and truth conditions of the sentence can be determined.
+
+
+\ea \label{ex:9.13}
+\ea She visited me here yesterday.\\
+\ex Old men and women gathered at the bank.
+                       \z
+\z
+
+
+Determining reference and disambiguation both depend on context, and so involve a limited kind of pragmatic reasoning. However, it turns out that there are many cases in which more significant pragmatic inferences are required in order to determine the propositional content of the sentence. Kent \citet{Bach1994} identifies two sorts of cases where this is needed: “Filling in is needed if the sentence is semantically \textsc{under-determinate}, and fleshing out will be needed if the speaker cannot plausibly be supposed to mean just what the sentence means.”
+
+
+
+The first type, which Bach refers to as \textsc{semantic under-determination}, involves sentences which fail to express a complete proposition (something capable of being true or false), even after the referents of pronouns and deictic elements have been determined and ambiguities resolved; some examples are presented in \REF{ex:9.14}.\footnote{Examples (\ref{ex:9.14}–\ref{ex:9.19}) are adapted from \citet{Bach1994}.}
+
+
+\ea \label{ex:9.14}
+\ea Steel isn’t strong enough.\\
+\ex Strom is too old.\\
+\ex The princess is late.\\
+\ex Tipper is ready.
+                       \z
+\z
+
+
+In these cases a process of \textsc{completion} (or “filling in” the missing information) is required to produce a complete proposition. This involves adding information to the propositional meaning which is unexpressed but implicit in the original sentence, as indicated in \REF{ex:9.15}. The hearer must be able to provide this information from context and/or knowledge of the world. The truth values of these sentences can only be determined after the implicit constituent is added to the overtly expressed meaning.
+
+
+\ea \label{ex:9.15}
+\ea Steel isn’t strong enough [to stop this kind of anti-tank missile].\\
+\ex Strom is too old [to be an effective senator].\\
+\ex The princess is late [for the party].\\
+\ex Tipper is ready [to dance].
+                       \z
+\z
+
+
+The under-determination of the sentences in \REF{ex:9.14} is not due to syntactic deletion or ellipsis; they are semantically incomplete, but not syntactically incomplete. The examples in (\ref{ex:9.16}--\ref{ex:9.17}) show that the potential for occurring in such constructions may be lexically specific, and that close synonyms may differ in this respect.
+
+
+\ea \label{ex:9.16}
+\ea The king has arrived [at the palace].\\
+\ex *The king has reached.
+                       \z
+\z
+
+\ea \label{ex:9.17}
+\ea Al has finished [speaking].\\
+\ex *Al has completed.
+                       \z
+\z
+
+
+The second type of sentence that Bach discusses involves those in which “there is already a complete proposition, something capable of being true or false (assuming linguistically unspecified references have been assigned and any ambiguities have been resolved), albeit not the one that is being communicated by the speaker.” For example, imagine that a mother says (\ref{ex:9.18}a) to her young son who is crying loudly because he cut his finger.
+
+
+\ea \label{ex:9.18}
+\ea You’re not going to die.\\
+\ex You’re not going to die [from this cut].
+                       \z
+\z
+
+
+Clearly she does not intend to promise immortality, although that is what the literal meaning of her words seems to say. In order to determine the intended propositional content of the sentence, the meaning has to be \textsc{expanded} (or “fleshed out”) as shown in (\ref{ex:9.18}b). Once again, the hearer must be able to provide this additional information from context and/or knowledge of the world. A more complex kind of pragmatic reasoning is required here than would be involved in assigning referents to deictic elements or resolving lexical ambiguities. Further examples are provided in \REF{ex:9.19}, illustrating how identical sentence structures can be expanded differently on the basis of knowledge about the world.
+
+
+\ea \label{ex:9.19}
+\ea I have eaten breakfast [today].\\
+\ex I have eaten caviar [before].\\
+\ex I have nothing to wear [nothing appropriate for a specific event].\\
+\ex I have nothing to repair [nothing at all].
+                       \z
+\z
+
+
+Bach uses the term \textsc{impliciture} to refer to the kinds of inference illustrated in this section. The choice of this label is not ideal, because the words \textit{impliciture} and \textit{implicature} look so much alike. A very similar concept is discussed within Relevance Theory under the label \textsc{explicature},\footnote{\citet{SperberWilson1986}; \citet{Carston1988}.} expressing the idea that the overtly expressed content of the sentence needs to be explicated in order to arrive at the full sentence meaning intended by the speaker. In the discussion that follows we will adopt the term \textsc{explicature}.\footnote{We are ignoring for now the relatively minor differences between Bach’s notion of impliciture and the Relevance Theory notion of explicature; see \citet{Bach2010} for discussion.}
+
+
+
+\citet[11]{Bach1994} describes the difference between “impliciture” (=explicature) and implicature as follows:
+
+
+\begin{quote}
+Although both impliciture and implicature go beyond what is explicit in the utterance, they do so in different ways. An implicatum is completely separate from what is said and is inferred from it (more precisely, from the saying of it). What is said is one proposition and what is communicated in addition to that is a conceptually independent proposition, a proposition with perhaps no constituents in common with what is said... 
+\end{quote}
+
+\begin{quote}
+In contrast, implicitures are built up from the explicit content of the utterance by conceptual strengthening … which yields what would have been made fully explicit if the appropriate lexical material had been included in the utterance. Implicitures are, as the name suggests, implicit in what is said, whereas implicatures are implied by (the saying of) what is said. 
+\end{quote}
+
+
+In other words, implicatures are distinct from sentence meaning. They are communicated in addition to the sentence meaning and have independent truth values. A true statement could trigger a false implicature, or vice versa. Explicatures are quite different. The truth value of the sentence cannot be determined until the explicatures are added to the literal meanings of the words.
+
+
+
+Since explicatures involve pragmatic reasoning, we must recognize the fact that pragmatic inferences can affect truth-conditional content. Further evidence that supports this same conclusion is discussed in the following section.
+
+
+\section{Implicatures and the semantics/pragmatics boundary}\label{sec:9.4}
+
+In \chapref{sec:1} we defined the semantic content of an expression as the meaning that is associated with the words themselves, independent of context. We defined pragmatic meaning as the meaning which arises from the context of the utterance. We have implicitly assumed that the truth conditions of a sentence depend only on the “semantic content” or sentence meaning, and not on pragmatic meaning. Many authors have made the same assumption, using the term “truth conditional meaning” as a synonym for “sentence meaning”. However, our discussion of explicatures has demonstrated that this view is too simplistic. Additional challenges to this simplistic view arise from research on implicatures.
+
+
+
+As discussed in \chapref{sec:8}, the conventional implicatures associated with words like \textit{but} or \textit{therefore} are part of the conventional meaning of these words, and not context-dependent; they would be part of the relevant dictionary definitions and must be learned on a word-by-word basis. Nevertheless, both Frege and Grice argued that these conventional implicatures do not contribute to the truth conditions of a sentence. So conventional meaning is not always truth-conditional. We will discuss this issue in more detail in \chapref{sec:11}.
+
+
+
+The opposite situation has been argued to hold in the case of generalized conversational implicatures. In \sectref{sec:9.2} above we presented compelling evidence which shows that the sequential ‘and then’ use of \textit{and} is not due to lexical ambiguity (polysemy), but must be a pragmatic inference. It is often cited as a paradigm example of generalized conversational implicature. However, as noted by \citet{Levinson1995,Levinson2000} among others, this inference does affect the truth conditions of the sentence in examples like (\ref{ex:9.20}--\ref{ex:9.21}). Sentence (\ref{ex:9.20}a) could be judged to be true in the same context where (\ref{ex:9.20}b) is judged to be false. This difference can only be due to the sequential interpretation of \textit{and}; if \textit{and} means only $\wedge$, then the two sentences are logically equivalent. Similarly, if \textit{and} means only $\wedge$, then \REF{ex:9.21} should be a contradiction; the fact that it is not can only be due to the sequential interpretation of \textit{and}.
+
+
+\ea \label{ex:9.20}
+\ea  If the old king has died of a heart attack and a republic has been declared, then Tom will be quite content.\footnote{\citet[58]{Cohen1971}.}
+\ex  If a republic has been declared and the old king has died of a heart attack, then Tom will be quite content.\footnote{\citet[69]{Gazdar1979}.}
+\z \z
+
+\ea \label{ex:9.21}
+If he had three beers and drove home, he broke the law; but if he drove home and had three beers, he did not break the law.
+\z
+
+
+Such examples have been extensively debated, and a variety of analyses have been proposed. For example, proponents of Relevance Theory argue that the sequential ‘and then’ use of \textit{and} is an explicature: a pragmatic inference that contributes to truth conditions.\footnote{\citet{Carston1988,Carston2004}.} A similar analysis is proposed for most if not all of the inferences that Grice and the “neo-Griceans” have identified as generalized conversational implicatures: within Relevance Theory they are generally treated as explicatures.
+
+
+
+This controversy is too complex to address in any detail here, but we might make one observation in passing. At the beginning of \chapref{sec:8} we provided an example (the story of the captain and his mate) of how we can use a true statement to implicate something false. That example involved a particularized conversational implicature, but it is possible to do the same thing with generalized conversational implicatures as well. The following example involves a scalar implicature. It is taken from a news story about how Picasso’s famous mural “Guernica” was returned to Spain after Franco’s death. The phrase \textit{Not all of them} in this context implicates \textit{not none} (that is, ‘I have some of them’) by the maxim of Quantity, because \textit{none} is a stronger (more informative) term than \textit{not all}.
+
+
+\ea \label{ex:9.22}
+  To demonstrate that the \ili{Spanish} Government had in fact paid Picasso to paint the mural in 1937 for the Paris International Exhibition, Mr. Fernandez Quintanilla had to secure documents in the archives of the late Luis Araquistain, Spain’s Ambassador to France at the time. But Araquistain’s son, poor and opportunistic, demanded \$2 million for the archives, which Mr. Fernandez Quintanilla rejected as outrageous. He managed, however, to obtain from the son photocopies of the pertinent documents, which in 1979 he presented to Roland Dumas [Picasso’s lawyer]… \\
+  “This changes everything,” a startled Mr. Dumas told the \ili{Spanish} envoy when he showed him the photocopies of the Araquistain documents. “You of course have the originals?” the lawyer asked casually. “\textbf{\textit{Not all of them}},” replied Mr. Fernandez Quintanilla, not lying but not telling the truth, either.\\
+   {}[\textit{The New York Times}, November 2, 1981; cited in \citet{Horn1992}]
+\z
+
+
+Mr. Fernandez Quintanilla was not lying, because the literal sentence meaning of his statement was true. But he was not exactly telling the truth either, because his statement triggered (and was clearly intended to trigger) an implicature that was false; in fact he had none of the originals.
+
+
+
+Such examples show that generalized conversational implicatures can be used to communicate false information, even when the literal meaning of the sentence is true. It would be hard to account for this fact if these generalized conversational implicatures are considered to be explicatures, because explicatures do not have a truth value that is independent of the truth value of the literal sentence meaning. Rather, explicatures represent inferences that are needed in order to determine the truth value of the sentence.
+
+
+\subsection{Why numeral words are special}\label{sec:9.4.1}
+
+Scalar implicatures have received an enormous amount of attention in the recent pragmatics literature. Many early discussions of scalar implicatures relied heavily on examples involving cardinal numbers, which seem to form a natural scale (1, 2, 3, …). However, various authors have pointed out that numbers behave differently from other scalar terms.
+
+
+
+\citet{Horn2004} uses examples (\ref{ex:9.23}--\ref{ex:9.25}) to bring out this difference. On the scale <\textit{none, some, many, all}>,  \textit{all} is a stronger (more informative) term than \textit{many}. Therefore, by the maxim of quantity, A’s use of \textit{many} in \REF{ex:9.23} entails ‘(at least) many’ and implicates ‘not all’.\footnote{\textit{Many} is used here in its proportional sense; see \chapref{sec:14} for discussion.} B’s reply states that the implicature does not in fact hold in the current situation; but this does not render the propositional content of the sentence false. That is why it would be unnatural for B to begin the reply with \textit{No}, as in B1. The acceptability of reply B2 follows from the fact that implicatures are defeasible.
+
+
+\ea \label{ex:9.23}
+A: Did many of the guests leave?\\
+B1: ?No, all of them.\\
+B2: Yes, (in fact) all of them.
+\z
+
+
+If numerals behaved in the same way as other scalars, we would expect A’s use of \textit{two} in \REF{ex:9.24} to entail ‘at least two’ and implicate ‘not more than two’. However, if B actually does have more than two children, it seems to be more natural here for B to reply with \textit{No} rather than \textit{Yes}. This indicates that B is rejecting the literal propositional content of the question, not an implicature.
+
+
+\ea \label{ex:9.24}
+A: Do you have two children?\\
+B1: No, three.\\
+B2: ?Yes, (in fact) three.
+\z
+
+
+Such examples suggest that numerals like \textit{two} allow two distinct readings: an ‘at least 2’ reading vs. an ‘exactly 2’ reading, and that neither of these is derived as an implicature from the other. A’s question in \REF{ex:9.24} is most naturally interpreted as involving the ‘exactly’ reading. However, there are certain contexts (such as discussing a government subsidy that is available for families with two or more children) in which the ‘at least’ reading would be preferred, and in such contexts reply B2 would be more natural.
+
+
+
+Example (\ref{ex:9.25}a) is acceptable under the ‘exactly 3’ reading of the numeral, under which \textit{not three} is judged to be true whether the actual number is more than three or less than three. The fact that (\ref{ex:9.25}b) is unacceptable shows that the word \textit{like} does not have an ‘exactly (or merely) like’ reading. Based on the scale <\textit{hate, dislike, neutral, like, love/adore}>, using the word \textit{like} entails ‘at least like (=have positive feelings)’ and implicates ‘not more than like (not love/adore)’. Sentence (\ref{ex:9.25}b) attempts to negate the both the entailment and the implicature at the same time, and the result is unacceptable.\footnote{Of course, as pointed out at the end of \chapref{sec:8}, given the right context and using a special marked intonation it is sometimes possible to negate the implicature alone, as in: “She didn’t \textsc{líke} the movie — she \textsc{adóred} it.”}
+
+
+\ea \label{ex:9.25}
+\ea Neither of us has three kids — she has two and I have four.\\
+\ex \#Neither of us liked the movie — she adored it and I hated it.
+                       \z
+\z
+
+
+\citet{Horn1992} notes several other properties which set numerals apart from other scalar terms, and which demonstrate the two distinct readings for numerals:
+
+
+\begin{enumerate}
+\item Mathematical statements do not allow “at least” readings (\ref{ex:9.26}a). Also, round numbers are more likely to allow “at least” readings than very precise numbers (\ref{ex:9.26}b--c).
+
+\ea \label{ex:9.26}
+\ea *$2+2=3$ (should be true under “at least 3” reading)\\
+\ex I have \$200 in my bank account, if not more.\\
+\ex I have \$201.37 in my bank account, \#if not more.
+                       \z
+\z
+ 
+\item Numerical scales are potentially reversible depending on the context (\ref{ex:9.27}--\ref{ex:9.28}); this kind of reversal is not possible with other scalar terms \REF{ex:9.29}.
+\ea \label{ex:9.27}
+\ea That bowler is capable of breaking 100 (he might even score 150).\\
+\ex That golfer is capable of breaking 100 (he might even score 90).
+                       \z
+\z
+
+\ea \label{ex:9.28}
+\ea You can survive on 2000 calories per day (or more).\\
+\ex You can lose weight on 2000 calories per day (or less).
+                       \z
+\z
+
+\ea \label{ex:9.29}
+\ea He ate some of your mangoes, if not all/*none of them.\\
+\ex This classroom is always warm, if not hot/*cool.
+                       \z
+\z
+
+\item The “at least” interpretation is only possible with the distributive reading of numerals, not the collective reading \REF{ex:9.30}; this is not the case with other scalar quantifiers \REF{ex:9.31}.
+
+\ea \label{ex:9.30}
+\ea Four salesmen have called me today, if not more.\\
+\ex Four students carried this sofa upstairs for me, \#if not more.
+                       \z
+\z
+
+\ea \label{ex:9.31}
+\ea Most of the students have long hair, perhaps all of them.\\
+\ex Most of the students surrounded the stadium, perhaps all of them.
+                       \z
+\z
+
+\item The “at least” interpretation is disfavored when a numeral is the focus of a question \REF{ex:9.32}, but this is not the case with other scalar quantifiers \REF{ex:9.33}:
+
+\ea \label{ex:9.32}
+Q: Do you have two children?\\
+A1: No, three.\\
+A2: ?Yes, in fact three.
+\z
+
+\ea \label{ex:9.33}
+Q: Are many of your friends linguists?\\
+A1: ??No, all of them.\\
+A2: Yes, in fact all of them.
+\z
+\end{enumerate}
+
+
+It is important to bear in mind that sentences like \REF{ex:9.34} can have different truth values depending on which reading of the numeral is chosen:
+
+
+\ea \label{ex:9.34}
+If Mrs. Smith has three children, there will be enough seatbelts for the whole family to ride together.
+\z
+
+
+One possible analysis might be to treat the alternation between the ‘at least \textit{n}’ vs. ‘exactly \textit{n}’ readings as a kind of systematic polysemy. However, it seems that most pragmaticists prefer to treat numeral words as being underspecified or indeterminate between the two, with the intended reading in a given context being supplied by explicature.\footnote{See for example \citet{Horn1992} and \citet{Carston1998}.}
+
+
+\section{Conclusion}\label{sec:9.5}
+
+The large body of work exploring the implications of Grice’s theory has forced us to recognize that Grice’s relatively simple view of the boundary between semantics and pragmatics is not tenable. Early work in pragmatics often assumed that pragmatic inferences did not affect the truth-conditional content of an utterance, apart from the limited amount of contextual information needed for disambiguation of ambiguous forms, assignment of referents to pronouns, etc. Under this view, truth-conditional content is almost the same thing as conventional meaning.
+
+
+
+In this chapter we have discussed various ways in which pragmatic inferences do contribute to truth-conditional content. We have seen that some (at least) generalized conversational implicatures affect truth-conditions, and we have seen that other types of pragmatic inferences, which we refer to as explicatures, are needed in order to determine the truth value of a sentence. In \chapref{sec:11} we discuss the opposite kind of challenge, namely cases where conventional meaning (semantic content) does not contribute to the truth-conditional meaning of a sentence. But first, in \chapref{sec:10}, we discuss a special type of conversational implicature known as an \textsc{indirect speech act}.
+
+
+
+\furtherreading{
+
+
+
+\citet[ch. 3]{Birner20122013} presents a good overview of the issues discussed here, including a very helpful comparison of Relevance Theory with the “neo-Gricean” approaches of Levinson and Horn. \citet{Horn2004} and \citet{Carston2004} provide helpful surveys of recent work on implicature, Horn from a neo-Gricean perspective and Carston from a Relevance Theory perspective. \citet{Bach2010} discusses the differences between his notion of “impliciture” and the Relevance Theory notion of explicature. \citet{Geurts2011} provides a good introduction to, and a detailed analysis of, scalar and quantity implicatures.
+
+}
+\discussionexercises{
+\paragraph*{A. Explicature.}
+
+Identify the explicatures which would be necessary in order to evaluate the truth value for each of the following examples:\footnote{Examples (c-e) are taken from \citet{CarstonHall2012}.}
+\bigskip
+
+\begin{enumerate}
+\item  {He arrived at the bank too early}.
+\item  {All students must pass phonetics}.
+\item  {No-one goes there anymore}.
+\item  {To buy a house in London you need money}.
+\item {}[Max: How was the party? Did it go well?]\\
+  Amy:  {There wasn’t enough drink and everyone left early}.
+\end{enumerate}
+\paragraph*{B. Pragmatics in the lexicon.}
+
+\citet{Horn1972} observes that many languages have lexical items which express positive universal quantification (\textit{all, every, everyone, everything, always, both}, etc.) and the corresponding negative concepts (\textit{no, none, nothing, no one, never, neither}, etc.). In each case, the positive term can be paraphrased in terms of the corresponding negative, and vice versa. For example, \textit{Everything is negotiable} can be paraphrased as \textit{Nothing} \textit{is non-negotiable}. However, most languages seem to lack negative counterparts to the existential quantifiers (\textit{some, someone, sometimes}, etc.). In order to paraphrase an existential statement like \textit{Something is negotiable}, we have to use a quantifying phrase, rather than a single word, as in \textit{Not everything is non-negotiable}.
+
+Try to formulate a pragmatic explanation for this lexical asymmetry, i.e., the fact that few if any languages have lexical items that mean \textit{not everything, not everyone, not always, not both,} etc. (\textbf{Hint}: think about the kinds of implicatures that might be triggered by the various classes of quantifying words.)
+}

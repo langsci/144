@@ -10,9 +10,9 @@
 \documentclass[output=book,
   nonflat,
   modfonts,
-  colorlinks,citecolor=brown,
+%   colorlinks,citecolor=brown,
 %   draft,draftmode,
-  showindex,
+%   showindex,
 %   multiauthors,
 %   nobabel
 		  ]{langsci/langscibook}    
@@ -31,13 +31,37 @@
 \input{localpackages.tex}
 \input{localhyphenation.tex}
 \bibliography{localbibliography} 
+ 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%                                              %%%
 %%%             Frontmatter                      %%%
 %%%                                              %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\usepackage{lipsum} 
+% \includeonly{ 
+% % chapters/01,
+% % chapters/02,
+% % chapters/03,
+% % chapters/04,
+% % chapters/05,
+% % chapters/06,
+% % chapters/07,
+% chapters/08,
+% chapters/09,
+% % chapters/10,
+% % chapters/11,
+% % chapters/12,
+% % chapters/13,
+% % chapters/14,
+% % chapters/15,
+% % chapters/16,
+% % chapters/17,
+% chapters/18,
+% chapters/19,
+% chapters/20,
+% chapters/21,
+% chapters/22
+% }
 \begin{document} 
  
 \input{localcommands.tex} 
@@ -51,7 +75,7 @@
 \tableofcontents
  \include{chapters/preface}
 % \include{chapters/acknowledgments}
-% \include{chapters/abbreviations} 
+\include{chapters/abbreviations} 
 \mainmatter     
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -59,6 +83,7 @@
 %%%             Chapters                         %%%
 %%%                                              %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \part{Foundational concepts}\label{unit:1}
 
@@ -94,7 +119,7 @@
 \include{chapters/20}    \setcounter{equation}{0}
 \include{chapters/21}    \setcounter{equation}{0}
 \include{chapters/22}    \setcounter{equation}{0}
- 
+% % % \input{allrefs.tex}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -103,14 +128,7 @@
 %%%                                              %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \sloppy
-\input{localseealso.tex} 
-% There is normally no need to change the backmatter section
+\input{localseealso.tex}  
 \input{backmatter.tex} 
 \end{document} 
-
-% you can create your book by running
-% xelatex main.tex
-%
-% you can also try a sime 
-% make
-% on the commandline
+ 

@@ -1,0 +1,834 @@
+\chapter{Conditionals}\label{sec:19}
+
+\begin{quote}
+Exactly what conditionals mean and how they come to mean what they mean is one of the oldest problems in natural language semantics. According to Sextus Empiricus, the Alexandrian poet Callimachus reported that the \ili{Greek} philosophers’ debate about the semantics of the little word \textit{if} had gotten out of hand: ‘Even the crows on the roof-tops are cawing about which conditionals are true’.\footnote{\Citet{vonFintel2011}.}
+\end{quote}
+
+\section{Conditionals and modals}\label{sec:19.1}
+
+A \textsc{conditional} sentence is a bi-clausal structure of the form \textit{if p} (\textit{then) q}. The conjunction \textit{if} seems to indicate that a certain kind of relationship holds between the meanings of the two clauses. However, as the passage quoted above demonstrates, the exact nature of this relationship has been a topic of controversy for thousands of years.
+
+
+
+An intuitive description of the construction, suggested by the term \textsc{conditional}, is that the \textit{if} clause describes some condition under which the \textit{then} clause is claimed to be true. For example, the conditional sentence in \REF{ex:19.1} claims that the proposition \textit{you are my second cousin} is true under a certain condition, namely that Atatürk was your great-grandfather.
+
+
+\ea \label{ex:19.1}
+If Atatürk was your great-grandfather, then you are my second cousin.
+\z
+
+
+Much recent work on the meaning of conditional constructions builds on the similarities between conditionals and modals. The analysis of modality that we sketched in \chapref{sec:16} treats modal operators as quantifiers over possible worlds: modals of necessity are universal quantifiers, while modals of possibility are existential quantifiers. The difference between epistemic vs. deontic or other types of modality is the result of restricting this quantification to specific kinds of worlds. For example, we analyzed epistemic \textit{must} as meaning something like, “In all worlds which are consistent with what I know about the actual world, and in which the normal course of events is followed…”
+
+
+
+Conditionals can also be analyzed in terms of possible worlds. One way of evaluating the truth of a conditional statement like \REF{ex:19.1} is to adopt the following procedure:\footnote{This is a version of the “Ramsey Test” from \citet{Stalnaker1968}.} Add the content of the \textit{if} clause to what is currently known about the actual world. Under those circumstances, would the \textit{then} clause be true? We might suggest the following paraphrase for sentence \REF{ex:19.1}: “In all possible worlds which are consistent with what I know about the actual world, and in which the normal course of events is followed, and in which Atatürk was your great-grandfather, you are my second cousin.”
+
+
+
+An adequate analysis needs to provide not only a reasonable paraphrase but also an explanation for how this meaning is derived compositionally, addressing questions like the following: What do the individual meanings of the two clauses contribute to the meaning of the sentence as a whole? What does \textit{if} mean? These questions lead to some very complex issues, to which this chapter can provide only a brief introduction.
+
+
+
+It will be easier to talk about conditional sentences if we introduce some standard terminology for referring to the parts of such sentences. We refer to the \textit{if} clause as the \textsc{antecedent} (also known as the \textsc{protasis}); and to the \textit{then} clause as the \textsc{consequent} (or \textsc{apodosis}). The names \textit{antecedent} and \textit{consequent} reflect the most basic ordering of these clauses (\textit{if p, q}), not only in English but (apparently) in all languages.\footnote{\citet[84--85]{Greenberg1963}; \citet[83]{Comrie1986}.} But in many languages the opposite order (\textit{q if p}) is possible as well. Regardless of which comes first in any particular sentence, the antecedent names the condition under which the consequent is claimed to be true.
+
+
+
+One factor that makes the analysis of conditional sentences so challenging is that the conditional structure can be used for a variety of different functions, not only in English but in many other languages as well. We introduce the most common of these in \sectref{sec:19.2}. In \sectref{sec:19.3} we focus on “standard” conditionals, i.e. those in which neither the antecedent nor the consequent is asserted or presupposed to be true. In many languages these conditionals may be marked by tense, mood, or other grammatical indicators to show the speaker’s degree of confidence as to how likely the antecedent is to be true.
+
+
+
+In \sectref{sec:19.4} we will return to the question raised in \chapref{sec:9} as to whether the meaning of English \textit{if} can be adequately represented or defined in terms of the material implication operator (→) of propositional logic. We will see that, for a number of reasons, this does not seem to be possible. (Of course, that does not mean that the material implication operator is useless for doing natural language semantics; it is an indispensible part of the logical metalanguage. It just means that material implication does not provide a simple translation equivalent for English \textit{if}.)
+
+
+
+We go on in \sectref{sec:19.5} to discuss one very influential approach to defining the meaning of \textit{if}, which takes it to be a marker of restriction for modals or other types of quantifiers. \sectref{sec:19.6} discusses some of the special challenges posed by \textsc{counterfactual} conditionals, in which the antecedent is presupposed to be false. Finally, in \sectref{sec:19.7} we argue for a distinction between truth-conditional vs. speech act conditionals, and provide some evidence for the claim that speech act conditionals are not part of the propositional content that is being asserted, questioned, etc.
+
+
+\section{Four uses of \textit{if}}\label{sec:19.2}
+
+In this section we introduce the most commonly discussed functions of the conditional construction. As noted above, the \textsc{standard} conditional, illustrated in \REF{ex:19.2}, does not commit the speaker to believing either the antecedent or the consequent to be true, but does seem to commit the speaker to believing that some type of relation exists (often a causal relationship) between the two propositions. Most authors take this to be the most basic usage of \textit{if}.
+
+
+\ea \label{ex:19.2}
+\textsc{standard conditionals}\\
+\ea  If it does not rain, we will eat outside.\\
+\ex If the TV Guide is correct, there is a good documentary on PBS tonight.\\
+\ex There are biscuits on the sideboard if Bill has not moved them.\\
+\ex If you take another step, I’ll knock you down.\\
+\ex If Mary’s husband forgets their anniversary (again!), she will never forgive him.\\
+\ex If you see George, you should invite him to the party.
+                       \z
+\z
+
+
+The sentences in \REF{ex:19.3} provide examples of \textsc{relevance} \textsc{conditionals}, also known as “biscuit conditionals” because of the famous example listed here as (\ref{ex:19.3}a). When the consequent is a statement, as in (\ref{ex:19.3}a--d), the relevance conditional seems to commit the speaker to believing the consequent to be true, regardless of whether the antecedent is true or not.\footnote{This claim has been challenged by some authors.}
+
+
+\ea \label{ex:19.3}
+\textsc{relevance} \textsc{conditionals} (a.k.a. “biscuit conditionals”):\\
+\ea  There are biscuits on the sideboard if you want them.  (\citealt{Austin1956})\\
+\ex PBS will broadcast \textit{Die Walküre} tonight, if you like Wagner.\footnote{\citet{Bennett2003}.}\\
+\ex If I may say so, you do not look well.\\
+\ex He’s not the sharpest knife in the drawer, if you know what I mean.\\
+\ex If you went to the office party, how did Susan look?
+                       \z
+\z
+
+
+The replies in (\ref{ex:19.4}--\ref{ex:19.5}) illustrate \textsc{factual} \textsc{conditionals}.\footnote{These examples are adapted from   \citet[671]{BhattPancheva2006}.} Factual conditionals carry the presupposition that someone other than the speaker (often the addressee) believes or has said that the proposition expressed by the antecedent is true.
+
+
+\ea \label{ex:19.4}
+A. This book that I was assigned to read is really stupid.\\
+B. I haven’t read it, but if it is that stupid you shouldn’t bother with it.
+\z
+
+\ea \label{ex:19.5}
+A. My boyfriend Joe is really smart.\\
+B. Oh yeah? If he’s so smart why isn’t he rich?
+\z
+
+
+The final type that we will mention is the \textsc{concessive conditional}, illustrated in \REF{ex:19.6}. (Small caps are used here to indicate intonation peak.) A speaker who uses a concessive conditional asserts that the consequent is true no matter what, regardless of whether the antecedent is true or false. This is made explicit when, as is often the case, the antecedent is preceded by \textit{even if}. Notice that the most basic order for concessive conditionals seems to be the opposite of that for standard conditionals, i.e., the consequent comes first. In order for the antecedent to be stated first, it must be marked by \textit{even}, focal stress, or some other special marker.
+
+
+\ea \label{ex:19.6}
+\textsc{Concessive Conditionals}\\
+\ea  I wouldn’t marry you if you were the last man on \textsc{earth}. \\
+\ex (Even) if the bridge were \textsc{standing} I wouldn’t cross. (\citealt{Bennett1982})\\
+\ex I’m going to finish this project (even) if it \textsc{kills} me.
+                       \z
+\z
+
+
+We need to distinguish concessive conditionals from concessive adverbial clauses,\footnote{\citet{ThompsonEtAl2007}.} which can be marked with various conjunctions including \textit{if}. Some examples of concessive adverbial clauses are presented in \REF{ex:19.7}, and examples of concessive adverbial clauses with \textit{if} in \REF{ex:19.8}.\footnote{The examples in \REF{ex:19.8} come from LanguageLog: \url{http://itre.cis.upenn.edu/~myl/languagelog/archives/000408.html}}  This kind of concessive construction commits the speaker to believing that both the antecedent and the consequent are true.
+
+
+\ea \label{ex:19.7}
+\ea  Even though the bridge is still standing, I won’t cross it.\\
+\ex Although she loves him, she does not plan to marry him.\\
+\ex While no one has seen Bigfoot, few people here doubt its existence.
+                       \z
+\z
+
+\ea \label{ex:19.8}
+\ea  It’s all perfectly normal — if troublesome to varying degrees.\\
+\ex Virtual colon dissection is promising, if flawed.\\
+\ex It was fair and balanced if perhaps a little old.\\
+\ex Today hashing is a global, if little known, pursuit.\\
+\ex If Eskimos have dozens of words for snow, Germans have as many for\\
+  bureaucracy. [\textit{The Economist}, October 11th, 2003, p. 56, col. 2]\\
+\ex If Mozart was a life-long admirer of J. C. Bach, his views on Clementi were disparaging, to put it mildly. 
+\newline 
+ [OED, citing 1969 \textit{Listener} 24 Apr. 585/1]
+                       \z
+\z
+
+
+The contrast in truth commitments mentioned above is illustrated in \REF{ex:19.9}. The standard conditional in (\ref{ex:19.9}a) does not imply that the speaker believes either the antecedent or the consequent to be true, so denying the consequent does not lead to contradiction or anomaly. The concessive conditional in (\ref{ex:19.9}b) and the relevance conditional in (\ref{ex:19.9}c) both imply that the speaker believes the consequent to be true, regardless of the truth of the antecedent; so denying the consequent is a contradiction, as indicated by the \#.
+
+
+\ea \label{ex:19.9}
+\ea  I wouldn’t marry Bill if he were a starving linguist; but as things stand I might end up marrying him (since he is a dentist). \\ 
+\hfill [\textsc{standard} \textsc{conditional}]\\
+\ex I wouldn’t marry Bill if he were the last man on \textsc{earth}; \#but I suppose I might end up marrying him. \hfill  [\textsc{concessive conditional}]\\
+\ex If you really want to know, I would never marry Bill; \#but I suppose I might end up marrying him. \hfill  [\textsc{relevance} \textsc{conditional}]
+                       \z
+\z
+
+
+In the long history of the study of conditionals and their meanings, a variety of additional functions and gradations have been identified and named (often with multiple competing names for the same function, as we have already seen in the case of “relevance” or “biscuit” conditionals). \sectref{sec:19.7} below provides some evidence for making a distinction between truth-conditional vs. speech act uses of the conditional form. This is of course the same distinction that we were led to in the previous chapter in our discussion of causation. We will argue that the standard conditionals in \REF{ex:19.2} involve a truth-conditional usage, whereas the relevance conditionals in \REF{ex:19.3} involve a speech act usage. The factual and concessive conditionals in (\ref{ex:19.4}--\ref{ex:19.6}) are harder to classify.
+
+
+\section{Degrees of hypotheticality}\label{sec:19.3}
+
+One widely discussed property of standard conditionals is that they can be used to express varying degrees of hypotheticality,\footnote{See for example \citet{Comrie1986}; \citet{ThompsonEtAl2007}.} reflecting the speaker’s judgment as to how likely it is that the antecedent is actually true. In languages where verbs are inflected for tense and/or mood, verbal morphology is often used to signal these distinctions. However, other kinds of marking are also found, as illustrated below; and in some languages this distinction is not grammatically marked at all, but is determined entirely by contextual clues.
+
+
+
+As a number of authors have noted, there is a cross-linguistic tendency for the antecedent to be interpreted as more hypothetical (less certain) when it is stated in the past tense than in present tense. However, tense marking also serves to indicate the actual time frame of the described event. (See \chapref{sec:21} for a detailed discussion of tense marking.) For this reason, there is generally no one-to-one correlation between tense and degree of hypotheticality. Some English examples are presented in (\ref{ex:19.10}--\ref{ex:19.12}).
+
+
+\ea \label{ex:19.10}
+\ea  If Bill \textit{is} your uncle, then you must know his daughter Margaret.\\
+\ex If David \textit{was} your thesis advisor, then he knows your work pretty well.\\
+\ex If Susan \textit{wins} the election, she will become the mayor of Des Moines.\\
+\ex Results have not yet been announced, but if Susan \textit{won} the election,\\
+  the current mayor will have to find a new job.\\
+\ex ‘‘It would make it more important if that \textit{be} the case,’’ he [Ralph Nader] said yesterday.\footnote{New York Daily News, 5  February 2007; cited in \citet{Gomes2008}.}
+                       \z
+\z
+
+
+In the indicative mood, either present or past tense can be used when the speaker has reason to believe that the antecedent is true, as illustrated in (\ref{ex:19.10}a--b). Such examples are sometimes referred to as \textsc{reality} conditionals.\footnote{\citet{ThompsonEtAl2007}.} These same two verb forms can also be used in \textsc{hypothetical} conditionals, those in which the speaker simply doesn’t know whether the antecedent is true or not, as illustrated in (\ref{ex:19.10}c--d). In these examples, the tense marking of the verb in the antecedent functions in the normal way, to indicate the location in time of the situation described by that clause. The subjunctive mood can be used for hypothetical conditionals as well, as illustrated in (\ref{ex:19.10}e). However, it is not always easy to recognize the subjunctive in English. The past indicative and past subjunctive are distinguished in Modern English only for the verb \textit{to be}, as illustrated in (\ref{ex:19.11}a).\footnote{The present subjunctive is identical to the bare infinitive form. It is archaic in conditionals, though still used occasionally in formal registers as in (\ref{ex:19.10}e), but preserved in other uses, including optatives (\textit{God bless you}; \textit{long live the King}).}
+
+
+
+\textsc{Counterfactual} conditionals, which normally presuppose that the speaker believes the antecedent to be false, tend to be expressed in the subjunctive as seen in (\ref{ex:19.11}--\ref{ex:19.12}). Example (\ref{ex:19.11}a) demonstrates the preference for the subjunctive over the past indicative in counterfactual conditionals, although many speakers will use or at least accept the past indicative in casual speech.
+
+
+\ea \label{ex:19.11}
+\ea  If I \textit{were/?was} you, I would apply for a different job.\\
+\ex If I \textit{had been} your thesis advisor, you would have been lucky to finish at all.
+                       \z
+\z
+
+\ea \label{ex:19.12}
+“Sir, if you \textit{were} my husband, I would poison your drink.”\\
+“Madam, if you \textit{were} my wife, I would drink it.”\\
+  (Exchange between Lady Astor and Winston Churchill)
+\z
+
+
+\citet{Comrie1986} argues that the degrees of hypotheticality associated with conditionals are not limited to three discrete categories, but rather form a continuum from most certain (reality conditionals) to most doubtful (counterfactuals). The examples in \REF{ex:19.13} lend some support to this claim, at least for English. All three of these examples can be interpreted as hypothetical conditionals referring to a present situation, i.e., the state of the world at the time of speaking; none of them requires that the speaker know whether the antecedent is true or not. However, the past indicative in (\ref{ex:19.13}b) seems more doubtful than the present indicative in (\ref{ex:19.13}a), and the subjunctive mood in (\ref{ex:19.13}c) seems more doubtful than the indicative mood in (\ref{ex:19.13}b).\footnote{Without any additional context, the subjunctive conditional in (\ref{ex:19.13}c) would most likely be interpreted as a counterfactual; but given the right context, the hypothetical reading is certainly possible as well.} In the same way, both (\ref{ex:19.14}a) and (\ref{ex:19.14}b) can be interpreted as hypothetical conditionals, but (\ref{ex:19.14}b) expresses more doubt than (\ref{ex:19.14}a). Notice that in (\ref{ex:19.14}b), the tense marking of the antecedent does not reflect the time of the described situation, but is used to mark a high degree of hypotheticality.
+
+
+\ea \label{ex:19.13}
+\ea  If Alice \textit{is} a spy, she probably carries a gun.\\
+\ex If Alice \textit{was} a spy, she would probably carry a gun.\\
+\ex If Alice \textit{were} a spy, she would probably carry a gun.
+                       \z
+\z
+
+\ea \label{ex:19.14}
+\ea  If Arthur still \textit{loves} her, he will catch the first train home.\\
+\ex If Arthur still \textit{loved} her, he would catch the first train home.
+                       \z
+\z
+
+
+These examples show that, in English conditional clauses, tense and mood morphology have partly overlapping functions. Both past tense and subjunctive mood can serve to make the antecedent seem less likely. Similar patterns are found in other languages as well.
+
+
+
+The use of tense and mood in \ili{Portuguese} conditionals is illustrated in \REF{ex:19.15}.\footnote{Examples from \citet{Gomes2008}.} Example (\ref{ex:19.15}a) is what we have called a reality conditional, (\ref{ex:19.15}b) is a hypothetical conditional, and (\ref{ex:19.15}c) is a counterfactual conditional. Notice that the difference between the hypothetical and counterfactual conditionals is formally a difference in tense inflection, rather than mood, on the antecedent verb. Notice too the “conditional mood” form of the verb in the consequent of (\ref{ex:19.15}c). A number of Romance languages have such forms, which occur in the consequent of counterfactual conditionals and typically have several other uses as well (e.g. “future in the past” tense; see \chapref{sec:21}).
+
+
+\ea \label{ex:19.15}
+\ea  \gll Se  ela  é  italiana,  ela  é  européia.\\
+if  she  is  \ili{Italian},  she  is  European\\
+\glt ‘If/since she is \ili{Italian}, she is European.’ (I know that she is \ili{Italian}.)
+\ex \gll Se  ela  for  italiana,  ela  é  européia.\\
+if  she  be.3sg.\textsc{fut.sbjv}  \ili{Italian},  she  is  European\\
+\glt ‘If she be \ili{Italian}, she is European.’ (I do not know whether she is \ili{Italian} or not.)
+\ex \gll  Se  ela  fosse  italiana,  ela  seria  européia.\\
+if  she  be.3sg.\textsc{ipfv.sbjv}  \ili{Italian},  she  would.be.\textsc{cond}  European\\
+\glt ‘If she were \ili{Italian}, she would be European.’ (I know that she is not \ili{Italian}.)
+\z \z
+
+
+In \ili{Russian} counterfactual conditionals, both the antecedent and consequent appear in the subjunctive-conditional mood (\ref{ex:19.16}b), in contrast to the indicative mood used in hypothetical conditionals (\ref{ex:19.16}a):\footnote{These examples are from \citet[251]{ChungTimberlake1985}, who use the term \textsc{irrealis} mood for what I have called the subjunctive-conditional mood.}
+
+
+\ea \label{ex:19.16}
+\ea  \gll Esli  ja  pribudu  na  vokzal,  menja  posadjat  v  tjur’mu.\\
+if  I  arrive.\textsc{ind}  at  station  me  put.\textsc{ind}  in  prison\\
+\glt ‘If I arrive at the station, they will throw me in prison.’ 
+\ex \gll Esli  by  ja  pribyl  na  vokzal,  menja  by  posadili  v  tjur’mu.\\
+if  \textsc{cond}  I  arrive.\textsc{cond}  at  station  me  \textsc{cond}  put.\textsc{cond}  in  prison\\
+\glt ‘If I had shown up at the station, they would have thrown me in prison.’
+\z \z
+
+
+The contrast between hypothetical vs. counterfactual conditionals can be marked in other ways as well. \ili{Irish} has two distinct words for ‘if’: \textit{dá} is used in counterfactual conditionals (\ref{ex:19.17}a), while \textit{má} is used in hypothetical conditionals (\ref{ex:19.17}b).\footnote{\citet{McCloskey2001}.} A similar situation is reported in Welsh and some varieties of \ili{Arabic}.
+
+
+\ea \label{ex:19.17}
+\ea   \gll Dá  leanfadh  sé  dá  chúrsa,  bheadh  deireadh  leis.\\
+if  follow.\textsc{cond}  he  of.his  course  be.\textsc{cond}  end  with.him\\
+\glt ‘If he had persisted in his course, he’d have been finished.’
+\ex \gll  Má  leanann  tú  de  do  chúrsa,  beidh  aithreachas  ort.\\
+if  follow.\textsc{pres}  you  of  your  course  be.\textsc{fut}  regret  on.you\\
+\glt ‘If you persist in your (present) course, you’ll be sorry.’
+\z \z
+
+
+In \ili{Tolkapaya} (also known as Western Yavapai), a Yuman language of North America, counterfactuals are distinguished from other kinds of conditionals by the suffix \textit{–th} attaching to the auxiliary of the consequent clause (\citet{HardyGordon1980}). In other (non-conditional) contexts, this suffix is used to mark “non-factual” propositions, including “failed attempts, unfulfilled desires, descriptions of a state that formerly obtained but which no longer does, and situations where the realization of one event precludes that of another” (\citealt{HardyGordon1980}: 191).
+
+
+
+A very similar case is found in Kimaragang Dusun, spoken in northeastern Borneo (\citet{Kroeger2017}). The frustrative particle \textit{dara} appears in main clauses which express failed attempts, unfulfilled desires or intentions, former states that no longer obtain, and things done in vain. This same particle appears in the consequent clause of counterfactual conditionals, as seen in \REF{ex:19.18}, distinguishing counterfactuals from other types of conditionals like those in \REF{ex:19.19}. Notice that non-past tense is used in the consequent of a counterfactual even if the situation which failed to materialize would have been prior to the time of speaking, as in (\ref{ex:19.18}b).
+
+
+\ea \label{ex:19.18}
+\ea 
+\gll  Ong  noguring  no  koniab  ino,  atanaman  no   do  paray  benoy  \textit{dara}.\\
+if  plowed.\textsc{potent.pst}  already  yesterday  that  planted.\textsc{potent.npst}  already \textsc{acc}  rice  today  \textsc{frus}\\
+\glt ‘If that (field) had been plowed yesterday, it could have been planted with rice today.’
+\ex 
+\gll  Amu  \textit{dara}  agamit  i  kambing  ong  konoko  ginipit  sid  susut.\\
+\textsc{neg}  \textsc{frus}  caught.\textsc{potent.npst}  \textsc{nom}  goat  if  not  trapped\textsc{.pst}  \textsc{loc}  below\\
+\glt ‘The goat could not have been caught if we hadn’t trapped it under the house.’
+\z \z
+
+\ea \label{ex:19.19}
+\ea  \gll  Ong  amu  nu  ibaray  ino  siin  dino,  mangan  tekaw  posutay.\\
+if  \textsc{neg}  you  pay  that  money  that  \textsc{aux}  I.you  cane\\
+\glt ‘If you don’t pay that money I’ll cane you.’
+\ex \gll  Kaanak=i’  dati  yalo  dilo’  ong  sumambat  do=duktur.\\
+able.to.bear.child=\textsc{emph}  \textsc{prob}  \textsc{3sg}  that  if  meet  \textsc{acc}=doctor\\
+\glt ‘She could probably have children if she goes to the doctor.’
+\z \z
+
+
+Some languages do not mark the degree of hypotheticality at all, at least not in their most common conditional sentence patterns. In these languages, a single sentence can be ambiguous between the reality, hypothetical, and counterfactual conditional readings; the intended meaning must be determined from context. For example, the \ili{Japanese} sentence in \REF{ex:19.20} could be interpreted either as a hypothetical conditional (expressing the hope of a father whose son is missing in action), or as a counterfactual conditional (expressing the sorrow of a father whose son has been killed). \citet{Comrie1986} mentions \ili{Mandarin} and \ili{Indonesian} as examples of other languages where a similar ambiguity is normal.
+
+
+\ea \label{ex:19.20}
+\gll Musuko=ga  ikite  i-tara,  ii  noni  naa!\\
+son=\textsc{nom}  alive  be-if  good  though  \textsc{exclam}\\
+\glt ‘If my son is alive, I’ll be so happy.’\\
+or: ‘If my son were alive, I would be so happy.’\footnote{\citet[627]{Akatsuka1985}.}
+\z
+
+
+To sum up, counterfactual conditionals get distinctive marking in many languages, but not in all languages. Now let us return to the fundamental question raised in \sectref{sec:19.1}: what does \textit{if} mean?
+
+
+\section{English \textit{if} vs. material implication}\label{sec:19.4}
+
+In \chapref{sec:9} we presented evidence in support of Grice’s analysis of the English words \textit{and} and \textit{or}. Grice suggested that the lexical semantic content of these words is actually equivalent to their logical counterparts ($\wedge$ and $\vee$), and that apparent differences in meaning are best understood as conversational implicatures. This approach seems to work fairly well for those two words; could a similar approach work for English \textit{if}? Grice argued that it could, specifically proposing that the lexical semantic content of English \textit{if} is equivalent to the material implication operator (→). However, there are a number of reasons to believe that this approach will not work for \textit{if}.
+
+
+
+First, if \textit{if} really means material implication, then the truth table for material implication predicts that the sentences in \REF{ex:19.21} should all be true. (Recall that \textit{p→q} is only false when \textit{p} is true and \textit{q} is false.) However, this does not match our intuitions about these sentences; most English speakers are very reluctant to call any of them true.
+
+
+\ea \label{ex:19.21}
+\ea  If Socrates was a woman then $1+1=3$.\footnote{\url{http://en.wikipedia.org/wiki/Material_conditional}} \\
+\ex If the Amazon flows through Paris then triangles have three sides.\\
+\ex If the \ili{Chinese} invented gunpowder then Martin Luther was \ili{German}.
+                       \z
+\z
+
+
+What makes these sentences seem so odd is that there is no relationship between the antecedent and consequent. Whatever \textit{if} means, it seems to require that some such relationship be present. Grice argued that this inference of relationship between antecedent and consequent is only a conversational implicature. Several other authors have also proposed that the semantic content of \textit{if} is simply material implication, and that the apparent differences between the two are pragmatic rather than semantic in nature. Other authors have tried to account for the requirement of relationship between antecedent and consequent by suggesting that \textit{if} \textit{p then q} expresses the claim that \textit{p→q} is true in all possible worlds, i.e., under any imaginable circumstances.\footnote{\citet{Lewis1918}, cited in \citet{vonFintel2011}.} But any attempt to derive the meaning of \textit{if} from material implication must deal with a number of problems.
+
+
+
+As discussed in \chapref{sec:4}, the meaning of the material implication operator is entirely defined by its truth table. We need to know the truth values for both \textit{p} and \textit{q} (but nothing else) before we can determine the truth value for \textit{p→q}. But this does not match our judgments about the truth of English conditionals. It would be entirely possible for a competent native speaker to believe that sentence \REF{ex:19.22} is true without knowing whether either of the two clauses alone expresses a true proposition. What is being asserted in \REF{ex:19.22} is not a specific combination of truth values, but a relationship between the meanings of the clauses.\footnote{The material in this paragraph and the next are based on observations made by \citet{Podlesskaya2001}.}
+
+
+\ea \label{ex:19.22}
+If this test result is accurate, your son has TB.
+\z
+
+
+This point is further demonstrated by the fact that, in addition to statements, questions and commands may also appear as the consequent clause of a conditional, as illustrated in \REF{ex:19.23}. This is significant because questions and commands cannot be assigned a truth value.
+
+
+\ea \label{ex:19.23}
+\ea  If you are offered a fellowship, will you accept it?\\
+\ex If you want to pass phonetics, memorize the IPA chart!
+                       \z
+\z
+
+
+Finally, as we will argue in more detail below, the antecedent in a speech act conditional like \REF{ex:19.24} does not specify conditions under which the consequent is true, but rather conditions under which the speech act performed by the consequent may be felicitous.\footnote{In order to account for such examples under the assumption that \textit{if} is equivalent to the material implication operator, we could interpret them as conditional speech acts; so (\ref{ex:19.24}c) would have an interpretation something like: “If I am permitted to say so, then I hereby assert that you do not look well.” But in fact someone who says (\ref{ex:19.24}c) seems to be asserting the consequent unconditionally; it is only the felicity of the assertion that is conditional.}
+
+
+\ea \label{ex:19.24}
+\ea  If you have a pen, may I please borrow it?\\
+\ex If you want my advice, don’t invite George to the party!\\
+\ex If I may say so, you do not look well.
+                       \z
+\z
+
+
+Even if we focus only on truth values, the logical properties of → make predictions which do not seem to hold true for English \textit{if}. For example, it is easy to show (from the truth table for →) that \textit{¬(p→q)} logically entails \textit{p}. So if the semantic value of \textit{if} is material implication, anyone who believes that (\ref{ex:19.25}a) is false is committed to believing that (\ref{ex:19.25}b) is true. However, it does not seem to be logically inconsistent for a speaker to believe both statements to be false.
+
+
+\ea \label{ex:19.25}
+\ea  If I win the National Lottery, I will be happy for the rest of my life.\\
+\ex I will win the National Lottery.
+                       \z
+\z
+
+
+Counterfactuals raise a number of special problems for the material implication analysis. We will mention here just one famous example, shown in \REF{ex:19.26}.\footnote{This example comes from \citet{Lewis1973a}.} It is easy to show that \textit{p→q} logically implies \textit{(p}$\wedge$\textit{r) → q}. So if the semantic value of \textit{if} is material implication, anyone who believes that (\ref{ex:19.26}a) is true should be committed to believing that (\ref{ex:19.26}b) is true. However, it does not seem to be logically inconsistent for a speaker to believe the first statement to be true while believing the second to be false.
+
+
+\ea \label{ex:19.26}
+\ea  If kangaroos had no tails, they would topple over.\\
+\ex If kangaroos had no tails and they used crutches, they would topple over.
+                       \z
+\z
+
+
+Many other similar examples have been pointed out, and various solutions have been proposed.\footnote{See \Citet{vonFintel2011} for a good summary; see also \citet[83-87]{Gazdar1979}; \citet[ch2--3]{Bennett2003}.} As we noted in \sectref{sec:19.1} above, even if material implication is not logically equivalent to English \textit{if}, that does not mean that it is irrelevant to natural language semantics. It will always be an important part of the logical metalanguage that semanticists use. But in view of the many significant differences between material implication and English \textit{if}, it seems reasonable to look for some other way of capturing the meaning of \textit{if}.
+
+
+\section{\textit{If} as a restrictor}\label{sec:19.5}
+
+A radically different approach to defining the meaning of \textit{if} was proposed by \citet{Kratzer1986}, based on a suggestion by \citet{Lewis1975}. As we mentioned in \chapref{sec:14}, Lewis analyzes adverbs like \textit{always}, \textit{sometimes}, \textit{usually}, \textit{never}, etc. as “unselective quantifiers”, because they can quantify over various kinds of things. He points out that conditional clauses can be used to specify the situations, entities, or units of time which are being quantified over, as illustrated in \REF{ex:19.27}. However, it is difficult to say exactly what the \textit{if} means in such examples.
+
+
+\ea \label{ex:19.27}
+\ea   If it is sunny, we \textit{always/usually/rarely/sometimes/never} play soccer.\footnote{\citet{Lewis1975}.}\
+\textit{always}: ${\forall}$\textsubscript{d} [SUNNY(d) → (we play soccer on d)]\\
+\textit{sometimes}: ${\exists}$\textsubscript{d} [SUNNY(d) $\wedge$ (we play soccer on d)]\\
+\textit{usually}: ???
+\ex  If a man wins the lottery, he \textit{always/usually/rarely/sometimes/never} dies happy.\\
+\textit{always}: ${\forall}$\textsubscript{x} [(MAN(x) $\wedge$ WIN(x,lottery)) → DIE\_HAPPY(x)]\\
+\textit{sometimes}: ${\exists}$\textsubscript{x} [MAN(x) $\wedge$ WIN(x,lottery) $\wedge$ DIE\_HAPPY(x)]\\
+\textit{usually}: ???
+\z \z
+
+
+Example (\ref{ex:19.27}a) is a standard conditional whose antecedent expresses the proposition SUNNY(d), using \textit{d} as a variable for days. The adverbs \textit{always}, \textit{sometimes}, etc, specify the quantifier part of the meaning. The word \textit{if} seems to name the relation between the antecedent and the consequent; but with \textit{always} this relation is expressed by →, with \textit{sometimes} the relation is expressed by $\wedge$, and with adverbs like \textit{usually} and \textit{rarely} there is no way to express the relation in standard logical form. A similar problem arises in (\ref{ex:19.27}b). What these examples show is that we cannot identify any consistent contribution of the word \textit{if} to the meaning of the sentence in this construction.
+
+
+
+Using the restricted quantifier notation allows us to give a uniform analysis for such sentences, regardless of which adverb is used. As shown in \REF{ex:19.28}, the antecedent of the conditional clause contributes material to the restriction on the quantifier, and the consequent specifies the material in the scope of the quantifier. But notice that there is no element of meaning in these expressions corresponding to the word \textit{if}. Lewis concludes that in this construction, \textit{if} “has no meaning apart from the adverb it restricts.”
+
+
+\ea \label{ex:19.28}
+If a man wins the lottery, he \textit{always/usually/rarely/sometimes/never} dies happy.\\
+\textit{always}:  [\textit{all} x: MAN(x) $\wedge$ WIN(x,lottery)] DIE\_HAPPY(x)\\
+\textit{sometimes}:  [\textit{some} x: MAN(x) $\wedge$ WIN(x,lottery)] DIE\_HAPPY(x)\\
+\textit{usually}:  [\textit{most} x: MAN(x) $\wedge$ WIN(x,lottery)] DIE\_HAPPY(x)\\
+\textit{rarely}:  [\textit{few} x: MAN(x) $\wedge$ WIN(x,lottery)] DIE\_HAPPY(x)\\
+\textit{never}:  [\textit{no} x: MAN(x) $\wedge$ WIN(x,lottery)] DIE\_HAPPY(x)
+\z
+
+
+\citet{Kratzer1986} proposed that Lewis’s analysis could be extended to all indicative (i.e., non-counterfactual) standard conditionals. If the conditional sentence contains a quantifier-like element in the consequent, the word \textit{if} serves only as a grammatical marker introducing material that contributes to the restriction on the quantifier. This is illustrated in \REF{ex:19.29} for normal quantifier phrases, and in \REF{ex:19.30} for epistemic and deontic modality.
+
+
+\ea \label{ex:19.29}
+\ea   Every student will succeed if he works hard.\\
+{}[\textit{all} x: STUDENT(x) $\wedge$ WORK\_HARD(x)] SUCCEED(x)
+\ex  No student will succeed if he goofs off.\\
+{}[\textit{no} x: STUDENT(x) $\wedge$ GOOF\_OFF(x)] SUCCEED(x)
+\z \z
+
+\ea \label{ex:19.30}
+\ea   If John did not come to work, he must be sick.  [epistemic necessity]\\
+  {}[\textit{all} w: (w is consistent with what I know about the actual world) $\wedge$\\
+  (the normal course of events is followed as closely as possible in w) $\wedge$\\
+  (John did not come to work in w)] SICK(j) in w
+\ex  If John did not come to work, he must be fired.  [deontic necessity]\\
+  {}[\textit{all} w: (the relevant circumstances of the actual world are also true in w) $\wedge$\\
+  (the relevant authority’s requirements are satisfied as completely as possible in w) $\wedge$\\
+  (John did not come to work in w)] FIRED(j) in w
+\z \z
+
+
+Kratzer suggests that when a conditional sentence does not contain an overt quantifier-like element, the presence of \textit{if} leads the hearer to assume a default quantifier. In some contexts, this default element would be epistemic necessity, as in (\ref{ex:19.31}a). In other contexts, the default element could be generic frequency, as in (\ref{ex:19.31}b).\footnote{Examples from \Citet{vonFintel2011}. As we will see in \chapref{sec:21}, the English simple present tense has special properties which explain the generic frequency interpretation of examples like (\ref{ex:19.31}b).}
+
+
+\ea \label{ex:19.31}
+\ea  \textit{If John left at noon, he’s home by now}.
+\hfill  [implied: epistemic necessity]\\
+  {}[\textit{all} w: (w is consistent with what I know about the actual world) $\wedge$\\
+  (the normal course of events is followed as closely as possible in w) $\wedge$\\
+  (John left at noon in w)] HOME(j) in w (by time of speaking)
+\bigskip
+\ex \textit{If John leaves work on time, he has dinner with his family}.\\
+\hfill [implied: generic frequency]\\
+  {}[\textit{all} d: (d is a day) $\wedge$ (John leaves work on time in d)] John has dinner with his family in d
+\z \z
+
+
+\citet[11]{Kratzer1986} summarizes her proposal as follows:
+
+
+\begin{quote}
+“The history of the conditional is the story of a syntactic mistake. There is no two-place \textit{if} … \textit{then} connective in the logical forms for natural languages. \textit{If}-clauses are devices for restricting the domains of various operators. Whenever there is no explicit operator, we have to posit one.”
+\end{quote}
+
+
+Her point is that the conditional meaning, the sense of relationship between antecedent and consequent, is not encoded by the word \textit{if}. Rather, it comes from the structure of the quantification itself. The function of \textit{if} is to mark certain material (the antecedent) as belonging to the restriction rather than the scope of the quantifier.
+
+
+
+The proposal that \textit{if} “does not carry any distinctive conditional meaning”\footnote{\Citet{vonFintel2011}.} may get some support from the observation that conditional readings can arise in sentences where two clauses are simply juxtaposed without any marker at all, as seen in (\ref{ex:19.32}--\ref{ex:19.33}).
+
+
+\ea \label{ex:19.32}
+Examples of juxtaposed conditionals from LanguageLog:\footnote{\url{http://itre.cis.upenn.edu/~myl/languagelog/archives/004521.html}} \\
+\ea  “Listen,” Renda said, “\textit{we get to a phone we’re out of the country before morning}.”
+\ex “He could have been a little rusty early on, and then the inning he gave up four runs I think he kind of lost his composure a little bit,” Orioles manager Sam Perlozzo said. “\textit{He just did a little damage control in that situation, we’re OK}.”\footnote{AP Recap of Toronto-Baltimore game of May 22, 2007; David Ginsburg, AP Sports Writer.}
+\z \z
+
+\ea \label{ex:19.33}
+INIGO: We’re really in a terrible rush.\\
+MIRACLE MAX: Don’t rush me, sonny.\\
+  \textit{You rush a miracle man, you get rotten miracles}.\footnote{From the 1987 movie \textit{The Princess Bride}.}
+\z
+
+\section{Counterfactual conditionals}\label{sec:19.6}
+
+
+The Lewis-Kratzer proposal provides a great deal of help in understanding how the meaning of a conditional sentence is compositionally derived. However, determining the right meanings for certain types of conditionals is still a significant challenge.\footnote{This section draws heavily on \citet{vonFintel2012}.} Counterfactuals are an especially challenging case. Consider the contrast between the hypothetical conditional in (\ref{ex:19.34}a) and the counterfactual conditional in (\ref{ex:19.34}b).\footnote{Counterfactual and hypothetical conditionals are often referred to as “subjunctive” and “indicative” conditionals, respectively; but as we noted in \sectref{sec:19.3}, there is not always a perfect correlation between verb morphology and the degree of hypotheticality.}
+
+
+\ea \label{ex:19.34}
+\ea  If Shakespeare did not write \textit{Hamlet}, someone else did.\\
+\ex If Shakespeare had not written \textit{Hamlet}, someone else would have.\footnote{These examples come from \citet{Morton2004}.}
+                       \z
+\z
+
+
+Most English speakers would probably agree that the hypothetical conditional in (\ref{ex:19.34}a) is true, but would probably judge the counterfactual conditional in (\ref{ex:19.34}b) to be false. This contrast suggests that some different rule of interpretation must apply to counterfactual conditionals. We have said that a counterfactual conditional presupposes that the antecedent is false; but this by itself is not sufficient to cause sentence (\ref{ex:19.34}b) as a whole to be regarded as false. Notice that even a speaker who believes the antecedent in (\ref{ex:19.34}a) to be false, i.e., who believes that Shakespeare did write \textit{Hamlet}, would probably judge the sentence as a whole to be true.
+
+
+
+Ideally we would like to apply the same analysis of \textit{if} to both types of conditionals, but this would make it hard to explain why the two sentences in \REF{ex:19.34}, which are structurally very similar have different truth conditions. What makes the counterfactual conditional in (\ref{ex:19.34}b) so odd is that it seems to imply that there is (or was) something about our world which made the writing of \textit{Hamlet} inevitable. The hypothetical conditional in (\ref{ex:19.34}a) carries no such inference. How can we account for this difference?
+
+
+
+In the preceding section we sketched out a procedure for interpreting conditionals that do not contain an overt quantifier. In many contexts, an epistemic necessity modal has to be assumed in order to arrive at the intended interpretation. The truth conditions of the sentence are calculated by adding the content of the antecedent to what is known about the actual world in order to derive the appropriate restriction on the set of possible worlds. This procedure yields an interpretation something like \REF{ex:19.35} for the hypothetical conditional in (\ref{ex:19.34}a). Intuitively, this feels like a reasonable interpretation. Part of what we know about the world is that plays do not grow on trees, so if a play such as \textit{Hamlet} exists (another part of what we know about the actual world), then someone must have written it.
+
+
+\ea \label{ex:19.35}
+{}[\textit{all} w: (w is consistent with the available evidence) $\wedge$ (the normal course of events is followed as closely as possible in w) $\wedge$ (Shakespeare did not write \textit{Hamlet} in w)] someone else wrote \textit{Hamlet} in w
+\z
+
+
+With the counterfactual conditional in (\ref{ex:19.34}b), the process is more complex. We cannot simply add the content of the antecedent to what is known about the actual world, because the antecedent is assumed to be false in the actual world. One approach is to quantify over those possible worlds in which the antecedent is true, but which are otherwise as similar as possible to the actual world. Roughly speaking, (\ref{ex:19.34}b) could be paraphrased as follows: “For all worlds w in which Shakespeare did not write \textit{Hamlet}, but which are otherwise as similar as possible to the actual world \textit{in the relevant ways}: someone else wrote \textit{Hamlet} in w.” Of course, the success of such an analysis depends on how one determines the relevant points of similarity that need to be considered.
+
+
+
+This general approach can help explain why the counterfactual conditionals in (\ref{ex:19.26}a--b), repeated here as (\ref{ex:19.36}a--b), have different truth conditions. Sentence (\ref{ex:19.36}a) restricts the domain of quantification to worlds which are as similar as possible to the actual world, aside from the stipulation that kangaroos have no tails. In these worlds presumably kangaroos do not use crutches, since that would constitute an extra unforced difference as compared to the actual world. Sentence (\ref{ex:19.36}b) however adds the additional stipulation that kangaroos do use crutches in all the relevant worlds. For this reason, kangaroos would be more likely to topple over in the worlds relevant to evaluating (\ref{ex:19.36}a) than in those relevant to evaluating (\ref{ex:19.36}b).
+
+
+\ea \label{ex:19.36}
+\ea  If kangaroos had no tails, they would topple over.\\
+\ex If kangaroos had no tails and they used crutches, they would topple over.
+                       \z
+\z
+
+
+Now the phrase “as similar as possible” is admittedly vague, and it is reasonable to wonder whether using this criterion to restrict the domain of quantification will be very helpful in determining the meaning of a sentence. However, some authors have argued that the vagueness and context-dependence of the term are in fact good things, because counterfactuals themselves are somewhat vague, and the correct interpretation depends heavily on context.\footnote{\citet[91ff]{Lewis1973a}; \citet{vonFintel2012}.} Consider the following examples from \citet[221]{Quine1960}:
+
+
+\ea \label{ex:19.37}
+\ea  If Caesar were in command, he would use the atom bomb.\\
+\ex If Caesar were in command, he would use catapults.
+                       \z
+\z
+
+
+A given feature of the real world may be given more or less priority in determining relative closeness between two worlds depending on various contextual factors, including the purposes of the speaker. In (\ref{ex:19.37}a), for example, Caesar’s ruthless nature may outrank his historical setting, but in (\ref{ex:19.37}b) the technological resources of his era are given higher priority. The speaker’s purpose plays an important role in determining which ordering source should be applied in each case. \citet[221]{Quine1960} expresses this principle in the following words:
+
+
+\begin{quote}
+The subjunctive [= counterfactual; PK] conditional depends, like indirect quotation and more so, on a dramatic projection: we feign belief in the antecedent and see how convincing we then find the consequent. What traits of the real world to suppose preserved in the feigned world of the contrary-to-fact antecedent can only be guessed from a sympathetic sense of the fabulist’s likely purpose in spinning his fable.
+\end{quote}
+
+
+The pair of sentences in \REF{ex:19.34} above is quite similar to the famous pair in \REF{ex:19.38}. Once again, the hypothetical conditional in (\ref{ex:19.38}a) seems to be true, while most people would probably judge the counterfactual conditional in (\ref{ex:19.38}b) to be false. However, the historical facts in this case are still somewhat controversial and poorly understood, which makes it difficult to decide which points of comparison would be relevant for determining the “most similar” possible worlds.
+
+
+\ea \label{ex:19.38}
+\ea  If Oswald didn’t kill Kennedy, someone else did. \\
+\ex If Oswald hadn’t killed Kennedy, someone else would have.\footnote{These examples come from \citet{Adams1970}.}
+                       \z
+\z
+
+
+Consider instead the counterfactual conditional in \REF{ex:19.39}. While not everyone would consider this sentence to be true, it at least makes a claim that a historian could consider as a serious hypothesis:
+
+
+\ea \label{ex:19.39}
+If John Wilkes Booth hadn’t killed Abraham Lincoln, someone else would have.
+\z
+
+
+What claim does \REF{ex:19.39} make? Based on our discussion above, this sentence could be paraphrased roughly as follows: “For all worlds w in which Booth did not kill Lincoln, but which are otherwise as similar as possible to the actual world in the relevant ways: someone else killed Lincoln in w.” In this context, relevant points of similarity to the real world on April 14, 1865 (the night when Lincoln was shot) might include the following:
+
+\begin{itemize}
+\item The on-going civil war: Gen. Lee’s army had surrendered in Virginia on April 9, 1865 but fighting continued for a few more months to the south and west;
+\item The location of the capital city, Washington DC, on the border between a Confederate state (Virginia) and a nominally Union state (Maryland) where many residents (including Booth) were pro-slavery and sympathetic to the Confederacy;
+\item The lax provisions in place for protecting the President during that era;
+\item The anger aroused among supporters of slavery by Abraham Lincoln’s speech of April 11, 1865, in which he announced his intention to extend voting rights to at least some African-Americans, including those who had fought for the Union.
+\end{itemize}
+
+By asserting that Lincoln’s assassination would take place in \textit{any} world which shares these properties (and perhaps others) with the real world, sentence \REF{ex:19.39} seems to imply that the assassination was inevitable.
+
+
+
+There is much more to be said about counterfactuals, but further discussion would be beyond the scope of the present book. We turn now to another use of the conditional sentence pattern, which we will argue contributes use-conditional rather than truth-conditional meaning.
+
+
+\section{Speech Act conditionals}\label{sec:19.7}
+
+Relevance conditionals are often referred to as \textsc{speech act conditionals}, and in this section we try to understand why this label is appropriate. Let us begin by considering how a relevance conditional is used. As we noted in \sectref{sec:19.2}, relevance conditionals like those in \REF{ex:19.40} commit the speaker to believing that the consequent is true; and this raises the question of why a speaker who believes \textit{q} would choose to say \textit{if p then q} rather than just \textit{q}?
+
+
+\ea \label{ex:19.40}
+\ea  If you are hungry, there’s some pizza in the fridge.\\
+\ex If you need anything, my name is Arnold.\\
+\ex I am planning to watch Brazil vs. Argentina tonight, if you are interested.\\
+\ex You look like you need to sit down, if you don’t mind my saying so.
+                       \z
+\z
+
+
+One important function of the \textit{if} clause in such cases is to prevent unintended implicatures from arising and/or guide the hearer toward the intended implicature.\footnote{\citet{DeRoseGrandy1999,Franke2007}.} If the speaker in (\ref{ex:19.40}a) simply announces \textit{There’s some pizza in the fridge}, in a context where the topic of conversation is something other than left-over food, the comment will seem irrelevant. This could lead the hearer, who assumes that the speaker is observing the Maxim of Relevance (see \chapref{sec:8}), to seek an implicature which renders the statement relevant. But the context may not be adequate for the hearer to succeed in this attempt. (Was I supposed to clean the fridge? Is this fridge only supposed to be used for bio-medical supplies?) The conditional clause functions first as a relevance hedge, warning the hearer that the statement which follows may not be relevant if certain conditions do not hold. The conditional clause also serves to guide the hearer toward the intended implicature: in this example, the statement \textit{There’s some pizza in the fridge} is intended as an indirect speech act, specifically an offer or invitation to have something to eat.
+
+
+
+Similarly, the \textit{if} clause in (\ref{ex:19.40}b) helps the hearer to correctly interpret the assertion in the consequent as an offer to be of service, rather than (for example) an initiation of mutual introductions. The \textit{if} clause in (\ref{ex:19.40}c) helps the hearer to correctly interpret the consequent as an invitation to watch a soccer match.
+
+
+
+The term \textsc{relevance conditional} reflects what is perhaps the most common function of the \textit{if} clause in this construction, namely to specify the conditions under which the assertion in the consequent will be relevant. Now relevance is one of the felicity conditions for making an assertion; so the conditional clause is used by the speaker to avoid making an infelicitous assertion. The \textit{if} clause in (\ref{ex:19.49}d) (\textit{if you don’t mind my saying so}) functions as a politeness hedge, rather than a relevance hedge; but the basic function is again to avoid making an infelicitous assertion.
+
+
+
+An important feature of relevance conditionals is that the consequent need not be an assertion at all; other speech acts are possible as well. The examples below show that the consequent of a relevance conditional may be a command (\ref{ex:19.41}a) or a question (\ref{ex:19.41}b--c). 
+
+
+\ea \label{ex:19.41}
+\ea  If you want my advice, ask her to marry you right away.\\
+\ex If you have heard from Michael recently, how is he doing?\\
+\ex What did you do with that left-over pizza, if you don’t mind my asking?
+                       \z
+\z
+
+
+Once again, the \textit{if} clause in such examples refers to the felicity conditions for performing the speech act expressed by the consequent. One of the felicity conditions for asking a question is that the speaker believes that the hearer has access to the information being requested. The \textit{if} clause in (\ref{ex:19.41}b) specifies a condition under which it is reasonable to expect that the addressee will know something about Michael’s current situation. The \textit{if} clauses in (\ref{ex:19.41}a,~c) seem to address the preparatory conditions for commands and questions, respectively, which include the relationship between speaker and hearer, and the degree to which the speaker feels free to advise or ask the hearer on a particular topic.
+
+
+
+In view of the fact that this construction can be used to hedge a variety of felicity conditions, and not just relevance, the more general term \textsc{speech act conditionals} seems quite appropriate. This label also suggests that these conditional clauses may function as speech act modifiers, similar to the speech act adverbials we discussed in \chapref{sec:11}. This hypothesis is supported by the fact that the conditional relation between the two clauses can be questioned with standard conditionals, but not with speech act conditionals.
+
+
+
+There is an important difference between relevance conditionals that contain questions, like that in (\ref{ex:19.42}b), vs. “questions about conditionals”, illustrated in (\ref{ex:19.42}a).\footnote{This point is made by \citet{vanderAuwera1986}, which is also the source of the examples in \REF{ex:19.42}.}
+
+
+\ea \label{ex:19.42}
+\ea   Q: If you inherit, will you invest?\\
+A: Yes, if I inherit, I will invest.
+\ex  Q: If you saw John, did you talk to him?\\
+A: Yes, I talked to him.\\
+A: \#Yes, if I saw John, I talked to him.
+\z \z
+
+
+In questions about conditionals (i.e., a standard conditional within an interrogative sentence), the conditional meaning is part of what is being questioned. Therefore it is natural and appropriate to include the conditional clause in the answer, as seen in (\ref{ex:19.42}a). In a speech act conditional that contains a question, however, the conditional meaning is not part of what is being questioned. Rather, the \textit{if} clause specifies a condition under which it would be appropriate or felicitous to ask the question. Therefore it is not appropriate to include the conditional clause in the answer, as in (\ref{ex:19.42}b), except perhaps as a somewhat annoying joke. This contrast suggests that speech act conditionals function as illocutionary modifiers, rather than as part of the at-issue propositional content of the sentence.
+
+
+
+Several syntactic differences have been noted between speech act conditionals and standard conditionals.\footnote{\citet{BhattPancheva2006}.} First, speech act conditionals can only be embedded in the complements of indirect speech verbs, and not under propositional attitude verbs \REF{ex:19.43}. Both kinds of embedding are possible for standard conditionals \REF{ex:19.44}.
+
+
+\ea \label{ex:19.43}
+\ea  John said that if you are thirsty there is beer in the fridge.\\
+\ex *John believes that if you are thirsty there is beer in the fridge.
+                       \z
+\z
+
+\ea \label{ex:19.44}
+\ea  John said that if he drinks too much wine he gets dizzy.\\
+\ex John believes that if he drinks too much wine he gets dizzy.
+                       \z
+\z
+
+
+Second, standard conditionals allow the consequent to be introduced with the pro-form \textit{then} \REF{ex:19.45}, but speech act conditionals do not \REF{ex:19.46}.
+
+
+\ea \label{ex:19.45}
+\ea  If it does not rain, then we will eat outside.\\
+\ex If I see him again, then I will invite him.
+                       \z
+\z
+
+\ea \label{ex:19.46}
+\ea \#If I may be honest, then you are not looking good.\\
+\ex \#If you want to know, then 4 isn’t a prime number.\\
+\ex \#If you are thirsty, then there is beer in the fridge.
+                       \z
+\z
+
+
+Third, the word order in \ili{Dutch} and \ili{German} seems to indicate that standard conditionals occupy a different structural position from speech act conditionals. As we mentioned in \chapref{sec:18}, Dutch and \ili{German} are “verb-second” (V2) languages. This means that in main clauses (or, more generally, clauses not introduced by a complementizer), the inflected verb or auxiliary must immediately follow the first constituent of the clause. As the Dutch examples in (\ref{ex:19.47}--\ref{ex:19.48}) show,\footnote{Examples (\ref{ex:19.47}--\ref{ex:19.48}) are originally from \citet[ch. 2]{Iatridou1991}.} standard conditionals occupy the clause-initial position, causing the inflected verb to immediately follow the conditional clause. However, this is not the case with speech act conditionals. The fact that the main clause subject in \REF{ex:19.48} must precede the verb indicates that the conditional clause is not a constituent of the main clause at all; it attaches to some higher node in the sentence.
+
+
+\ea \label{ex:19.47}
+\ea  \gll [Als  Jan  weg-gaat]  ga  ik  ook  weg.\\
+ if  John  away-goes  go  I  also  away\\
+\glt ‘If John goes away, I will go away too.’ \hfill    [\textsc{standard conditional}]
+\ex  *[Als Jan weggaat] ik ga ook weg.
+\z \z
+
+\ea \label{ex:19.48}
+\ea  \gll [Als  je  het  wil  weten]  4  is  geen  priem  getal.\\
+ if  you  it  want  know  4  is  no  prime  number\\
+\glt ‘If you want to know, 4 is not a prime number.’ \\
+\hfill [\textsc{speech act} \textsc{conditional}]
+\ex  *[Als je het wil weten] is 4 geen priem getal.
+\z \z
+
+
+The minimal pair in \REF{ex:19.49} shows how word order can disambiguate standard conditionals vs. speech act conditionals in \ili{German}.\footnote{The examples in \REF{ex:19.49} are from \citet[102]{Scheffler2013}.} The main clause verb in (\ref{ex:19.49}a) immediately follows the conditional clause, forcing it to be interpreted as a standard conditional: \textit{I will stay home only if you need me}. In contrast, the main clause verb in (\ref{ex:19.49}b) follows its subject NP, forcing it to be interpreted as a speech act conditional: \textit{I’ll be at home all day and you can reach me there if you need me}. Again, the word order facts indicate that the standard conditional is embedded within the main clause, whereas the speech act conditional is not.
+
+
+\ea \label{ex:19.49}
+\ea   \gll\relax [Wenn  Du  mich  brauchst],  bleibe  ich  den  ganzen  Tag  zu  Hause.\\
+ if  you  me  need  stay  I  the  whole  day  at  house\\
+\glt ‘[If you need me], (only then) I will stay at home all day.’ \\
+\hfill [\textsc{standard conditional}]
+
+\ex
+  \gll\relax [Wenn  Du  mich  brauchst],  ich  bleibe  den  ganzen  Tag  zu  Hause.\\
+ if  you  me  need  I  stay  the  whole  day  at  house\\
+\glt ‘[If you need me], I’ll be at home all day (anyway).’ \\
+\hfill [\textsc{speech act} \textsc{conditional}]
+\z
+\z
+
+A final difference that we will mention here concerns the potential for pronouns to function as bound variables. A pronoun which occurs in the antecedent clause of a standard conditional can be interpreted as being bound by a quantifier phrase that occurs in the consequent clause. This was seen in example \REF{ex:19.29} above, repeated here as \REF{ex:19.50}. However, this interpretation is not available in speech act conditionals, as illustrated in \REF{ex:19.51}. This contrast provides additional evidence that the antecedent clause of a standard conditional is more tightly integrated into the syntax of the main clause than the antecedent clause of a speech act conditional.\footnote{See \citet{EbertEtAl2008} for similar examples in \ili{German}.}
+
+
+\ea \label{ex:19.50}
+\ea {} [Every student]\textsubscript{i} will succeed if he\textsubscript{i} works hard.\\
+\ex{} [No student]\textsubscript{i} will succeed if he\textsubscript{i} goofs off.
+\z
+\z
+
+\ea \label{ex:19.51}
+\ea  \#[Every student]\textsubscript{i} should study trigonometry, if he\textsubscript{i} wants my opinion.\\
+\ex \#[No student]\textsubscript{i} gave a very impressive speech, if he\textsubscript{i} doesn’t mind my saying so.
+\z
+\z
+
+Concessive conditionals share some of these properties with relevance conditionals. For example, the concessive meaning is lost when the consequent contains \textit{then} (\ref{ex:19.52}a), or when the conditional is embedded in the complement of a propositional attitude verb (\ref{ex:19.52}b). But the semantic function of concessive conditionals seems quite different from that of relevance conditionals.
+
+
+\ea \label{ex:19.52}
+\ea  \#If you were the last man on earth, then I would not marry you.\\
+\ex \#Mary believes that if John were the last man on earth, she would not marry him.
+\z
+\z
+
+
+Some of the similarities between concessive conditionals and relevance conditionals seem to be related to the fact that in both types, the speaker asserts that the consequent is true, without condition. This limits the kinds of inferences that can be triggered. For example, standard conditionals of the form \textit{if} \textit{p then q} typically create a generalized conversational implicature: \textit{p if and only if q}. This implicature can be explained in terms of the maxim of Quantity. If the speaker was in a position to assert that \textit{q} was true, whether or not \textit{p} was true, then the most informative way to communicate this fact would be to simply say \textit{q}. Saying \textit{if} \textit{p then q} is less informative, and so gives the hearer reason to infer that the speaker is not in a position to assert that \textit{q} is true (\ref{ex:19.53}a). However, this implicature is not triggered by relevance or concessive conditionals (\ref{ex:19.53}b--c).
+
+
+\ea \label{ex:19.53}
+\ea  If you take another step, I’ll knock you down.\\
+  (implicature: If you do not take another step, I will not knock you down.)\\
+\ex If you are hungry, there is some pizza in the fridge.\\
+  (does not implicate: If you are not hungry, there is no pizza in the fridge.)\\
+\ex I wouldn’t marry you if you were the last man on \textsc{earth}.\\
+  (does not implicate: I would marry you if you were not the last man on earth.)
+\z
+\z
+
+
+We mentioned a related fact in \chapref{sec:9}, namely that the rule of \textit{modus tollens} (denying the consequent) does not hold for all uses of the English word \textit{if}. We can now see that the rule works for standard conditionals (\ref{ex:19.54}a), but not for relevance or concessive conditionals (\ref{ex:19.54}b--c).
+
+
+\ea \label{ex:19.54}
+\ea  Mother said that if her meeting was cancelled, she would come home; but she’s not home, so I guess her meeting was not cancelled.\\
+\ex Mother says that if we are hungry, there’s some pizza in the fridge; but there’s no pizza in the fridge, \#so I guess we are not hungry.\\
+\ex I wouldn’t marry that man (even) if he became a millionaire; \#so if I end up marrying him, you will know that he did not become a millionaire.
+                       \z
+\z
+
+
+It seems natural to ask whether the analysis we outlined in \sectref{sec:19.5} for standard conditionals can be extended to account for speech act conditionals as well. In \chapref{sec:18} we analyzed the contrast between truth-conditional vs. speech act uses of \textit{because} as a case of pragmatic ambiguity: a single sense used in two different ways. In the truth-conditional use (\ref{ex:19.55}a), \textit{because} indicates a causal relation between two propositions. In the speech act use, \textit{because} indicates a causal relation between the truth of a proposition and the performance of a speech act. We might paraphrase (\ref{ex:19.55}b) as meaning something like: ‘Because I would like to come and visit you, I hereby ask you whether you are going out tonight.’
+
+
+\ea \label{ex:19.55}
+\ea  Mary scolded her husband because he forgot their anniversary again.\\
+\ex Are you going out tonight, because I would like to come and visit you.
+                       \z
+\z
+
+
+A somewhat parallel approach to speech act conditionals is possible. Our discussion at the beginning of this section suggests that the antecedent of a speech act conditional specifies a condition under which the speech act performed in the consequent will be felicitous, whereas the antecedent in standard conditionals specifies a condition under which the proposition expressed in the consequent will be true.
+
+
+\section{Conclusion}\label{sec:19.8}
+
+We began with the intuition that in a conditional sentence \textit{if p} (\textit{then) q}, the \textit{if} clause describes some condition under which the \textit{then} clause will be true. We noted that modals have a somewhat similar function, in that modal operators (in particular, modal markers of necessity) specify sets of possible worlds in which the basic proposition will be true. In \chapref{sec:16} we analyzed modals as quantifiers over possible worlds, and it seems plausible that a similar approach might work for conditionals as well.
+
+
+
+A quantificational analysis of conditionals is further supported by the observation that, when the consequent clause in a conditional sentence contains a quantifier-type expression (e.g. \textit{all}, \textit{usually}, \textit{should}, etc.), the word \textit{if} seems to have no independent meaning. Rather, the antecedent of the conditional is added to the restriction of the quantifier, as illustrated in (\ref{ex:19.27}--\ref{ex:19.30}) above. When there is no overt quantifier in the consequent, the meaning of the conditional sentence can generally be well paraphrased in terms of epistemic necessity or (given the appropriate tense marking on the consequent’s verb) generic frequency.
+
+
+
+This kind of quantificational analysis for conditionals seems to work well for hypothetical conditionals, but other uses of the conditional form present additional challenges. In the case of counterfactuals, some more elaborate means seems to be required to restrict the set of relevant possible worlds. In the case of speech act conditionals, the issue does not seem to be the truth of the consequent but the felicity or appropriateness of the associated speech act. Whether all the various uses of \textit{if} can be unified under a single sense remains an open and much-discussed question.
+
+
+
+\furtherreading{
+\Citet{vonFintel2011} provides a good introduction to the study of conditionals, including a summary of much recent work on the topic. \citet{Comrie1986} offers a useful typological study of the construction. \citet{Kratzer1986} provides a very clear and readable argument for her restrictor analysis. \citet[61--64]{Kearns2000} provides a brief and helpful introduction to the analysis of counterfactual conditionals, and \citet{vonFintel2012} provides an excellent overview of the topic. \citet{BhattPancheva2006} discuss the syntactic structure of conditionals and how the structure relates to the meaning. They also present a good discussion of the various uses of \textit{if}.
+
+}
+
+\discussionexercises{
+
+\paragraph*{A: Types of conditionals.}
+
+Identify the type of conditional expressed in each of the following sentences. Use one of the following labels: \textsc{standard, relevance, concessive}, or \textsc{factual}; and for standard conditionals, add one of the following: \textsc{reality, hypothetical, counterfactual}.
+
+\begin{enumerate}
+\item \itshape
+I wouldn’t eat that stew if you paid me.
+\item \itshape
+If you place your order now, I will include the batteries for free.
+\item \itshape
+If you have no money, where did you get all this electronic equipment?
+\item \itshape
+If wishes were horses, beggars would ride.
+\item \itshape
+I just told you that I have a meeting with a client this evening. And if I have a meeting with a client, there is no way I can go to the game with you.
+\item \itshape
+If you like seafood, there is a great restaurant down by the harbor.
+\item \itshape
+If you had waited for me, I would have married you.
+\item \itshape
+I’ll show you the agenda if you promise not to tell anyone.
+\end{enumerate}
+\paragraph*{B: Restrictor analysis.}
+
+Use the restricted quantifier notation to express the interpretation of the following sentences, omitting the words in parentheses:
+
+\begin{enumerate}
+\item 
+\textit{Few boxers are famous if they lose.}
+\item \itshape
+Subtitles are often funny if they are mistranslated.
+\item 
+\textit{John must pass \ili{Greek} if he drops Hebrew}.
+\item 
+\textit{If the Bishop was preaching, we used to be late (for Sunday dinner).}
+\end{enumerate}
+}
+\homeworkexercises{
+\paragraph*{A: Types of conditionals.}
+
+Show how you could use some of the tests discussed in \chapref{sec:19} to determine whether the conditional clauses in the following examples conditional are \textsc{standard} conditionals or \textsc{speech act} conditionals.
+
+\begin{enumerate}
+\item \itshape If you want my advice, I will do some research and send you an e-mail.
+\item \itshape If you want my advice, Arnold is not the right man for you.
+\end{enumerate}
+
+\paragraph*{B: Restrictor analysis.}
+
+(i) Use the restricted quantifier notation to express the interpretation of the following sentences:
+
+\begin{enumerate}
+\item \itshape
+Most students are happy if they pass.
+\item \itshape
+If the light is on, Arthur must be at home.
+\item \itshape
+If it rains, I drive to work.
+\end{enumerate}
+
+(ii) Use the restricted quantifier notation to express the two possible interpretations for the following sentence:
+\begin{enumerate}\setcounter{enumi}{3}
+\item \itshape Arthur may not visit Betty if she insults him.
+\end{enumerate}
+}

@@ -1,0 +1,689 @@
+\chapter{Aspect and \textit{Aktionsart}}\label{sec:20}
+
+\section{Introduction}\label{sec:20.1}
+
+In this final unit of the book we look at the meanings of grammatical morphemes that mark tense and aspect. Tense and aspect markers both contribute information about the time of the event or situation being described. Broadly speaking, tense markers tell us something about the situation’s location in time, as illustrated in \REF{ex:20.1}, while aspect markers tell us something about the situation’s distribution over time, as illustrated in \REF{ex:20.2}. 
+
+\ea \label{ex:20.1}
+{\ili{Lithuanian} tense marking} (\citealt{ChungTimberlake1985}: 204)\\
+\ea 
+\gll dirb-\textit{au}\\
+work-\textsc{1sg}\textsc{.past} \\
+\glt ‘I worked/ was working’
+
+\ex
+\gll  dirb-\textit{u}\\
+work-\textsc{1sg}\textsc{.present} \\
+\glt ‘I work/ am working’
+
+\ex
+\gll dirb-\textit{s}-iu\\
+work-\textsc{future-}\textsc{1sg} \\
+\glt ‘I will work/ will be working’\\
+\z
+\z
+
+\ea \label{ex:20.2}
+{Aspect marking in English}\\
+\ea  When I got home from the hospital, my wife \textit{wrote} a letter to my doctor.\\
+\ex When I got home from the hospital, my wife \textit{was writing} a letter to my doctor.
+                       \z
+\z
+
+
+As we will see, many of the same issues that we encountered in our study of word meanings are also relevant to the study of tense and aspect markers: distinguishing entailments from selectional restrictions and other presuppositions; implicature and coercion as sources of new meanings; potential for polysemy and idiomatic senses; etc.
+
+
+
+This chapter focuses on aspect, while the next chapter looks at tense. We begin in \sectref{sec:20.2} with a discussion of \textsc{situation type}, sometimes referred to as \textsc{situation aspect} or \textit{Aktionsart} (German for ‘action type’). It turns out that situation type, e.g. the difference between events vs. states, can have a significant effect on the interpretation of both tense and aspect markers.
+
+
+
+In \sectref{sec:20.3} we introduce the notion of \textsc{Topic Time}, the time under discussion, which will play an important role in our approach to both tense and aspect. \sectref{sec:20.4} discusses grammatical aspect, exploring the kinds of aspectual meaning that are most commonly distinguished by grammatical markers across languages. \sectref{sec:20.5} and \sectref{sec:20.6} explore some of the ways that situation type (\textit{Aktionsart}) and grammatical aspect interact with each other.
+
+
+\section{Situation type (\textit{Aktionsart})}\label{sec:20.2}
+
+Before we think about the kinds of meanings that tense and aspect markers can express, we need to think first about the kinds of situations that speakers may want to describe. We can divide all situations into two basic classes, \textsc{states} vs. \textsc{events}. (This is why we speak of “situation type” rather than “event type”; we need a term that includes states as well as events.\footnote{Some authors use the terms \textit{eventuality} or \textit{actionality} instead of \textit{situation}.}) Informally we might define events as situations in which something “happens”, and states as situations in which nothing happens.
+
+
+
+Roughly speaking, if you take a video of a state it will look like a snapshot, because nothing changes; but if you take a video of an event, it will not look like a snapshot, because something will change. In more precise terms we might define a state as a situation which is homogeneous over time: it is construed as being the same at every instant within the time span being described. Examples of sentences which describe stative situations include: \textit{this tea is cold}; \textit{my puppy is playful}; \textit{George is my brother}. Of course, to say that a state is a situation in which nothing changes does not mean that these situations will never change. Tea can be re-heated, puppies grow up, etc. It simply means that such changes are not part of the situation currently being described.
+
+
+
+Conversely, we can define an \textsc{event} as a situation which is not homogeneous over time, i.e., a situation which involves some kind of change. In more technical terminology, events are said to be \textsc{dynamic}, or internally complex. Examples of sentences which describe eventive situations include: \textit{my tea got cold}; \textit{my puppy is playing}; \textit{George hit my brother; Susan will write a letter}.
+
+
+
+In classifying situations into various types, we are interested in those distinctions which are linguistically relevant, so it is important to have linguistic evidence to support the distinctions that we make.\footnote{It turns out that situation type plays an important role in syntax as well as semantics.} A number of tests have been identified which distinguish states from events. For example, only sentences which describe eventive situations can be used appropriately to answer the question \textit{What happened?}\footnote{Jackendoff (\citeyear{Jackendoff1976}: 100, \citeyear{Jackendoff1983}: 179).} Applying this test leads us to conclude that sentences (\ref{ex:20.3}a--d) describe eventive situations while sentences (\ref{ex:20.3}e--h) describe stative situations.
+
+
+\ea \label{ex:20.3}
+What happened was that…\\
+\ea  Mary kissed the bishop.\\
+\ex the sun set.\\
+\ex Peter sang {Cantonese} folk songs.\\
+\ex the grapes rotted on the vine.\\
+\ex *Sally was {Irish}.\\
+\ex *the grapes were rotten.\\
+\ex *William had three older brothers.\\
+\ex *George loved sauerkraut.
+                       \z
+\z
+
+
+A second test is that only eventive situations can be naturally described using the progressive (\textit{be V-ing}) form of the verb, although with some states the progressive can be used to coerce a marked interpretation. This test indicates that sentences (\ref{ex:20.4}a--c) describe eventive situations while sentences (\ref{ex:20.4}d--g) describe stative situations. Sentences (\ref{ex:20.4}h-i) involve situations which, based on other evidence, we would classify as stative. Here the progressive is acceptable only with a special, coerced interpretation: (\ref{ex:20.4}h) is interpreted to mean that this situation is temporary and not likely to last long, while (\ref{ex:20.4}i) is interpreted to mean that Arthur is behaving in a certain way (an eventive interpretation). In some contexts, (\ref{ex:20.4}e) might be acceptable with a coerced interpretation like that of (\ref{ex:20.4}i).
+
+
+\ea \label{ex:20.4}
+\ea  Mary is kissing the bishop.\\
+\ex The sun is setting.\\
+\ex Peter is singing {Cantonese} folk songs.\\
+\ex *This room is being too warm.\\
+\ex *Sally is being {Irish}.\\
+\ex *William is having a headache.\\
+\ex *George is loving sauerkraut.\\
+\ex George is loving all the attention he is getting this week.\\
+\ex Arthur is being himself.
+                       \z
+\z
+
+
+A third test is that in English, eventive situations described in the simple present tense take on a \textsc{habitual} interpretation, whereas no such interpretation arises with states in the simple present tense. For example, (\ref{ex:20.5}c) means that Peter is in the habit of singing {Cantonese} folk songs; he does it on a regular basis. In contrast, (\ref{ex:20.5}e) does not mean that William gets headaches frequently or on a regular basis; it is simply a statement about the present time (=time of speaking). This test indicates that sentences (\ref{ex:20.5}a--c) describe eventive situations while sentences (\ref{ex:20.5}d--e) describe stative situations.
+
+
+\ea \label{ex:20.5}
+\ea  Mary kisses the bishop (every Saturday).\\
+\ex The sun sets in the west.\\
+\ex Peter sings {Cantonese} folk songs.\\
+\ex This room is too warm.\\
+\ex William has a headache.
+                       \z
+\z
+
+
+Some authors have cited certain tests as evidence for distinguishing state vs. event, which in fact are tests for agentive/volitional vs. non-agentive/non-voli\-tion\-al situations. For example, only agentive/volitional situations can normally be expressed in the imperative; be modified by agent-oriented adverbials (e.g. \textit{deliberately}); or appear as complements of Control predicates (\textit{try, persuade, forbid}, etc.). It turns out that most states are non-agentive, but not all non-agentive predicates are states (e.g. \textit{die, melt, fall}, \textit{bleed}, etc.). Moreover, some stative predicates can occur in imperatives or control complements (\textit{Be careful! He is trying to be good. I persuaded her to be less formal.}), indicating that these states are at least potentially volitional. It is important to use the right tests for the right question.
+
+
+
+A second important distinction is between \textsc{telic} vs. \textsc{atelic} events. A telic event is one that has a natural endpoint. Examples include dying, arriving, eating a sandwich, crossing a river, and building a house. In each case, it is easy to know when the event is over: the patient is dead, the sandwich is gone, the house is built, etc.
+
+
+
+Many telic events (e.g. \textit{build}, \textit{destroy}, \textit{die}, etc.) involve some kind of change of state in a particular argument, generally the patient or theme. This argument “measures out” the event, in the sense that once the result state is achieved, the event is over.\footnote{The term “measures out” comes from \citet{Tenny1987}. \citet{Dowty1991} uses the term “incremental theme” for arguments that “measure out” the event in gradual/incremental stages, so that the state of the incremental theme directly reflects the progress of the event.} Some telic events are measured out by an argument that does not undergo any change of state, e.g. \textit{read a novel}: when the novel is half read, the event is half over, but the novel does not necessarily change in any way. Other telic events are measured out or delimited by something which is not normally expressed as an argument at all, e.g. \textit{run five miles}, \textit{fly to Paris}, \textit{drive from Calgary to Vancouver}, etc. Motion events like these are measured out by the path which is traversed; the progress of the theme along the path reflects the progress of the event. As \citet{Dowty1991} points out, with many such predicates the path can optionally be expressed as a syntactic argument: \textit{swim the English channel, ford the river, hike the Annapurna Circuit, drive the Trans-Amazonian Highway}, etc.
+
+
+
+Atelic events are those which do not have a natural endpoint. Examples include singing, walking, bleeding, shivering, looking at a picture, carrying a suitcase, etc. There is no natural part of these events which constitutes their end point. They can continue indefinitely, until the actor decides to stop or something else intervenes to end the event. Atelic events do not involve a specified change of state, and no argument “measures them out”.
+
+
+
+\citet{Dowty1979} identifies several tests which distinguish telic vs. atelic events. The two most widely used are illustrated in (\ref{ex:20.6}--\ref{ex:20.7}). A description of an atelic event can naturally be modified by time phrases expressing duration, as in \REF{ex:20.6}; this is unnatural with telic events. In contrast, a description of a telic event can naturally be modified by time phrases expressing a temporal boundary, as in \REF{ex:20.7}; this is unnatural with atelic events.
+
+
+\ea \label{ex:20.6}
+For ten minutes Peter…\\
+\ea  sang in {Cantonese}.\\
+\ex chased his pet iguana.\\
+\ex stared at the man sitting next to him.\\
+\ex *broke three teeth.\\
+\ex *recognized the man sitting next to him.\\
+\ex *found his pet iguana.
+                       \z
+\z
+
+\ea \label{ex:20.7}
+In ten minutes Peter…\\
+\ea  ??sang in {Cantonese}.  (could only mean, ‘In ten minutes Peter began to sing…’)\\
+\ex *chased his pet iguana.\\
+\ex *stared at the man sitting next to him.\\
+\ex broke three teeth.\\
+\ex recognized the man sitting next to him.\\
+\ex found his pet iguana.
+                       \z
+\z
+
+
+Situation Aspect is sometimes referred to as “lexical aspect”, because certain verbs tend to be associated with particular situation types. For example, \textit{die} and \textit{break} are inherently telic, whereas \textit{chase} and \textit{stare} are fundamentally atelic. However, in many sentences the whole VP (and sometimes the whole clause) helps to determine the situation type which is being described. For example, with many transitive verbs the telicity of the event depends on whether or not the object NP is quantified or specified in some way: \textit{eat ice cream} is atelic, but \textit{eat a pint of ice cream} is telic; \textit{sing folk songs} is atelic, but \textit{sing “The Skye boat song”} is telic. Similarly, as noted above, the telicity of motion events may depend on whether or not the path is delimited in some way: \textit{walk} is atelic, but \textit{walk to the beach} is telic.
+
+
+
+Based on the two distinctions we have discussed thus far, we can make the following classification of situation types:
+
+
+\eabox{\label{ex:20.8} \begin{forest}
+[Types of situations/eventualities
+ [Event
+  [Telic (bounded)] [Atelic (unbounded)]
+ ] [State]
+]     
+    \end{forest}
+}
+
+
+A third distinction which will be important is that between \textsc{durative} vs. \textsc{punctiliar} (=instantaneous) situations. Durative situations are those which extend over a time interval (singing, dancing, reading poetry, climbing a mountain), while punctiliar situations are those which are construed as happening in an instant (recognizing someone, reaching the finish line, snapping your fingers, a window breaking). One test that can help in making this distinction is that punctiliar situations described in the progressive (\textit{He is tapping on the door/blinking his eyes}/etc.) normally require an iterative interpretation (something that happens repeatedly, over and over). This is not the case with durative situations (\textit{He is reading your poem/climbing the mountain}/etc.).
+
+
+
+Five major situation types are commonly recognized, and these can be distinguished using the three features discussed above as shown in \tabref{extab:20.9}.\footnote{The first four of these types are well known from the work of \citet{Dowty1979} and \citet{Vendler1957}. The Semelfactive class was added by \citet{Smith1997}, based on \citet[42]{Comrie1976}.} Activities are atelic events such as \textit{dance, sing, carry a sword, hold a sign}, etc. Achievements are telic events (normally involving a change of state) which are construed as being instantaneous: \textit{break, die, recognize, arrive, find}, etc. Accomplishments are durative telic events, meaning that they require some period of time in order to reach their end-point. Accomplishments often involve a process of some kind which results in a change of state. Examples include \textit{eat a pint of ice cream, build a house, run to the beach, clear a table}, etc. Semelfactives are instantaneous events which do not involve any change of state: \textit{blink, wink, tap, snap, clap, click}, etc. Although they are punctiliar, they are considered to be atelic because they do not involve a change of state and nothing measures them out.
+
+\label{extab:20.9}
+\begin{table}
+\caption{{Aktionsart} (situation types) (\citealt{Smith1997}: 3)}
+\begin{tabularx}{\textwidth}{Qccc}
+\lsptoprule
+Situations &  Static &   Durative &  Telic\\
+\midrule
+State & + & + & –\footnote{Smith leaves the telicity of states unspecified, because it is not contrastive; here I follow \citet[93]{VanValinLaPolla1997} in specifying states as atelic.}\\
+Activity & – & + & –\\
+Accomplishment & – & + & +\\
+Achievement & – & – & +\\
+Semelfactive & – & – & –\\
+\lspbottomrule
+\end{tabularx}
+\end{table}
+
+
+
+For some purposes it is helpful to make a further distinction between two kinds of states: stage-level (temporary) vs. individual-level (permanent).\footnote{\citet{Carlson1977}, \citet{Kratzer1995}.} We will refer to these situation types often in our discussion of the meanings of tense and aspect markers. But first we begin that discussion by identifying three “cardinal points” for time reference: the time of speaking, the time of situation, and “topic time”.
+
+
+\section{Time of speaking, time of situation, and “topic time”}\label{sec:20.3}
+
+Tense markers are often described as “locating” a situation in time, as seen in the following widely-cited definitions of tense \REF{ex:20.10}:
+
+
+\ea \label{ex:20.10}
+\ea   “\textbf{\textsc{Tense}} is grammaticalised expression of location in time… [T]enses locate situations either at the same time as the present moment…, or prior to the present moment, or subsequent to the present moment.” (\citealt{Comrie1985}: 9, 14)
+\ex  “\textbf{\textsc{Tense}} refers to the grammatical expression of the time of the situation described in the proposition, relative to some other time.” (\citealt[144]{Bybee1992})
+\z \z
+
+
+These definitions state that tense markers specify the time of a situation relative to some other time, generally the “present moment” (= the time of speaking). However, as \citet{Klein1994} points out, examples like the following seem to pose a problem for the claim that tense “locates situations in time”:
+
+
+\ea \label{ex:20.11}
+\ea   I took a cab back to the hotel. \textit{The cab driver was Latvian}.\footnote{\citet{Michaelis2006}.}
+\ex They found John in the bathtub. \textit{He was dead}.\footnote{\citet[22]{Klein1994}.}
+\ex  Tuesday morning we ate leftovers from Chili’s for breakfast and checked out of the Little America Hotel… \textit{The Grand Canyon was enormous}. We walked along the rim taking pictures amazed at how beautiful and massive the canyon is.\footnote{\url{http://scottnmegan.blogspot.com/2009/04/arizona-part-2.html}}
+\z \z
+
+
+If the past tense in the italicized portions of these examples indicates that the described situation is located prior to the time of speaking, does that mean that the cab driver was no longer {Latvian} at the time of speaking, or that John was no longer dead at the time of speaking, or that the Grand Canyon was no longer enormous at the time of speaking? In light of examples like these, Klein suggests that tense actually locates or restricts the speaker’s \textsc{assertion}, rather than locating the situation itself. That is, tense indicates the location of the time period about which the speaker is making a claim.
+
+
+
+Klein uses the term \textsc{Topic Time} to refer to the time period about which the speaker is making a claim, or in his words, “the time span to which the speaker’s claim on this occasion is confined” (1994:4). This choice of terminology builds on the widely used definition of “Topic” as “what we are talking about.” So Topic Time is the time span that we are talking about. Klein distinguishes Topic Time (TT) from the two other significant times mentioned above: TSit, the time of the event or situation which is being described; and TU, the Time of Utterance (=time of speaking).\footnote{As we will discuss in \chapref{sec:21}, Klein’s framework is based on a proposal by \citet[§51]{Reichenbach1947}.}
+
+
+
+The Topic Time can be specified by time adverbs like \textit{yesterday} or \textit{next year}, or by temporal adverbial clauses as seen in example \REF{ex:20.2} above (\textit{When I got home from the hospital}). It can also be determined by the context. For example, in a narrative sequence like that in (\ref{ex:20.11}c), the Topic Time is partly determined by the clause’s position in the sequence. Event-type verbs in the simple past tense move the Topic Time forward, whereas stative predicates in the simple past tense inherit the Topic Time from the previous main-line event. The italicized portion of that example makes an assertion only about the Topic Time at that stage of the narrative; no assertion is made about the Time of Utterance.
+
+
+
+\citet[4]{Klein1994} describes an imaginary mini-dialogue between a judge and a witness in a courtroom. He points out that the second sentence of the witness’s reply cannot be felicitously expressed in the present tense, even though the book in question is presumably still in {Russian} at the time of speaking. That is because the judge’s question establishes a specific topic time (\textit{when you looked into the room}) prior to the time of the current speech event, and any felicitous reply must be relevant to the same topic time.
+
+
+\ea \label{ex:20.12}
+Judge: What did you notice when you looked into the room?\\
+Witness: There was a book on the table. \textit{It was/\#is in Russian}.\footnote{\citealt{Klein1994}: 4.}
+\z
+
+
+Klein assumes that the values of TSit and TT are time intervals, rather than simple points in time, whereas TU can be treated as a point. Using these three concepts, Klein defines tense and aspect as follows:
+
+
+\ea \label{ex:20.13}
+\ea  \textsc{Tense} indicates a temporal relation between TT and TU;\\
+\ex \textsc{Aspect} indicates a temporal relation between TT and TSit.
+\z \z
+
+
+We can illustrate Klein’s definition of aspect using the examples in \REF{ex:20.2}, repeated here as \REF{ex:20.14}. As noted above, the temporal adverbial clause in these examples (\textit{When I got home from the hospital}) specifies the location of Topic Time. The duration of Topic Time in this case seems to be somewhat vague and context-dependent, influenced partly by our knowledge of how long it takes to write a letter. The use of \textsc{perfective} aspect in (\ref{ex:20.14}a) indicates that the writing of the letter occurred completely within Topic Time. Under the most natural interpretation, the writing began after the speaker arrived home, and was completed shortly thereafter. The use of \textsc{imperfective} aspect in (\ref{ex:20.14}b) indicates that the writing of the letter extended beyond the limits of Topic Time. Under the most natural interpretation, the writing began before the speaker arrived home, and may not even be completed at the time of speaking.\footnote{The terms \textsc{perfective} and \textsc{imperfective} will be defined more carefully in \sectref{sec:20.4} below.}
+
+
+\ea \label{ex:20.14}
+\ea  When I got home from the hospital, my wife \textit{wrote} a letter to my doctor.\\
+\ex When I got home from the hospital, my wife \textit{was writing} a letter to my doctor.
+                       \z
+\z
+
+
+We will discuss Klein’s definition of tense in \chapref{sec:21}. In the remainder of this chapter we focus on aspect.
+
+
+\section{Grammatical Aspect (= “viewpoint aspect”)}\label{sec:20.4} 
+
+Situation type (\textit{Aktionsart}) is an inherent property of the situation itself. Grammatical aspect is a feature of the speaker’s description of the situation, i.e., a part of the claim that is being made about the situation under discussion. Grammatical aspect is sometimes referred to as \textsc{viewpoint aspect}, reflecting the intuition that grammatical aspect markers indicate something about the way the speaker chooses to view or describe the situation, rather than some property of the situation itself.
+
+
+
+This intuition is reflected in some widely cited definitions of aspect. \citet[3]{Comrie1976}, for example, says: “Aspects are different ways of viewing the internal temporal constituency of a situation.” \citet[2--3]{Smith1997} states: “Aspectual viewpoints present situations with a particular perspective or focus, rather like the focus of a camera lens. Viewpoint gives a full or partial view of the situation talked about.” Using Smith’s metaphor of the camera lens, we could describe \textsc{perfective} aspect as a wide angle view: the situation fits inside the time frame of the speaker’s perspective. The \textsc{imperfective} is like a zoom or close-up view, focusing on just a part of the situation being described, with the situation as a whole extending beyond the boundaries of the speaker’s perspective.
+
+
+
+Both of these definitions are helpful, but they may tend to obscure a very important point about the nature of grammatical aspect, namely that grammatical aspect markers contribute to the truth conditions of the sentence. For example, sentences (\ref{ex:20.15}a--b) differ only in their aspect. Both are marked for past tense, but (\ref{ex:20.15}b) is marked for \textsc{imperfective} aspect while (\ref{ex:20.15}a) involves \textsc{perfective} aspect. If spoken in the year 2010, (\ref{ex:20.15}b) would (reportedly) be true while (\ref{ex:20.15}a) would be false, due to the intervention of a neighboring country. So different aspect markers represent different claims about the world.
+
+
+\ea \label{ex:20.15}
+\ea  The Syrians \textit{built} a nuclear weapon with North {Korean} technology.\\
+\ex The Syrians \textit{were building} a nuclear weapon with North {Korean} technology.
+                       \z
+\z
+
+
+Klein’s definition of aspect, which was mentioned in the previous section, reflects this insight by relating the time structure of the situation not to the speaker’s perspective, but to the time about which a claim is being asserted (Topic Time): aspect indicates a temporal relation between TT and TSit. As a first approximation, we can define \textsc{perfective} aspect as indicating that the situation time fits inside Topic Time (TSit ${\subseteq}$ TT); and \textsc{imperfective} aspect as indicating that Topic Time fits completely inside situation time (TT ${\subset}$ TSit). These are objective claims about the relationship between two time intervals, which can be evaluated as being true or false in a particular situation.
+
+
+
+To take another example, the temporal adverbial clause in (\ref{ex:20.16}a--b) establishes the topic time for the main clause in each sentence. The imperfective form of the main clause in (\ref{ex:20.16}a) indicates that the topic time is completely contained within the situation time. In other words, the boundaries (and in particular the end point) of TSit, the “digging a tunnel” event, extend beyond the boundaries of TT, the time during which the guards were at the Christmas party. For this reason, the imperfective description of the event in (\ref{ex:20.16}a) may be true even if the tunnel was never completed. In contrast, the perfective form of the main clause in (\ref{ex:20.16}b) indicates that the situation time is contained within the topic time. This means that the entire “digging a tunnel” event took place within the time span of the guards attending the party.
+
+
+\ea \label{ex:20.16}
+\ea  While the guards were at the Christmas party, the prisoners \textit{were digging} a tunnel  under the fence (but they never finished it).\\
+\ex While the guards were at the Christmas party, the prisoners \textit{dug} a tunnel under the fence (\#but they never finished it).
+                       \z
+\z
+
+
+Digging a tunnel is a telic situation, specifically an accomplishment; so its endpoint, or culmination, is an integral part of the event. For this reason, the perfective description of the event in (\ref{ex:20.16}b) would not be true if the tunnel was not completed. This example illustrates how an imperfective description of an event may be true in a situation in which a perfective description of that same event would be false. The diagrams in \REF{ex:20.17} represent the relative locations of the Time of Utterance, Topic Time (time during which the guards were at the party), and Situation Time (prisoners digging a tunnel) for examples (\ref{ex:20.16}a--b).
+
+ 
+\ea \label{ex:20.17}
+\ea
+\begin{tabularx}{.9\textwidth}{cccS}
+         & [  TT  ]  &  +   & [\ref{ex:20.16}a; \textsc{imperfective aspect}]\\                       
+         \cline{1-3}
+  & …===TSit===… &  TU  & 
+\end{tabularx}
+  \ex
+\begin{tabularx}{.9\textwidth}{cccS}
+         & [ \hspace{4mm} TT \hspace{4mm} ]  & +  & [\ref{ex:20.16}b; \textsc{perfective aspect}]\\                       
+         \cline{1-3}
+    &{\textbar}=TSit={\textbar}&    TU & 
+\end{tabularx}
+\z
+\z
+
+\subsection{Typology of grammatical aspect}\label{sec:20.4.1}
+
+\citet{Comrie1976} classifies the most commonly marked aspectual categories in the following hierarchy, which starts with the contrast between perfective vs. imperfective.
+
+\ea \label{ex:20.18} \begin{forest}
+[\textsc{aspects}
+[\textsc{imperfective}
+  [continuous
+    [non-progressive] [progressive]
+  ] [habitual]
+] [\textsc{perfective}]
+]     
+\end{forest}
+\z 
+
+
+In many languages, including English, perfective is the default or unmarked way of describing an event in the past. It simply asserts that the event happened. Notice that we illustrated the perfective in examples (\ref{ex:20.15}--\ref{ex:20.16}) using the simple past tense; the lack of overt aspect marking indicates perfective aspect. However, aspect is distinct from tense. Many languages distinguish perfective vs. imperfective in the future (e.g. \textit{will eat} vs. \textit{will be eating}) as well as the past.
+
+
+
+Different kinds of imperfective meaning are grammatically distinguished in some languages. \textsc{Habitual} aspect describes a recurring event or on-going state which is a characteristic property of a certain period of time.\footnote{\citet[27--28]{Comrie1976}.} Imperfective aspect which is not habitual is typically called either \textsc{continuous} or \textsc{progressive}. The difference between these two categories lies in their selectional restrictions, rather than in their entailments. The term \textsc{progressive} is generally applied to non-habitual imperfective markers that are used only for describing events, and not for states. Comrie uses the term \textsc{continuous} for non-habitual imperfective aspect markers that are not restricted in this way, but can be used for both states and events. In some languages, however, the term \textsc{continuous} is applied to aspect markers that are used primarily for states.
+
+
+
+English does not have a general imperfective aspect marker. The \textit{be + V-ing} form illustrated in (\ref{ex:20.19}a) is specifically progressive in meaning. Habitual meaning can be expressed using the simple present tense as in (\ref{ex:20.19}b), or (for habituals in the past) with the auxiliary \textit{used to} as in (\ref{ex:20.19}c).
+
+
+\ea \label{ex:20.19}
+\ea  Mary is playing tennis.\\
+\ex Mary plays tennis.\\
+\ex Mary used to play tennis.
+                       \z
+\z
+
+
+\ili{Spanish} does have a general imperfective form as well as a more specific progressive. The imperfective form is ambiguous between habitual vs. continuous meaning, as illustrated in (\ref{ex:20.20}b).\footnote{\citealt{Comrie1976}: 25.}
+
+
+\ea \label{ex:20.20}
+\ea  \textit{Juan llegó}.  ‘Juan arrived.’ \hfill  [\textsc{perfective}]\\
+\ex \textit{Juan llegaba}.  ‘Juan was arriving/used to arrive.’ \hfill  [\textsc{imperfective}]\\
+\ex \textit{Juan estaba llegando}.  ‘Juan was arriving.’ \hfill  [\textsc{progressive}]
+                       \z
+\z
+
+\subsection{Imperfective aspect in Mandarin Chinese}\label{sec:20.4.2}
+
+The \ili{Mandarin} imperfective aspect markers \textit{zài} ‘progressive’ and \textit{–zhe} ‘continuous’ are often cited as a paradigm example of Comrie’s distinction between continuous and progressive aspects. The most important difference between the two morphemes lies in the types of situations that each one can modify. \textit{Zài} occurs only with events (\ref{ex:20.21}a); it cannot be used to mark states (\ref{ex:20.21}b). In main clauses, -\textit{zhe} is used primarily for states (\ref{ex:20.22}a--b), and is generally unacceptable with events (\ref{ex:20.22}c), though there appears to be some dialect variation in this regard.\footnote{See for example \citet[738]{KleinEtAl2000}, ex. 10. Also, \citet{LiThompson1981} state that the combination of \textit{–zhe} plus final particle \textit{ne} has a distinct sense and can be used with events. Unless otherwise indicated, the examples in (\ref{ex:20.21})-(\ref{ex:20.24}) come from \citet[220--222]{LiThompson1981}.}
+
+\ea \label{ex:20.21}
+\ea  \gll  Zhāngsān  zài  tiào.\\
+Zhangsan  \textsc{prog}  jump\\
+\glt ‘Zhangsan is jumping.’ 
+\ex \gll  *Wo  zài  xǐhuān  Měiguó.\\
+  \textsc{1sg}  \textsc{prog}  like  America\\
+\glt (intended: ‘I am liking America.’)  \footnote{\citet[90]{Sun2011}.}
+\z \z
+
+\ea \label{ex:20.22}
+\ea  \gll  Chēzi  zài  wàimian  tíng-zhe.\\
+car  at  outside  remain-\textsc{cont} \\
+\glt ‘The car is parked outside.’ 
+\ex \gll  Tā  zài  chuáng-shàng  tǎng-zhe.\\
+\textsc{3sg}  at  bed-on  lie-\textsc{cont}\\
+\glt ‘He is lying on the bed.’  
+\ex \gll  *Zhāngsān  tiào-zhe.\\
+  Zhangsan  jump-\textsc{cont}\\
+\glt (intended: ‘Zhangsan is jumping.’)   
+\z \z
+
+
+Some verbs allow both a stative and an eventive sense. For example, \textit{chuān} can mean either ‘wear’ or ‘put on’; \textit{ná} can mean either ‘hold’ or ‘pick up’. In such cases, \textit{zài} selects the eventive reading and \textit{–zhe} the stative.
+
+
+\ea \label{ex:20.23}
+\ea  \gll  Tā  zài  chuān  pí-xié.\\
+\textsc{3sg}  \textsc{prog}  wear  leather-shoe\\
+\glt ‘He is putting on leather shoes.’ 
+\ex \gll Tā  chuān-zhe  pí-xié.\\
+\textsc{3sg}  wear-\textsc{cont}  leather-shoe\\
+\glt ‘He is wearing leather shoes.’ 
+\z \z
+
+\ea \label{ex:20.24}
+\ea  \gll  Tā  zài  ná  bàozhǐ.\\
+\textsc{3sg}  \textsc{prog}  hold  newspaper\\
+\glt ‘He is picking up a/the newspaper.’ 
+\ex \gll  Tā  ná-zhe  bàozhǐ.\\
+\textsc{3sg}  hold-\textsc{cont}  newspaper\\
+\glt ‘He is holding a/the newspaper.’ 
+\z \z
+
+
+\citet{Yeh1993} and a number of subsequent authors have noted that only individual-level (temporary) states can be marked with \textit{–zhe}; it is generally incompatible with stage-level (permanent) states.\footnote{The examples in (\ref{ex:20.25})-(\ref{ex:20.26}) come from \citet[274]{Smith1997}. In addition to non-occurrence with with stage-level states, there also seem to be a number of idiosyncratic lexical restrictions concerning which stative predicates can combine with \textit{–zhe}.} 
+
+
+\ea \label{ex:20.25}
+\gll   *Tā  c\=onghuì-zhe.\\
+  \textsc{3sg}  intelligent-\textsc{cont}  \\
+\glt (for: ‘He is intelligent.’) 
+\z
+
+
+Although these examples have all been translated in the present tense, present time reference is not part of the meaning of either marker, as illustrated by the past time reference in \REF{ex:20.26}.
+
+
+\ea \label{ex:20.26}
+\gll Nǐ  dāngshí  mí-zhe  Mǎkès\={\i},  \=Engés\={\i}  Lièníng.\\
+\textsc{2sg}  then  fascinate-\textsc{cont}  Marx  Engels  Lenin\\
+\glt ‘At that time you were fascinated by Marx, Engels and Lenin.’ 
+\z
+
+
+So far we have considered only main clause uses of these markers. In adverbial clauses like those in \REF{ex:20.27}, \textit{–zhe} occurs freely with both stative and eventive predicates.\footnote{The examples in (\ref{ex:20.27}) come from \citet[223]{LiThompson1981}.} As \citet[275]{Smith1997} notes, \textit{-zhe} is grammatically obligatory in this context; it cannot be replaced by \textit{zai}. This illustrates an important general point: the function of a tense or aspect marker in subordinate clauses may be quite different from its function in main clauses. When we are trying to determine the semantic properties of a morpheme, it may be necessary to treat these two uses separately.
+
+
+\ea \label{ex:20.27}
+\ea  \gll Tā  k\=u-zhe  pǎo  huí  jiā  qù  le.\\
+\textsc{3sg}  cry-\textsc{cont}  run  return  house  go  \textsc{cos}\\
+\glt ‘He ran home crying.’ 
+\ex \gll  Xiǎo  gǒu  yáo-zhe  wěiba  pǎo  le.\\
+small  dog  shake-\textsc{cont}  tail  run  \textsc{cos}\\
+\glt ‘The little dog ran away wagging its tail.’ 
+\z \z
+
+\subsection{Perfect and prospective aspects}\label{sec:20.4.3}
+
+Using Klein’s terminology, we can define \textsc{perfect} (or \textsc{retrospective}) aspect as indicating that the situation time is prior to Topic Time (TSit < TT); and \textsc{prospective} aspect as indicating that the situation time is later than Topic Time (TT < TSit). The perfect in English is marked by the auxiliary \textit{have} + past participle, e.g. \textit{has eaten}, \textit{has arrived}, etc. \citet[64]{Comrie1976} suggests that the \textit{going to V} construction (e.g., \textit{the ship is going to sail}) is a way of expressing the prospective aspect in English. Other ways to express this meaning include \textit{the ship is about to sail} and \textit{the ship is on the point of sailing}.
+
+
+
+The terms \textsc{perfect} and \textsc{perfective} are often confused, even by some linguists, but it is important to be clear about the distinction. We will discuss the perfect in some detail in \chapref{sec:22}.
+
+
+\subsection{Minor aspect categories}\label{sec:20.4.4}
+
+A number of languages have aspect markers which refer to the “phase” of the situation being described. For example, some languages have an \textsc{inceptive} aspect, which indicates that the beginning of the situation falls within the topic time. Such markers often get translated as \textit{begin to X}. (The term \textsc{inchoative} is sometimes used for this meaning, but more commonly this term is restricted to changes of state or entering a state, e.g. \textit{to become fat, get old, get rich}, etc.) Some languages have a \textsc{terminative} or \textsc{completive} aspect, which indicates that the end of the situation falls within the topic time. \textsc{continuative} aspect would mean \textit{continue to X}, or \textit{keep on X-ing}.
+
+
+
+\textsc{iterative} (or \textsc{repetitive}) aspect is used to refer to events which occur repeatedly. Such forms are often translated into English using phrases like \textit{over and over, more and more, here and there}, etc. \textsc{Distributive} aspect might be considered a sub-type of iterative; it indicates that an action is done by or to members of a group, one after another.\footnote{\url{http://www-01.sil.org/linguistics/GlossaryOflinguisticTerms/WhatIsDistributiveAspect.htm}} 
+
+
+\section{Interactions between situation type (\textit{Aktionsart}) and grammatical aspect}\label{sec:20.5}
+
+The definitions we have adopted predict that certain grammatical aspects will not be available for certain situation types. For example, the definition of imperfective aspect as indicating that TT ${\subset}$ TSit implies that a situation expressed in the imperfective cannot be strictly punctiliar; the situation time must have some duration. A semelfactive event is construed as being instantaneous; it has no duration. For this reason, when a semelfactive event is described in the imperfective (e.g., \textit{he was tapping on the window}), it cannot be interpreted as referring to a single instance, but must receive an iterative (= repetitive) interpretation. Similarly, an instantaneous change of state cannot be described in the imperfective (e.g. ??\textit{He was recognizing his old classmate}) without some very unusual context. With other changes of state, the use of the imperfective (e.g., \textit{he was dying}) may shift the reference from the change itself to the process leading up to the change. This kind of shift can be seen as a type of coercion.
+
+
+
+The same constraint applies to semelfactives in \ili{Mandarin}. In \ili{Chinese} as in English, a semelfactive event described in the imperfective cannot be interpreted as referring to a single instance, but must receive an iterative interpretation \REF{ex:20.28}. As we would predict, this is possible only with the progressive \textit{zai}, and not with the continuous \textit{–zhe}.
+
+
+\ea \label{ex:20.28}
+\gll Zhāngsān  zài  qiāo  mén.\\
+Zhangsan  \textsc{prog}  knock  door\\
+\glt ‘Zhangsan is knocking on the door.’  (\citealt{Smith1997}: 272)
+\z
+
+
+Similarly, the definition of perfective aspect as indicating that TSit ${\subseteq}$ TT makes predictions about the kinds of situations that can appropriately be expressed in the perfective. When a state is described in the perfective aspect, what is asserted is that the state was true during the topic time, as discussed above. When an event is described in perfective aspect, what is being asserted is that the whole event took place within the topic time. For activities, which do not have an inherent endpoint, perfective descriptions in the past can be interpreted as bounded events, as in (\ref{ex:20.29}a): ‘I played tennis \textit{for a while}.’ Alternatively, as illustrated in (\ref{ex:20.29}b), they can get a habitual interpretation, which has properties similar to a state.
+
+
+\ea \label{ex:20.29}
+\ea  I played tennis yesterday.\\
+\ex I played tennis when I was in high school.
+                       \z
+\z
+
+
+For telic events, and in particular for accomplishments, the end-point or culmination is an intrinsic part of the event; so a perfective description of that event should be false if the culmination is not in fact attained. This prediction holds true for English, as illustrated in example (\ref{ex:20.16}b) above, and for many other languages. However, a number of languages have been identified in which this culmination is only an implicature, rather than an entailment, for accomplishments expressed in the perfective. In \ili{Tagalog}, for example, it is not a contradiction to say: ‘I removed the stain, but I ran out of soap, so I couldn’t remove it.’\footnote{\citet[186]{Dell1983}.} Other languages in which such “non-culminating accomplishments” are possible include \ili{Hindi}, \ili{Mandarin}, \ili{Thai}, several Tibeto-Burman languages, various Philippine-type languages, and at least two Salish languages.\footnote{References: \ili{Hindi} (\citealt{Singh1991,Singh1998}), \ili{Mandarin} (\citealt{SohKuo2005}; \citealt{KoenigChief2008}), Thai (\citealt{KoenigMuansuwan2000}), Salish (\citealt{Bar-elEtAl2005}), Tibeto-Burman (Larin Adams, p.c.).}
+
+
+
+The exact conditions under which “non-culminating accomplishments” can occur vary from one language to another, but the existence of such cases might suggest that we need to modify our definition of \textsc{perfective} in some way. Another alternative that we might consider starts with the recognition that accomplishments are composed of two “phases”: the first phase is a process or activity which leads to the second phase, a change of state.\footnote{\citet{KleinEtAl2000}.} In building a house, for example, the first phase would be doing the work of building and the second phase would be the coming into existence of a completed house. We might account for the difference between languages like English vs. languages like \ili{Chinese} or \ili{Tagalog} by recognizing that for languages of the latter type, there are certain conditions under which a VP that normally describes an accomplishment can be used to refer to just the first phase of the event, i.e. a process or activity.
+
+
+
+This two-phase analysis also gives us a way of thinking about a puzzling fact concerning accomplishment predicates in English, which \citet{Dowty1979} refers to as the “imperfective paradox”. Building on \citegen{Vendler1957} discussion of these facts, Dowty points out that with state and activity predicates a statement in the imperfective (\ref{ex:20.30}a, \ref{ex:20.31}a) entails the corresponding statement in the perfective (\ref{ex:20.30}b, \ref{ex:20.31}b). With accomplishment predicates, however, this entailment does not hold (\ref{ex:20.32}--\ref{ex:20.33}).
+
+
+\ea \label{ex:20.30}
+\ea  Arnold was wearing a wig.\\
+\ex Arnold wore a wig. \hfill [a entails b]
+                       \z
+\z
+
+\ea \label{ex:20.31}
+\ea  George was speaking {Etruscan}.\\
+\ex George spoke {Etruscan}. \hfill [a entails b]
+                       \z
+\z
+
+\ea \label{ex:20.32}
+\ea  Felix was writing a letter.\\
+\ex Felix wrote a letter. \hfill [a does not entail b]
+                       \z
+\z
+
+\ea \label{ex:20.33}
+\ea  Sarah was running to the library.\\
+\ex Sarah ran to the library. \hfill [a does not entail b]
+                       \z
+\z
+
+
+Dowty goes on to ask: Given the fact that accomplishments always have a natural end-point, how can the imperfective description of the event be considered true if that end-point was never achieved?\footnote{Dowty’s solution was to propose that the progressive encodes not only aspect but also modality, that is, quantification over a certain class of possible worlds. He designated the relevant class of possible worlds \textsc{inertia worlds}, which he defined as follows: an inertia world is a possible world which is exactly like the actual world under discussion up to and including the topic time, “and in which the future course of events after this time develops in ways most compatible with the past course of events” \citep[148]{Dowty1979}. In other words, inertia worlds are possible worlds in which the expected outcomes from a given situation are actually realized. Dowty then proposed a new definition of the progressive which says that \textit{John was X-ing} will be true when asserted about a time interval I just in case (i) there is some longer time interval Iʹ which contains I and extends beyond the end-point of I; and (ii) \textit{John X-ed} is true in all inertia worlds when asserted about time interval Iʹ.} It seems that English, like \ili{Chinese} and \ili{Tagalog}, allows a shift in meaning so that a VP which normally describes an accomplishment can be used to refer to just the first phase of the event. In English, however, this shift seems to be possible only in the imperfective.
+
+
+\section{Aspectual sensitivity and coercion effects}\label{sec:20.6}
+
+A predicate which normally describes one type of situation can sometimes be coerced into a different situation type (Aktionsart) by contextual factors.  \Citet[360]{deSwart1998} describes this process as follows:
+
+
+\begin{quote}
+Typically, coercion is triggered if there is a conflict between the aspectual character [i.e., Aktionsart—PK] of the eventuality description and the aspectual constraints of some other element in the context. The felicity of an aspectual reinterpretation is strongly dependent on linguistic context and knowledge of the world.
+\end{quote}
+
+
+In example (\ref{ex:20.34}a), for example, a basically stative predicate (\textit{know the answer}) is coerced into a change-of-state (achievement) interpretation by the adverb \textit{suddenly}, which emphasizes the starting point of the state.\footnote{The examples in \REF{ex:20.34} are adapted from \citet[359]{deSwart1998}.}
+
+
+\ea \label{ex:20.34}
+\ea  Suddenly I knew the answer.\\
+\ex I read \textit{The Lord of the Rings} for a few minutes.\\
+\ex John played the sonata for about eight hours.\\
+\ex For months, the train arrived late.
+                       \z
+\z
+
+
+Examples (\ref{ex:20.34}b--c) both involve predicates which normally describe telic events (\textit{read} \textit{The Lord of the Rings} and \textit{play the sonata}), specifically accomplishments. In both cases an activity reading is coerced by an adverbial PP which specifies the duration of the event. In (\ref{ex:20.34}b) the time span that is specified (\textit{a few minutes}) is much too short for the entire event of reading \textit{The Lord of the Rings} to be accomplished. As a result, we interpret the statement to mean that the speaker carried out a certain activity, namely reading portions of \textit{The Lord of the Rings}, for a few minutes. In (\ref{ex:20.34}c) the time span that is specified (\textit{for about eight hours}) is much longer than it would normally take to play a sonata. The most natural interpretation is that John played the sonata over and over again for about eight hours. This iterative interpretation describes an activity, because it has no natural endpoint.
+
+
+
+Example (\ref{ex:20.34}d) involves a predicate (\textit{arrive}) which is both telic and instantaneous, i.e., an achievement. The instantaneous nature of the basic meaning conflicts with the long duration specified by the adverbial phrase (\textit{for months}), which results in a habitual interpretation: the train always or usually arrived late whenever it ran during those months. As mentioned above, habitual situations can be considered to be a type of state.
+
+
+
+\Citet{deSwart1998} points out that coercion effects are often triggered by a kind of selectional restriction that is associated with some tense and aspect markers. In Sections~\ref{sec:20.2} and \ref{sec:20.4.2} above we discussed examples of grammatical morphemes (the progressive aspect markers in English and \ili{Mandarin}) which can normally be used only for describing events, and not for states. Similar restrictions are found in a number of other languages as well: certain tense or aspect markers may select for specific situation types (Aktionsart). \Citet{deSwart1998} refers to selectional restrictions of this kind as \textsc{aspectual sensitivity}.
+
+
+
+In \sectref{sec:20.2} we illustrated the principle that stative predicates cannot normally be expressed in the progressive with examples like those in (\ref{ex:20.35}a--c). However, we noted there that some such examples might be acceptable with a coerced interpretation in certain contexts. The progressive in (\ref{ex:20.35}d), for example, suggests that the described state is temporary and likely to last only a short time. The progressive form of (\ref{ex:20.35}e) seems to coerce a basically stative proposition, which would be a tautology in the simple present (\textit{he is himself}), into an eventive (activity) interpretation, roughly ‘acting in a way typical of him’.
+
+
+\ea \label{ex:20.35}
+\ea  *This room is being too warm.\\
+\ex *I am knowing the answer.\\
+\ex *George is loving sauerkraut.\\
+\ex George is loving all the attention he is getting this week.\\
+\ex Arthur is being himself.
+                       \z
+\z
+
+
+De Swart discusses two past tense forms in \ili{French}: the \textit{passé simple} vs. the \textit{imparfait}. She suggests that they differ primarily in terms of their aspectual sensitivity: the \textit{passé simple} occurs only with bounded situations, while the \textit{imparfait} occurs only with unbounded situations. The normal way of expressing a state that was true in the past is with the \textit{imparfait}, as in (\ref{ex:20.36}a), because states are not naturally bounded. When the \textit{passé simple} is used for stative predicates, as in (\ref{ex:20.36}b), the sentence must receive a bounded interpretation through some kind of coercion effect. Depending on context, it could be bounded either by referring to the beginning of the state (ingressive/inchoative reading), or by describing a state that held true only for a limited period of time.
+
+
+\ea \label{ex:20.36}
+\ea  \gll  Anne  \textit{était}  triste.\\
+Anne  was(\textsc{imp})  sad.\\
+\glt ‘Anne was sad.’
+\ex \gll Anne  \textit{fut}  triste.\\
+Anne  was(\textsc{ps})  sad.\\
+\glt ‘Anne became sad.’ or: ‘Anne was sad for a while.’
+\z \z
+
+
+The use of the \textit{passé simple} in the second sentence of (\ref{ex:20.37}a) causes the normally stative predicate to be interpreted as an event (change of state) which takes place subsequent to the previous event in the narrative. The use of the \textit{imparfait} in (\ref{ex:20.37}b) is interpreted as describing a state which overlaps the event described in the preceding sentence.
+
+
+\ea \label{ex:20.37}
+\ea   \gll Georges  annonça  sa  résignation.  Anne  \textit{fut}  triste.\\
+George  announced  his  resignation.  Anne  was(\textsc{ps})  sad.\\
+\glt ‘George announced his resignation. Anne became sad (as a result).’
+\ex \gll  Georges  annonça  sa  résignation.  Anne  \textit{était}  triste\\
+George  announced  his  resignation.  Anne  was(\textsc{imp})  sad.\\
+\glt ‘George announced his resignation. Anne was sad (during that time).’
+\z \z
+
+
+A similar contrast is illustrated in \REF{ex:20.38}. The use of the \textit{passé simple} in the second clause of (\ref{ex:20.38}a) causes ‘cross the street’ to be interpreted as a bounded event (an accomplishment) which takes place subsequent to the event in the previous clause. The use of the \textit{imparfait} in (\ref{ex:20.38}b) is interpreted as describing an unbounded event (an activity) which overlaps with the event described in the previous clause.
+
+
+\ea \label{ex:20.38}
+\ea  \gll Quand  elle  vit  Georges,  Anne  \textit{traversa}  la  rue.\\
+when  she  saw  George  Anne  crossed(\textsc{ps})  the  street\\
+\glt ‘When/after she saw George, Anne crossed the street.’
+\ex \gll  Quand  elle  vit  Georges,  Anne  \textit{traversait}  la  rue.\\
+when  she  saw  George  Anne  crossed(\textsc{imp})  the  street\\
+\glt ‘When she saw George, Anne was crossing the street.’
+\z \z
+
+
+The adverbial phrase ‘for two hours’ in \REF{ex:20.39} imposes bounds on an activity (playing the piano) which would otherwise be unbounded. In this context, the most natural description of a past event would use the \textit{passé simple}, as in (\ref{ex:20.39}a). De Swart states that the use of the \textit{imparfait} in (\ref{ex:20.39}b) cannot describe a single event of Anne playing the piano for two hours, but could receive a habitual interpretation: whenever she played the piano, she used to play for two hours.
+
+
+\ea \label{ex:20.39}
+\ea  \gll  Anne  \textit{joua}  du  piano  pendant  deux  heures.\\
+Anne  played(\textsc{ps})  the  piano  for  two  hours\\
+\glt ‘Anne played the piano for two hours.’
+\ex \gll  Anne  \textit{jouait}  du  piano  pendant  deux  heures.\\
+Anne  played(\textsc{imp})  the  piano  for  two  hours\\
+\glt ‘Anne used to play the piano for two hours.’
+\z \z
+
+
+We will see more examples of coercion effects arising from aspectual sensitivity in the next two chapters.
+
+
+\section{Conclusion}\label{sec:20.7}
+
+\textit{Aktionsart} (situation aspect) is a way of classifying situations (events and states) on the basis of their temporal contour, that is, the shape of their “run time”. A state is a situation which is homogeneous over time (nothing changes within the time span being described), while an event involves some kind of change. The primary features which are used to distinguish different classes of events are duration and telicity (boundedness).
+
+
+
+Grammatical aspect (or “viewpoint aspect”) is a choice that the speaker makes in describing a situation, part of the claim that is being made about the situation. It is expressed by grammatical morphemes which indicate the relation between the run time of the situation and the “Topic Time”, or time about which a claim is being made. The most basic distinction is between perfective aspect, which indicates that the situation time is contained within Topic Time, vs. imperfective aspect, which indicates that the situation time extends beyond the boundaries of Topic Time.
+
+
+
+Some tense and aspect markers impose selectional restrictions on the types of situations which they can be used to describe. \Citet{deSwart1998} refers to selectional restrictions of this kind as \textsc{aspectual sensitivity}. When the expected temporal contour of the described situation clashes with the aspectual sensitivity of the tense or aspect marker that is used in the description, or with some other element of the clause (e.g. an adverbial phrase), a new interpretation may be coerced that involves a different \textit{aktionsart}. This type of coercion is an important factor in explaining how the basic meanings (established sense(s)) of tense and aspect markers can account for their observed range of uses.
+
+
+
+\furtherreading{
+
+
+
+\citet{Comrie1976} is still an excellent resource on the typology of grammatical aspect. \citet{Smith1997} is another foundational work on grammatical (or “viewpoint”) aspect and \textit{aktionsart} (situation aspect). \citet{Binnick2006} provides a helpful overview of these topics, and \citet{Klein2009} provides a helpful introduction to his theory of tense and aspect. \citet{Dowty1979} provides an very good description of the \textit{aktionsart} categories and summarizes a number of useful tests for identifying and distinguishing them.
+
+}
+\discussionexercises{
+
+\paragraph*{A: Identify the most likely situation type (\textit{aktionsart}) for the following predicates (options: \textsc{state, activity, achievement, accomplishment, semelfactive}):\footnote{Patterned after \citet[225]{Kearns2000}.}}
+\bigskip
+
+\begin{enumerate}[noitemsep]
+\item   \textit{swim}
+\item   \textit{be happy}
+\item   \textit{wake up}
+\item   \textit{snap your fingers}
+\item   \textit{compose a sonnet}
+\item   \textit{swim the English channel}
+\item   \textit{drink coffee}
+\item   \textit{drink two cups of coffee}
+\item   \textit{expire} (e.g., visa, passport, etc.)
+\item   \textit{own} (e.g., \textit{John owns a parrot})
+\end{enumerate}
+}
+% \subsection*{Homework exercises}
+\homeworkexercises{
+
+\paragraph*{A: Some English verbs are polysemous between a stative sense and a dynamic (eventive) sense. Show how the progressive aspect can be used to distinguish these two senses for each of the following five verbs: \textit{weigh, extend, surround, smell}, \textit{apply} (e.g. \textit{that law doesn’t apply} vs. \textit{apply for a job}).\footnote{Adapted from \citet[147]{Saeed2009}.}}~\\
+
+
+\shortmodelanswer{Model answer: \textit{have}}{
+\begin{enumerate}
+\item {\textsc{Stative}: She has/\#is having four grown children.}
+\item {\textsc{Dynamic}: She is having a baby.}
+\end{enumerate}
+}
+
+\paragraph*{B: Show how you would use time adverbials (e.g. \textit{for an hour} vs. \textit{in an hour}) to determine whether each of the following situations is telic or atelic:}
+
+\begin{enumerate}[noitemsep]
+\item Walter laughed.
+\item Susan realized her mistake.
+\item Horace played piano sonatas.
+\item Horace played Beethoven’s Pathétique sonata.
+\item Martha resented George’s comment.
+\end{enumerate}
+
+\paragraph*{C: Describe the coercion effects in the following examples:}
+
+\begin{enumerate}[noitemsep]
+\item As I walked through his door, \textit{I was instantly aware} of the quiet strength of mind Buzz possesses.\footnote{\url{http://www.vvoice.org/?module=displaystory&story_id=3725&format=html}}
+\item William recited the \textit{Iliad} for a few minutes.
+\item John knocked on the door for ten minutes.
+\item The children of Atuler village in Sichuan have for many years been climbing  up a sheer 800 meter cliff on rattan ladders in order to attend school.
+\end{enumerate}
+}

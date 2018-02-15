@@ -1,0 +1,932 @@
+\chapter{Varieties of the Perfect}\label{sec:22}
+
+\section{Introduction: \textsc{perfect} vs. \textsc{perfective}}\label{sec:22.1}
+
+The terms \textsc{perfect} and \textsc{perfective} are often confused, or used interchangeably, but there is an important difference between them. The contrast between the perfect (e.g. \textit{have eaten}) and perfective (\textit{ate}) in English is illustrated in the examples in \REF{ex:22.1}. In some contexts there seems to be very little difference in meaning between the two, as illustrated in (\ref{ex:22.1}a--b). In other contexts, however, the two are not interchangeable (\ref{ex:22.1}c--e). For example, the perfect cannot be used with certain kinds of time adverbials which are fine with the perfective (\ref{ex:22.1}c--d). We will discuss this very interesting restriction in \sectref{sec:22.3}.
+
+
+\ea \label{ex:22.1}
+\ea  I just \textit{ate} a whole pizza.\\
+\ex I \textit{have} just \textit{eaten} a whole pizza.\\
+\ex Last night I \textit{ate}/\#\textit{have eaten} a whole pizza.\\
+\ex When I was a small boy, I \textit{broke}/\#\textit{have broken} my leg.\\
+\ex Gutenberg \textit{discovered}/\#\textit{has discovered} the art of printing.\footnote{\citet{McCoard1978}.}
+                       \z
+\z
+
+
+Notice that the English perfect can be combined with imperfective (specifically progressive) aspect, as in \REF{ex:22.2}. This shows clearly that perfect and perfective are distinct categories, because perfective and imperfective are incompatible and could not co-occur in the same clause.
+
+
+\ea \label{ex:22.2}
+\ea I \textit{have been standing} in this line for the past four hours.\\
+\ex Smith \textit{has been paying} a lot of visits to New York lately.  (\citealt{Grice1975})\\
+\ex Nixon \textit{has been writing} an autobiography.
+                       \z
+\z
+
+
+There is a large measure of agreement about the basic meaning of the perfective. As stated in \chapref{sec:20}, it is an aspectual category which refers to an entire event as a whole, or as completely contained within Topic Time. In contrast, the meaning of the perfect has been and remains a highly contentious issue.
+
+
+
+We will begin our discussion in \sectref{sec:22.2} by illustrating four or five well-known uses or readings of the perfect. Whether or not all of these uses can be explained in terms of a single core meaning remains one of the issues in the controversy. In \sectref{sec:22.3} we examine a much-discussed puzzle concerning the co-occurrence of time adverbials with the English present perfect. In \sectref{sec:22.4} we will review some of the properties of the various readings which have been cited as evidence supporting the claim that the English present perfect form is in fact polysemous. In Sections~\ref{sec:22.5}--\ref{sec:22.6} we examine the properties of perfect markers in two non-Indo-European languages.
+
+
+\section{Uses of the perfect}\label{sec:22.2}
+
+\citet{McCawley1971}, \citet{Comrie1976}, and others identify four major uses, or semantic functions, of the present perfect in English: (i) experiential (or Existential) perfect, illustrated in \REF{ex:22.3}; (ii) perfect of persistent situation (also known as the Universal reading), illustrated in \REF{ex:22.4}; (iii) perfect of continuing result, illustrated in \REF{ex:22.5}; (iv) perfect of recent past (the “hot news” reading), illustrated in \REF{ex:22.6}. Similar uses are found in a number of other languages.
+
+
+\ea \label{ex:22.3}
+Experiential (or Existential) reading\\
+\ea Have you ever tasted fresh durian?\\
+\ex I have climbed Mt. Fuji twice in the past six months.
+                       \z
+\z
+
+\ea \label{ex:22.4}
+Perfect of persistent situation (Universal perfect)\\
+\ea He has lived in Canberra since 1975.\\
+\ex I have been waiting for three days.
+                       \z
+\z
+
+\ea \label{ex:22.5}
+Perfect of continuing result\\
+\ea I have lost my glasses, so I can’t read this telegram.\\
+\ex The governor has fainted; don’t let the press know until he regains consciousness.
+                       \z
+\z
+
+\ea \label{ex:22.6}
+Recent past (or “hot news”) reading\\
+\ea A group of former city employees has just abducted the Mayor.\\
+\ex The American president has announced new trade sanctions against the Vatican.
+                       \z
+\z
+
+
+\citet{Kiparsky2002} mentions a fifth use of the perfect, attested in languages such as Swahili, Sanskrit, and ancient Greek, which he calls the Stative Present. In these languages, the perfect form can be used to refer to events, as in English; but it can also be used to refer to the state that results from an event. Some Swahili examples are provided in \REF{ex:22.7}.\footnote{Kiparsky notes that this reading is available in English only with a single verb: \textit{I’ve got (=I have) five dollars in my pocket} (cf. \citealt{Jespersen1931}: 47). Comrie treats the Stative Present as a sub-type of his “perfect of result”.}
+
+
+\ea \label{ex:22.7}
+\textbf{Swahili} \citet{Ashton1944}
+\begin{tabularx}{.9\textwidth}{lXlX}
+% \lsptoprule
+\bfseries\scshape Root &  & \bfseries\scshape Perfect form & \\
+-fika & ‘arrive’ & a-me-fika & ‘he has arrived’\\
+-iva & ‘ripen’ & ki-me-iva & ‘it is ripe’\\
+-choka & ‘get tired’ & a-me-choka & ‘he is tired’\\
+-simama & ‘stand up’ & a-me-simama & ‘he is standing’\\
+-sikia & ‘hear, feel’ & a-me-sikia & ‘he understands’\\
+% \lspbottomrule
+\end{tabularx}
+\z
+We will focus our discussion on the four uses illustrated in (\ref{ex:22.3}--\ref{ex:22.6}). \citet{Comrie1976} and others have attempted to unify these four readings under a single definition in terms of “current relevance”. Comrie says that the perfect is used to express a past event which is relevant to the present situation. That is, it signals that some event in the past has produced a state of affairs which continues to be true and significant at the present moment.
+
+
+
+Other authors have suggested that what the various uses of the perfect share is reference to an indefinite past time. \citet{Klein1992,Klein1994} for example, building on the analysis of \citet{Reichenbach1947}, suggests that the perfect indicates that Time of Situation precedes Topic Time. A number of other authors have adopted some version of Reichenbach’s analysis as well, often arguing that the different readings arise through various pragmatic inferences.
+
+
+
+A very influential proposal by \citet{McCoard1978} argues that the meaning of the perfect locates the described event within the “Extended Now”, an interval of time which begins in the past and includes the utterance time.
+
+
+\begin{quote}
+“The intuitive idea of the Extended Now is that we typically count a longer stretch of time than the momentary “now” as the present for conversational purposes. Its exact duration is contextually determined, since what we count as “the present” in this sense may vary depending on the conversational topic.” (\citealt{Portner2003}) 
+\end{quote}
+
+
+Some authors, however, including \citet{McCawley1971,McCawley1981b}, \citet{Michaelis1994,Michaelis1998}, and \citet{Kiparsky2002}, have argued that the English perfect is polysemous, and that at least some of the readings listed above must be recognized as fully distinct senses. We will discuss some of the evidence which supports this claim in \sectref{sec:22.4}.
+
+
+\section{Tense vs. aspect uses of English \textit{have} + participle}\label{sec:22.3}
+\subsection{The + perfect puzzle}\footnotemark{}\label{sec:22.3.1}
+\footnotetext{See \citet{Klein1992} for a detailed discussion of this topic.}
+
+As illustrated in (\ref{ex:22.1}c--d), the English present perfect cannot normally co-occur with adverbial phrases which name the time in the past when the event occurred; further evidence is provided in (\ref{ex:22.8}b).
+
+
+\ea \label{ex:22.8}
+\ea George left for Paris \textit{yesterday/last week}.\\
+\ex George has left for Paris (*\textit{yesterday/}*\textit{last week}).
+                       \z
+\z
+
+
+This constraint may seem puzzling, since the use of the present perfect clearly indicates that the described event took place in the past. Klein’s definition of perfect aspect as indicating that Time of Situation precedes Topic Time may offer at least a partial explanation. 
+
+
+
+In English, the perfect can combine with the various tenses to create the present perfect, past perfect, and future perfect forms: the present perfect combines present tense with perfect aspect, and so forth. Recall that tense indicates the position of Topic Time relative to the Time of Utterance; so in the present perfect, the Topic Time equals or includes the Time of Utterance. This helps to explain the “current relevance” constraint on the use of the present perfect: if the Topic Time is now, then in using the perfect to describe an event or situation in the past, we are actually “talking about” or making an assertion about the present moment.
+
+
+
+Time adverbials like those in \REF{ex:22.1} and \REF{ex:22.8} generally modify the Topic Time. In the present perfect, the Topic Time is “now”; so time adverbials which locate the Topic Time in the past will be incompatible with the present perfect. The present perfect is, however, compatible with time adverbials which include the present moment, as illustrated in \REF{ex:22.9}.
+
+
+\ea \label{ex:22.9}
+\ea I have \textit{now} built hospitals on five continents.\\
+\ex I have interviewed ten students \textit{today}/*\textit{yesterday}.\\
+\ex I have built five hospitals \textit{this year}/*\textit{last year}.
+                       \z
+\z
+
+
+The use of the perfect aspect constrains the Time of Situation by indicating that it precedes Topic Time, but it does not provide a precise location in time for the Time of Situation. The result is an “indefinite past” interpretation, which stands in contrast to the simple past form of the verb. The simple past tense indicates that Topic Time precedes the Time of Utterance (past tense) and contains the Time of Situation (perfective aspect). Topic Time must be identifiable by the hearer, and so will generally be specified, with whatever degree of precision is required, by some combination of adverbial phrases, contextual clues, etc.
+
+
+
+\citet[55]{Comrie1976} points out that past time adverbials actually can be used with the present perfect form of the verb in certain contexts, such as in non-finite clauses (\ref{ex:22.10}a--c), or in the presence of a modal auxiliary (\ref{ex:22.10}d--f).
+
+
+\ea \label{ex:22.10}
+\ea \textit{Having eaten} a whole pizza last night, I skipped breakfast this morning.\\
+\ex Einstein’s \textit{having visited} Princeton in 1921 eventually led to his permanent\\
+  appointment there.\\
+\ex Charlie Chaplin was believed \textit{to have been born} on April 16, 1889.\\
+\ex I should not \textit{have eaten} a whole pizza last night.\\
+\ex Einstein must \textit{have visited} Princeton in 1921.\\
+\ex Charlie Chaplin may \textit{have been born} on April 16, 1889.
+                       \z
+\z
+
+
+\citet[101]{McCawley1971} observes that these environments have something in common: in these contexts past tense cannot be morphologically expressed by the normal past tense suffix \textit{-ed}. This suggests that the perfect form (\textit{have} + V\textit{-en}) may have a different function in such contexts, namely as a marker of past time, i.e., an “allomorph” of past tense.
+
+
+
+The acceptability of the time adverbials in \REF{ex:22.10} shows that the italicized verbs in these sentences do not have the interpretation normally associated with the present perfect form. But of course, it is also possible for a true perfect to occur with modals or in non-finite clauses, as illustrated in \REF{ex:22.11}. So in these contexts the perfect form is ambiguous: it may either mark past tense, as in \REF{ex:22.10}, or perfect aspect, as in \REF{ex:22.11}. The two uses are distinguished by the interpretation of the time adverbials: if the time adverbs specify the time of the situation itself, as in \REF{ex:22.10}, we are dealing with past tense.
+
+
+\ea \label{ex:22.11}
+\ea \textit{Having lived} in Tokyo since 1965, I know the city fairly well.\\
+\ex Arthur was believed \textit{to have climbed} Mt. Fuji four times.\\
+\ex Einstein must \textit{have visited} Princeton several times before he emigrated to America.
+                       \z
+\z
+
+
+The same ambiguity can be observed in the past perfect and future perfect as well. The examples in \REF{ex:22.12} involve true perfect aspect. The underlined time adverbials in these examples refer to Topic Time, which precedes the time of speaking in the past perfect (\ref{ex:22.12}a) and follows the time of speaking in the future perfect (\ref{ex:22.12}b). In both cases, perfect aspect indicates that the Situation Time (the time when Mt. Fuji is climbed) occurs before Topic Time.
+
+
+\ea \label{ex:22.12}
+\ea {In 1987}, when I first met Arthur, he \textit{had} (already) \textit{climbed} Mt. Fuji four times.\\
+\ex Next Christmas, when you come to see me, I \textit{will} \textit{have} \textit{climbed} Mt. Fuji four times.
+                       \z
+\z
+
+
+The examples in \REF{ex:22.13} illustrate the use of the perfect form as a tense marker. In these examples the underlined time adverbials refer to the time when the event actually took place. The perfect form is used to locate the situation prior to some perspective time which is different from the time of speaking. The result is a compound tense, as discussed in \chapref{sec:21}: “past in the past” in (\ref{ex:22.13}a), “past in the future” in (\ref{ex:22.13}b).
+
+
+\ea \label{ex:22.13}
+\ea Einstein was awarded the Nobel prize in 1922, for a paper that he \textit{had published}\\
+  in 1905.\\
+\ex I will reach Tokyo at 6:00 pm, but George \textit{will} \textit{have arrived} at noon.
+                       \z
+\z
+
+\subsection{Distinguishing perfect aspect vs. relative tense}\label{sec:22.3.2}
+
+There is a long tradition of regarding the aspectual vs. complex tense uses of the past perfect and future perfect forms as instances of polysemy.\footnote{\citet{Jespersen1924}; \citet{Comrie1976}.} However, some authors disagree with this view. \citet{Klein1994} for example argues that both the “perfect in the past” (\ref{ex:22.12}a) and the “past in the past” (\ref{ex:22.13}a) interpretations of the pluperfect (= past perfect) form can be assigned to a single basic sense: TSit<TT<TU. He states, “The notion of relative tense is not necessary to account for the Pluperfect nor for the Future Perfect” (1994:131).
+
+
+
+\citet{Bohnemeyer2014} argues that perfect aspect does need to be distinguished from anterior (relative past) tense. The empirical basis for this claim is that some languages (e.g. Kalaallisut (=~West Greenlandic) and Yucatec Maya) have a perfect aspect that cannot be used to express anterior tense, while other languages (e.g. Japanese, Kituba, and Korean) have anterior tenses that cannot be used to express perfect aspect. The critical diagnostic that Bohnemeyer uses is the interpretation of time adverbials. Time adverbials can be used with the perfect aspect in Kalaallisut and Yucatec Maya to specify a topic time before which the event had occurred, as illustrated in \REF{ex:22.14}, but not to specify the time of the event itself, as in \REF{ex:22.15}. The opposite pattern holds for the anterior tense forms in Japanese, Kituba, and Korean: these are compatible with time adverbials that specify the time of the event itself, as in \REF{ex:22.15}, but not with time adverbials that specify a topic time before which the event had occurred, as in \REF{ex:22.14}.
+
+
+\ea \label{ex:22.14}
+\textsc{perfect aspect:}\\
+\ea  {In 1912}, when Theodore Roosevelt challenged William Howard Taft for the Republican nomination, both men \textit{had been elected} President of the United States. Taft was now an unpopular incumbent, Roosevelt his beloved predecessor.
+\ex  When you see me again next Christmas, I \textit{will} \textit{have} \textit{graduated} from law school.
+\z
+\z 
+
+\ea \label{ex:22.15}
+\textsc{anterior tense:}\\
+\ea  Arthur’s theft of government documents was discovered on May 21\textsuperscript{st}, but he \textit{had left} \\
+the country on April 16\textsuperscript{th}.
+\ex  I expect to reach the base camp on Tuesday afternoon; Sam \textit{will have arrived} \\
+the previous evening.
+\z \z
+
+
+The crucial difference between perfect aspect vs anterior (= relative past) tense is this: With relative past tense the time of the described situation can be specified precisely, as seen in \REF{ex:22.15}, because TSit must overlap with Topic Time. With perfect aspect, however, the time of the described situation is generally not specified precisely; all we know is that TSit must be sometime prior to Topic Time, as illustrated in \REF{ex:22.14}.
+
+
+\section{Arguments for polysemous aspectual senses of the English Perfect}\label{sec:22.4}
+
+As noted above, \citet{McCawley1971,McCawley1981b}, \citet{Michaelis1994,Michaelis1998}, and \citet{Kiparsky2002} have argued that the various aspectual uses of the English perfect are in fact distinct polysemous senses. In this section we discuss some of the evidence that has been proposed in support of this hypothesis.
+
+
+McCawley observed that the existential reading presupposes that a similar event could happen again, i.e., is currently possible. “In particular, the referents of the NP arguments must exist at [the time of speaking], and the event must be of a repeatable type” \citep{Kiparsky2002}. The examples in (\ref{ex:22.16}b--c) are odd because the subject NPs are no longer alive at the time of speaking. Example \REF{ex:22.17} is odd because the described event clearly cannot happen again. 
+
+
+\ea \label{ex:22.16}
+\ea I have never tasted fresh durian.\\
+\ex \#Julius Caesar has never tasted fresh durian.\\
+\ex \#Einstein has visited Princeton. (spoken after he died) (\citealt{Chomsky1970})
+                       \z
+\z
+
+\ea \label{ex:22.17}
+\#Fred has been born in Paris.  (\citealt{Kiparsky2002})
+\z
+
+
+\citet[33]{Leech1971} notes that the perfect form in (\ref{ex:22.18}a) would be appropriate if the Gauguin exhibition is still running, so the addressee could still attend. Once the exhibit has closed for good, however, only (\ref{ex:22.18}b) would be felicitous. \citet[107]{McCawley1971} points out that other circumstances could also make (\ref{ex:22.18}a) infelicitous, for example if the addressee has “recently suffered an injury which will keep him in the hospital until long after the exhibition closes.”
+
+
+\ea \label{ex:22.18}
+\ea Have you visited the Gauguin exhibition?\\
+\ex Did you visit the Gauguin exhibition?
+                       \z
+\z
+
+
+The examples in (\ref{ex:22.16}a--b) and (\ref{ex:22.18}a) show that the “current possibility” requirement is a presupposition, because it applies even to negative statements and questions. They also give us reason to believe that this presupposition is better stated in terms of current possibility than repeatability, since neither sentence assumes that the event has happened in the past.
+
+
+
+\citet[66--67]{Jespersen1931} notes that the choice between perfect and perfective can be significant because of this presupposition: “The difference between the reference to a dead man and to one still living is seen in the following quotation [] which must have been written between 1859, when Macaulay died, and 1881, when Carlyle died (note also Mr. before the latter name).”\footnote{Jespersen also points out that topicality can affect the use of the perfect: “Thus we may say: \textit{Newton has explained the movements of the moon} (i.e. in a way that is still known or thought to be correct, while \textit{Newton explained the movements of the moon from the attraction of the earth} would imply that the explanation has since been given up). On the other hand, we must use the preterit in \textit{Newton believed in an omnipotent God}, because we are not thinking of any effect his belief may have on the present age” \citep[66]{Jespersen1931}. The “effect on the present age” is relevant because the Topic Time of the present perfect is the time of speaking. Topicality also seems to be responsible for the contrast which \citet{Chomsky1970} noted between \textit{Einstein has visited Princeton}, which seems to imply that Einstein is still alive, vs. \textit{Princeton has been visited by Einstein}, which can still be felicitous after Einstein’s death.}
+
+
+\ea \label{ex:22.19}
+Macaulay \textit{did not impress} the very soul of English feeling as Mr. Carlyle, for example, \textit{has done}. [attributed to McCarthy]
+\z
+
+
+Kiparsky points out that the presupposition of current possibility does not attach to the recent past (or “hot news”) reading, as illustrated in \REF{ex:22.20}. He cites this contrast as evidence that the existential and “hot news” readings are in fact distinct senses.
+
+
+\ea \label{ex:22.20}
+\ea Fred has just eaten the last doughnut.  (\citealt{Kiparsky2002})\\
+\ex Einstein has just died.
+                       \z
+\z
+
+
+A second argument is based on the observation that the various readings listed above do not all have the same truth conditions. Kiparsky notes that sentence \REF{ex:22.21} is ambiguous between the existential vs. universal (or persistent situation) readings, and that these two readings have different truth conditions. The universal reading asserts that at all times from 1977 to the present, the speaker was in Hyderabad; it is false if there were any times within that period at which he was elsewhere. The existential reading asserts only that there was at least one time between 1977 and the present moment at which the speaker was in Hyderabad. We could easily construct a context in which the existential reading is true and the universal reading false. This suggests that we are dealing with true semantic ambiguity, rather than mere vagueness or generality.
+
+
+\ea \label{ex:22.21}
+I have been in Hyderabad since 1977.
+\z
+
+
+Third, the various readings have different translation equivalents in other languages. Kiparsky notes that some languages which have a perfect, e.g. German and modern Greek, would use the simple present tense rather than the perfect to express the universal reading.\footnote{See also \citet{Comrie1976}, \citet{Klein2009}.} In addition, some languages (e.g. Hungarian and Najdi Arabic) have a distinct form which expresses only the existential/experiential perfect. Mandarin seems to be another such language; see \sectref{sec:22.6} below.
+
+
+
+A fourth type of evidence is seen in the following play on words (often attributed to Groucho Marx, but probably first spoken by someone else) which seems to demonstrate an antagonism between the (expected) “hot news” sense and the (unexpected) existential sense of the perfect:
+
+
+\ea \label{ex:22.22}
+I’ve had a perfectly wonderful evening, but this wasn’t it.
+\z
+
+
+Authors supporting the polysemy of the perfect have also pointed out that the various readings have different aspectual requirements. The universal reading, in contrast to all other uses of the perfect, is possible only with atelic situations. This would include states or activities (\ref{ex:22.23}a--b), coerced states such as habituals (\ref{ex:22.23}c), and accomplishments expressed in the imperfective (thus involving an atelic assertion, \ref{ex:22.23}d). Telic situations like those in \REF{ex:22.24} cannot normally be expressed in the universal perfect. In contrast, the perfect of continuing result illustrated in \REF{ex:22.5} is possible only with telic events (achievements or accomplishments).
+
+
+\ea \label{ex:22.23}
+\ea I have loved Charlie Chaplin ever since I saw \textit{Modern Times}.\\
+\ex Fred has carried the food pack for the past 3 hours, and needs a rest.\\
+\ex I have attended All Saints Cathedral since 1983.\\
+\ex I’ve been writing a history of Nepal for the past six years, and haven’t had time\\
+  to work on anything else.
+                       \z
+\z
+
+\ea \label{ex:22.24}
+\ea \#Fred has arrived at the summit for the past 3 hours.\\
+\ex \#I have written a history of Nepal for the past six years.
+                       \z
+\z
+
+
+This correlation between situation type and “sense” of the perfect is clearly an important fact which any analysis needs to account for; but by itself it does not necessarily prove that the perfect is polysemous. We have already seen several cases where a single sense of a tense or aspect marker gives rise to different interpretations with different situation types (\textit{Aktionsart}), so this is a possibility that we should consider with the perfect as well. Here we leave our discussion of the English perfect, in order to examine the uses of the perfect in two other languages.
+
+
+\section{Case study: Perfect aspect in Baraïn (Chadic)}\label{sec:22.5}
+
+Baraïn is an East Chadic (Afroasiatic) language spoken by about 6,000 people in the Republic of Chad. \citet{Lovestrand2012} discusses the contrast between perfect vs. perfective in Baraïn. He shows that the perfect form of the verb can be used for four of the five common uses of the perfect discussed above, specifically all but the experiential perfect. Examples of the four possible uses are presented in \REF{ex:22.25}.
+
+
+\ea \label{ex:22.25}
+\ea  \textbf{Resultative}:\\
+\glll kà  gūsē    ándì\\
+kà  gūs-  -ē  ándì\\
+\textsc{S:3.m}  go.out  \textsc{prf}  Andi\\
+\glt ‘He has left Andi (and has not returned).’
+\ex   \textbf{Universal}:\\
+\glll kà  súlē    máŋgò  wàlèɟì    kúr\\
+kà  súl-  -ē  móŋgò  wālō  -ɟi\`{}   kúr\\
+\textsc{S:3.m}  sit  \textsc{prf}  Mongo  year  \textsc{poss:3.m}  ten\\
+\glt ‘He has lived in Mongo for ten years (and lives there now).’
+\ex   \textbf{Recent past}:\\
+\glll kà  kólē    sòndé  kāj\\
+kà  kól-  -ē  sòndé  kājē\\
+\textsc{S:3.m}  go  \textsc{prf}  now  here\\
+\glt ‘He has just left this moment.’
+\ex   \textbf{Present state}:\\
+\glll rámà  ātːē    màlpì\\
+rámà  ǎtː-  -ē  màlpì\\
+Rama  remain  \textsc{prf}  Melfi\\
+\glt ‘Rama has stayed in Melfi (and is there now).’\\
+French: \textit{Il est resté à Melfi}.
+\z \z
+
+
+Lovestrand states that “what is labeled the ‘existential’ or ‘experiential’ perfect is not expressed with the Perfect, but instead with the Perfective marker.” An example is presented in \REF{ex:22.26}.
+
+
+\ea \label{ex:22.26}
+\glll kì  kólá    ātːá  ānːáŋ  ɲɟàménà\\
+ki\`{}   kól-  -à  ātːá  ānːáŋ  ɲɟamena\\
+S:2.s  go  \textsc{pfv}  time  how.many  N’Djamena\\
+\glt ‘How many times have you been to N’Djamena?’
+\z
+
+
+The perfect in Baraïn, in all four of its uses, entails that the situation is still true or the result state still holds at the time of speaking. Semelfactives, which do not have a result state, cannot be expressed in the perfect:
+
+
+\ea \label{ex:22.27}
+\ea \glll  kà  ásːá    tā  ātːá  pańi\'{ŋ}\\
+kà  ásː-  -à  tā  ātːá  pańi\'{ŋ}\\
+\textsc{S:3.m}  cough  \textsc{pfv}  \textsc{prtcl}  time  one\\
+\glt ‘He coughed once.’
+\ex \glll  \#kà  asːe    ātːá  pańi\'{ŋ}\\
+  kà  ásː-  -ē  ātːá  pańi\'{ŋ}\\
+\textsc{S:3.m}  cough  \textsc{prf}  time  one\\
+\z \z
+
+
+The requirement that the result state still hold true at the time of speaking is illustrated in (\ref{ex:22.28}a). If the same event is described in the perfective, as in (\ref{ex:22.28}b), it implies that the result state is no longer true.
+
+
+\ea \label{ex:22.28}
+\ea  \glll kà  kólá    wò  kà  láawē\\
+kà  kól-  -à  wò  kà  láaw-  -ē\\
+\textsc{S:3.m}  go  \textsc{pfv}  and  \textsc{S:3.m}  return  \textsc{prf}\\
+\glt ‘He left but he has returned (and is still here).’
+\ex \glll   kà  kólá    wò  kà  láawá    tā\\
+kà  kól-  -à  wò  kà  láaw-  -à  tā\\
+\textsc{S:3.m}  go  \textsc{pfv}  and  \textsc{S:3.m}  return  \textsc{pfv}  \textsc{prtcl}\\
+\glt ‘He left and he returned (but he is not here now).’
+\z \z
+
+
+Events which result in a permanent change of state, like those in (\ref{ex:22.29}a) and (\ref{ex:22.30}a), must normally be expressed in the perfect. If these events are described in the perfective, as in (\ref{ex:22.29}b) and (\ref{ex:22.30}b), it implies that some extraordinary event has taken place to undo the result state of the described event.
+
+
+\ea \label{ex:22.29}
+\ea  \glll átːù    tōklē\\
+átːá  -ɟù  tǒkl-  -ē\\
+arm  \textsc{poss:1sg}  remove  \textsc{prf}\\
+\glt ‘My arm was removed.’
+\ex \glll  átːù    tòklá    tā\\
+átːá  -ɟù  tǒkl-  -à  tā\\
+arm  \textsc{poss:1sg}  remove  \textsc{pfv}  \textsc{prtcl}\\
+\glt ‘My arm was removed once (but somebody reattached it).’
+\z \z
+
+\ea \label{ex:22.30}
+\ea  \glll kà  mótē\\
+kà  mót-  -ē\\
+\textsc{S:3.m}  die  \textsc{prf}\\
+\glt ‘He died.’
+\ex \glll ?ka  mota\\
+ kà  mót-  -à\\
+\textsc{S:3.m}  die  \textsc{pfv}\\
+\glt ‘He \textit{was} dead (but is miraculously no longer dead).’
+\z \z
+
+
+The inference illustrated in (\ref{ex:22.29}--\ref{ex:22.30}), by which the perfective signals that the result state is no longer true, seems to be an implicature triggered by the speaker’s choice not to use the perfect, where that would be possible. This inference does not arise in all contexts. For example, verbs describing main-line events in a narrative sequence can occur in the perfective without any implication that the result state is no longer true. In contrast, the requirement that the result state of an event in the perfect hold true at the time of speaking is an entailment which cannot be cancelled, as demonstrated in (\ref{ex:22.31}b).
+
+\todo{adapt to LGR}
+\ea \label{ex:22.31}
+\ea  \glll kà  mótá    tā  wò  kà  ɲīrē\\
+kà  mót-  -à  tā  wò  kà  ɲi\={r}  -ē\\
+\textsc{S:3.m}  die  \textsc{pfv}  \textsc{prtcl}  and  \textsc{S:3.m}  resurrect  \textsc{prf}\\
+\glt ‘He died, but he has been resurrected.’
+\ex \glll  \#ka  mote    wo  ka  ɲire\\
+  kà  mót-  -ē  wò  kà  ɲi\={r}  -ē\\
+\textsc{S:3.m}  die  \textsc{prf}  and  \textsc{S:3.m}  resurrect  \textsc{prf}\\
+\glt (intended: ‘He has died, but he has been resurrected.’)
+\z \z
+
+\section{Case study: Experiential \textit{–guo} in Mandarin}\label{sec:22.6}
+
+In our discussion of the English perfect we noted that some languages have a perfect marker which expresses only the existential/experiential sense. Mandarin is one such language. The meaning of the verbal suffix \textit{-guo} is in some ways the polar opposite of the meaning of the perfect marker in Baraïn. While the perfect in Baraïn can express all of the standard perfect readings except the experiential, \textit{-guo} expresses only the experiential perfect. While the perfect in Baraïn requires that the result state of the event still holds true at the time of speaking, \textit{-guo} requires that the result state no longer holds true at the time of speaking.
+
+
+
+The meaning of Mandarin \textit{guo} is similar in many ways to the existential/experiential perfect in English; but there are important differences as well. \citet{Chao1968} refers to the suffix \textit{-guo} as a marker of “indefinite past aspect”. \citet[226]{LiThompson1981} identify \textit{–guo} as a marker of “experiential aspect”, stating that it indicates that the situation has been experienced at least once, at some indefinite time in the past.\footnote{Some authors take the term “experiential aspect” quite literally, assuming that an animate experiencer must be involved. For example, \citet[144]{XiaoMcEnery2004} write: “The distinguishing feature of \textit{–guo} is that in conveys a mentally experienced situation.” \citet[267]{Smith1997} states that “sentences with\textit{–guo} ascribe to an experiencer the property of having participated in the situation.” However, \textit{–guo} can also be used in clauses which contain no animate arguments.} They provide the following minimal pair illustrating the contrast between the perfective (\ref{ex:22.32}a), in which the described event occurs within Topic Time, vs. the experiential (\ref{ex:22.32}b), in which the described event occurs at some arbitrary time prior to Topic Time.
+
+
+\ea \label{ex:22.32}
+\ea  \gll nǐ  kànjian-le  wǒ=de  yǎnjìng  ma?\\
+\textsc{2sg}  see-\textsc{pfv}  \textsc{1sg}=\textsc{poss}  glasses  \textsc{q}\\
+\glt ‘Did you see my glasses?’ (recently; I’m looking for them)
+\ex \gll  nǐ  kànjian-guo  wǒ=de  yǎnjìng  ma?\\
+\textsc{2sg}  see-\textsc{exper}  \textsc{1sg}=\textsc{poss}  glasses  \textsc{q}\\
+\glt ‘Have you ever seen my glasses?’  [\citealt{Ma1977}: 19; \citealt{LiThompson1981}: 227]
+\z \z
+
+
+\citet{Wu2009} states: “an eventuality presented by \textit{–guo} is temporally independent of others in the same discourse.” This constraint follows from the fact that normally \textit{–guo} has indefinite time reference, and so does not establish a new Topic Time to which other clauses or sentences can refer. As a result, clauses marked with \textit{–guo} are not interpreted as a narrative sequence of events. \citet[308]{Iljic1990} provides the following contrast between the two verbal suffixes \textit{–le} and \textit{-guo}, showing that a series of clauses marked with \textit{–le} is interpreted as a chronological sequence, while the same series of clauses marked with \textit{–guo} is interpreted as a mere inventory of activities.
+
+
+\ea \label{ex:22.33}
+
+\ea \gll  Qùnián  wǒ  \textit{zuò-le}  mǎimài,  \textit{xué-le}  jìsuànjī,  \textit{shàng-le}  yèdàxué.\\
+last.year  \textsc{1sg}  do-\textsc{pfv}  business  study-\textsc{pfv}  computer  go-\textsc{pfv}  evening.university\\
+\glt ‘Last year I \textit{did} some business, (then) \textit{studied} computers, (then) \textit{attended} evening university.’ (chronological perspective)
+\ex \gll  Qùnián  wǒ  \textit{zuò-guo}  mǎimài,  \textit{xué-guo}  jìsuànjī,  \textit{shàng-guo}  yèdàxué.\\
+last.year  \textsc{1sg}  do-\textsc{exper}  business  study-\textsc{exper}  computer  go-\textsc{exper}  evening.          university\\
+\glt ‘Last year I \textit{did} some business, (and) \textit{studied} computers, (and) \textit{attended} evening university.’ (inventory perspective)
+\z \z
+
+
+Examples like \REF{ex:22.34} are sometimes cited as counter-examples to the generalization that \textit{–guo} marks indefinite time in the past. The speaker in this sentence is clearly not just claiming to have eaten food at some time in the past, but rather is stating that he has finished eating the most recently scheduled meal.
+
+
+\ea \label{ex:22.34}
+\gll Wǒ  chī-guò  fàn  le.\\
+\textsc{1sg}  eat-finish  rice  \textsc{cos}\\
+\glt ‘I have already eaten.’  (\citealt{Ma1977})
+\z
+
+
+\citet[251]{Chao1968}, \citet[59]{Comrie1976} and \citet[139ff.]{XiaoMcEnery2004} state that the \textit{–guò} in such examples is not the aspectual suffix but a verb root occurring as the second member of a compound verb. Both of these forms are derived from the verb \textit{guò} ‘to pass by’, and both are written with the same Chinese character. However, the aspectual suffix can be distinguished from the compound verb by phonological and morphological evidence. Phonologically, the aspectual suffix is always toneless (i.e., takes neutral tone) whereas the compound verb takes an optional 4\textsuperscript{th} tone, as marked in \REF{ex:22.34}.\footnote{Comrie states that this 4\textsuperscript{th} tone is optional but is usually pronounced.} Morphologically, the compound verb \textit{–guò} can be followed by the perfective suffix \textit{-le}, whereas the aspectual suffix \textit{-guo} cannot. \citet[39--40]{Chu1998} shows that temporal adverbial clauses like the first clause of \REF{ex:22.35} are another context where the compound verb \textit{–guò} rather than the aspectual suffix \textit{–guo} is used. Some authors introduce unnecessary complexity into the discussion of aspectual \textit{-guo} by failing to make this distinction.
+
+
+\ea \label{ex:22.35}
+\gll Nǐ  míngtian  kàn-guò  jiù  zhīdao  le.\\
+\textsc{2sg}  tomorrow  see-finish  then  know  \textsc{cos}\\
+\glt ‘After you see it tomorrow, you will know.’  (\citealt{Chen1979})
+\z
+
+
+Many authors have noted an interesting semantic restriction on the use of the aspectual suffix \textit{-guo}: as first observed by \citeauthor{Chao1968} (1968:439; cf. \citealt{Yeh1996}), there must be a “discontinuity” between Situation Time and Topic Time. If the described event produces a result state, the result state must be over before Topic Time, as seen in (\ref{ex:22.36}a). We might represent this discontinuity as follows: TSit ${\cap}$ TT = ⌀ (here we assume that the result state is included in TSit). Some authors (e.g. \citealt{Iljic1990}, \citealt{Yeh1996}) have suggested that this discontinuity effect is merely an “inference”; but examples (\ref{ex:22.37}a) and (\ref{ex:22.38}a) seem to indicate that the requirement is an entailment and not just an implicature.
+
+
+\ea \label{ex:22.36}
+\ea  \gll Wǒ  shuāi-duàn-guo  tuǐ.\\
+\textsc{1sg}  fall-break-\textsc{exper}  leg\\
+\glt ‘I have broken my leg (before).’ (It has healed since.) [\citealt{Chao1968}; \citealt{Ma1977}: 25]
+\ex \gll Wǒ  shuāi-duàn-le  tuǐ.\\
+\textsc{1sg}  fall-break-\textsc{pfv}  leg\\
+\glt ‘I broke my leg.’  (It may be still in a cast.)  [\citealt{Chao1968}; \citealt{Ma1977}: 25]
+\z \z
+
+\ea \label{ex:22.37}
+\ea \gll Tā  qùnián  dào  Zhōngguó  qù-guo,  (\#xiànzai  hái  zài  nàr  ne).\\
+\textsc{3sg}  last.year  to  China  go-\textsc{exper}    now  still  at  there  \textsc{prtcl}\\
+\glt ‘He has been to China sometime last year (\#and is still there now).’  (\citealt{Ma1977}: 18)
+\ex \gll  Tā  qùnián  dào  Zhōngguó  qù-le,  (xiànzai  hái  zài  nàr  ne).\\
+\textsc{3sg}  last.year  to  China  go-\textsc{pfv} now  still  at  there  \textsc{prtcl}\\
+\glt ‘He went to China last year (and is still there now).’  (\citealt{Ma1977}: 18)
+\z \z
+
+\ea \label{ex:22.38}
+\ea \gll  Tā  ài-guo  Huáng  Xiǎojie,  (\#xiànzai  hái  ài-zhe  tā  ne).\\
+\textsc{3sg}  love-\textsc{exper}  Huang  Miss now  still  love-\textsc{cont}  there  \textsc{prtcl}\\
+\glt ‘He once loved Miss Huang (\#and he still loves her now).’  (\citealt{Ma1977}: 18)
+\ex \gll  Tā  ài  Huáng  Xiǎojie  le,  (xiànzai  hái  ài-zhe  tā  ne).\\
+\textsc{3sg}  love  Huang  Miss \textsc{prtcl} now  still  love-\textsc{cont}  there  \textsc{prtcl}\\
+\glt ‘He has fallen in love with Miss Huang (and he still loves her now).’  (\citealt{Ma1977}: 18)
+\z \z
+
+
+Interestingly, this discontinuity requirement is (partially?) dependent on the definiteness of the affected argument (\citealt{Lin2007}; \citealt{Wu2008}; \citealt{Chen2009}). When the patient is definite, as in (\ref{ex:22.39}a), the use of \textit{–guo} indicates that the result state no longer obtains; but when the patient is indefinite, as in (\ref{ex:22.39}b), there is no such implication/entailment.
+
+
+\ea \label{ex:22.39}
+\ea  \gll Lǐsì  nòng-huài-guo  zhè  bù  bǐjìxíng-diànnǎo.\\
+Lisi  make-broken-\textsc{exper}  this  CL  laptop\\
+\glt ‘Lisi has broken this laptop before.’\\
+(strongly implies that the laptop has been fixed at the time of speech)
+\ex \gll  Lǐsì  nòng-huài-guo  yī  bù  bǐjìxíng-diànnǎo.\\
+Lisi  make-broken-\textsc{exper}  one  CL  laptop\\
+\glt ‘Lisi has broken a laptop before.’  [\citealt{Chen2009}; cf. \citealt{Lin2007}]\\
+(no commitment as to whether the laptop has been fixed or not)
+\z \z
+
+
+A number of authors\footnote{\citet{Ma1977}; \citet[230]{LiThompson1981}; \citet{Yeh1996}; \citet[268]{Smith1997}.} have claimed that the situation marked by \textit{–guo} must be repeatable. If it is an event, there must be a possibility for the same kind of event to happen again. This is a well-known property of the experiential (or existential) perfect in English, and its applicability to \textit{-guo} is supported by examples like \REF{ex:22.40}. However, this claim has been challenged by number of other authors.\footnote{\citet{Chen1979}, \citet{Iljic1990}, \citet[147--148]{XiaoMcEnery2004},  \citet{PanLee2004}, \citet{Lin2007}.} Consider the contrast in \REF{ex:22.41}. Neither being old nor young are states that are repeatable for a single individual. The contrast between the two sentences seems best explained in terms of the discontinuity requirement: a person who is no longer young can still be alive, but not a person who is no longer old.
+
+
+\ea \label{ex:22.40}
+\gll *Tā  sǐ-guo.\\
+ \textsc{3sg}  die-\textsc{exper}\\
+\glt (intended: ‘He has died before.’)  (\citealt{Ma1977}: 15)
+\z
+
+\ea \label{ex:22.41}
+\ea  \gll Nǐ  yě  niánqīng-guo\\
+you  also  young-\textsc{exper}\\
+\glt ‘You also have been young before.’ 
+\ex \gll *Nǐ  yě  lǎo-guo\\
+you  also  old-\textsc{exper}\\
+\glt ‘You have also been old before.’
+\z \z
+
+
+It appears that all of the data which has been proposed in support of the repeatability hypothesis can equally well be explained in terms of the discontinuity requirement. Support for the idea that discontinuity, rather than repeatability, is the operative factor comes from the observation that “repeatability” effects are sensitive to definiteness in exactly the same way as demonstrated above for the discontinuity requirement; this is illustrated in \REF{ex:22.42}. The fact that it is possible to use \textit{–guo} when talking about the actions of dead people, as in (\ref{ex:22.42}b), gives further support to the claim that there is no repeatability requirement in Mandarin. Such examples are normally quite unnatural in the English experiential/existential perfect.
+
+
+\ea \label{ex:22.42}
+\ea \gll  *Columbus  faxian-guo  meizhou\\
+  Columbus  discover-\textsc{exper}  America\\
+\glt (intended: ‘Columbus has discovered America before.’)  (\citealt{Yeh1996}: 153)
+ \ex \gll Columbus  faxian-guo  yi  ge  xiao  dao.\\
+Columbus  discover-\textsc{exper}  one  CL  small  island\\
+\glt ‘Columbus has discovered a small island before.’  (\citealt{Yeh1996}: 163)
+\z \z
+
+
+It is useful to compare the semantic effect of the aspectual suffix \textit{–guo} in various situation types (\textit{Aktionsart}). With stative predicates, \textit{–guo} indicates that the state no longer exists \REF{ex:22.43}. Therefore, permanent states cannot normally be marked with \textit{–guo} \REF{ex:22.44}.
+
+
+\ea \label{ex:22.43}
+\ea \gll  Zhāng  Xiǎojie  guòqù  pàng-guo.\\
+Zhang  Miss  in.past  fat-\textsc{exper}\\
+\glt ‘Miss Zhang has been fat.’ (implying she is not fat now)  (\citealt{Ma1977}: 23)
+\ex \gll Měiguo  níuròu  yě  guì-guo.\\
+America  beef  also  expensive-\textsc{exper}\\
+\glt ‘Beef America has also been expensive (in the past but not now).’  (\citealt{Ma1977}: 23)
+\ex \gll  Tā  zài  Zhōngguó  zhù-guo  sān  nián.\\
+\textsc{3sg}  at  China  live-\textsc{exper} three  year\\
+\glt ‘He has lived in China for three years before (but does not live there now).’  (\citealt{Ma1977}: 20)
+\z \z
+
+\ea \label{ex:22.44}
+\gll *Dangdi  nongmin  zhidao-guo  na  gezha  youdu.\\
+  local  farmer  know-\textsc{exper}  that  chrome.dreg  poisonous\\
+\glt (intended: ‘Local farmers knew that those chrome dregs were poisonous.’)\\
+   {}[\citealt{XiaoMcEnery2004}: 149]
+\z
+
+
+With atelic events such as activities \REF{ex:22.45} and non-culminating accomplishments \REF{ex:22.46}, the suffix -\textit{guo} has the same interpretation as the perfective suffix \textit{–le}, indicating that the event has terminated.
+
+
+\ea \label{ex:22.45}
+\gll Lisi  da-guo  wangqiu.\\
+Lisi  play-\textsc{exper}  tennis\\
+\glt ‘Lisi has played tennis before.’  (\citealt{Smith1997}: 267)
+\z
+
+\ea \label{ex:22.46}
+\ea \gll \#Wo  xie-guo  gei  Wang  de  xin,  hai  zai  xie.\\
+ \textsc{1sg}  write-\textsc{guo}  to  wang  \textsc{lnk} letter,  still  \textsc{prog}  write\\
+\glt ‘I wrote Wang’s letter and am still writing it.’\\
+\ex \gll  Wo  xie-guo  gei  Wang  de  xin,  keshi  mei  xie-wan.\\
+\textsc{1sg}  write-\textsc{guo}  to  wang  \textsc{lnk} letter,  but  not  write-finish\\
+\glt ‘I wrote Wang’s letter but didn’t finish it.’  (\citealt{Smith1997}: 267)
+\z \z
+
+
+In light of what we have said above, we would predict that the aspectual suffix \textit{–guo} cannot occur with telic predicates whose result state is permanent, because this would mean that discontinuity with Topic time is impossible. This prediction turns out to be true when the patient (or affected argument) is definite. However, as noted above, the discontinuity requirement does not apply when the patient is indefinite; so the aspectual suffix \textit{–guo} is possible in such contexts.
+
+
+
+The examples in (\ref{ex:22.47}a--b) contain a Result Compound Verb (RCV), which means that the culmination of the event is entailed. As predicted, \textit{–guo} is not allowed when the object NP is definite (\ref{ex:22.47}a), but is possible when the object NP is indefinite (\ref{ex:22.47}b). However, (\ref{ex:22.47}c) contains the simple root ‘kill’ with no RCV, and so the culmination of the event would normally be implicated but not entailed. In this example, \textit{–guo} functions as an explicit indicator that the result state was not achieved.
+
+
+\ea \label{ex:22.47}
+\ea \gll *Tā  shā-sǐ-guo  nèi-ge  rén.\\
+ \textsc{3sg}  kill-die-\textsc{exper}  that-\textsc{class}  person\\
+\glt (intended: ‘He has killed that person.’)  (\citealt{Ma1977}: 23)
+
+\ex \gll  Tā  shā-sǐ-guo  sān-ge  rén.\\
+\textsc{3sg}  kill-die-\textsc{exper}  three-\textsc{class}  person\\
+\glt ‘He has killed three people.’  (\citealt{Ma1977}: 23)
+\ex \gll  Tā  shā-guo  nèi-ge  rén.\\
+\textsc{3sg}  kill-\textsc{exper}  that-\textsc{class}  person\\
+\glt ‘He tried (at least once) to kill that person (without success).’  (\citealt{Ma1977}: 23)
+\z \z
+
+
+A similar pattern is seen in \REF{ex:22.48}. the aspectual suffix \textit{–guo} can occur with the predicate ‘die’ only when the patient is indefinite (\ref{ex:22.48}c). In (\ref{ex:22.48}d), which \citet{Chu1998} and \citet{XiaoMcEnery2004} describe as a figurative use of the word ‘die’, \textit{–guo} functions as an indicator that the result state was not achieved.
+
+
+\ea \label{ex:22.48}
+\ea \gll  *Tā  sǐ-guo.\\
+ \textsc{3sg}  die-\textsc{exper}\\
+\glt (intended: ‘He has died before.’)  (\citealt{Ma1977}: 15)
+\ex \gll Tā  sǐ-le\\
+\textsc{3sg}  die-\textsc{pfv}\\
+\glt ‘He died.’  (\citealt{Ma1977}: 15)
+\ex \gll  You  rén  zai  zhe  tiao  he  li  yan-si-guo.\\
+have  person  at  this  CL  river  in  drown-die-\textsc{exper}\\
+\glt ‘Someone has drowned in this river (before).’  (\citealt{Yeh1996}: 163)
+\ex \gll  Wǒ  sǐ-guo  hao-ji-ci\\
+\textsc{1sg}  die-\textsc{pfv} quite.a.few.times\\
+\glt ‘I almost died quite a few times.’  (\citealt{Chu1998}: 41)
+\z \z
+
+
+\citet{HuangDavis1989} point out that \textit{–guo} can also be used to indicate partial affectedness of a definite object, another way in which the culmination of the event might not be achieved:
+
+
+\ea \label{ex:22.49}
+\ea \gll  Gou  gangcai  chi-le  ni  de  pingguo.\\
+dog  just.now  eat-\textsc{pfv}  you  \textsc{poss}  apple\\
+\glt ‘The dog just ate your apple.’
+\ex \gll  Gou  gangcai  chi-guo  ni  de  pingguo.\\
+dog  just.now  eat-\textsc{exper}  you  \textsc{poss}  apple\\
+\glt ‘The dog just took a bite of your apple.’  [\citealt{HuangDavis1989}: 151]
+\z \z
+
+\section{Conclusion}\label{sec:22.7}
+
+We have discussed a number of different uses of the perfect in various languages. What all of these various uses have in common is the fact that (all or part of) the Situation Time precedes Topic Time. As mentioned at the beginning of this chapter, this is the component of meaning which \citet{Klein1992} identifies as the defining feature of perfect aspect.
+
+
+
+\furtherreading{
+
+
+
+\citet[ch. 3]{Comrie1976} is a foundational work, and still a good place to start. \citet{Portner2011} and \citet{Ritz2012} provide good overviews of the empirical challenges and competing analyses for the perfect.
+
+}
+\discussionexercises{
+
+\paragraph*{A: Identify the sub-type (i.e., the semantic function: \textsc{Experiential, Universal, Result}, or “\textsc{hot news}”) of the present perfect forms in the following examples}:
+
+\begin{enumerate}
+\item Russia \textit{has} just \textit{accused} the American curling team of doping.
+\item Donald \textit{has visited} Brazil three times.
+\item Horace \textit{has been playing} that same sonata since four o’clock.
+\item The Prime Minister \textit{has resigned}; it happened several weeks ago, but we still don’t know who the next Prime Minister will be.
+\item Martha \textit{has known} about George’s false teeth for several years.
+\end{enumerate}
+
+}
+\homeworkexercises{
+% \subsection*{Homework exercise: Tok Pisin Tense-Aspect markers} %\label{sec:}
+
+Based on the examples provided below, describe the Tok Pisin Tense-Aspect system and suggest an appropriate label for each of the five italicized grammatical markers (e.g. \textit{subjunctive mood}, \textit{iterative aspect}, etc.). These markers are glossed simply as ‘\textsc{aux’}. Some of these forms can also be used as independent verbs, but you should consider those those meanings (shown in the section headings) to be distinct senses. Base your description on the ‘\textsc{aux’} functions only. You can ignore the somewhat mysterious “predicate marker” \textit{i}.
+
+\usecounter{equation}\setcounter{equation}{0}
+\paragraph*{A. \textit{bin}}
+\ea \label{ex:22.E1}
+\gll   Bung  i  \textit{bin}  stat  long  Mande  na  \textit{bai}  pinis  long  Fraide.\\
+meeting  \textsc{pred}  \textsc{aux}  start  at  Monday  and  \textsc{aux}  end  at  Friday\\
+\glt ‘The meeting began on Monday and will finish on Friday, April 22.’ [\citealt{Sebba1997}: p.21] 
+\z
+
+\ea \label{ex:22.E2}
+\gll  Asde/\#Tumora  mi  \textit{bin}  lukim  tumbuna  bilong  mi.\\
+yesterday/\#tomorrow  \textsc{1sg}  \textsc{aux}  see  grandparent  \textsc{poss}  1sg\\
+\glt ‘Yesterday/\#tomorrow I saw my grandparent.’
+\z
+
+\ea \label{ex:22.E3}
+\gll  Wanem  taim  sik  i  \textit{bin}  kamap  nupela?\\
+what  time  illness  \textsc{pred}  \textsc{aux}  appear  new\\
+\glt ‘When did the illness first appear?’  [Verhaar]
+\z
+
+\ea \label{ex:22.E4}
+\gll   Ol  tumbuna  i  no  \textit{bin}  wari  long  dispela.\\
+\textsc{pl}  ancestor  \textsc{pred}  not  \textsc{aux}  worry  about  this\\
+\glt ‘The ancestors did not worry about this.’  [Verhaar]
+\z
+
+\ea \label{ex:22.E5}
+\gll  ol  i  \textit{bin}  slip  long  haus  bilong  mi.\\
+3pl  \textsc{pred}  \textsc{aux}  sleep  at  house  \textsc{poss}  1sg\\
+\glt ‘They were sleeping in(side) my house.’  [Wohlgemuth]
+\z
+
+\paragraph*{B. \textit{bai}}
+\ea 
+\gll Long  wanem  taim  \textit{bai}  yu  go?\\
+at  what  time  \textsc{aux}  \textsc{2sg}  go\\
+\glt ‘At what time will you go?’  (\citealt{Dutton1973}: 52)
+\z
+
+\ea 
+\gll Tumora/\#Asde  \textit{bai}  mi  askim  em.\\
+tomorrow/\#yesterday  \textsc{aux}  \textsc{1sg}  ask  3sg\\
+\glt ‘Tomorrow/\#yesterday I will ask him/her.’
+\z
+
+\ea 
+\gll Ating  apinun  \textit{bai}  mi  traim  pilai  ping-pong  namba.wan  taim.\\
+maybe  afternoon  \textsc{aux}  \textsc{1sg}  try  play  ping-pong  first  time.’\\
+\glt ‘Maybe this afternoon I will try to play ping-pong for the first time.’  [Verhaar 153]
+\z
+
+\ea 
+\gll   Sapos  yu  kaikai  planti  pinat  \textit{bai}  yu  kamap  strong  olsem  phantom.\\
+if  \textsc{2sg}  eat  much  peanut  \textsc{aux}  \textsc{2sg}  become  strong  like  phantom\\
+\glt ‘If you eat many peanuts, you will become strong like the phantom.’ [Wohlgemuth]
+\z
+
+\paragraph*{C. \textit{save} (short form: \textit{sa})  [main verb sense: ‘know’]}
+\ea 
+\gll Mipela  i  no  \textit{save}  kaikai  bulmakau.\\
+1pl.\textsc{excl}  \textsc{pred}  \textsc{neg}  \textsc{aux}  eat  cow\\
+\glt ‘We don’t (customarily) eat beef.’  (\citealt{Dutton1973}: 64)
+\z
+
+\ea 
+\gll Mi  \textit{save}  wokabaut  go  wok.\\
+\textsc{1sg}  \textsc{aux}  walk  go  work\\
+\glt ‘I always walk to work.’  [Faraclas; cited in \citealt{Holm2000}: 184]
+\z
+
+\ea 
+\gll  Long  nait  mi  slip  na  ol  natnat  i  \textit{save}  kam  long  haus  bilong  mi.\\
+at  night  \textsc{1sg}  sleep,  and  \textsc{pl}  mosquitoes  \textsc{pred}  \textsc{aux}  come  to  house  \textsc{poss}  1sg\\
+\glt ‘At night I sleep, and then the mosquitoes come into my house.’  [Verhaar]
+\z
+
+\ea 
+\gll Mipla  stap  lo(ng)  skul,  ol  ami  ol  \textit{sa}  pait  wantem  ol  man  ia.\\
+1pl.\textsc{excl}  be  in  school,  \textsc{pl}  soldier  3\textsc{pl}  \textsc{aux}  fight  with  \textsc{pl}  man  here\\
+\glt ‘When we were in school, the soldiers used to fight with the men (rebels).’\\
+{}[\citealt{Smith2002}: 132; East New Britain]
+\z
+
+\paragraph*{D. \textit{stap}  [main verb sense: ‘be, stay, remain’]}
+\ea 
+\gll Ol  i  kaikai  i \textit{stap}.\\
+3pl  \textsc{pred}  eat  \textsc{pred}  \textsc{aux}\\
+\glt ‘They are/were eating.’  [Verhaar 107]
+\z
+
+\ea 
+\gll   Ol  lapun  meri  i  subim  ka  i  go  i \textit{stap}.\\
+pl  old  woman  \textsc{pred}  push  car  \textsc{pred}  go  \textsc{pred}  \textsc{aux}\\
+\glt ‘The old women are/were pushing a car.’  (\citealt{Dutton1973}: 149)
+\z
+
+\ea 
+\gll  Dua  i  op  nating  i \textit{stap}.\\
+door  \textsc{pred}  open  just  \textsc{pred}  \textsc{aux}\\
+\glt ‘The door was just open like that…’  [\citealt{Verhaar} 108]
+\z
+
+\ea 
+\gll Em  i tisa  i \textit{stap}  yet.\\
+\textsc{3sg}  \textsc{pred} teacher  \textsc{pred  aux}  still\\
+\glt ‘He is still a teacher.’  (\citealt{Dutton1973}: 148)
+\z
+
+\ea 
+\gll  Hamas  de  pikinini  i  sik  i \textit{stap}?\\
+how.many  day  child  \textsc{pred}  sick  \textsc{pred}  \textsc{aux}\\
+\glt ‘How many days has the child been sick?’  [\citealt{Verhaar}  108]
+\z
+
+\ea 
+\gll  Taim  em  i  kam  i lukim  Dogare\\
+time  \textsc{3sg}  \textsc{pred}  come  \textsc{pred}  see  (name)\\
+\z
+
+\ea 
+\gll   i  sindaun  tanim  smok  i  \textit{stap}.\\
+\textsc{pred}  sit  roll  smoke  \textsc{pred}  \textsc{aux}\\
+\glt ‘When he came he saw Dogare sitting down rolling a cigarette.’ (\citealt{Dutton1973}: 145)
+\z
+
+\ea \gll  \textit{Bai}  sampela  ol  i  toktok  i \textit{stap}  na\\
+\textsc{aux}  some  3pl  \textsc{pred}  talk  \textsc{pred}  \textsc{aux}  and\\
+\z
+
+\ea 
+ \gll  ol  i  no  harim  gut  tok  bilong  yu.\\
+3pl  \textsc{pred}  not  listen  well  talk  \textsc{poss}  2sg\\
+\glt ‘Some of them will be talking and not listen well to your speech.’ [Wohlgemuth]
+\z
+
+\paragraph*{E. \textit{pinis}  [main verb sense: ‘finish, stop, complete’]}
+\ea 
+\gll  Mipela  i  wokim  sampela  haus  \textit{pinis}.\\
+1pl.\textsc{excl}  \textsc{pred}  build  some  house  \textsc{aux}\\
+\glt ‘We [excl.] have built some houses.’  [Verhaar]
+\z
+
+\ea 
+\gll  Gavman  i  putim  \textit{pinis}  planti  didiman.\\
+government  \textsc{pred} place  \textsc{aux}  many  agricultural.officer\\
+\glt ‘The government has appointed many agricultural officers.’  [Verhaar]
+\z
+
+\ea 
+\gll  Dok  i  dai  \textit{pinis}.\\
+dog  \textsc{pred}  die  \textsc{aux}\\
+\glt ‘The dog has died/is dead.’  [Verhaar]
+\z
+
+\ea 
+\gll  Mi  lapun  \textit{pinis}.\\
+\textsc{1sg}  old.person  \textsc{aux}\\
+\glt ‘I am already old.’ Or: ‘I have grown old.’  [Verhaar]
+\z
+
+\ea \ea 
+\gll a. Ol  i  bikpela  \textit{pinis}.\\
+3pl  \textsc{pred}  big  \textsc{aux}\\
+\glt ‘They have become big/are grown-ups (now).’  [Verhaar 117]
+\ex \gll  *Ol  i  liklik  \textit{pinis}.\\
+ 3pl  \textsc{pred}  small  \textsc{aux}\\
+\glt (intended: ‘They are already small’ or ‘they were small once.’)
+\z \z
+
+\ea 
+\gll Pen  i  stap  longpela  taim  \textit{pinis},  o,  nau  tasol  em  i  kamap?\\
+pain  \textsc{pred}  exist  long  time  \textsc{aux}  or  now  only  \textsc{3sg}  \textsc{pred}  become\\
+\glt ‘Has the pain been there for a long time, or has it just started?  [Verhaar]
+\z
+
+\ea 
+\gll  Em  i  kamap  meija  \textit{pinis}  taim  mipela  i  harim  dispela  stori  hia.\\
+\textsc{3sg}  \textsc{pred}  become  major  \textsc{aux}  time  1pl.\textsc{excl}  \textsc{pred}  hear  this  story  here\\
+\glt ‘He had become a major by the time we [excl.] heard this story.’  [Verhaar]
+\z
+
+\ea 
+\ea \gll  Esra  i  sanap  long  dispela  ples\\
+Esra  \textsc{pred}  stand  at  this  place\\
+\glt ‘Ezra stood on this platform (while reading the Law).’  [Neh. 8:4]
+\ex \gll  Man  i  sanap  \textit{pinis}.\\
+man  \textsc{pred}  stand  \textsc{aux}\\
+\glt ‘The man has stood up (and is standing now).’  [Liisa Berghäll]
+\z \z
+
+\ea 
+\ea \gll wanpela  diwai  i  sanap  namel  tru\\
+one  tree  \textsc{pred}  stand  middle  very\\
+\glt ‘One tree stood right in the middle (of the Garden).’  [Gen. 3:3]
+\ex \gll  \#Diwai  i  sanap  \textit{pinis}.\\
+  tree  \textsc{pred}  stand  \textsc{aux}\\
+\glt ‘The tree has stood up (and is standing now).’  [Liisa Berghäll]
+\z \z
+
+}
+
+\begin{verbatim}%%move bib entries to  localbibliography.bib
+Note: http links have to be inserted in the right places in localbibliography.bib, which is not necessarily where they appear here!
+
+revised version: Beaver, David and Bart Geurts. 2012. Presupposition. In: Klaus von Heusinger, Claudia Maienborn, and Paul Portner (eds.), Semantics: an international handbook of natural language meaning. Vol. 3, pp. 2432–2460. Berlin: Mouton de Gruyter.
+http://semanticsarchive.net/Archive/jcyZDc1Y/Goldberg.Compositionality.RoutledgeHandbook.pdf
+
+
+631. Berlin: Walter de Gruyter.
+Sæbø, Kjell Johan. 2011. Adverbial clauses. In Maienborn, von Heusinger and Portner (eds.),
+Semantics: An international handbook of natural language meaning (Volume 2), 1420–
+1441. Berlin and New York: De Gruyter Mouton.
+http://folk.uio.no/kjelljs/060AdverbialClauses.pdf
+
+
+
+
+
+
+@misc{http://www.ling.uni-potsdam.de/~mzimmermann/papers/MZ2011,
+        author = {http://www.ling.uni-potsdam.de/~mzimmermann/papers/MZ},
+        title = {-Particles-HSK.pdf},
+        year = {2011}
+}
+@misc{http://helikon-online.de/2012,
+        author = {http://helikon-online.de/},
+        title = {/Bross\_Particles.pdf},
+        year = {2012}
+}
+@misc{http://www.umass.edu/linguist/events/SULA/SULA_2003,
+        author = {http://www.umass.edu/linguist/events/SULA/SULA_},
+        title = {_cd/files/faller.pdf},
+        year = {2003}
+}
+@misc{http://conf.ling.cornell.edu/sem/Murray_Thesis-Rutgers-2010,
+        author = {http://conf.ling.cornell.edu/sem/Murray_Thesis-Rutgers-},
+        title = {pdf},
+        year = {2010}
+}@misc{http://www.euralex.org/elx_proceedings/Euralex1992,
+        author = {http://www.euralex.org/elx_proceedings/Euralex},
+        title = {_2/011_Geoffrey Nunberg & Annie Zaenen -Systematic polysemy in lexicology and lexicography.pdf},
+        year = {1992}
+}
+@misc{http://kuscholarworks.ku.edu/dspace/handle/1808,
+        author = {http://kuscholarworks.ku.edu/dspace/handle/},
+        title = {/531},
+        year = {1808}
+}@misc{http://elanguage.net/journals/bls/article/viewFile/2738,
+        author = {http://elanguage.net/journals/bls/article/viewFile/},
+        title = {/2719},
+        year = {2738}
+}
+\end{verbatim}

@@ -1,0 +1,558 @@
+\chapter{Truth and inference}\label{sec:3}
+
+\section{Truth as a guide to sentence meaning}\label{sec:3.1}
+
+Any speaker of English will “understand” the simple sentence in \REF{ex:3.1}, i.e., will know what it “means”. But what kind of knowledge does this involve? Can our hypothetical speaker tell us, for example, whether the sentence is true?
+
+
+\ea \label{ex:3.1}
+\textit{King Henry VIII snores}.
+\z
+
+
+It turns out that a sentence by itself is neither true nor false: its truth value can only be determined relative to a specific situation (or state of affairs, or universe of discourse). In the real world at the time that I am writing this chapter (early in the 21\textsuperscript{st} century), the sentence is clearly false, because Henry VIII died in 1547 AD. The sentence may well have been true in, say, 1525 AD; but most speakers of English probably do not know whether or not it was in fact true, because we do not have total knowledge of the state of the world at that time.
+
+
+
+So knowing the meaning of a sentence does not necessarily mean that we know whether or not it is true in a particular situation; but it does mean that we know the kinds of situations in which the sentence would be true. Sentence \REF{ex:3.1} will be true in any universe of discourse in which the individual named \textit{King Henry VIII} has the property of snoring. We will adopt the common view of sentence meanings expressed in \REF{ex:3.2}:
+
+
+\ea \label{ex:3.2}
+“To know the meaning of a [declarative] sentence is to know what the world would have to be like for the sentence to be true.”  (\citealt{DowtyEtAl1981}: 4)
+\z
+
+
+The meaning of a simple declarative sentence is called a \textsc{proposition}. A proposition is a claim about the world which may (in general) be true in some situations and false in others. Some scholars hold that a sentence, as a grammatical entity, cannot have a truth value. Speakers speak truly when they use a sentence to perform a certain type of speech act, namely a statement (making a claim about the world), provided that the meaning (i.e., the sense) of the sentence corresponds to the situation about which the claim is being made. Under this view, when we speak of sentences as being true or false we are using a common but imprecise manner of speaking. It is the proposition expressed by the sentence, rather than the sentence itself, which can be true or false.
+
+
+
+In \sectref{sec:3.2} we will look at various types of propositions: some which must always be true, some which can never be true, and some (the “normal” case) which may be either true or false depending on the situation. In \sectref{sec:3.3} we examine some important truth relations that can exist between pairs of propositions, of which perhaps the most important is the \textsc{entailment} relation. Entailment is a type of inference. We say that proposition \textit{p} “entails” proposition \textit{q} if \textit{p} being true makes it certain that \textit{q} is true as well. Finally, in \sectref{sec:3.4}, we introduce another type of inference known as a \textsc{presupposition}. Presupposition is a complex and controversial topic, but one which will be important in later chapters.
+
+
+\section{Analytic sentences, synthetic sentences, and contradictions}\label{sec:3.2}
+
+We have said that knowing the meaning of a sentence allows us to determine the kinds of situations in which the proposition which it expresses would be true. In other words, the meaning of a sentence determines its \textsc{truth conditions}. Some propositions have the interesting property of being true under all circumstances; there are no situations in which such a proposition would be false. We refer to sentences which express such propositions as \textsc{analytic sentences}, or \textsc{tautologies}. Some examples are given in \REF{ex:3.3}:
+
+
+\ea \label{ex:3.3}
+\ea \textit{Today is the first day of the rest of your life}.\footnote{Attributed to Charles Dederich (1913–1997), founder of the Synanon drug rehabilitation program and religious movement.}\\
+\ex \textit{Que será será}. ‘What will be, will be.’\\
+\ex Is this bill all that I want? Far from it. Is it all that it can be? Far from it. \textit{But when history calls, history calls}.\footnote{Sen. Olympia Snowe explaining her vote in favor of the Baucus health care reform bill, Oct. 2009.}
+                       \z
+\z
+
+
+Because analytic sentences are always true, they are not very informative. The speaker who commits himself to the truth of such a sentence is making no claim at all about the state of the world, because the truth of the sentence depends only on the meaning of the words. But in that case, why would anyone bother to say such a thing? It is important to note that the use of tautologies is not restricted to politicians and pop psychology gurus, who may have professional motivations to make risk-free statements which sound profound. In fact, all of us probably say such things more frequently than we realize. We say them because they do in fact have communicative value; but this value cannot come from the semantic (or truth conditional) content of the utterance. The communicative value of these utterances comes entirely from the pragmatic inferences which they trigger. We will talk in more detail in \chapref{sec:8} about how these pragmatic inferences arise.
+
+
+
+The opposite situation is also possible, i.e. propositions which are false in every imaginable situation. An example is given in \REF{ex:3.4}. Propositions of this type are said to be \textsc{contradictions}. Once again, a speaker who utters a sentence of this type is not making a truth conditional claim about the state of the world, since there are no conditions under which the sentence can be true. The communicative value of the utterance must be derived by pragmatic inference.
+
+
+\ea \label{ex:3.4}
+And a woman who held a babe against her bosom said, “Speak to us of children.”And he said: “\textbf{\textit{Your children are not your children}}. They are the sons and daughters of Life’s longing for itself…”\footnote{From “On Children”, in \textit{The Prophet} (Kahlil Gibran, 1923).}
+\z
+
+
+Propositions which are neither contradictions nor analytic are said to be \textsc{synthetic}. These propositions may be true in some situations and false in others, so determining their truth value requires not only understanding their meaning but also knowing something about the current state of the world or the situation under discussion. Most of the (declarative) sentences that speakers produce in everyday speech are of this type.
+
+
+
+We would expect an adequate analysis of sentence meanings to provide an explanation for why certain sentences are analytic, and why certain others are contradictions. So one criterion for evaluating the relative merits of a possible semantic analysis is to ask how successful it is in this regard.
+
+
+\section{Meaning relations between propositions}\label{sec:3.3}
+
+Consider the pair of sentences in \REF{ex:3.5}. The meanings of these two sentences are related in an important way. Specifically, in any situation for which (\ref{ex:3.5}a) is true, (\ref{ex:3.5}b) must be true as well; and in any situation for which (\ref{ex:3.5}b) is false, (\ref{ex:3.5}a) must also be false. Moreover, this relationship follows directly from the meanings of the two sentences, and does not depend on the situation or context in which they are used.
+
+
+\ea \label{ex:3.5}
+\ea Edward VIII has abdicated the throne in order to marry Wallis Simpson.\\
+\ex Edward VIII is no longer the King.
+                       \z
+\z
+
+
+This kind of relationship is known as \textsc{entailment}; sentence (\ref{ex:3.5}a) \textsc{entails} sentence (\ref{ex:3.5}b), or more precisely, the proposition expressed by (\ref{ex:3.5}a) entails the proposition expressed by (\ref{ex:3.5}b). The defining properties of entailment are those mentioned in the previous paragraph. We can say that proposition \textit{p} entails proposition \textit{q} just in case the following three things are true:\footnote{\citet[29]{Cruse2000}.}
+
+
+\begin{enumerate}[label=(\alph*)]
+ \item whenever \textit{p} is true, it is logically necessary that \textit{q} must also be true;
+ \item whenever \textit{q} is false, it is logically necessary that \textit{p} must also be false;
+ \item these relations follow directly from the meanings of \textit{p} and \textit{q}, and do not depend on the context of the utterance.
+\end{enumerate}
+
+This definition gives us some ways to test for entailments. Intuitively it seems clear that the proposition expressed by (\ref{ex:3.6}a) entails the proposition expressed by (\ref{ex:3.6}b). We can confirm this intuition by observing that asserting (\ref{ex:3.6}a) while denying (\ref{ex:3.6}b) leads to a contradiction (\ref{ex:3.6}c). Similarly, it would be highly unnatural to assert (\ref{ex:3.6}a) while expressing doubt about (\ref{ex:3.6}b), as illustrated in (\ref{ex:3.6}d). It would be unnaturally redundant to assert (\ref{ex:3.6}a) and then state (\ref{ex:3.6}b) as a separate assertion; this is illustrated in (\ref{ex:3.6}e).
+
+
+\ea \label{ex:3.6}
+\ea I broke your Ming dynasty jar.\\
+\ex Your Ming dynasty jar broke.\\
+\ex \#I broke your Ming dynasty jar, but the jar didn’t break.\\
+\ex \#I broke your Ming dynasty jar, but I’m not sure whether the jar broke.\\
+\ex \#I broke your Ming dynasty jar, and the jar broke.
+                       \z
+\z
+
+
+Now consider the pair of sentences in \REF{ex:3.7}. Intuitively it seems that (\ref{ex:3.7}a) entails (\ref{ex:3.7}b); whenever (\ref{ex:3.7}a) is true, (\ref{ex:3.7}b) must also be true, and whenever (\ref{ex:3.7}b) is false, (\ref{ex:3.7}a) must also be false. But notice that (\ref{ex:3.7}b) also entails (\ref{ex:3.7}a). The propositions expressed by these two sentences mutually entail each other, as demonstrated in (\ref{ex:3.7}c--d). Two sentences which mutually entail each other are said to be \textsc{synonymous}, or \textsc{paraphrases} of each other. This means that the propositions expressed by the two sentences have the same truth conditions, and therefore must have the same truth value (either both true or both false) in any imaginable situation.
+
+
+\ea \label{ex:3.7}
+\ea Hong Kong is warmer than Beijing (in December).\\
+\ex Beijing is cooler than Hong Kong (in December).\\
+\ex \#Hong Kong is warmer than Beijing, but Beijing is not cooler than Hong Kong.\\
+\ex \#Beijing is cooler than Hong Kong, but Hong Kong is not warmer than Beijing.
+                       \z
+\z
+
+
+A pair of propositions which cannot both be true are said to be \textsc{inconsistent} or \textsc{incompatible}. Two distinct types of incompatibility have traditionally been recognized. Propositions which must have opposite truth values in every circumstance are said to be \textsc{contradictory}. For example, any proposition \textit{p} must have the opposite truth value from its negation (\textit{not p}) in all circumstances. Thus the pair of sentences in \REF{ex:3.8} are contradictory; whenever the first is true, the second must be false, and vice versa.
+
+
+\ea \label{ex:3.8}
+\ea Ringo Starr is my grandfather.\\
+\ex Ringo Starr is not my grandfather.
+                       \z
+\z
+
+
+On the other hand, it is possible for two propositions to be inconsistent without being contradictory. This would mean that they cannot both be true, but they could both be false in a particular context. We refer to such pairs as \textsc{contrary} propositions. An example is provided in (\ref{ex:3.9}a--b). These two sentences cannot both be true, so (\ref{ex:3.9}c) is contradictory. However, they could both be false in a given situation, so (\ref{ex:3.9}d) is not contradictory.
+
+
+\ea \label{ex:3.9}
+\ea Al is taller than Bill.\\
+\ex Bill is taller than Al.\\
+\ex \#Al is taller than Bill and Bill is taller than Al.\\
+\ex Al is no taller than Bill and Bill is no taller than Al.
+                       \z
+\z
+
+
+Finally, two sentences are said to be \textsc{independent} when they are neither incompatible nor synonymous, and when neither of them entails the other. If two sentences are independent, there is no truth value dependency between the two propositions; knowing the truth value of one will not provide enough information to know the truth value of the other.
+
+
+
+These meaning relations (incompatibility, synonymy, and entailment) provide additional benchmarks for evaluating a possible semantic analysis: how successful is it in predicting or explaining which pairs of sentences will be synonymous, which pairs will be incompatible, etc.?
+
+
+\section{Presupposition}\label{sec:3.4}
+
+\largerpage %longdist
+
+In the previous section we discussed how the meaning of one sentence can entail the meaning of another sentence. Entailment is a very strong kind of inference. If we are sure that \textit{p} is true, and we know that \textit{p} entails \textit{q}, then we can be equally sure that \textit{q} is true. In this section we examine another kind of inference, that is, another type of meaning relation in which the utterance of one sentence seems to imply the truth of some other sentence. This type of inference, which is known as a \textsc{presupposition}, is extremely common in daily speech; it has been intensively studied but remains controversial and somewhat mysterious.
+
+
+
+As a first approximation, let us define presupposition as information which is linguistically encoded as being part of the common ground at the time of utterance. The term \textsc{common ground} refers to everything that both the speaker and hearer know or believe, and know that they have in common. This would include knowledge about the world, such as the fact that (in our world) there is only one sun and one moon; knowledge that is observable in the speech situation, such as what the speaker is wearing or carrying; or facts that have been mentioned earlier in that same conversation (or discourse).
+
+
+
+Speakers can choose to indicate, by the use of certain words or grammatical constructions, that a certain piece of information is part of the common ground. Consider the following example:
+
+
+\ea \label{ex:3.10}
+“Take some more tea,” the March Hare said to Alice, very earnestly.\\
+“I’ve had nothing yet,” Alice replied in an offended tone, “so I can’t take more.”\footnote{Lewis Carroll, \textit{Alice’s Adventures in Wonderland}, Chapter 7: “A Mad Tea-Party”}
+\z
+
+
+By using the word \textit{more} (in the sense which seems most likely in this context, i.e. as a synonym for \textit{additional}) the March Hare implies that Alice has already had some tea, and that this knowledge is part of their common ground at that point in the conversation. The word or grammatical construction which indicates the presence of a presupposition is called a \textsc{trigger}; so in this case we can say that \textit{more} “triggers” the presupposition that she has already had some tea. However, in this example the “presupposed” material is not in fact part of the common ground, because Alice has not yet had any tea. This is a case of \textsc{presupposition failure}, which we might define as an inappropriate use of a presupposition trigger to signal a presupposition which is not in fact part of the common ground at the time of utterance. Notice that Alice is offended — not only by the impoliteness of her hosts in not offering her tea in the first place, but also by the inappropriate use of the word \textit{more}.
+
+
+\subsection{How to identify a presupposition}\label{sec:3.4.1}
+\largerpage
+
+There is an important difference between entailment and presupposition with regard to how the nature of the speech act being performed affects the inference. If \textit{p} entails \textit{q}, then any speaker who states that \textit{p} is true (e.g. \textit{I broke your jar}) is committed to believing that \textit{q} (e.g. \textit{your jar broke}) is also true. However, a speaker who asks whether \textit{p} is true (\textit{Did I break your jar?}) or denies that \textit{p} is true (\textit{I didn’t break your jar}) makes no commitment concerning the truth value of \textit{q}. In contrast, if \textit{p} presupposes \textit{q}, then the inference holds whether the speaker asserts, denies, or asks whether \textit{p} is true. Notice that all of the three sentences in \REF{ex:3.11} imply that the vice president has falsified his dental records. (This presupposition is triggered by the word \textit{regret}.)
+
+
+\ea \label{ex:3.11}
+\ea The vice president regrets that he falsified his dental records.\\
+\ex The vice president doesn’t regret that he falsified his dental records.\\
+\ex Does the vice president regret that he falsified his dental records?
+                       \z
+\z
+
+
+In most cases, if a positive declarative sentence like (\ref{ex:3.12}a) triggers a certain presupposition, that presupposition will also be triggered by a “family” of related sentences (sentences based on the same propositional content) which includes negative assertions, questions, \textit{if}-clauses and certain modalities.\footnote{\citet{ChierchiaMcConnell-Ginet1990}.} For example, (\ref{ex:3.12}a) presupposes that Susan has been dating an Albanian monk; this presupposition is triggered by the word \textit{stop}. All of the other sentences in \REF{ex:3.12} trigger this same presupposition, as predicted.
+
+\ea \label{ex:3.12}
+\ea Susan has stopped dating that Albanian monk.\\ 
+\ex Susan has not stopped dating that Albanian monk.\\
+\ex Has Susan stopped dating that Albanian monk?\\
+\ex If Susan has stopped dating that Albanian monk, I might introduce her to my cousin.\\
+\ex Susan may have stopped dating that Albanian monk.
+                       \z
+\z
+
+
+In addition to the presupposition mentioned above, (\ref{ex:3.12}a) also entails that Susan is not currently dating the Albanian monk; but this entailment is not shared by any of the other sentences in \REF{ex:3.12}. This contrast shows us that presuppositions are preserved under negation, questioning, etc. while entailments are not.\footnote{A more technical way of expressing this is to say that presuppositions \textsc{project} through the operators illustrated in \REF{ex:3.12}, while entailments do not.}
+
+
+
+The “family of sentences” test is one of the most commonly used methods for distinguishing entailments from presuppositions. To offer another example, the statement \textit{The neighbor’s dog killed my cat} presupposes that the speaker owned a cat, and entails that the cat is dead. If the statement is negated (\textit{The neighbor’s dog didn’t kill my cat}) or questioned (\textit{Did the neighbor’s dog kill my cat?}), the presupposition still holds but entailment does not.
+
+
+
+Von Fintel \& Matthewson (\citeyear{vonFintelMatthewson2008}) describe another test for identifying presuppositions. They point out that if a presupposition is triggered which is not in fact part of the common ground, the hearer can appropriately object by saying something like, “Wait a minute, I didn’t know that!” This kind of challenge is not appropriate for information that is simply asserted, since speakers do not usually assert something which they believe that the hearer already knows:
+
+
+\begin{quote}
+A presupposition which is not in the common ground at the time of utterance can be challenged by ‘Hey, wait a minute!’ (or other similar responses). In contrast, an assertion which is not in the common ground cannot be challenged in this way. This is shown in [\ref{ex:3.13}]… The ‘Hey, wait a minute!’ test is the best way we know of to test for presuppositions in a fieldwork context. (\citealt{vonFintelMatthewson2008})\\
+\end{quote}
+
+\ea \label{ex:3.13}
+\begin{itemize}
+\item[A:] The mathematician who proved Goldbach’s Conjecture is a woman.\\
+\item[B$_1$:] Hey, wait a minute. I had no idea that someone proved Goldbach’s Conjecture.\\
+\item[B$_2$:] \#Hey, wait a minute. I had no idea that that was a woman.
+\end{itemize}
+\z
+
+
+A fairly large number of presupposition triggers have been identified in English; a partial listing is presented below. For many of these it seems that translation equivalents in a number of other languages may trigger similar presuppositions, but so far there has been relatively little detailed study of presuppositions in languages other than English.\footnote{Exceptions to this generalization include \citet{LevinsonAnnamalai1992}, \citet{Matthewson2006}, and \citet{TonhauserEtAl2013}.}
+
+
+\begin{enumerate}[label=\alph*.]
+\item Definite descriptions: the use of a definite singular noun phrase, such as Bertrand Russell’s famous example \textit{the King of France}, presupposes that there is a uniquely identifiable individual in the situation under discussion that fits that description. Similarly, the use of a possessive phrase (e.g. \textit{my cat}) presupposes the existence of the possessee (in this case, the existence of a cat belonging to the speaker).
+\item Factive predicates (e.g. \textit{regret, aware, realize, know, be sorry that}) are predicates that presuppose the truth of their complement clauses, as illustrated in \REF{ex:3.11} above.\footnote{\citet{KiparskyKiparsky1970}.}
+\item Implicative predicates: \textit{manage to} presupposes \textit{try; forget to} presupposes \textit{intend to}; etc.
+\item Aspectual predicates: \textit{stop} and \textit{continue} both presuppose that the event under discussion has been going on for some time, as illustrated in \REF{ex:3.12} above; \textit{resume} presupposes that the event was going on but then stopped for some period of time; \textit{begin} presupposes that the event was not occurring before.
+\item Temporal clauses (\ref{ex:3.14}a--b) and restrictive relative clauses (\ref{ex:3.14}c) presuppose the truth of their subordinate clauses, while counterfactuals (\ref{ex:3.14}d) presuppose that their antecedent (\textit{if}) clauses are false (see \chapref{sec:19}). Comparisons like (\ref{ex:3.14}e) presuppose that the relevant statement holds true for the object of comparison.
+\end{enumerate}
+
+\ea \label{ex:3.14}
+\ea Before I moved to Texas, I had never attended a rodeo.\\
+  (presupposes that the speaker moved to Texas)
+
+  \ex While his wife was in the hospital, John worked a full 40 hour week.\\
+  (presupposes that John’s wife was in the hospital)
+
+  \ex “I’m looking for the man who killed my father.”\footnote{Maddie Ross in the movie \textit{True Grit}.} \\
+  (presupposes that some man killed the speaker’s father)
+
+  \ex If you had not written that letter, I would not have to fire you.\\
+  (presupposes that the hearer did write that letter) 
+
+  \ex Jimmy isn’t as unpredictably gauche as Billy.\footnote{\citet[183]{Levinson1983}.}\\
+  (presupposes that Billy is unpredictably gauche)
+                       \z
+                       \z
+
+
+The tests mentioned above seem to work for all of these types, but in other respects it seems that different kinds of presupposition have slightly different properties. This is one of the major challenges in analyzing presuppositions. We return in \chapref{sec:8} to the issue of how to distinguish between different kinds of inference.
+
+
+\subsection{Accommodation: a repair strategy}\label{sec:3.4.2}
+
+Recall that we defined presuppositions as “information which is \textsc{linguistically encoded} as being part of the common ground at the time of utterance.” We crucially did not require that implied information actually \textsc{be} part of the common ground in order to count as a presupposition. We have already seen one outcome that may result from the use of presupposition triggers which do not accurately reflect the common ground at the time of utterance, namely presupposition failure (\ref{ex:3.10} above). Another example of presupposition failure is provided in \REF{ex:3.15}, taken from the 1939 movie \textit{The Wizard of Oz}:
+
+\ea \label{ex:3.15}
+\z
+\begin{tabular}{l p{10cm}} 
+Glinda: & Are you a good witch or a bad witch?\\
+Dorothy: & Who, me?  I’m not a witch at all.  I’m Dorothy Gale, from Kansas.\\
+Glinda: & Well, is that the witch?\\
+Dorothy: & Who, Toto?  Toto’s my dog.\\
+Glinda: & Well, I’m a little muddled. The Munchkins called me because a new witch has just dropped a house on the Wicked Witch of the East. And there’s the house, and here you are and that’s all that’s left of the Wicked Witch of the East. What the Munchkins want to know is, are you a good witch or a bad witch?
+\end{tabular}
+\bigskip 
+
+
+Glinda’s first question presupposes that one of the two specified alternatives (\textit{good witch} vs. \textit{bad witch}) is true of Dorothy, and both of these would entail that Dorothy is a witch. Dorothy rejects this presupposition quite vigorously. Glinda’s second question (\textit{Is that the witch?)}, and in particular her use of the definite article, presupposes that there is a uniquely identifiable witch in the context of the conversation. The fact that these false inferences are triggered by questions is a strong hint that they are presuppositions rather than entailments.
+
+
+
+Glinda’s questions in this passage trigger presuppositions which Dorothy contests, because these inferences are not part of the common ground. However, presupposition failure is not the only possible outcome with such inferences. Another possibility is that the hearer, confronted with a mismatch between a presupposition trigger and the current common ground, may choose to accept the presupposition as if it were part of the common ground; in effect, to add it to the common ground. This is most likely to happen if the presupposed information is uncontroversial and consistent with all information that is already part of the common ground; something that the hearer would immediately accept if the speaker asserted it. For example, suppose I notice that you have not slept well and you explain by saying \textit{My cat got stuck on the roof last night}; and suppose that I did not previously know you had a cat. Technically the presupposition triggered by the possessive phrase \textit{my cat} is not part of the common ground, but I am very unlikely to object or to consider your statement in any way inappropriate. Instead, I will add to my model of the common ground the fact that you own a cat. This process is called \textsc{accommodation}.
+
+
+
+It is not uncommon for speakers to encode new information as a presupposition, expecting it to be accommodated by the hearer. For this reason, definitions which state that presuppositions “must be mutually known or assumed by the speaker and addressee for the utterance to be considered appropriate in context” are misleading.\footnote{See for example \url{http://en.wikipedia.org/wiki/Presupposition}.} This fact has long been recognized in discussions of presupposition, as the following quotes illustrate:
+
+
+\begin{quote}
+I am asked by someone who I have just met, ``Are you going to lunch?'' I reply, ``No, I’ve got to pick up my sister.'' Here I seem to presuppose that I have a sister even though I do not assume that the speaker knows this. \citep[202]{Stalnaker1974}. 
+\end{quote}
+
+\begin{quote}
+It is quite natural to say to somebody... ``My aunt’s cousin went to that concert,'' when one knows perfectly well that the person one is talking to is very likely not even to know that one had an aunt, let alone know that one’s aunt had a cousin. So the supposition must be not that it is common knowledge but rather that it is non-controversial, in the sense that it is something that you would expect the hearer to take from you (if he does not already know). \citep[190]{Grice1981}
+\end{quote}
+
+\subsection{Pragmatic vs. semantic aspects of presupposition}\label{sec:3.4.3}
+
+Thus far we have treated presupposition primarily as a pragmatic issue. We defined it in terms of the common ground between a specific speaker and hearer at a particular moment, a pragmatic concept since it depends heavily on the context of the utterance and the identity of the speech act participants. Presupposition failure, where accommodation is not possible, causes the utterance to be pragmatically inappropriate or \textsc{infelicitous}.\footnote{We will give a more precise explanation of the term \textsc{infelicitous} in \chapref{sec:10}, as part of our discussion of speech acts.} In contrast, we defined entailment in purely semantic terms: an entailment relation between two propositions must follow directly from the meanings of the propositions, and does not depend on the context of the utterance.
+
+
+
+It turns out that presuppositions can have semantic effects as well. We have said that knowing the meaning (i.e. semantic content) of a sentence allows us to determine its truth value in any given situation. Now suppose a speaker utters (\ref{ex:3.16}a) in our modern world, where there is no King of France; or (\ref{ex:3.16}b) in a context where the individual John has no children; or (\ref{ex:3.16}c) in a context where John’s wife had not been in the hospital. Under those circumstances, the sentences would clearly not be true; but would we want to say that they are false? If they were false, then their denials should be true; but the negative statements in \REF{ex:3.17}, if read with normal intonation, would be just as “un-true” as their positive counterparts in the contexts we have just described.
+
+
+\ea \label{ex:3.16}
+\ea The present King of France is bald.\footnote{Adapted from \citet{Russell1905}.} \\
+\ex John’s children are very well-behaved.\\
+\ex While his wife was in the hospital, John worked a full 40 hour week.
+                       \z
+\z
+
+\ea \label{ex:3.17}
+\ea The present King of France is not bald.\\
+\ex John’s children are not very well-behaved.\\
+\ex While his wife was in the hospital, John did not work a full 40 hour week.
+                       \z
+\z
+
+
+We have already noted that the presupposition failure triggered by such statements makes them pragmatically inappropriate; but examples like (\ref{ex:3.16}--\ref{ex:3.17}) show that, at least in some cases, presupposition failure can also make it difficult to assign the sentence a truth value. Some of the earliest discussions of presuppositions defined them in purely semantic, truth-conditional terms:\footnote{e.g. \citet{Frege1892}; \citet{Strawson1950,Strawson1952}.} “One sentence \textsc{presupposes} another just in case the latter must be true in order that the former have a truth value at all.”\footnote{\citet[447]{Stalnaker1973}, summarizing the positions of Strawson and Frege. Stalnaker himself argued for a pragmatic analysis.}
+
+
+
+Under this definition, presupposition failure results in a truth-value “gap”, or indeterminacy. But there are other cases where presupposition failure does not seem to have this effect. For example, if (\ref{ex:3.18}a) were spoken in a context where the vice president had not falsified his dental records, or (\ref{ex:3.18}b) in a context where Susan had never dated an Albanian monk, these sentences would be pragmatically inappropriate because of the presupposition failure. But it also seems reasonable to say they are false (the vice president can’t regret something he never did; Susan can’t stop doing something she never did), and that their negative counterparts in \REF{ex:3.19} have at least one reading (or sense) which is true. 
+
+
+\ea \label{ex:3.18}
+\ea The vice president regrets that he falsified his dental records.\\
+\ex Susan has stopped dating that Albanian monk.
+\z
+                       \z
+
+\ea \label{ex:3.19}
+\ea The vice president doesn’t regret that he falsified his dental records.\\
+\ex Susan has not stopped dating that Albanian monk.
+                       \z
+\z
+
+
+However, there are various complications concerning the way negation gets interpreted in examples like \REF{ex:3.19}. For example, intonation can affect the interpretation of the sentence. We will return to this issue in \chapref{sec:8}.
+
+
+\section{Conclusion}\label{sec:3.5}
+
+The principle that the meaning of a sentence determines its truth conditions (i.e., the kinds of situations in which the proposition it expresses would be true) is the foundation for most of what we talk about in this book, including word meanings. A proposition is judged to be true if it corresponds to the situation about which a claim is made.
+
+
+
+A major goal of semantic analysis is to explain how a sentence gets its meaning, that is, why a given form has the particular meaning that it does. In this chapter we have mentioned a few benchmarks for success, things that we would expect an adequate analysis of sentence meanings to provide for us. These benchmarks include explaining why certain sentences are analytic (always true) or contradictions (never true); and predicting which pairs of sentences will be synonymous (always having the same truth value in every possible situation), incompatible (cannot both be true), etc.
+
+
+
+In this chapter we have introduced two very important types of inference, entailment and presupposition, which we will refer to in many future chapters. Entailment is strictly a semantic relation, whereas presupposition has to do with pragmatic issues such as managing the common ground and appropriateness of use. However, we have suggested that presupposition failure can sometimes block the assignment of truth values as well.
+
+
+
+\furtherreading{
+
+
+
+Good basic introductions to the study of logic are presented in \citet[ch. 3]{AllwoodEtAl1977} and \citet[ch. 1]{Gamut1991a}. The literature dealing with presupposition is enormous. Helpful overviews of the subject are presented in \citet[ch. 4]{Levinson1983}, \citet{GeurtsBeaver2011}, 
+\citet[ch. 9]{ZimmermannSternefeld2013}, and 
+\citet[ch. 5]{Birner20122013}. \citet{Potts2015} also provides a good summary, including a comparison of presuppositions with conventional implicatures (which we will discuss in chapters \ref{sec:8} and \ref{sec:11}). \Citet[§4.1]{vonFintelMatthewson2008} discuss cross-linguistic issues.
+}
+
+\discussionexercises{
+\paragraph*{A: Classifying propositions.}
+
+State whether the propositions expressed by the following sentences are analytic, synthetic, or contradictions: \\
+
+\begin{enumerate}[noitemsep]
+\item   My sister is a happily married bachelor.
+\item  Even numbers are divisible by two.
+\item  All dogs are brown.
+\item  All dogs are animals.
+\item  The earth revolves around the sun.
+\item  The sun does not shine at night.
+\item  CO\textsubscript{2} becomes a solid when it boils.
+\end{enumerate}
+
+
+\paragraph*{B: Relationships between propositions.}
+
+Identify the relationship between the following pairs of propositions (\textsc{entailment, paraphrase, contrary, contradictory, independent}):
+
+\setcounter{equation}{0}
+\ea
+\ea John killed the wasp.\\
+\ex The wasp died. 
+\z
+\z
+
+\ea\ea John killed the wasp.\\
+\ex The wasp did not die. 
+\z
+\z
+
+\ea\ea The wasp is alive.\\
+\ex The wasp is dead. 
+\z
+\z
+
+\ea\ea The wasp is no longer alive.\\
+\ex The wasp is dead. 
+\z
+\z
+
+\ea\ea That boy is my son.\\
+\ex I am that boy’s parent. 
+\z
+\z
+
+\ea\ea Fido is a dog.\\
+\ex Fido is a cat. 
+\z
+\z
+
+\ea\ea Fido is a dog.\\
+\ex Fido has four legs. 
+\z
+\z
+
+\paragraph*{C: Presuppositions.}
+
+Identify the presuppositions and presupposition\\ triggers in the following examples:
+\begin{enumerate}[noitemsep]
+\item  John’s children are very well-behaved.
+\item Susan has become a vegan.
+\item Bill forgot to call his uncle.
+\item After he won the lottery, John had to get an unlisted phone number.
+\item  George is sorry that he broke your Ming dynasty jar.
+\end{enumerate}
+
+\paragraph*{D: Presuppositions vs. entailments.}
+
+Show how you could use the negation and/or question tests to decide whether the (a) sentence \textsc{entails} or \textsc{presupposes} the (b) sentence. Evaluate the two sentences if spoken by the same speaker at the same time and place. [adapted from \citet[114, ex. 4.8]{Saeed2009}]
+ 
+ \setcounter{equation}{0}
+\ea%1 
+\ea {Dave knows that Jim crashed the car}.\\
+\ex {Jim crashed the car}.\\
+\medskip
+
+\veryshortmodelanswer{Model answer}{The statement \textit{Dave knows that Jim crashed the car}, its negation \textit{Dave doesn’t know that Jim crashed the car}, and the corresponding question \textit{Does Dave know that Jim crashed the car?} all lead the hearer to infer that Jim crashed the car. This suggests that the inference is a presupposition.}
+\z 
+\z
+
+\ea%2 
+\ea  {Zaire is bigger than Alaska}.\\
+\ex {Alaska is smaller than Zaire}.
+\z \z
+
+\ea%3 
+
+    \ea{The minister blames her secretary for leaking the memo to the press}.\\
+\ex {The memo was leaked to the press}.
+\z \z
+
+\ea%4 
+\ea {Everyone passed the examination}.\\
+\ex {No one failed the examination}.
+\z 
+\z
+
+\ea%5 
+\ea {Mr. Singleton has resumed his habit of drinking stout}.\\
+\ex {Mr. Singleton had a habit of drinking stout}.
+    \z 
+    \z
+}
+
+% \subsection*{Homework exercises}
+
+\newpage 
+\homeworkexercises{
+\paragraph*{A: Classifying propositions.}
+
+Classify the following sentences as analytic, synthetic, or contradictions.
+ 
+\begin{enumerate}[noitemsep]
+\item  {If it rains, we’ll get wet.}\\[1em]
+ 
+  \shortmodelanswer{Model answer:}{Sentence 1. is synthetic, since we can imagine some contexts in which the sentence will be true, and other contexts in which it will be false (e.g., if I carry an umbrella).}
+\medskip
+\item  {If that snake is not dead then it is alive}.
+\item  {Shanghai is the capital of China}.
+\item  {My brother is an only child}.
+\item  {Abraham Lincoln was the 16\textsuperscript{th}} {president of the United States}. 
+\end{enumerate}
+
+\paragraph*{B: Relationships between propositions.}
+
+Identify the relationship between the following pairs of propositions (\textsc{entailment, paraphrase, contrary,} \textsc{contradictory,} \textsc{independent}):
+
+\ea
+  \parbox{6cm}{a. {Michael is my advisor}.}  b. {I am Michael’s advisee}.
+\z
+
+\ea
+  \parbox{6cm}{a. {Stewball was a race horse}.}  b. {Stewball was a mammal}.
+\z
+
+\ea
+  \parbox{6cm}{a. {Elvis died of cardiac arrhythmia}.}  b. {Elvis is alive}.
+\z
+
+\paragraph*{C: Identifying entailments.}
+
+For each pair of sentences, decide whether sentence (a)  \textsc{entails} sentence (b). The two sentences should be evaluated as if spoken by the same speaker at the same time and place; so, for example, repeated names and definite NPs refer to the same individuals.
+
+\setcounter{equation}{0}
+\ea%1 
+\ea {Olivia passed her driving test}.\\
+\ex {Olivia didn’t fail her driving test}.\\
+\shortmodelanswer{Model answer:}{If a is true, b must be true; if b is false, a must be false; this follows from the meanings of the sentences, and does not depend on context. So a entails b.}
+    \z
+    \z
+    
+\ea%2 
+\ea
+{Fido is a dog}.\\
+\ex {Fido has four legs}.
+    \z\z
+  
+  
+\ea%3 
+\ea {That boy is my son}.\\
+\ex {I am that boy’s parent}.
+    \z
+    \z
+    
+\ea%4 
+\ea {Not all of our students will graduate}.\\
+\ex {Some of our students will graduate}.
+    \z \z
+
+\paragraph*{D: Presuppositions vs. entailments.}
+
+Show how you could use the negation test to decide whether the (a) sentence \textsc{entails} or \textsc{presupposes} the (b) sentence. Again, evaluate the two sentences as being spoken by the same speaker at the same time and place.
+ 
+ \setcounter{equation}{0}
+\ea%1 
+\ea {The boss realized that Jim was lying}.\\
+\ex {Jim was lying}.\\
+\shortmodelanswer{Model answer:}{Both \textit{The boss realized that Jim was lying} and \textit{The boss didn’t realize that Jim was lying} lead the hearer to infer that Jim was lying. This suggests that the inference is a presupposition.}
+    \z
+\z
+
+
+\ea%2 
+\ea {Singapore is south of Kuala Lumpur}.\\
+\ex {Kuala Lumpur is north of Singapore}.
+    \z
+\z
+
+\ea%3 
+\ea {I am sorry that Arthur was fired}.\\
+\ex {Arthur was fired}.
+    \z
+\z
+
+\ea%4 
+\ea {Nobody is perfect}.\\
+\ex {Everybody is imperfect}.
+    \z
+\z
+
+\ea%5 
+\ea {Leif Erikson returned to Greenland}.\\
+\ex {Leif Erikson had previously visited Greenland}.
+    \z
+\z
+}

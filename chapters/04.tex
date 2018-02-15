@@ -1,18 +1,25 @@
 \chapter{The logic of truth}\label{sec:4}
+\begin{flushright} 
+\parbox{.7\textwidth}{
+\footnotesize\itshape 
+ LOGIC, n.  The art of thinking and reasoning in strict accordance with the limitations and incapacities of the human misunderstanding. The basic of logic is the syllogism, consisting of a major and a minor premise and a conclusion — thus:\\
 
-\begin{quotation}LOGIC, n.  The art of thinking and reasoning in strict accordance with the limitations and incapacities of the human misunderstanding. The basic of logic is the syllogism, consisting of a major and a minor premise and a conclusion — thus:
+\begin{tabular}{l p{6cm}}
+Major Premise: & Sixty men can do a piece of work sixty times as quickly as one man.\\
 
-\begin{quote}
-Major Premise: Sixty men can do a piece of work sixty times as quickly as one man.
+Minor Premise: & One man can dig a posthole in sixty seconds;\\
+& therefore,\\
 
-Minor Premise: One man can dig a posthole in sixty seconds; therefore —
+Conclusion: & Sixty men can dig a posthole in one second.\\
+\end{tabular} \\
 
-Conclusion: Sixty men can dig a posthole in one second.
-\end{quote}
+\noindent
+This may be called the syllogism arithmetical, in which, by combining logic and mathematics, we obtain a double certainty and are twice blessed.
 
-This may be called the syllogism arithmetical, in which, by combining logic and mathematics, we obtain a double certainty and are twice blessed.\\
-{}[entry from \textit{The Devil’s Dictionary} by Ambrose Bierce 1911]
-\end{quotation}
+{\hfill} [entry from \textit{The Devil’s Dictionary} by Ambrose Bierce 1911]\\ 
+}
+\end{flushright}
+
 
 \section{What logic can do for you}\label{sec:4.1}
 
@@ -76,6 +83,8 @@ As we will see, the kind of inference illustrated in \REF{ex:4.1} does not depen
 Premise 2: \textit{Socrates is a man}.\\
 \FelixHRule
 Conclusion: \textit{Therefore,} \textit{Socrates is mortal.}
+\bigskip 
+
 \ex Premise 1: \textit{Arthur is a lawyer.}\\
 Premise 2: \textit{Arthur is honest}.\\
 \FelixHRule
@@ -102,7 +111,7 @@ This inference is not determined by the meanings of logical words or quantifiers
 
 
 
-It is important to remember that a valid form of inference does not (by itself) guarantee a true conclusion. For example, the inferences in \REF{ex:4.4} both make use of a valid pattern discussed in \sectref{sec:3.2}, which is called \textsc{Modus Tollens} ‘method of rejecting/denying’:
+It is important to remember that a valid form of inference does not (by itself) guarantee a true conclusion. For example, the inferences in \REF{ex:4.4} both make use of a valid pattern discussed in \sectref{sec:4.3.2}, which is called \textsc{Modus Tollens} ‘method of rejecting/denying’:
 
 
 \ea \label{ex:4.4}
@@ -110,6 +119,8 @@ It is important to remember that a valid form of inference does not (by itself) 
 Premise 2: \textit{Dolphins are not cold-blooded}.\\
 \FelixHRule
 Conclusion: \textit{Dolphins are not fish}.
+\bigskip 
+
 \ex Premise 1: \textit{If salmon are fish, they are cold-blooded.}\\
 Premise 2: \textit{Salmon are not cold-blooded}.\\
 \FelixHRule
@@ -130,6 +141,8 @@ Example (\ref{ex:4.4}b) shows that a false conclusion does not necessarily mean 
 }Premise 1: \textit{Crocodiles are not mammals}.\\
 \FelixHRule
 Conclusion: \textit{Crocodiles are not warm-blooded}.
+\bigskip 
+
 \ex  Premise 1: \textit{If bats are birds, then they have wings.}\\
 Premise 1: \textit{Bats are not birds}.\\
 \FelixHRule
@@ -212,7 +225,7 @@ The operator $\vee$ ‘or’ is defined by the truth table in \REF{ex:4.8}. This
 \end{tabular}
 }
 
-In spoken English we often use the word \textit{or} to mean ‘either … or … but not both’. For example, this is normally the usage that we intend when we ask, “Would you like white wine or red?” Table \REF{ex:4.9} shows how we would define this \textsc{exclusive} “sense” of \textit{or}, abbreviated here as \textit{XOR}. The table says that \textit{p XOR q} will be true whenever either p or q is true, but not both; it is false whenever p and q have the same truth value. (We will return in \chapref{sec:9} to the question of whether we should consider the English word \textit{or} to have two distinct senses.)
+In spoken English we often use the word \textit{or} to mean ‘either … or … but not both’. For example, this is normally the usage that we intend when we ask, “Would you like white wine or red?” Table \REF{ex:4.9} shows how we would define this \textsc{exclusive} “sense” of \textit{or}, abbreviated here as \textit{XOR}. The table says that \textit{p XOR q} will be true whenever either \textit{p} or \textit{q} is true, but not both; it is false whenever \textit{p} and \textit{q} have the same truth value. (We will return in \chapref{sec:9} to the question of whether we should consider the English word \textit{or} to have two distinct senses.)
 
 
 \eabox{ \label{ex:4.9}
@@ -246,18 +259,18 @@ The \textsc{material} \textsc{implication} operator (→) is defined by the trut
 \end{tabular}
 }
 
-In order to get an intuitive sense of what this definition means, suppose that a mother says to her children, \textit{If it rains this afternoon I will take you to a movie}. Under what circumstances would the mother be considered to have spoken falsely? In applying the truth table we let \textit{p} represent \textit{it rains this afternoon} and \textit{q} represent \textit{I will take you to a movie}. Now suppose that it does not rain. In that case \textit{p} is false, and whether the family goes to a movie or not, no one would accuse the mother of lying or breaking her promise; and this is what the truth table predicts. If it does rain, then \textit{p} is true; and if the mother takes her children to a movie, she has spoken the truth. Only if it rains but she does not take her children to a movie would her statement be considered false. Again, this is just what the truth table predicts. (It turns out that the material implication operator of standard logic does not always correspond to our intuitions about English \textit{if}, and we will have much more to say about this in \chapref{sec:19}.)
+In order to get an intuitive sense of what this definition means, suppose that a mother says to her children, \textit{If it rains this afternoon, I will take you to a movie}. Under what circumstances would the mother be considered to have spoken falsely? In applying the truth table we let \textit{p} represent \textit{it rains this afternoon} and \textit{q} represent \textit{I will take you to a movie}. Now suppose that it does not rain. In that case \textit{p} is false, and whether the family goes to a movie or not, no one would accuse the mother of lying or breaking her promise; and this is what the truth table predicts. If it does rain, then \textit{p} is true; and if the mother takes her children to a movie, she has spoken the truth. Only if it rains but she does not take her children to a movie would her statement be considered false. Again, this is just what the truth table predicts. (It turns out that the material implication operator of standard logic does not always correspond to our intuitions about English \textit{if}, and we will have much more to say about this in \chapref{sec:19}.)
 
 
 
-For convenience we will introduce one additional operator here, which is referred to as the \textsc{biconditional} operator (\textit{$\leftrightarrow $}). The formula \textit{p$\leftrightarrow $}\textit{q} (read as ‘p if and only if q’) is a short-hand or abbreviation for: (\textit{p}→\textit{q) $\wedge$} \textit{(q}→\textit{p)}. The biconditional operator is defined by the truth table in \REF{ex:4.11}:
+For convenience we will introduce one additional operator here, which is referred to as the \textsc{biconditional} operator (↔). The formula \textit{p}↔\textit{q} (read as ‘p if and only if q’) is a short-hand or abbreviation for: (\textit{p}→\textit{q) $\wedge$} \textit{(q}→\textit{p)}. The biconditional operator is defined by the truth table in \REF{ex:4.11}:
 
 
 \eabox{ \label{ex:4.11}
 \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
- p & q & p $\leftrightarrow $ q\\\midrule
+ p & q & p$\leftrightarrow $q\\\midrule
 }
  \sffamily T & \sffamily T & \sffamily T\\
  \sffamily T & \sffamily F & \sffamily F\\
@@ -267,7 +280,7 @@ For convenience we will introduce one additional operator here, which is referre
 \end{tabular}
 }
 
-This table says that \textit{p}$\leftrightarrow $\textit{q} is true just in case \textit{p} and \textit{q} have the same truth value. Suppose the mother in our previous example had said \textit{I will take you to a movie if and only if it rains this afternoon}. If it did not rain but she took her children to a movie anyway, the truth table says that she would have spoken falsely. This prediction seems linguistically correct, although her children would very likely have forgiven her in this case.
+This table says that \textit{p}↔\textit{q} is true just in case \textit{p} and \textit{q} have the same truth value. Suppose the mother in our previous example had said \textit{I will take you to a movie if and only if it rains this afternoon}. If it did not rain but she took her children to a movie anyway, the truth table says that she would have spoken falsely. This prediction seems linguistically correct, although her children would very likely have forgiven her in this case.
 
 
 
@@ -293,9 +306,11 @@ In addition to using truth tables to define logical operators, we can also use t
 
 The proposition we are trying to prove (\textit{p$\vee$}\textit{(¬}\textit{p)}) is an \textit{or} statement; that is, the highest operator is $\vee$. The two propositions conjoined by $\vee$ are \textit{p} and \textit{¬p}. We already have a column for the truth values of \textit{p}, so the next step is to create a column for the corresponding truth values of \textit{¬p}, as shown in (\ref{ex:4.12}b).
 
-\usecounter{equation}\setcounter{equation}{11}
+\setcounter{equation}{11}
 \eabox{
-\begin{xlista} \exi{b.} \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
+\begin{xlist} 
+\setcounter{xnumii}{1}
+\exbox{\begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
  p & ¬p & p$\vee$(¬p)\\\midrule
@@ -304,15 +319,19 @@ The proposition we are trying to prove (\textit{p$\vee$}\textit{(¬}\textit{p)})
  \sffamily F & \sffamily T & \\
 \lspbottomrule
 \end{tabular}
-\end{xlista} 
+}
+\end{xlist}
 }
 
+\largerpage
 The final step in the proof is to calculate the possible truth values of the proposition \textit{p$\vee$}\textit{(¬}\textit{p)}, using the truth table in \REF{ex:4.8} which defines the \textit{$\vee$} operator. The result is shown in (\ref{ex:4.12}c). 
 
 
 \usecounter{equation}\setcounter{equation}{11}
 \eabox{
-\begin{xlista} \exi{c.} \begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
+\begin{xlist}
+\setcounter{xnumii}{2}
+\exbox{\begin{tabular}[t]{>{\sffamily}c>{\sffamily}c>{\sffamily}c}
 \lsptoprule
 \tablehead{
  p & ¬p & p$\vee$(¬p)\\\midrule
@@ -321,9 +340,11 @@ The final step in the proof is to calculate the possible truth values of the pro
  \sffamily F & \sffamily T & \sffamily T\\
 \lspbottomrule
 \end{tabular}
-\end{xlista} }
+}
+\end{xlist} 
+}
 
-Notice that both cells in the right-most column contain T. This means that the formula is always true, under any circumstances; in other words, it is a tautology. The truth of this tautology does not depend in any way on the meaning of \textit{p}, but only on the definitions of the logical operators \textit{$\vee$} and \textit{¬}. Propositions which are necessarily true just because of their logical structure (regardless of the meanings of words they contain) are sometimes said to be “logically true”.
+Notice that both cells in the right-most column contain T. This means that the formula is always true, under any circumstances; in other words, it is a tautology. The truth of this tautology does not depend in any way on the meaning of \textit{p}, but only on the definitions of the logical operators $\vee$ and ¬. Propositions which are necessarily true just because of their logical structure (regardless of the meanings of words they contain) are sometimes said to be “logically true”.
 
 
 
@@ -342,7 +363,7 @@ Suppose we change the \textit{or} in the previous example to \textit{and}. This 
 \end{tabular}
 }
 
-Now let us consider a slightly more complex example: \textit{((p$\vee$q) $\wedge$ (¬p))} → \textit{q}. To construct a truth table which will allow us to evaluate this formula, we begin by putting the basic propositions \textit{p} and \textit{q} in the left-hand columns (1\& 2). We put the complete formula that we want to prove in the far right column (6). We introduce a new column for each constituent part of the complete formula and calculate truth values for each cell, building from left to right, as seen in \REF{ex:4.14}. First, columns 1 \& 2 are used to construct column 3, based on the truth table for \textit{$\vee$}. Next, column 4 is calculated from column 1. Columns 3 \& 4 are used to construct column 5, based on the truth table for \textit{$\wedge$}. Finally, columns 2 \& 5 are used to construct column 6, based on the truth table for →.
+Now let us consider a slightly more complex example: \textit{((p$\vee$q) $\wedge$ (¬p))} → \textit{q}. To construct a truth table which will allow us to evaluate this formula, we begin by putting the basic propositions \textit{p} and \textit{q} in the left-hand columns (1\&2). We put the complete formula that we want to prove in the far right column (6). We introduce a new column for each constituent part of the complete formula and calculate truth values for each cell, building from left to right, as seen in \REF{ex:4.14}. First, columns 1 \& 2 are used to construct column 3, based on the truth table for \textit{$\vee$}. Next, column 4 is calculated from column 1. Columns 3 \& 4 are used to construct column 5, based on the truth table for \textit{$\wedge$}. Finally, columns 2 \& 5 are used to construct column 6, based on the truth table for →.
 
 
 \eabox{ \label{ex:4.14}
@@ -361,9 +382,9 @@ Now let us consider a slightly more complex example: \textit{((p$\vee$q) $\wedge
 
 Notice that every cell in the right-most column contains T. This means that the formula is always true, under any circumstances; in other words, it is a tautology. Furthermore, the truth of this tautology does not depend in any way on the meanings of \textit{p} and \textit{q}, but only on the definitions of the logical operators. This tautology predicts that whenever a proposition of the form \textit{((p$\vee$q) $\wedge$ (¬p))} is true, the proposition \textit{q} must also be true. For example, it explains why the sentence cited at the beginning of \sectref{sec:4.2} (\textit{Either Joe is crazy or he is lying, and he is not crazy}) must entail \textit{Joe is lying}. A similar entailment relation will hold for any other pair of sentences that have the same logical structure.
 
+As mentioned above, it is helpful to check the predictions of the logical formalism against our intuition as speakers by “translating” the formulae into English or some other human language (i.e., replacing the variables \textit{p} and \textit{q} with sentences that express propositions). We noted at the beginning of \sectref{sec:4.2} that when we hear the sentence \textit{Either Joe is crazy or he is lying, and he is not crazy}, we seem to reach the conclusion \textit{Joe is lying} automatically and without effort. It takes a bit more effort to process a formula like \textit{((p$\vee$q) $\wedge$ (¬p))}, but the table in \REF{ex:4.14} shows that the logical implication of this formula matches our intuition about the corresponding sentence.
 
-
-Now consider the biconditional formula \textit{(p$\vee$q) $\leftrightarrow $ ¬((¬p) $\wedge$ (¬q))}. Using the procedure outlined above, we can construct the truth table in \REF{ex:4.15}. First, columns 1 \& 2 are used to construct column 3, based on the truth table for \textit{$\vee$}. Next, columns 4 \& 5 are used to construct column 6, based on the truth table for \textit{$\wedge$}. Column 7 is calculated from column 6, and finally columns 3 \& 7 are used to construct column 8, based on the truth table for \textit{$\leftrightarrow $}.
+Now consider the biconditional formula \textit{(p$\vee$q)} ↔ \textit{¬((¬p) $\wedge$ (¬q))}. Using the procedure outlined above, we can construct the truth table in \REF{ex:4.15}. First, columns 1 \& 2 are used to construct column 3, based on the truth table for \textit{$\vee$}. Next, columns 4 \& 5 are used to construct column 6, based on the truth table for \textit{$\wedge$}. Column 7 is calculated from column 6, and finally columns 3 \& 7 are used to construct column 8, based on the truth table for \textit{$\leftrightarrow $}.
 
 
 \eabox{ \label{ex:4.15}
@@ -403,12 +424,12 @@ As we noted in an earlier chapter, tautologies are not very informative because 
 
 Modus Ponens defines one of the valid ways of deriving an inference from a conditional statement. It says that if we know that \textit{p→q} is true, and in addition we know or assume that \textit{p} is true, it is valid to infer that \textit{q} is true. An illustration of this pattern of inference is presented as a \textsc{syllogism} in \REF{ex:4.17}.
 
-
+\settowidth\jamwidth{(p→q)}
 \ea \label{ex:4.17}
-Premise 1: \textit{If John is Estonian he will like this book.}  (p→q)\\
-Premise 2: \textit{John is Estonian}.   (p)\\
+Premise 1: \textit{If John is Estonian, he will like this book.}   \jambox{(p→q)}
+Premise 2: \textit{John is Estonian}.    \jambox{(p)}
 \FelixHRule
-Conclusion: \textit{He will like this book}.   (q)
+Conclusion: \textit{He will like this book}.   \jambox{(q)}
 \z
 
 
@@ -438,7 +459,7 @@ Conclusion: \textit{Dolphins are mammals}.   \jambox{(q)}
 \z
 
 
-Finally, the tautology known as the \textsc{Hypothetical} \textsc{Syllogism} is illustrated in \REF{ex:4.20}.
+Finally, the tautology known as the \textsc{Hypothetical} \textsc{Syllogism} is given in \REF{ex:4.20}.
 
 
 \ea \label{ex:4.20}
@@ -449,19 +470,8 @@ Premise 2: \textit{If Mickey is a mammal, he is warm-blooded}.  \jambox{(q→r)}
 Conclusion: \textit{If Mickey is a rodent, he is warm-blooded}.  \jambox{(p→r)}
 \z
 
-\ea \label{ex:4.21}
-\ea \textit{All men are mortal.}\\
-\textit{Socrates is a man}.\\
-\FelixHRule
-\textit{Therefore,} \textit{Socrates is mortal.}
-\ex \textit{Arthur is a lawyer.}\\
-\textit{Arthur is honest}.\\
-\FelixHRule
-\textit{Therefore,} \textit{some (= at least one) lawyer is honest.}
-\z \z
-
 The propositional logic outlined in this section is an important part of the logical metalanguage for semantic analysis, but it is not sufficient on its own because it is concerned only with truth values. We need a way to go beyond \textit{p} and \textit{q}, to represent the actual meanings of the basic propositions we are dealing with. \textsc{Predicate logic} gives us a way to include information about word meanings in logical expressions.
-
+\newpage 
 
 \section{Predicate logic}\label{sec:4.4}
 
@@ -484,8 +494,8 @@ Each of these sentences describes a property, event or relationship. The element
 In our logical notation we will write predicates in capital letters (to distinguish them from normal English words) and without inflectional morphology. We follow the common practice of using lower case initials to represent proper names. For predicates which require two arguments, the agent or experiencer is normally listed first. So the simple sentence \textit{John is hungry} would be translated into the logical metalanguage as HUNGRY(j), while the sentence \textit{John loves Mary} would be translated LOVE(j,m). Some additional examples are shown in \REF{ex:4.23}.
 
 
-\ea\label{ex:4.23}
-\begin{tabular}[t]{@{}lll}
+\eabox{\label{ex:4.23}
+\begin{tabularx}{.9\textwidth}{@{}l Q l}
 a. & \textit{Henry VIII snores.} & SNORE(h)\\
 b. & \textit{Socrates is a man.} & MAN(s)\\
 c. & \textit{Napoleon is near Paris.} & NEAR(n,p)\\
@@ -494,8 +504,8 @@ e. & \textit{Jocasta is Oedipus’ mother}. & MOTHER\_OF(j,o)\\
 f. & \textit{Abraham Lincoln was tall and homely.} & TALL(a) $\wedge$ HOMELY(a)\\
 g. & \textit{Abraham Lincoln was a tall man.}  & TALL(a) $\wedge$ MAN(a)\\
 h. & \textit{Joe is neither honest nor competent}. & ¬ (HONEST(j) $\vee$ COMPETENT(j))
-\end{tabular}
-\z
+\end{tabularx}
+}
 
 
 As these examples illustrate, semantic predicates can be expressed grammatically as verbs, adjectives, common nouns, or even prepositions. They can appear as part of the VP, or as modifiers within NP as in (\ref{ex:4.23}g).\footnote{VP = verb phrase, that is, the verb plus its non-subject arguments. NP = noun phrase.}
@@ -556,7 +566,7 @@ Variables bound by a quantifier do not refer to a specific individual or entity,
 
 
 
-The value of an unbound (or “free”) variable, that is, one which is not introduced by a quantifier or which occurs outside the scope of its quantifier, is not defined. The variables in \REF{ex:4.28} are not bound, and as a result the equations in which they occur are neither true nor false; they do not make any claim about the world, until some value is assigned to each variable. (In contrast, both of the equations in \REF{ex:4.27}, where the variables are bound, can be shown to be true.) Of course, it is fairly easy to “solve” the equations in \REF{ex:4.28}, that is, to find the values that must be assigned to each variable in order to make the equations true. But until some value is assigned, no truth value can be determined for the equations.
+The value of an unbound (or “free”) variable, that is, one which is not introduced by a quantifier or which occurs outside the scope of its quantifier, is not defined. The variables in \REF{ex:4.28} are not bound, and as a result the equations in which they occur are neither true nor false; they do not make any claim about the world, until some value is assigned to each variable. (In contrast, both of the equations in \REF{ex:4.27}, where the variables are bound, can be shown to be true.) Of course, it is fairly easy to solve the equations in \REF{ex:4.28}, that is, to find the values that must be assigned to each variable in order to make the equations true. But until some value is assigned, no truth value can be determined for the equations.
 
 
 \ea \label{ex:4.28}
@@ -606,21 +616,24 @@ So far we have only considered quantifier phrases which occur as subject NPs, bu
 
 The patterns of inference observed in example \REF{ex:4.2} above illustrate two basic principles that govern the use of quantifiers. The first principle, which is called \textsc{universal instantiation}, states that anything which is true of all members of a particular class is true of any specific member of that class. This is the principle which licenses the inference shown in (\ref{ex:4.2}a), repeated here as (\ref{ex:4.32}a). The second principle, which is called \textsc{existential generalization}, licenses the inference shown in (\ref{ex:4.2}b), repeated here as (\ref{ex:4.32}b).
 
-\settowidth\jamwidth{${\forall}$x[MAN(x) → MORTAL(x)}
+\settowidth\jamwidth{${\exists}$x[LAWYER(x) $\wedge$ HONEST(x)]}
 \ea \label{ex:4.32}
 \ea  \textit{All men are mortal.}  \jambox{${\forall}$x[MAN(x) → MORTAL(x)]}
 \textit{Socrates is a man}.        \jambox{MAN(s)}
 \FelixHRule
 \textit{Therefore,} \textit{Socrates is mortal.}  \jambox{MORTAL(s)}
+\bigskip
+
 \ex   \textit{Arthur is a lawyer.}                \jambox{LAWYER(a)}
 \textit{Arthur is honest}.                        \jambox{HONEST(a)}
 \FelixHRule
-\textit{Therefore,} \textit{some (= at least one) lawyer is honest.}  \jambox{${\exists}$x[LAWYER(x) $\wedge$ HONEST(x)}
+\textit{Therefore,} \textit{some (= at least one) }  \jambox{${\exists}$x[LAWYER(x) $\wedge$ HONEST(x)]}
+\hspace{1cm} \textit{lawyer is honest.}
 \z \z
 
 \subsection{Scope ambiguities}\label{sec:4.4.2}
 
-When a quantifier combines with another quantifier, with negation, or with various other elements (to be discussed in \chapref{sec:14}), it can give rise to ambiguities of scope. In (\ref{ex:4.33}a) for example, one of the quantifiers must appear within the scope of the other, so there are two possible “readings” for the sentence.
+When a quantifier combines with another quantifier, with negation, or with various other elements (to be discussed in \chapref{sec:14}), it can give rise to ambiguities of scope. In (\ref{ex:4.33}a) for example, one of the quantifiers must appear within the scope of the other, so there are two possible \textsc{readings} for the sentence.
 
 
 \ea \label{ex:4.33}
@@ -637,7 +650,7 @@ When a quantifier combines with another quantifier, with negation, or with vario
 \z \z
 
 
-The quantifier that appears farthest to the left in the formula gets a \textsc{wide scope} interpretation, meaning that it takes logical priority; the one which is embedded within the scope of the first quantifier gets a \textsc{narrow scope} interpretation. So the first reading for (\ref{ex:4.33}a) says that there exists some specific man who loves every woman. The second reading for (\ref{ex:4.33}a) says that for any woman you choose within the universe of discourse, there exists some man who loves her. (Try to provide similar paraphrases for the two readings of (\ref{ex:4.33}b). Then try to verify that these sentences involve real ambiguities by finding contexts for each sentence where one reading would be true while the other is false.)
+The quantifier that appears farthest to the left in the formula gets a \textsc{wide scope} interpretation, meaning that it takes logical priority; the one which is embedded within the scope of the first quantifier gets a \textsc{narrow scope} interpretation. So the first reading for (\ref{ex:4.33}a) says that there exists some specific man who loves every woman. The second reading for (\ref{ex:4.33}a) says that for any woman you choose within the universe of discourse, there exists some man who loves her. Try to provide similar paraphrases for the two readings of (\ref{ex:4.33}b). Then try to verify that these sentences involve real ambiguities by finding contexts for each sentence where one reading would be true while the other is false.
 
 
 \section{Conclusion}\label{sec:4.5}
@@ -656,78 +669,88 @@ Good, brief introductions to propositional and predicate logic are provided in \
 
 \discussionexercises{
 
-\paragraph*{A: Create a truth table to prove each of the following tautologies}
+\paragraph*{A. Create a truth table to prove each of the following tautologies:}
 
-\ea
-\ea Law of Double Negation:  ¬(¬p) $\leftrightarrow $ p\\
-\ex Law of Contradiction:  ¬(p ${\wedge}$ ¬p)\\
-\ex Modus Tollens:  [(p → q) ${\wedge}$ ¬q]  →  ¬p
-\z
-\z
+\begin{enumerate}[label=\alph*.]
+\item Law of Double Negation:  ¬(¬p) ↔ p
+\item Law of Contradiction:  ¬(p ${\wedge}$ ¬p)
+\item Modus Tollens:  [(p → q) ${\wedge}$ ¬q]  →  ¬p
+\end{enumerate}
 
-\paragraph*{B: Construct syllogisms, using English sentences, to illustrate each of the following patterns of inference}
+\paragraph*{B. Construct syllogisms, using English sentences, to illustrate each of the following patterns of inference:}
 
-\ea
-\ea Modus Ponens:  [(p → q) ${\wedge}$ p]  →  q
-\ex Modus Tollens:  [(p → q) ${\wedge}$ ¬q]  →  ¬p
-\ex Hypothetical Syllogism:  [(p → q) ${\wedge}$ (q → r)]  →  (p → r)
-\ex Disjunctive Syllogism:  [(p $\vee$ q) ${\wedge}$ ¬p]  →  q
-                       \z
-                       \z
+\begin{enumerate}[label=\alph*.]
+\item  Modus Ponens:  [(p → q) ${\wedge}$ p]  →  q
+\item  Modus Tollens:  [(p → q) ${\wedge}$ ¬q]  →  ¬p
+\item  Hypothetical Syllogism:  [(p → q) ${\wedge}$ (q → r)]  →  (p → r)
+\item  Disjunctive Syllogism:  [(p $\vee$ q) ${\wedge}$ ¬p]  →  q
+\end{enumerate}
 
-\paragraph*{C:  Translate the following sentences into logical notation}
-\ea
-\ea \textit{All unicorns are herbivores}.\\
-\ex \textit{No philosophers admire Nietzsche}.\\
-\ex \textit{Some green apples are edible}.\\
-\ex \textit{Bill feeds all stray cats}.
-\z
-\z
+\paragraph*{C.  Translate the following sentences into logical notation:}
+\begin{enumerate}[label=\alph*.]
+\item  {All unicorns are herbivores}.
+\item  {No philosophers admire Nietzsche}.
+\item  {Some green apples are edible}.
+\item  {Bill feeds all stray cats}.
+\end{enumerate}
 }
 \homeworkexercises{
-\paragraph*{A. Using truth tables}
+\paragraph*{A. Using truth tables.}
 
-Arthur has been selected to be a juror in a case which has generated a lot of local publicity. He is asked to promise not to read the newspaper or watch television until the trial is finished. There are two different ways in which he can make this commitment:\\
-(a) \textit{I will not read the newspaper or watch television until the trial is finished}.\\
-(b) \textit{I will not read the newspaper and I will not watch television until the trial is finished}. 
+Arthur has been selected to be a juror in a case which has generated a lot of local publicity. He is asked to promise not to read the newspaper or watch television until the trial is finished. There are two different ways in which he can make this commitment:
 
-Construct truth tables for these two sentences to show why they are logically equivalent. You may omit the adverbial clause (\textit{until the trial is finished}) from your table.  (\textbf{Hint}: Let \textbf{p} stand for \textit{I will read the newspaper} and \textbf{q} stand for \textit{I will watch television}. Assume the following translation for sentence (a): ¬(p $\vee$ q). Construct a truth table for this proposition, and a second truth table for sentence (b). If the right-most column of the two tables is identical, that means that the two propositions must have the same truth value under any circumstances.)
 
-sentence (a):\todo{more semantic markup}
-
-\todo{columns must become clearer}
-\begin{tabular}{llll}
-\lsptoprule
-&  &  & \\
-\tablehead{
- p & q & p $\vee$ q & ¬(p $\vee$ q)\\
-}
-\midrule
-&  &  & \\
-&  &  & \\
-&  &  & \\
-\lspbottomrule
-\end{tabular}
-\\
-sentence (b):
-
-\begin{tabular}{lllll}
-\lsptoprule
-&  &  &  & \\
- p & q &  &  & \\
-\midrule
-&  &  &  & \\
-&  &  &  & \\
-&  &  &  & \\
-\lspbottomrule
-\end{tabular}
-
-\paragraph*{B. Translate the following sentences into logical notation}
-
-\ea \ea \textit{All famous linguists quote Chomsky}.
-\ex \textit{David tutors some struggling students}.
-\ex \textit{No president was Buddhist or Hindu}.
-\ex \textit{Alice and Betty married Charlie and David, respectively.}
+\bigskip 
+\ea
+\ea {I will not read the newspaper or watch television until the trial is finished}.
+\ex  {I will not read the newspaper and I will not watch television until the trial is finished}. 
 \z
-                       \z
+\z
+
+\bigskip 
+ 
+Construct truth tables for these two sentences to show why they are logically equivalent. You may omit the adverbial clause (\textit{until the trial is finished}) from your table.  (\textbf{Hint}: Let \textbf{p} stand for \textit{I will read the newspaper} and \textbf{q} stand for \textit{I will watch television}. Assume the following translation for sentence (a): ¬(p $\vee$ q). Construct a truth table for this proposition, and a second truth table for sentence (b). If the right-most column of the two tables is identical, that means that the two propositions must have the same truth value under any circumstances.)
+ 
+\begin{exe}
+ \exi{(1$'$)} 
+ \begin{xlist}
+\exbox{
+\begin{tabularx}{.8\textwidth}{|X|X|X|X|}
+\hline 
+ p & q & p $\vee$ q & ¬(p $\vee$ q)\\ 
+\hline\hline
+&  &  & \\
+\hline
+&  &  & \\
+\hline
+&  &  & \\
+\hline
+\end{tabularx}
+}
+\bigskip
+
+\exbox{
+\begin{tabularx}{.8\textwidth}{|X|X|X|X|X|}
+\hline
+ p & q &  &  & \\
+\hline\hline
+&  &  &  & \\
+\hline
+&  &  &  & \\
+\hline
+&  &  &  & \\
+\hline 
+\end{tabularx}
+}
+ \end{xlist}
+\end{exe}
+
+\paragraph*{B. Translate the following sentences into logical notation:}
+
+\begin{enumerate}[label=\alph*.]
+\item  {All famous linguists quote Chomsky.}
+\item  {David tutors some struggling students.}
+\item  {No president was Buddhist or Hindu.}
+\item  {Alice and Betty married Charlie and David, respectively.}
+\end{enumerate}
 }

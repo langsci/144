@@ -1,0 +1,524 @@
+\chapter{\textit{Because}}\label{sec:18}
+
+\section{Introduction}\label{sec:18.1}
+
+In this chapter we explore the meaning of the conjunction \textit{because} by asking what contribution it makes to the meaning of a sentence. \textit{Because} is used to connect two propositions, so its contribution to the meaning of the sentence will be found in the semantic relationship between those two propositions.
+
+
+
+We begin in \sectref{sec:18.2} by comparing reason clauses introduced by \textit{because} with time clauses introduced by \textit{when}. Time clauses function as adverbial modifiers, but we will argue that \textit{because} has a different function: it combines two propositions into a new proposition which asserts that a causal relationship exists. An important piece of evidence for this analysis comes from certain scope ambiguities which arise in \textit{because} clauses but not in time clauses.
+
+
+
+Conjunctions are often polysemous,\footnote{\citet{Aikhenvald2009}.} and various authors have noted that \textit{because} can be used in more than one way. We examine the various uses of \textit{because} in \sectref{sec:18.3}, but we will argue that \textit{because} is not polysemous. Rather, it has just one sense which can be used in different domains, or dimensions, of meaning: truth-conditional vs. use-conditional. The term \textsc{pragmatic ambiguity} has been proposed to describe such cases, and this term seems appropriate based on the evidence presented below.
+
+
+
+In \sectref{sec:18.4} we will see that the various uses of \textit{because} correlate with different syntactic structures. We will propose diagnostic tests for distinguishing co-ordinate from subordinate \textit{because} clauses. We argue that all of the semantic functions of \textit{because} are possible in the co-ordinate structure, but only one function is possible in the subordinate structure. In \sectref{sec:18.5} we show that a similar situation holds in \ili{German}, where the difference between co-ordinate and subordinate structures is clearly marked.
+
+
+\section{\textit{Because} as a two-place operator}\label{sec:18.2}
+
+Adverbial clauses occur in complex sentences, in which two (or more) propositions are combined to produce a single complex proposition. However, not all adverbial clauses have the same semantic properties. The examples in (\ref{ex:18.1}--\ref{ex:18.2}) illustrate some of the differences between time clauses and reason clauses:
+
+
+\ea \label{ex:18.1}
+\ea  Prince Harry wore his medals when he visited the Pope.\\
+\ex Prince Harry didn’t wear his medals when he visited the Pope.\\
+\ex Did Prince Harry wear his medals when he visited the Pope?
+                       \z
+\z
+
+\ea \label{ex:18.2}
+\ea  Arthur married Susan because she is rich.\\
+\ex Arthur didn’t marry Susan because she is rich.\\
+\ex Did Arthur marry Susan because she is rich?
+                       \z
+\z
+
+
+All three sentences in \REF{ex:18.1} imply that Harry visited the Pope. As we noted in \chapref{sec:3}, time clauses trigger a presupposition that the proposition they contain is true. Reason clauses do not trigger this kind of presupposition. While sentence (\ref{ex:18.2}a) implies that Susan is rich, sentences (\ref{ex:18.2}b--c) do not carry this inference. Sentence (\ref{ex:18.2}b) could be spoken appropriately by a person who does not believe that Susan is rich, and sentence (\ref{ex:18.2}c) could be spoken appropriately by a person who does not know whether Susan is rich.
+
+
+
+So \textit{q because p} does not presuppose that \textit{p} is true; but it entails that both \textit{p} and \textit{q} are true. This entailment is demonstrated in \REF{ex:18.3}.
+
+
+\ea \label{ex:18.3}
+\ea  George VI became King of England because Edward VIII abdicated;\\
+  \#but George did not become king.\\
+\ex George VI became King of England because Edward VIII abdicated;\\
+  \#but Edward did not abdicate.
+                       \z
+\z
+
+
+A second difference between time clauses and reason clauses involves the effect of negation. The negative statement in (\ref{ex:18.2}b) is ambiguous. It can either mean ‘Arthur didn’t marry Susan, and his reason for not marrying her was because she is rich;’ or ‘Arthur did marry Susan, but his reason for marrying her was not because she is rich.’ No such ambiguity arises in sentence (\ref{ex:18.1}b).
+
+
+
+The time clause in (\ref{ex:18.1}a) functions as a modifier; it makes the proposition expressed in the main clause more specific or precise, by restricting its time reference. \textit{Because} clauses seem to have a different kind of semantic function. \citet{Johnston1994} argues that \textit{because} is best analyzed as an operator CAUSE, which combines two propositions into a single proposition by asserting a causal relationship between the two.\footnote{This operator is probably different from the causal operator involved in morphological causatives, which is often thought of as a relation between an individual and an event/situation.} We might define this operator as shown in \REF{ex:18.4}:
+
+
+\ea \label{ex:18.4}
+\textit{CAUSE(p,q)} is true iff \textit{p} is true, \textit{q} is true, and \textit{p} being true causes \textit{q} to be true.
+\z
+
+
+For example, if \textit{p} and \textit{q} are descriptions of events in the past, \textit{CAUSE(p,q)} would mean that \textit{p} happening caused \textit{q} to happen. A truth table for \textit{CAUSE} would look very much like the truth table for \textit{and}; but there is a crucial additional element of meaning that would not show up in the truth table, namely the causal relationship between the two propositions.\footnote{The definition of causality is a long-standing problem in philosophy, which we will not address here. One way to think about it makes use of a counter-factual (see \chapref{sec:19}): \textit{CAUSE(p,q)} means that if \textit{p} had not happened, \textit{q} would not have happened either.}
+
+
+
+This analysis provides an immediate explanation for the ambiguity of sentence (\ref{ex:18.2}b) in terms of the scope of negation:
+
+
+\ea \label{ex:18.5}
+  \textit{Arthur didn’t marry Susan because she is rich.}\\
+\ea  ¬CAUSE(RICH(s), MARRY(a,s))\\
+\ex CAUSE(RICH(s), ¬MARRY(a,s))
+                       \z
+\z
+
+
+If this approach is on the right track, we would expect to find other kinds of scope ambiguities involving \textit{because} clauses as well. This prediction turns out to be correct: in sentences of the form \textit{p because} \textit{q}, if the first clause contains a scope-bearing expression such as a quantifier, modal, or propositional attitude verb, that expression may be interpreted as taking scope either over the entire sentence or just over its immediate clause. Some examples are provided in (\ref{ex:18.6}--\ref{ex:18.7}).
+
+
+\ea \label{ex:18.6}
+\textit{Few people admired Churchill because he joined the Amalgamated Union of Building Trade Workers.}\\
+\ea  CAUSE(JOIN(c,aubtw), [few x: person(x)] ADMIRE(x,c))\\
+\ex{} [few x: person(x)] CAUSE(JOIN(c,aubtw), ADMIRE(x,c))
+                       \z
+\z
+
+\ea \label{ex:18.7}
+\textit{I believed that you love me because I am gullible.}\\
+\ea  BELIEVE(s, CAUSE(GULLIBLE(s), LOVE(h,s))\\
+\ex CAUSE(GULLIBLE(s), BELIEVE(s, LOVE(h,s)))\\
+    {}[s = speaker; h = hearer]
+                       \z
+\z
+
+
+One reading for sentence \REF{ex:18.6}, which is clearly false in our world, is that only a few people admired Churchill, and the reason for this was that he joined the AUBTW. The other reading for sentence \REF{ex:18.6}, very likely true in our world, is that only a few people’s admiration of Churchill was motivated by his joining of the AUBTW; but many others may have admired him for other reasons. (The reader should work out the two readings for sentence \REF{ex:18.7}.)
+
+
+\section{Use-conditional \textit{because}}\label{sec:18.3}
+
+Now let us consider the apparent polysemy of \textit{because}. \citet[76--78]{Sweetser1990} suggests that \textit{because} (and a number of other conjunctions) can be used in three different ways: 
+
+
+\begin{quote}
+Conjunction may be interpreted as applying in one of (at least) three domains [where] the choice of a “correct” interpretation depends not on form, but on a pragmatically motivated choice between viewing the conjoined clauses as representing content units, logical entities, or speech acts. [p. 78]
+\end{quote}
+
+\ea \label{ex:18.8}
+\ea  John came back because he loved her.  \hfill  [\textsc{content} domain]\\
+\ex John loved her, because he came back. \hfill   [\textsc{epistemic} domain]\\
+\ex What are you doing tonight, because there’s a good movie on. \\
+\hfill [\textsc{speech act} domain]
+                       \z
+\z
+
+
+The content domain has to do with “real-world causality”; in (\ref{ex:18.8}a), John’s love causes him to return. The epistemic domain (\ref{ex:18.8}b) has to do with the speaker’s grounds for making the assertion expressed in the main clause: the content of the \textit{because} clause (\textit{he came back}) provides evidence for believing the assertion (\textit{John loved her}) to be true. Sweetser explains the speech act domain (\ref{ex:18.8}c) as follows:
+
+
+\begin{quote}
+{}[T]he \textit{because} clause gives the cause of the \textit{speech act} embodied by the main clause. The reading is something like ‘I \textit{ask} what you are doing tonight because I want to suggest that we go see this good movie.’ [\citeyear[77]{Sweetser1990}]
+\end{quote}
+
+
+Sweetser denies that the three uses above involve different senses of \textit{because}. Rather, she argues that \textit{because} has a single sense which can operate on three different levels, or domains, of meaning. She describes this situation, taking a term from \citet{Horn1985}, as a case of \textsc{pragmatic ambiguity}; in other words, an ambiguity of usage rather than an ambiguity of sense.
+
+
+
+This seems like a very plausible suggestion; but any such proposal needs to account for the fact that the various uses of \textit{because} are distinguished by a number of real differences, both semantic and structural. The most obvious of these is the presence of pause, or “comma intonation”, between the two clauses. The pause is optional with content domain uses of \textit{because}, as in (\ref{ex:18.9}a), but obligatory with other uses. If the pause is omitted in (\ref{ex:18.9}b--c), the sentences can only be interpreted as expressing real-world causality, even though this interpretation is somewhat bizarre. (With the pause, (\ref{ex:18.9}b) illustrates an epistemic use while (\ref{ex:18.9}c) illustrates a speech act use.)
+
+
+\ea \label{ex:18.9}
+\ea  Mary scolded her husband (,) because he forgot their anniversary.\\
+\ex Arnold must have sold his Jaguar \#(,) because I saw him driving a 1995 minivan.\\
+\ex Are you hungry \#(,) because there is some pizza in the fridge?
+                       \z
+\z
+
+
+Several of the tests that we used in previous chapters to distinguish truth-conditional propositional content from use-conditional meaning also distinguish the content domain use from the other uses of \textit{because}: questionability, capacity for being negated, and capacity for being embedded within conditional clauses. Let us look first at the interpretation of yes-no questions. When content domain uses of \textit{because} occur as part of a yes-no question, the causal relationship itself is part of what is being questioned, as in (\ref{ex:18.10}a). With other uses, however, the causal relationship is not questioned; the scope of the interrogative force is restricted to the main clause, as in (\ref{ex:18.10}b, epistemic) and (\ref{ex:18.10}c, speech act). If we try to interpret (\ref{ex:18.10}b--c) as questioning the causal relationship (the reading which is required if we omit the pause), we get rather bizarre content domain interpretations.
+
+
+\ea \label{ex:18.10}
+\ea  Did Mary scold her husband because he forgot their anniversary?\\
+\ex Did Arnold sell his Jaguar, because I just saw him driving a 1995 minivan?\\
+\ex Are you going out tonight, because I would like to come and visit you?
+                       \z
+\z
+
+
+We find a similar difference regarding the scope of negation. As noted in \sectref{sec:18.2}, when a sentence containing a \textit{because} clause is negated, the negation can be interpreted as taking scope over the whole sentence including the causal relationship. But this is only possible with content domain uses of \textit{because}, like (\ref{ex:18.11}a). With epistemic (\ref{ex:18.11}b) or speech act (\ref{ex:18.11}c) uses, negation only takes scope over the main clause. Once again, attempting to interpret negation with widest scope in (\ref{ex:18.11}b--c) results in bizarre readings involving real-world causality.
+
+
+\ea \label{ex:18.11}
+\ea  Arthur didn’t marry Susan because she is rich.\\
+\ex You couldn’t have failed phonetics, because you graduated.\\
+\ex Mary is not home, because I assume that you really came to see her.
+                       \z
+\z
+
+
+Similarly, content domain uses of \textit{because} can be embedded within conditional clauses, as seen in (\ref{ex:18.12}a); but this is impossible with epistemic (\ref{ex:18.12}b) or speech act (\ref{ex:18.12}c) uses:
+
+
+\ea \label{ex:18.12}
+\ea[]{If Mary scolded her husband because he forgot their anniversary, they will be back on speaking terms in a few days.\\}
+\ex[??]{If Arnold sold his Jaguar because I just saw him driving a 1995 minivan, he is  likely to regret it.\\}
+\ex[??]{If you are hungry because there is some pizza in the fridge, please help yourself.}
+\z \z
+
+
+Looking back at the differences we have listed so far, we see that in each case the content domain use of \textit{because} behaves differently from the other two uses, while the epistemic and speech act uses always seem to behave in the same way. In other words, the evidence we have considered up to this point provides solid grounds for distinguishing two uses of \textit{because}, but not for distinguishing the epistemic and speech act uses.
+
+
+
+The evidence we have considered thus far suggests that content domain uses of \textit{because} contribute to truth-conditional propositional content, while epistemic and speech act uses of \textit{because} contribute use-conditional meaning. In light of this evidence, we will adopt Sweetser’s suggestion that \textit{because} has a single sense, treating the different uses as a case of pragmatic ambiguity. However, we will posit just two (rather than three) relevant domains (or dimensions) of meaning: truth-conditional vs. use-conditional.\footnote{A number of other authors have made a similar two-way distinction for \textit{because} clauses, with use-conditional \textit{because} clauses treated as a type of speech act adverbial; see for example \citet{Scheffler2008,Scheffler2013} and \citet{ThompsonEtAl2007}.} 
+
+
+
+In use-conditional functions of \textit{because}, the conjunction expresses a causal relationship between the proposition expressed by the \textit{because} clause and the speech act expressed in the main clause, as illustrated in (\ref{ex:18.13}b--c).
+
+
+\ea \label{ex:18.13}
+\ea  \textit{John came back because he loved her}. \hfill  [\textsc{truth-conditional}]\\
+CAUSE(LOVE(j,m), COME\_BACK(j))
+\ex   \textit{John loved her, because he came back}. \hfill   [\textsc{use-conditional}]\\
+CAUSE(COME\_BACK(j), I assert that LOVE(j,m))
+\ex   \textit{What are you doing tonight, because there’s a good movie on}. \\ \hfill  [\textsc{use-conditional}]\\
+CAUSE(there’s a good movie on, I ask you what you are doing tonight)
+\z \z
+
+
+The nature of the causal relationship in use-conditional functions is often closely related to the felicity conditions for the particular speech act involved. One of the felicity conditions for making an assertion is that the speaker should have adequate grounds for believing that the assertion is true. Sweetser’s epistemic \textit{because} clauses, like the one in (\ref{ex:18.13}b), provide evidence which forms all or part of the grounds for the assertion expressed in the main clause.
+
+
+
+Sweetser’s speech act \textit{because} clauses often explain the speaker’s reason for performing the speech act or why it is felicitous in that specific context. The \textit{because} clause in (\ref{ex:18.13}c) explains why the speaker is asking the question, and so provides guidance for the hearer as to what kind of answer will be relevant to the speaker’s purpose.
+
+
+
+Two clauses which are joined by use-conditional \textit{because} behave in some ways like separate speech acts. As illustrated in examples (\ref{ex:18.8}c), (\ref{ex:18.9}c), and (\ref{ex:18.10}b--c) above, a main clause that is followed by a use-conditional \textit{because} clause can contain a question, even when the \textit{because} clause itself is an assertion. It is also possible for the main clause to contain a command in this context, as illustrated in \REF{ex:18.14}.\footnote{The fact that the \textit{because} clauses in these examples start with \textit{I know that …} blocks any potential interpretion as “content domain” \textit{because} clauses.}
+
+
+\ea \label{ex:18.14}
+\ea  Give me the tickets, because I know that you will forget them somewhere.\\
+\ex Take my sandwich, because I know that you have not eaten anything today.
+                       \z
+\z
+
+
+Such examples show that a use-conditional \textit{because} clause and its main clause can have separate illocutionary forces, and so can constitute distinct speech acts.
+
+
+\section{Structural issues: co-ordination vs. subordination}\label{sec:18.4}
+
+An additional difference between truth-conditional vs. use-conditional \textit{because} clauses is that only the truth-conditional type can be fronted, as illustrated in \REF{ex:18.15}. Sentences (\ref{ex:18.15}b--c) would most naturally be interpreted as use-conditional examples if the \textit{because} clause followed the main clause. But when the \textit{because} clause is fronted they can only be interpreted as expressing real-world causality, even though this interpretation is somewhat bizarre.
+
+
+\ea \label{ex:18.15}
+\ea   Because it’s raining, we can’t go to the beach. \hfill [\textsc{truth-conditional}]\\
+\ex ??Because I saw Arnold driving a 1995 minivan, he sold his Jaguar. \\ \hfill [*\textsc{use-conditional}]\\
+\ex ??Because I assume that you came to see her, Mary hasn’t come home yet. \hfill [*\textsc{use-conditional}]
+                       \z
+\z
+
+
+\citet{Haspelmath1995} points out that subordinate clauses can often be fronted, but this is typically impossible for co-ordinate clauses. The examples in (\ref{ex:18.16}--\ref{ex:18.18}) show that a variety of subordinate clauses in English can be fronted. The examples in (\ref{ex:18.19}--\ref{ex:18.20}) show that this same pattern of fronting is not possible with co-ordinate clauses (though of course it would be possible to reverse the order of the clauses leaving the conjunction in place between them). In light of this observation, the fact that use-conditional \textit{because} clauses cannot be fronted suggests that they may actually be co-ordinate clauses rather than subordinate clauses.
+
+
+\ea \label{ex:18.16}
+\ea  George will give you a ride when you are ready.\\
+\ex When you are ready, George will give you a ride.
+                       \z
+\z
+
+\ea \label{ex:18.17}
+\ea  Paul will sing you a song if you ask him nicely.\\
+\ex If you ask him nicely, Paul will sing you a song.
+\z \z
+
+\ea \label{ex:18.18}
+\ea  Ringo draped towels over his snare drum in order to deaden the sound.\\
+\ex In order to deaden the sound, Ringo draped towels over his snare drum.
+                       \z
+\z
+
+\ea \label{ex:18.19}
+\ea  George played the sitar and John sang a solo.\\
+\ex *And John sang a solo, George played the sitar.
+                       \z
+\z
+
+\ea \label{ex:18.20}
+\ea  Paul asked for tea but the waiter brought coffee.\\
+\ex *But the waiter brought coffee, Paul asked for tea.
+                       \z
+\z
+
+
+As we noted above, a pause (comma intonation) is optional before truth-condi\-tion\-al \textit{because} clauses but obligatory before use-conditional \textit{because} clauses. (We focus here on the situation where the \textit{because} clause follows the main clause, since pause is always obligatory when the \textit{because} clause is fronted.) We can explain this observation if we assume that a pause in this context is an indicator of co-ordinate structure, and that use-conditional functions of \textit{because} are only possible in co-ordinate structures. Truth-conditional interpretations of \textit{because} are possible in either co-ordinate or subordinate structures, i.e., with or without a pause. Only the truth-conditional interpretation is possible in subordinate structures (where there is no pause), even when this interpretation is pragmatically unlikely or bizarre (see \ref{ex:18.9}b-c).
+
+
+
+Additional support for the hypothesis that a pause is a marker of co-ordination comes from the fact that the scope ambiguities discussed in \sectref{sec:18.2} disappear when a pause is inserted between the two clauses. The examples in \REF{ex:18.21} are not ambiguous, whereas the corresponding examples with no pause are (see \ref{ex:18.2}b, \ref{ex:18.6}, and \ref{ex:18.7}). It is not surprising that an operator in a matrix clause can take scope over a subordinate clause; it would be much less common for an operator in one half of a co-ordinate structure to take scope over the other half.
+
+
+\ea \label{ex:18.21}
+\ea  Arthur didn’t marry Susan, because she is rich.\\
+\ex Few people admired Churchill, because he joined the trade union.\\
+\ex I believed that you love me, because I am gullible.
+                       \z
+\z
+
+
+Interrogative force exhibits similar scope effects: example \REF{ex:18.22} shows that when a pause is present, the causal relationship cannot be part of what is being questioned. And example \REF{ex:18.23} shows that a co-ordinate \textit{because} clause cannot be embedded within a conditional clause.\footnote{The \textit{because} clause set off by pauses in \REF{ex:18.23} cannot be interpreted as part of the conditional clause. It could only be interpreted as a parenthetical comment, which in this context produces a very incoherent sentence meaning.}
+
+
+\ea \label{ex:18.22}
+Did Mary scold her husband, because he forgot their anniversary? (can only be understood as reason for asking, not as reason for scolding)
+\z
+
+\ea \label{ex:18.23}
+\#If Mary scolded her husband, because he forgot their anniversary, they will be back on speaking terms in a few days.
+\z
+
+
+In the previous section we used negation, questioning, and embedding within \textit{if} clauses to argue that Sweetser’s “epistemic” and “speech act” \textit{because} clauses contribute use-conditional rather than truth-conditional meaning. But if those uses of \textit{because} are only possible in co-ordinate structures, one might wonder whether perhaps the different behavior of negation, questioning and embedding is due to purely structural factors, and is therefore not semantically relevant?
+
+
+
+However, there is at least one test that can be applied to co-ordinate structures, and this test confirms the semantic distinction we argued for in the previous section. This is the challengeability test: the truth of a statement can typically only be challenged on the basis of truth-conditional propositional content. As the following examples show, the truth of a statement which contains a content \textit{because} clause can be appropriately challenged based on the causal relationship itself, even when the co-ordinate structure is used as in \REF{ex:18.24}. With epistemic and speech act \textit{because} clauses, however, the truth of the statement can be challenged based on the content of the main clause, but not based on the causal relationship or the content of the \textit{because} clause (\ref{ex:18.25}--\ref{ex:18.26}).
+
+
+\ea \label{ex:18.24}
+A: Mary is leaving her husband, because he refuses to look for a job.\\
+B: That is not true; Mary is leaving her husband because he drinks too much.
+\z
+
+\ea \label{ex:18.25}
+A: Mary is at home, because her car is in the driveway.\\
+B1: That is not true. She is not home; she went out on her bicycle.\\
+B2: \#That is not true; you know that Mary is home because you just talked with her.
+\z
+
+\ea \label{ex:18.26}
+A: There is some pizza in the fridge, because you must be starving.\\
+B1: That is not true; we ate the pizza last night.\\
+B2: \#That is not true; you told me about the pizza because want to get rid of it.
+\z
+
+
+To summarize, we have proposed that adverbial clauses introduced by \textit{because} can occur in two different structural configurations, co-ordinate or subordinate. Co-ordinate \textit{because} clauses must be separated from the main clause by a pause (comma intonation), but this pause is not allowed before subordinate \textit{because} clauses (when they follow the main clause). The co-ordinate structure allows either truth-conditional or use-conditional interpretations of \textit{because}, but only the truth-conditional use is possible in the subordinate structure. Subordinate \textit{because} clauses can occur within the scope of clausal negation and interrogative force, and can be embedded within conditional clauses; but none of these things is possible with co-ordinate \textit{because} clauses.
+
+
+\section{Two words for ‘because’ in German}\label{sec:18.5}
+
+
+The situation in \ili{German} is very similar, but the distinction between co-ordinate and subordinate structures is much easier to recognize in \ili{German} than in English.\footnote{The material in this section is based almost entirely on the work of Tatjana \citet{Scheffler2005,Scheffler2008}, and all examples that are not otherwise attributed come from these works.} \ili{German} has two different words which are translated as ‘because’. Both of these words can be used to describe real-world causality, as illustrated in (\ref{ex:18.27}--\ref{ex:18.28}). In each case, the a and b sentences have the same English translation.
+
+
+\ea \label{ex:18.27}
+\ea  \gll Ich  habe  den  Bus  verpasst,  \textit{weil}  ich  spät  dran  war.\\
+\textsc{1sg}  \textsc{aux}  the.\textsc{acc}  bus  missed  because  \textsc{1sg}  late  there  was\\
+\glt ‘I missed the bus because I got there late.’ \\
+\ex  Ich habe den Bus verpasst, \textit{denn} ich war spät dran. (same meaning)\footnote{\url{http://answers.yahoo.com}}
+\z \z
+
+\ea \label{ex:18.28}
+\ea  \gll  Die  Straße  ist  ganz  naß,  \textit{weil}  es  geregnet  hat.\\
+the.\textsc{nom}  street  is  all  wet  because  it  rained  \textsc{aux}\\
+\glt ‘The street is wet because it rained.’ \\
+\ex Die Straße ist ganz naß, \textit{denn} es hat geregnet. (same meaning)\footnote{\citet[§3.1]{Scheffler2008}}
+\z \z
+
+However, in other contexts the two words are not interchangeable. Only \textit{denn} can be used to translate use-conditional functions of \textit{because}. This includes both Sweetser’s “epistemic” use, as in \REF{ex:18.29}, and her “speech act” use, as in \REF{ex:18.30}. \textit{Weil} cannot be used in such sentences.
+
+
+\ea \label{ex:18.29}
+\ea  \gll  Es hat geregnet, \textit{denn} die Straße ist ganz naß.\\
+it  has rained because the.\textsc{nom}  street  is  all  wet \\
+\glt ‘It was raining, because the street is wet.’ \\
+\ex *Es hat geregnet, \textit{weil} die Straße ganz naß ist.
+                       \z
+\z
+
+\ea \label{ex:18.30}
+\ea  \gll Ist  vom  Mittag  noch  etwas  übrig?\\
+is  from  midday  still  anything  left.over\\
+\gll \textit{Denn}  ich  habe  schon  wieder  Hunger.\\
+because  \textsc{1sg}  have  already  again  hunger\\
+\glt ‘Is there anything left over from lunch? Because I’m already hungry again.’ \\
+\ex ??Ist vom Mittag noch etwas übrig? \textit{Weil} ich schon wieder Hunger habe.
+\z \z
+
+
+\largerpage
+There are structural differences between the two conjunctions as well: \textit{weil} is a subordinating conjunction, whereas \textit{denn} is a co-ordinating conjunction. The difference between subordination and co-ordination in \ili{German} is clearly visible due to differences in word order. In \ili{German} main clauses, the auxiliary verb (or tensed main verb if there is no auxiliary) occupies the second position in the clause, as illustrated in (\ref{ex:18.31}a). In subordinate clauses, however, the auxiliary or tensed main verb occupies the final position in the clause, as illustrated in (\ref{ex:18.31}b).\footnote{This is true for subordinate clauses which are introduced by a conjunction or complementizer. Where there is no conjunction or complementizer at the beginning of the subordinate clause, the auxiliary or tensed main verb occupies the second position.}
+
+
+\ea \label{ex:18.31}
+\ea   \gll Ich  \textit{habe}  zwei  Hunde  gekauft.\\
+\textsc{1sg}.\textsc{nom}  have  two  dogs  bought.\textsc{ptcp}\\
+\glt ‘I have bought two dogs.’
+\ex \gll Sie  sagt,  daß  er  dieses  Buch  gelesen  \textit{hätte}.\\
+\textsc{3sg}.\textsc{f}.\textsc{nom}  says  that  \textsc{3sg}.\textsc{m}.\textsc{nom}  this.\textsc{acc}  book  read  have.\textsc{sbjv}\\
+\glt ‘She says that he has read this book.’
+\z \z
+
+
+Looking back at examples (\ref{ex:18.27}--\ref{ex:18.28}), we can see that the tensed verbs \textit{war} ‘was’ and \textit{hat} ‘has’ occur in second position following \textit{denn} but in final position following \textit{weil}. This contrast provides a clear indication that \textit{weil} clauses are subordinate while \textit{denn} clauses are co-ordinate. Further evidence that \textit{weil} clauses are subordinate while \textit{denn} clauses are co-ordinate comes from their syntactic behavior. First, \textit{weil} clauses can be fronted but \textit{denn} clauses cannot, as shown in \REF{ex:18.32}. Second, \textit{weil} clauses can stand alone as the answer to a \textit{why}-question like that in \REF{ex:18.33}, whereas \textit{denn} clauses cannot. This is one of the classic tests for syntactic constituency. The contrast in \REF{ex:18.33} suggests that \textit{weil} combines with the clause that it introduces to form a complete syntactic constituent, whereas \textit{denn} does not. This is what we would expect if \textit{weil} is a subordinating conjunction and \textit{denn} is a co-ordinating conjunction.\footnote{Notice that the tensed verb \textit{sah} ‘saw’ occupies the final position in (\ref{ex:18.33}a).}
+
+\largerpage
+\ea \label{ex:18.32}
+\ea  \textit{Weil} es geregnet hat, ist die Straße naß.\\
+\glt ‘Because it rained, the street is wet.’
+\ex *\textit{Denn} es hat geregnet, ist die Straße naß.\\
+\z \z
+
+\ea \label{ex:18.33}
+\ea  \gll Warum  ist  die  Katze  gesprungen? \\
+why  \textsc{aux}  the.\textsc{nom}  cat  jumped \\
+\newline
+\gll — \textit{Weil}  sie  eine  Maus  sah. \\
+ —  because  she  a  mouse  saw\\
+\glt ‘Why did the cat jump? — Because it saw a mouse.’ \\
+\ex  —*\textit{Denn} sie sah eine Maus.
+\z \z
+
+
+In our earlier discussion we demonstrated that subordinate \textit{because} clauses in English can be negated, questioned, or embedded within conditional clauses; whereas none of these things is possible with co-ordinate \textit{because} clauses. Interestingly, a very similar pattern emerges in \ili{German}. As illustrated in \REF{ex:18.34}, \textit{weil} clauses can be interpreted within the scope of main clause negation, whereas \textit{denn} clauses cannot.
+
+
+\ea \label{ex:18.34}
+\ea  \gll  Paul  ist  nicht  zu  spät  gekommen,  \textit{weil}  er  den  Bus  verpaßt  hat.\\
+Paul  \textsc{aux}  \textsc{neg}  too  late  come  because  he  the.\textsc{acc}  bus  missed  \textsc{aux}\\
+\gll   {}[Sondern  er  hatte  noch  zu  tun.]\\
+  rather  he  had  still  to  do\\
+  \glt ‘Paul wasn’t late because he missed the bus. [But rather, because he still had work to do.]’ \\
+\ex  \#Paul ist nicht zu spät gekommen, \textit{denn} er hat den Bus verpaßt. [Sondern er hatte noch zu tun.]
+\z \z
+
+
+Similarly, \textit{weil} clauses in questions can be interpreted as part of what is being questioned, that is, within the scope of the interrogative force (\ref{ex:18.35}a). \textit{Denn} clauses cannot be interpreted in this way, as shown in (\ref{ex:18.35}b).
+
+
+\ea \label{ex:18.35}
+\ea \gll  Wer kam zu spät, \textit{weil} er den Bus verpaßt hat?\\
+who  came  too  late  because  he the bus missed has \\
+\glt ‘Who was late because he missed the bus?’ \\
+\ex ?? Wer kam zu spät, \textit{denn} er hat den Bus verpaßt?
+                       \z
+\z
+
+
+\textit{Denn} clauses cannot be embedded within a subordinate clause, whereas this is possible with \textit{weil} clauses. Example \REF{ex:18.36} illustrates this contrast in a complement clause, and \REF{ex:18.37} in a conditional clause.
+
+
+\ea \label{ex:18.36}
+\ea   \gll Ich  glaube  nicht,  daß  Peter  nach  Hause  geht,  \textit{weil}  er  Kopfschmerzen  hat.\\
+\textsc{1sg}  believe  \textsc{neg}  \textsc{comp}  Peter  to  home  goes  because  he  headache  has\\
+\glt ‘I don’t believe that Peter is going home because he has a headache.’ \\
+\ex  \#Ich glaube nicht, daß Peter nach Hause geht, \textit{denn} er hat Kopfschmerzen.
+\z \z
+
+\ea \label{ex:18.37}
+\ea  Wenn Peter zu spät kam, \textit{weil} er den Bus verpaßt hat, war es seine eigene Schuld.\\
+\glt ‘If Peter was late because he missed the bus, it was his own fault.’ \\
+\ex \#Wenn Peter zu spät kam, \textit{denn} er hat den Bus verpaßt, war es seine eigene Schuld.
+\z \z
+
+
+\citet{Scheffler2008} points out that \textit{denn} clauses are normally unacceptable if the content of the \textit{because}-clause is evident or has been previously mentioned. This explains why only \textit{weil} is possible in the mini-conversation in \REF{ex:18.38}. This interesting observation suggests that \textit{denn} clauses, because of their coordinate structure, count as independent assertions. As we noted in \chapref{sec:3}, in our discussion of entailments, asserting a fact which is already part of the common ground typically creates an unnatural redundancy.
+
+
+\ea \label{ex:18.38}
+\ea  \gll  Es hat heute sehr geregnet.\\
+it has today very rained \\ 
+\newline
+\gll  Ja, die ganze Straße steht unter Wasser, \textit{weil} es geregnet hat.\\
+yes the whole street stands under water because it rained has \\
+\glt ‘It rained a lot today.’\\
+‘Yes, the whole street is submerged under water because it rained.’ \\
+\bigskip 
+
+\ex Es hat heute sehr geregnet.\\
+\#Ja, die ganze Straße steht unter Wasser, \textit{denn} es hat geregnet.
+                       \z
+\z
+
+
+A number of other languages also have two words for ‘because’, including Modern \ili{Greek}, \ili{Dutch}, and \ili{French}.\footnote{\citet{Pit2003}; \citet{Kitis2006}.}
+
+
+\section{Conclusion}\label{sec:18.6}
+
+We have identified two basic uses of \textit{because} in English: truth-conditional vs. use-conditional. These two uses can be distinguished using familiar tests for truth-conditional propositional content. First, truth-conditional \textit{because} clauses can be part of what is negated or questioned when the sentence as a whole is negated or questioned, but this is not the case with use-conditional \textit{because}. Second, truth-conditional \textit{because} clauses can be embedded within \textit{if} clauses, but use-conditional \textit{because} clauses cannot. Third, the truth of a statement can be appropriately challenged based on the causal relationship expressed in a truth-conditional \textit{because} clause, but not on that expressed in a use-conditional \textit{because} clause.
+
+
+
+We have also identified two different structural configurations in which \textit{because} may occur: co-ordinate vs. subordinate. Diagnostics for distinguishing these two structures include the following: (i) Subordinate \textit{because} clauses can be fronted, but co-ordinate \textit{because} clauses cannot. (ii) Co-ordinate \textit{because} clauses must be separated from the main clause by a pause (comma intonation), but this pause is not allowed before subordinate \textit{because} clauses. (iii) Scope ambiguities involving negation, quantifiers, modals, or propositional attitude verbs are possible with subordinate \textit{because} clauses, but not with co-ordinate \textit{because} clauses.
+
+
+
+We proposed the following structural constraint on the interpretation of \textit{because}: the truth-conditional use of \textit{because} may occur in either a subordinate or a co-ordinate clause, but the use-conditional interpretation is possible only in the co-ordinate structure. This same constraint holds in \ili{German} as well, but in \ili{German} the two structures are introduced by different conjunctions: \textit{weil} for subordinate reason clauses, and \textit{denn} for co-ordinate reason clauses.
+
+
+
+\furtherreading{ 
+\citet{Sæbø1991} and (\citeyear{Sæbø2011}: §3.3) provide a good overview of the semantics of causal connectives like \textit{because}, and a comparison with other types of adverbial connectives. \citet{Lewis1973b} and (\citeyear{Lewis2000}) lay out two different versions of his counterfactual analysis of causation. \citet[ch. 4]{Scheffler2013} provides a detailed discussion of the syntax and semantics of the two \ili{German} conjunctions meaning ‘because’.
+}
+
+\discussionexercises{
+
+\paragraph*{A: Explain the scopal ambiguity of the following sentences, and state the two readings in logical notation: \\}
+
+\begin{enumerate}
+\item  Arthur didn’t marry Susan because she is rich.
+\newpage ~ 
+\smallskip 
+\vspace*{-4mm}
+
+\shortmodelanswer{Model answer}{
+\begin{enumerate}[label=\alph*.]
+\item  ¬CAUSE(RICH(s), MARRY(a,s))
+\item  CAUSE(RICH(s), ¬MARRY(a,s))
+\end{enumerate}
+}
+\item  Mrs. Thatcher will not win because she is a woman. \\
+(spoken in 1979)
+\item  Tourists rarely visit Delhi because the food is so spicy.
+\item  I doubt that Peter is happy because he was fired.
+\end{enumerate}
+ 
+
+\paragraph*{B: Show how you could use some of the tests discussed in this chapter to determine whether the \textit{because} clauses in the following examples contribute truth-conditional or use-conditional meaning:}
+
+\begin{enumerate}
+\item  Arthur works for the State Department, because he has a STATE.GOV e-mail address.
+\item  Oil prices are rising, because OPEC has agreed to cut production.
+\end{enumerate}
+}
+\homeworkexercises{
+In \sectref{sec:18.2} we proposed the following analysis for the scopal ambiguity of sentence (\ref{ex:18.2}b):
+\textit{Arthur didn’t marry Susan because she is rich.}
+\begin{itemize}[noitemsep]
+\item  ¬CAUSE(RICH(s), MARRY(a,s))\\
+\item  CAUSE(RICH(s), ¬MARRY(a,s))
+\end{itemize}
+
+Provide a similar analysis showing the two possible readings for each of the following sentences. If you wish, you may write out the clauses in prose rather than using formal logic notation, e.g.: ¬CAUSE(\textit{Susan is rich}, \textit{Arthur marry Susan}).
+
+\begin{enumerate}
+\item Steve Jobs didn’t start Apple because he loved technology.\footnote{\url{https://www.fastcompany.com/3001441/do-steve-jobs-did-dont-follow-your-passion}}
+\item Arnold must have sold his Jaguar because I saw him driving a minivan.
+\item Few Texans voted for Romney because he is a Mormon.
+\item Susan believes that A.G. Bell was rich because he invented the telephone.
+\end{enumerate}
+}

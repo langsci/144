@@ -1,0 +1,522 @@
+\chapter{Referring, denoting, and expressing}\label{sec:2}
+
+\section{Talking about the world}\label{sec:2.1}
+
+In this chapter and the next we will think about how speakers use language to talk about the world. Referring to a particular individual, e.g. by using expressions such as \textit{Abraham Lincoln} or \textit{my father}, is one important way in which we talk about the world. Another important way is to describe situations in the world, i.e., to claim that a certain state of affairs exists. These claims are judged to be true if our description matches the actual state of the world, and false otherwise. For example, if I were to say \textit{It is raining} at a time and place where no rain is falling, I would be making a false statement.
+
+
+
+We will focus on truth in the next chapter, but in this chapter our primary focus is on issues relating to reference. We begin in section two with a very brief description of two ways of studying linguistic meaning. One of these looks primarily at how a speaker’s words are related to the thoughts or concepts he is trying to express. The other approach looks primarily at how a speaker’s words are related to the situation in the world that he is trying to describe. This second approach will be assumed in most of this book.
+
+
+
+In section three we will think about what it means to “refer” to things in the world, and discuss various kinds of expressions that speakers can use to refer to things. In section four we will see that we cannot account for meaning, or even reference, by looking only at reference. To preview that discussion, we might begin with the observation that people talk about the “meaning” of words in two different ways, as illustrated in \REF{ex:2.1}. In (\ref{ex:2.1}a), the word \textit{meant} is used to specify the reference of a phrase when it was used on a particular occasion, whereas in (\ref{ex:2.1}b-c), the word \textit{means} is used to specify the kind of meaning that we might look up in a dictionary.
+
+
+\ea \label{ex:2.1}
+\ea When Jones said that he was meeting “a close friend” for dinner, he meant his lawyer.\\
+\ex \textit{Salamat} means ‘thank you’ in Tagalog.\\
+\ex \textit{Usufruct} means ‘the right of one individual to use and enjoy the property\\
+  of another.’\footnote{http://legal-dictionary.thefreedictionary.com/usufruct}
+\z
+\z
+
+
+We will introduce the term \textsc{sense} for the kind of meaning illustrated in (\ref{ex:2.1}b-c), the kind of meaning that we might look up in a dictionary. One crucial difference between sense and reference is that reference depends on the specific context in which a word or phrase is used, whereas sense does not depend on context in this way.
+
+
+
+In section five we discuss various types of \textsc{ambiguity}, that is, ways in which a word, phrase or sentence can have more than one sense. The existence of ambiguity is an important fact about all human languages, and accounting for ambiguity is an important goal in semantic analysis.
+
+
+
+In section six we discuss a kind of meaning that does not seem to involve either reference to the world, or objective claims about the world. \textsc{Expressive} meaning (e.g. the meanings of words like \textit{ouch} and \textit{oops}) reflects the speaker’s feelings or attitudes at the time of speaking. We will list a number of ways in which expressive meaning is different from “normal” \textsc{descriptive} meaning.
+
+
+\section{Denotational semantics vs. cognitive semantics}\label{sec:2.2}
+
+Let us begin by discussing the relationships between a speaker’s words, the situation in the world, and the thoughts or concepts associated with those words. These relationships are indicated in the figure in \REF{ex:2.2}, which is a version of a diagram that is sometimes referred to as the Semiotic Triangle.
+
+
+
+ 
+
+\eabox{ \label{ex:2.2}
+ \begin{tikzpicture}
+  \node[regular polygon, regular polygon sides=3, minimum size=3cm,draw] (polygon3) {};
+  \node[shift=(polygon3.corner 1),above] {\sffamily Mind}; 
+  \node[shift=(polygon3.corner 3),below right] {\sffamily World}; 
+  \node[shift=(polygon3.corner 2),below left] {\sffamily Language}; 
+ \end{tikzpicture}
+% %  \caption{
+(one version of) the Semiotic Triangle
+% }
+}
+
+
+Semiotics is the study of the relationship between signs and their meanings. In this book we are interested in the relationship between forms and meanings in certain kinds of symbolic systems, namely human languages. The diagram is a way of illustrating how speakers use language to describe things, events, and situations in the world. As we will see when we begin to look at word meanings, what speakers actually describe is a particular \textsc{construal}, or way of thinking about, the situation. Moreover, the speaker’s linguistic description rarely if ever includes everything that the speaker knows or believes about the situation. And, of course, what the speaker knows or believes about the situation may not match the actual state of the world. So there is no one-to-one correspondence between the speaker’s mental representation and either the actual situation in the world or the linguistic expressions used to describe that situation. But clearly there are strong links or associations connecting each of these domains with the others.
+
+
+
+The basic approach we adopt in this book focuses on the link between linguistic expressions and the world. This approach is often referred to as \textsc{denotational} semantics. (We will discuss what \textsc{denotation} means in \sectref{sec:2.4} below.) An important alternative approach, \textsc{cognitive semantics}, focuses on the link between linguistic expressions and mental representations. Of course both approaches recognize that all three corners of the Semiotic Triangle are involved in any act of linguistic communication. One motivation for adopting a denotational approach comes from the fact that it is very hard to find direct evidence about what is really going on in a speaker’s mind. A second motivation is the fact that this approach has proven to be quite successful at accounting for compositionality (how meanings of complex expressions, e.g. sentences, are related to the meanings of their parts).
+
+
+
+The two foundational concepts for denotational semantics, i.e. for talking about how linguistic expressions are related to the world, are \textsc{truth} and \textsc{reference}. As we mentioned in \chapref{sec:1}, we will say that a sentence is true if it corresponds to the actual situation in the world which it is intended to describe. It turns out that native speakers are fairly good at judging whether a given sentence would be true in a particular situation; such judgments provide an important source of evidence for all semantic analysis. Truth will be the focus of attention in \chapref{sec:3}. In the next several sections of this chapter we focus on issues relating to reference.
+
+
+\section{Types of referring expressions}\label{sec:2.3}
+
+Philosophers have found it hard to agree on a precise definition for \textit{reference}, but intuitively we are talking about the speaker’s use of words to “point to” something in the world; that is, to direct the hearer’s attention to something, or to enable the hearer to identify something. Suppose we are told that Brazilians used to “refer to” Pelé as \textit{o rei} ‘the king’.\footnote{Of course, Pelé rose to fame long after Brazil became a republic, so there was no king ruling the country at that time.} This means that speakers used the phrase \textit{o rei} to direct their hearers’ attention to a particular individual, namely the most famous soccer player of the 20\textsuperscript{th} century. Similarly, we might read that amyotrophic lateral sclerosis (ALS) is often “referred to” as Lou Gehrig’s Disease, in honor of the famous American baseball player who died of this disease. This means that people use the phrase \textit{Lou Gehrig’s Disease} to direct their hearers’ attention to that particular disease.
+
+
+
+A \textsc{referring expression} is an expression (normally some kind of noun phrase) which a speaker uses to refer to something. The identity of the referent is determined in different ways for different kinds of referring expressions. A proper name like \textit{King Henry VIII}, \textit{Abraham Lincoln}, or \textit{Mao Zedong}, always refers to the same individual. (In saying this, of course, we are ignoring various complicating factors, such as the fact that two people may have the same name. We will focus for the moment on the most common or basic way of using proper names, namely in contexts where they have a single unambiguous referent.) For this reason, they are sometimes referred to as \textsc{rigid designators}. “Natural kind” terms, e.g. names of species (\textit{camel, octopus, durian}) or substances (\textit{gold, salt, methane}), are similar. When they are used to refer to the species as a whole, or the substance in general, rather than any specific instance, these terms are also rigid designators: their referent does not depend on the context in which they are used. Some examples of this usage are presented in \REF{ex:2.3}.
+
+
+\ea \label{ex:2.3}
+\ea \textit{The octopus} has eight tentacles and is quite intelligent.\\
+\ex \textit{Camels} can travel long distances without drinking.\\
+\ex \textit{Methane} is lighter than air and highly flammable.
+\z
+\z
+
+
+For most other referring expressions, reference does depend on the context of use. \textsc{deictic} elements (sometimes called \textsc{indexicals}) are words which refer to something in the speech situation itself. For example, the pronoun \textit{I} refers to the current speaker, while \textit{you} refers to the current addressee. \textit{Here} typically refers to the place of the speech event, while \textit{now} typically refers to the time of the speech event.
+
+
+
+Third person pronouns can be used with deictic reference, e.g. “Who is \textit{he}?” (while pointing); but more often are used anaphorically. An \textsc{anaphoric} element is one whose reference depends on the reference of another NP within the same discourse. (This other NP is called the \textsc{antecedent}.) The pronoun \textit{he} in sentence \REF{ex:2.4} is used anaphorically, taking \textit{George} as its antecedent.
+
+
+\ea \label{ex:2.4}
+Susan refuses to marry George\textsubscript{i} because he\textsubscript{i} smokes.
+\z
+
+
+Pronouns can be used with quantifier phrases, like the pronoun \textit{his} in sentence (\ref{ex:2.5}a); but in this context, the pronoun does not actually refer to any specific individual. So in this context, the pronoun is not a referring expression.\footnote{Pronouns used in this way are functioning as “bound variables”, as described in \chapref{sec:4}.} For the same reason, quantifier phrases are not referring expressions, as illustrated in (\ref{ex:2.5}b). (The symbol “\#” in (\ref{ex:2.5}b) indicates that the sentence is grammatical but unacceptable on semantic or pragmatic grounds.)
+
+
+\ea \label{ex:2.5}
+\ea{} [Every boy]\textsubscript{i} should respect his\textsubscript{i} mother.\\        
+\ex{} [Every American male]\textsubscript{i} loves football; \#he\textsubscript{i} watched three games last weekend.
+\z
+\z
+
+Some additional examples that illustrate why quantified noun phrases cannot be treated as referring expressions are presented in (\ref{ex:2.6}--\ref{ex:2.8}). As example (\ref{ex:2.6}a) illustrates, reflexive pronouns are normally interpreted as having the same reference as their antecedent; but this principle does not hold when the antecedent is a quantified noun phrase (\ref{ex:2.6}b).
+
+
+\ea \label{ex:2.6}
+\ea \textit{John trusts himself}  is equivalent to:  \textit{John trusts John}.\\
+\ex \textit{Everyone trusts himself}  is not equivalent to:  \textit{Everyone trusts everyone}.
+\z
+\z
+
+
+As we discuss in \chapref{sec:3}, a sentence of the form \textit{X is Estonian and X is not Estonian} is a contradiction; it can never be true, whether X refers to an individual as in (\ref{ex:2.7}b) or a group of individuals as in (\ref{ex:2.7}c). However, when X is replaced by certain quantified noun phrases, e.g. those beginning with \textit{some} or \textit{many}, the sentence could be true. This shows that these quantified noun phrases cannot be interpreted as referring to either individuals or groups of individuals.\footnote{\citet[49–52]{PetersWesterståhl2006} present a mathematical proof showing that quantified noun phrases cannot be interpreted as referring to sets of individuals.}
+
+
+\begin{stylepoints}  \label{ex:2.7}
+\ea \#X is Estonian and X is not Estonian.\\
+\ex \#John is Estonian and John is not Estonian.\\
+\ex \#My parents are Estonian and my parents are not Estonian.\\
+\ex Some/many people are Estonian and some/many people are not Estonian.
+\z
+\end{stylepoints}
+
+
+As a final example, the contrast in \REF{ex:2.8} suggests that neither \textit{every student} nor \textit{all students} can be interpreted as referring to the set of all students, e.g. at a particular school. There is much more to be said about quantifiers. We will give a brief introduction to this topic in \chapref{sec:3}, and discuss them in more detail in \chapref{sec:14}.
+
+
+\ea \label{ex:2.8}
+\ea The student body outnumbers the faculty.\\                
+\ex \#Every student outnumbers the faculty.\\
+\ex \#All students outnumbers the faculty.
+\z
+\z
+
+
+Common noun phrases may or may not refer to anything. Definite noun phrases (sometimes called \textsc{definite descriptions}) like those in \REF{ex:2.9} are normally used in contexts where the hearer is able to identify a unique referent. But definite descriptions can also be used generically, without referring to any specific individual, like the italicized phrases in \REF{ex:2.10}.
+
+
+\ea \label{ex:2.9}
+\ea this book\\
+\ex the sixteenth President of the United States\\
+\ex my eldest brother
+                       \z
+\z
+
+\ea \label{ex:2.10}
+Life’s battles don’t always go\\
+   To \textit{the stronger or faster man},\\
+But sooner or later \textit{the man who wins}\\
+   Is \textit{the one who thinks he can}.\\
+(from the poem “Thinking” by Walter D. Wintle, first published 1905?)\footnote{This poem is widely copied and often mis-attributed. Authors wrongly credited with the poem include Napoleon Hill, C.W. Longenecker, and the great American football coach Vince Lombardi.}
+\z
+
+
+\textsc{Indefinite descriptions} may be used to refer to a specific individual, like the object NP in (\ref{ex:2.11}a); or they may be non-specific, like the object NP in (\ref{ex:2.11}b). Specific indefinites are referring expressions, while non-specific indefinites are not.
+
+
+\ea \label{ex:2.11}
+\ea My sister has just married \textit{a cowboy}.\\
+\ex My sister would never marry \textit{a cowboy}.\\
+\ex My sister wants to marry \textit{a cowboy}.
+                       \z
+\z
+
+
+In some contexts, like (\ref{ex:2.11}c), an indefinite NP may be ambiguous between a specific vs. a non-specific interpretation. Under the specific interpretation, (\ref{ex:2.11}c) says that my sister wants to marry a particular individual, who happens to be a cowboy. Under the non-specific interpretation, (\ref{ex:2.11}c) says that my sister would like the man she marries to be a cowboy, but doesn’t have any particular individual in mind yet. We will discuss this kind of ambiguity in more detail in \chapref{sec:12}.
+
+
+\section{Sense vs. denotation}\label{sec:2.4}
+
+In \sectref{sec:2.1} we noted that when people talk about what a word or phrase “means”, they may have in mind either its dictionary definition or its referent in a particular context. The German logician Gottlob Frege (1848–1925) was one of the first people to demonstrate the importance of making this distinction. He used the German term \textit{Sinn} (English \textsc{sense}) for those aspects of meaning which do not depend on the context of use, the kind of meaning we might look up in a dictionary.
+
+
+
+Frege used the term \textit{Bedeutung} (English \textsc{denotation})\footnote{The term \textit{Bedeutung} is often translated into English as \textit{reference}, but this can lead to confusion when dealing with non-referring expressions which nevertheless do have a denotation.} for the other sort of meaning, which does depend on the context. The denotation of a referring expression, such as a proper name or definite NP, will normally be its referent. The denotation of a content word (e.g. an adjective, verb, or common noun) is the set of all the things in the current universe of discourse which the word could be used to describe. For example, the denotation of \textit{yellow} is the set of all yellow things, the denotation of \textit{tree} is the set of all trees, the denotation of the intransitive verb \textit{snore} is the set of all creatures that snore, etc. Frege proposed that the denotation of a sentence is its truth value. We will discuss his reasons for making this proposal in \chapref{sec:12}; in this section we focus on the denotations of words and phrases.
+
+
+
+We have said that denotations are context-dependent. This is not so easy to see in the case of proper names, because they always refer to the same individual. Other referring expressions, however, will refer to different individuals or entities in different contexts. For example, the definite NP \textit{the Prime Minister} can normally be used to identify a specific individual. Which particular individual is referred to, however, depends on the time and place. The denotation of this phrase in Singapore in 1975 would have been Lee Kuan Yew; in England in 1975 it would have been Harold Wilson; and in England in 1989 it would have been Margaret Thatcher. Similarly, the denotation of phrases like \textit{my favorite color} or \textit{your father} will depend on the identity of the speaker and/or addressee.
+
+
+
+The denotation of a content word depends on the situation or universe of discourse in which it is used. In our world, the denotation set of \textit{talks} will include most people, certain mechanical devices (computers, GPS systems, etc.) and (perhaps) some parrots. In Wonderland, as described by Lewis Carroll, it will include playing cards, chess pieces, at least one white rabbit, at least one cat, a dodo bird, etc. In Narnia, as described by C.S. Lewis, it will include beavers, badgers, wolves, some trees, etc.
+
+
+
+For each situation, the sense determines a denotation set, and knowing the sense of the word allows speakers to identify the members of this set. When Alice first hears the white rabbit talking, she may be surprised. But her response would not be, “What is that rabbit doing?” or “Has the meaning of \textit{talk} changed?” but rather “How can that rabbit be talking?” It is not the language that has changed, but the world. Sense is a fact about the language, denotation is a fact about the world or situation under discussion.
+
+
+
+Two expressions that have different senses may still have the same denotation in a particular situation. For example, the phrases \textit{the largest land mammal} and \textit{the African bush elephant} refer to the same organism in our present world (early in the 21\textsuperscript{st} century). But in a fictional universe of discourse (e.g., the movie \textit{King Kong}), or in an earlier time period of our own world (e.g., 30 million BC, when the gigantic \textit{Paraceratherium} —estimated weight about 20,000 kg— walked the earth), these two phrases could have different denotations. If two expressions can have different denotations in any context, they do not have the same sense.
+
+
+
+Such examples demonstrate that two expressions which have different senses \textsc{may} have the same denotation in certain situations. However, two expressions that have the same sense (i.e., \textsc{synonymous} expressions) must \textsc{always} have the same denotation in any possible situation. For example, the phrases \textit{my mother-in-law} and \textit{the mother of my spouse} seem to be perfect synonyms (i.e., identical in sense). If this is true, then it will be impossible to find any situation where they would refer to different individuals when spoken by the same (monogamous) speaker under exactly the same conditions.
+
+
+
+So, while we have said that we will adopt a primarily “denotational” approach to semantics, this does not mean that we are only interested in denotations, or that we believe that denotation is all there is to meaning. If meaning was just denotation, then phrases like those in \REF{ex:2.12}, which have no referent in our world at the present time, would all either mean the same thing, or be meaningless. But clearly they are not meaningless, and they do not all mean the same thing; they simply fail to refer. 
+
+
+\ea \label{ex:2.12}
+\ea the present King of France\\
+\ex the largest prime number\\
+\ex the diamond as big as the Ritz\\
+\ex the unicorn in the garden
+                       \z
+\z
+
+
+Frege’s distinction allows us to see that non-referring expressions like those in \REF{ex:2.12} may not have a referent, but they do have a sense, and that sense is derived in a predictable way by the normal rules of the language.
+
+
+\section{Ambiguity}\label{sec:2.5}
+
+It is possible for a single word to have more than one sense. For example, the word \textit{hand} can refer to the body part at the end of our arms; the pointer on the dial of a clock; a bunch of bananas; the group of cards held by a single player in a card game; or a hired worker. Words that have two or more senses are said to be \textsc{ambiguous} (more precisely, \textsc{polysemous}; see \chapref{sec:5}).
+
+
+
+A deictic expression such as \textit{my father} will refer to different individuals when spoken by different speakers, but this does not make it ambiguous. As emphasized above, the fact that a word or phrase can have different denotations in different contexts does not mean that it has multiple senses, and it is important to distinguish these two cases. We will discuss the basis for making this distinction in \chapref{sec:5}.
+
+
+
+If a phrase or sentence contains an ambiguous word, the phrase or sentence will normally be ambiguous as well, as illustrated in \REF{ex:2.13}.
+
+
+\ea \label{ex:2.13}
+\textsc{Lexical ambiguity}\\
+\ea A boiled egg is hard to \textit{beat}.\\
+\ex The farmer allows walkers to cross the field for free, but the bull \textit{charges}.\\
+\ex I just turned 51, but I have a nice new \textit{organ} which I enjoy tremendously.\footnote{from e-mail newsletter, 2011.}
+                       \z
+\z
+
+
+An ambiguous sentence is one that has more than one sense, or “reading”. A sentence which has only a single sense may have different truth values in different contexts, but will always have one consistent truth value in any specific context. With an ambiguous sentence, however, there must be at least one conceivable context in which the two senses would have different truth values. For example, one reading of (\ref{ex:2.13}b) would be true at the same time that the other reading is false if there is a bull in the field which is aggressive but not financially sophisticated.
+
+
+
+In addition to lexical ambiguity of the kind illustrated in \REF{ex:2.13}, there are various other ways in which a sentence can be ambiguous. One of these is referred to as \textsc{structural ambiguity}, illustrated in (\ref{ex:2.14}a--d). In such cases, the two senses (or readings) arise because the grammar of the language can assign two different structures to the same string of words, even though none of those words is itself ambiguous. The two different structures for (\ref{ex:2.14}d) are shown by the bracketing in (\ref{ex:2.14}e), which corresponds to the expected reading, and (\ref{ex:2.14}f) which corresponds to the Groucho Marx reading. Of course, some sentences involve both structural and lexical ambiguity, as is the case in (\ref{ex:2.14}c).
+
+
+\ea \label{ex:2.14}
+\textsc{Structural ambiguity}\footnote{These examples are taken from \citet[102]{Pinker1994}. The first three are said to be actual newspaper examples.}\\
+\ea Two cars were reported stolen by the Groveton police yesterday.\\
+\ex The license fee for altered dogs with a certificate will be \$3 and for pets owned\\
+  by senior citizens who have not been altered the fee will be \$1.50.\\
+\ex For sale: mixing bowl set designed to please a cook with round bottom for\\
+  efficient beating.\\
+\ex One morning I shot an elephant in my pajamas. How he got into my pajamas\\
+  I’ll never know.  (Groucho Marx, in the movie \textit{Animal Crackers})\\
+\ex One morning I [shot an elephant] [in my pajamas].\\
+\ex One morning I shot [an elephant in my pajamas].
+                       \z
+\z
+
+
+Structural ambiguity shows us something important about meaning, namely that meanings are not assigned to strings of phonological material but to syntactic objects.\footnote{\citet[514]{Kennedy2011}.} In other words, syntactic structure makes a crucial contribution to the meaning of an expression. The two readings for (\ref{ex:2.14}d) involve the same string of words but not the same syntactic object.
+
+
+
+A third type of ambiguity which we will mention here is \textsc{referential ambiguity}. (We will discuss additional types of ambiguity in later chapters.) It is fairly common to hear people using pronouns in a way that permits more than one possible antecedent, e.g. \textit{Adams wrote frequently to Jefferson while he was in Paris}. The pronoun \textit{he} in this sentence has ambiguous reference; it could refer either to John Adams or to Thomas Jefferson. It is also possible for other types of NP to have ambiguous reference. For example, if I am teaching a class of 14 students, and I say to the Dean \textit{My student has won a Rhodes scholarship}, there are multiple possible referents for the subject NP.
+
+
+
+A famous example of referential ambiguity occurs in a prophecy from the oracle at Delphi, in ancient Greece. The Lydian king Croesus asked the oracle whether he should fight against the Persians. The oracle’s reply was that if Croesus made war on the Persians, he would destroy a mighty empire. Croesus took this to be a positive answer and attacked the Persians, who were led by Cyrus the Great. The Lydians were defeated and Croesus was captured; the empire which Croesus destroyed turned out to be his own.
+
+
+\section{Expressive meaning: \textit{Ouch} and \textit{oops}}\label{sec:2.6}
+
+Words like \textit{ouch} and \textit{oops}, often referred to as \textsc{expressives}, present an interesting challenge to the “denotational” approach outlined above. They convey a certain kind of meaning, yet they neither refer to things in the world, nor help to determine the conditions under which a sentence would be true. In fact, it is hard to claim that they even form part of a sentence; they seem to stand on their own, as one-word utterances. The kind of meaning that such words convey is called \textsc{expressive meaning}, which \citet[44]{Lyons1995} defines as “the kind of meaning by virtue of which speakers express, rather than describe, their beliefs, attitudes and feelings.” Expressive meaning is different from \textsc{descriptive meaning} (also called \textsc{propositional meaning} or \textsc{truth-} \textsc{conditional} \textsc{meaning}), the “normal” type of meaning which determines reference and truth values. If someone says \textit{I just felt a sudden sharp pain}, he is describing what he feels; but when he says \textit{Ouch!}, he is expressing that feeling.
+
+
+
+Words like \textit{ouch} and \textit{oops} carry only expressive meaning, and seem to be unique in other ways as well. They may not necessarily be intended to communicate. If I hurt myself when I am working alone, I will very likely say \textit{ouch} (or some other expressive with similar meaning) even though there is no one present to hear me. Such expressions seem almost like involuntary reactions, although the specific forms are learned as part of a particular language. But it is important to be aware of the distinction between expressive vs. descriptive meaning, because many “normal” words carry both types of meaning at once.
+
+
+
+For example, the word \textit{garrulous} means essentially the same thing as \textit{talkative}, but carries additional information about the speaker’s negative attitude towards this behavior.\footnote{\citet{Barker2001}.} There are many other pairs of words which seem to convey the same descriptive meaning but differ in terms of their expressive meaning: \textit{father} vs. \textit{dad}; \textit{woman} vs. \textit{broad}; \textit{horse} vs. \textit{nag}; \textit{alcohol} vs. \textit{booze}; etc. In each case either member of the pair could be used to refer to the same kinds of things in the world; the speaker’s choice of which term to use indicates varying degrees of intimacy, respect, appreciation or approval, formality, etc.
+
+
+
+The remainder of this section discusses some of the properties which distinguish expressive meaning from descriptive meaning.\footnote{Much of this discussion is based on \citet{Cruse1986,Cruse2000} and \citet{Potts2007c}.} These properties can be used as diagnostics when we are unsure which type of meaning we are dealing with.
+
+
+\subsection{Independence}\label{sec:2.6.1}
+
+Expressive meaning is independent of descriptive meaning in the sense that expressive meaning does not affect the denotation of a noun phrase or the truth value of a sentence. For example, the addressee might agree with the descriptive meaning of \REF{ex:2.15} without sharing the speaker’s negative attitude indicated by the expressive term \textit{jerk}. Similarly, the addressee in \REF{ex:2.16} might agree with the descriptive content of the sentence without sharing the speaker’s negative attitude indicated by the pejorative suffix \textit{-aco}.
+
+
+\ea \label{ex:2.15}
+That \textit{jerk} Peterson is the only real economist on this committee.
+\z
+
+\ea \label{ex:2.16}
+\gll Los  vecinos  tienen  un  pajarr-\textit{aco}  como  mascota.  [Spanish]\\
+the  neighbors  have  a  bird-\textsc{pejor}  as  pet\\
+\glt Descriptive: The neighbors have a pet bird.\\
+Expressive: The speaker has a negative attitude towards the bird.  (\citealt{Fortin2011})
+\z
+
+\subsection{Nondisplaceability}\label{sec:2.6.2}
+
+\citet{Hockett1958,Hockett1960} used the term \textsc{Displacement} to refer to the fact that speakers can use human languages to describe events and situations which are separated in space and time from the speech event itself. Hockett listed this ability as one of the distinctive properties of human language, one which distinguishes it, for example, from most types of animal communication.
+
+
+
+\citet[272]{Cruse1986} notes that this capacity for displacement holds only for descriptive meaning, and not for expressive meaning. A person can describe his own feelings in the past or future, e.g. \textit{Last month I felt a sharp pain in my chest}, or \textit{I will probably feel a lot of pain when the dentist drills my tooth tomorrow}; or the feelings of other people, e.g. \textit{She was in} \textit{a lot of pain}. But when a person says \textit{Ouch!}, it must normally express pain that is felt by the speaker at the moment of speaking.
+
+
+\subsection{Immunity}\label{sec:2.6.3}
+
+Descriptive meaning can be negated (\ref{ex:2.17}a), questioned (\ref{ex:2.17}b), or challenged (\ref{ex:2.17}c). Expressive meaning is “immune” to all of these things, as illustrated in \REF{ex:2.18}. As we will see in later chapters, negation, questioning, and challenging are three of the standard tests for identifying truth-conditional meaning. The fact that expressive meaning cannot be negated, questioned, or challenged shows that it is not part of the truth-conditional meaning of the sentence.
+
+
+\ea \label{ex:2.17}
+\ea \textit{I am not feeling any pain.}\\
+\ex \textit{Are you feeling any pain?}\\
+\ex  \textsc{patient}: \textit{I just felt a sudden sharp pain.}\\
+  \textsc{dentist}: \textit{That’s a lie — I gave you a double dose of Novocain.}\\
+    (\citealt{Cruse1986}:271)
+\z
+
+\ea \label{ex:2.18}
+\ea \textit{*Not ouch.}\\
+                       \z
+\ex \textit{*Ouch?}  (can only be interpreted as an elliptical form of the question:\\
+    \textit{Did you say “Ouch”?})\\
+\ex  \textsc{patient}: \textit{Ouch!}\\
+  \textsc{dentist}: \#\textit{That’s a lie.}
+                       \z
+\z
+
+\subsection{Scalability and repeatability}\label{sec:2.6.4}
+
+Expressive meaning can be intensified through repetition (as seen in ex. g below), or by the use of intonational features such as pitch, length or loudness. Descriptive meaning is generally expressible in discrete units which correspond to the lexical semantic content of individual words. Repetition of descriptive meaning tends to produce redundancy, though we should note that a number of languages do use reduplication to encode plural number, repeated actions, etc.
+
+
+\subsection{Descriptive ineffability}\label{sec:2.6.5}
+
+“Effability” means ‘expressibility’. The \textsc{Effability} \textsc{Hypothesis} claims that “Each proposition can be expressed by some sentence in any natural language”;\footnote{\citet[209]{Katz1978}.} or in other words, “Whatever can be meant can be said.”\footnote{\citet[18]{Searle1969}; see also \citet[18-24]{Katz1972}; \citet[33]{Carston2002}.}
+
+
+
+\citet{Potts2007c} uses the phrase “descriptive ineffability” to indicate that expressive meaning often cannot be adequately stated in terms of descriptive meaning. A paraphrase based on descriptive meaning (e.g. \textit{young dog} for \textit{puppy}) is often interchangeable with the original expression, as illustrated in \REF{ex:2.19}. Whenever (\ref{ex:2.19}a) is true, (\ref{ex:2.19}b) must be true as well, and vice versa. Moreover, this substitution is equally possible in questions, commands, negated sentences, etc. This is not the case with expressives, even where a descriptive paraphrase is possible, as illustrated in (\ref{ex:2.17}--\ref{ex:2.18}) above.
+
+
+\ea \label{ex:2.19}
+\ea \textit{Yesterday my son brought home a puppy.}\\
+\ex \textit{Yesterday my son brought home a young dog.}
+                       \z
+\z
+
+
+For many expressives there is no descriptive paraphrase available, and speakers often find it difficult to explain the meaning of the expressive form in descriptive terms. For example, most dictionaries do not attempt to paraphrase the meaning of \textit{oops}, but rather “define” it by describing the contexts in which it is normally used:
+
+
+\ea
+
+
+
+
+
+
+  a. “used typically to express mild apology, surprise, or dismay”\\
+  (http://www.merriam-webster.com)\\
+\ex “an exclamation of surprise or of apology as when someone drops something\\
+  or makes a mistake” (Collins English Dictionary – Complete and Unabridged\\
+  © HarperCollins Publishers1991 , 1994, 1998, 2000, 2003)
+\z
+
+
+This limited expressibility correlates with limited translatability. The descriptive meaning conveyed by a sentence in one language is generally expressible in other languages as well. (Whether this is always the case, as predicted by strong forms of the Effability Hypothesis, is a controversial issue.) However, it is often difficult to find an adequate translation equivalent for expressive meaning. One well known example is the ancient Aramaic term of contempt \textit{raka}, which appears in the Greek text of Matthew 5:22 (and in many English translations), presumably because there was no adequate translation equivalent in Koine Greek. (Some of the English equivalents which have been suggested include: \textit{good-for-nothing}, \textit{rascal}, \textit{empty head}, \textit{stupid}, \textit{ignorant}.) In 393 AD, St. Augustine offered the following explanation:
+
+
+\begin{quote}
+Hence the view is more probable which I heard from a certain Hebrew whom I had asked about it; for he said that the word does not mean anything, but merely expresses the emotion of an angry mind. Grammarians call those particles of speech which express an affection of an agitated mind \textsc{interjections}; as when it is said by one who is grieved, ‘Alas,’ or by one who is angry, ‘Hah.’ And these words in all languages are proper names, and are not easily translated into another language; and this cause certainly compelled alike the Greek and the Latin translators to put the word itself, inasmuch as they could find no way of translating it.”\footnote{\textit{On the Sermon on the Mount}, Book I, ch. 9, sec. 23; \url{http://www.newadvent.org/fathers/16011.htm}} 
+\end{quote}
+
+
+Whether or not Augustine was correct in his view that \textit{raka} was a pure expressive, he provides an excellent description of this class of words and the difficulty of translating them from one language to another. This quote also demonstrates that the challenges posed by expressives have been recognized for a very long time.
+
+
+
+A similar translation problem helped to create an international incident in 1993 when the Malaysian Prime Minister, Dr. Mahathir Mohamad, declined an invitation to attend the first Asia-Pacific Economic Cooperation (APEC) summit. Australian Prime Minister Paul Keating, when asked for a comment, replied: “APEC is bigger than all of us; Australia, the US and Malaysia and Dr Mahathir and any other recalcitrants.” Bilateral relations were severely strained, and both Malaysian government policies and Malaysian public opinion towards Australia were negatively affected for a long period of time. A significant factor in this reaction was the fact that the word \textit{recalcitrant} was translated in the Malaysian press by the Malay idiom \textit{keras kepala}, literally ‘hard headed’. The two expressions have a similar range of descriptive meaning (‘stubborn, obstinate, defiant of authority’), but the Malay idiom carries expressive meaning which makes the sense of insult and disrespect much stronger than in the English original. \textit{Keras kepala} would be appropriate in scolding a child or subordinate, but not in referring to a head-of-government.
+
+
+\subsection{Case study: Expressive uses of diminutives}\label{sec:2.6.6}
+
+Diminutives are grammatical markers whose primary or literal meaning is to indicate small size; but diminutives often have secondary uses as well, and often these involve expressive content. Anna \citet{Wierzbicka1985} describes one common use of diminutives in Polish as follows:
+
+
+\begin{quote}
+In Polish, warm hospitality is expressed as much by the use of diminutives as it is by the ‘hectoring’ style of offers and suggestions. Characteristically, the food items offered to the guest are often referred to by the host by their diminutive names. Thus… one might say in Polish: \textit{Wei jeszcze Sledzika! Koniecznie!} ‘Take some more dear-little-herring (\textsc{dim}). You must!’ The diminutive praises the quality of the food and minimizes the quantity pushed onto the guest’s plate. The speaker insinuates: “Don’t resist! it is a small thing I’m asking you to do — and a good thing!”. The target of the praise is in fact vague: the praise seems to embrace the food, the guest, and the action of the guest desired by the host. The diminutive and the imperative work hand in hand in the cordial, solicitous attempt to get the guest to eat more.
+\end{quote}
+
+
+Markers of expressive meaning often have several possible meanings, which depend heavily on context, and this is true for the Spanish diminutive suffixes as illustrated in \REF{ex:2.21}. Notice that the same diminutive suffix can have nearly opposite meanings (deprecation vs. appreciation; exactness vs. approximation; attenuation vs. intensification) in different contexts (and, in some cases, different dialects). These examples also illustrate the “scalability” of expressive meaning, the fact that it can be intensified through repetition, as in \textit{chiqu-it-it-o}.
+
+
+\ea \label{ex:2.21}
+The expressive uses of Spanish diminutive suffixes \citep{Fortin2011}
+
+\ea Deprecation
+
+\textit{mujer-zuela}  woman\textsc{-dim}  ‘disreputable woman’ + disdain/mockery
+
+ \ex Appreciation
+
+\textit{niñ-ito}  boy-\textsc{dim}  ‘boy’ + endearment/affection
+
+\ex  Hypocorism (nick-name, pet name)
+
+\textit{Carol-ita}  Carol-\textsc{dim}  ‘Carol’ + endearment
+
+\ex Exactness
+
+\textit{igual-ito}  the.same-\textsc{dim}  ‘exactly the same’
+
+\ex Approximation
+
+\textit{floj-illo}  lazy-\textsc{dim}  ‘kind of lazy, lazy-ish’
+
+\ex Attenuation
+
+\textit{ahor-ita}  now-\textsc{dim}  ‘soon, in a little while’ (Caribbean Spanish)
+
+\ex Intensification
+
+\textit{ahor-ita}  now-\textsc{dim}  ‘immediately, right now’ (Latin American Spanish)
+
+\textit{chiqu-it-o}  small-\textsc{dim-masc}  ‘very small’\\
+\textit{chiqu-it-it-o}  small-\textsc{dim-dim-masc}  ‘very, very small/teeny-weeny’\\
+\textit{chiqu-it-it-…-it-o}  small-\textsc{dim}-\textsc{dim}-\textsc{…}-\textsc{dim}-\textsc{masc} ‘very, very, …, very, small’
+\z
+\z
+\section{Conclusion}\label{sec:2.7}
+
+In this chapter we started with the observation that speakers use language to talk about the world, for example by referring to things or describing states of affairs. We introduced the distinction between sense and denotation, which is of fundamental importance in all that follows. Knowing the sense of a word is what makes it possible for speakers of a language to identify the denotation of that word in a particular context of use. In a similar way, as we discuss in \chapref{sec:3}, knowing the sense of a sentence is what makes it possible for speakers of a language to judge whether or not that sentence is true in a particular context of use. The issue of ambiguity (a single word, phrase, or sentence with more than one sense) is one that we will return to often in the chapters that follow. Finally, we demonstrated a number of ways in which this kind of descriptive meaning (talking about the world) is different from expressive meaning (expressing the speaker’s emotions or attitudes). In the rest of this book, we will focus primarily on descriptive meaning rather than expressive meaning; but it is important to remember that both “dimensions” of meaning are involved in many (if not most) utterances.
+
+
+
+\furtherreading
+
+
+
+\citet[ch. 4]{Birner2013} provides a helpful overview of reference and various related issues.
+
+
+
+\citet[ch. 2]{Abbot2010} provides a good summary of early work by Frege and other philosophers on the distinction between sense and denotation; later chapters provide in-depth discussions of various types of referring expressions. 
+
+
+
+For additional discussion of expressive meaning see \citet{Cruse1986,Cruse2000}, \citet{Potts2007b}, and \citet{Kratzer1999}.
+
+
+\subsection*{Discussion exercises}
+\paragraph*{A: Sense vs. denotation}
+
+Which of the following pairs of expressions have the same sense? the same denotation? Explain your answer.
+ 
+{\small 
+\begin{enumerate}[label=\alph*.]
+\item \parbox{5.5cm}{\textit{cordates} (= ‘animals with hearts’) } \textit{renates} (= ‘animals with kidneys’)\\               
+\item \parbox{5.5cm}{\itshape animals with gills and scales } {\itshape fish}\\
+\item \parbox{5.5cm}{\itshape your first-born son } {\itshape your oldest male offspring}\\
+\item \parbox{5.5cm}{\itshape Ronald Reagan } {\itshape the Governor of California}\\
+\item \parbox{5.5cm}{\itshape my oldest sister } {\itshape your Aunt Betty}\\
+\item \parbox{5.5cm}{\itshape my pupils } {\itshape the students that I teach}\\
+\item \parbox{5.5cm}{\textit{the man who invented the phonograph} } \textit{the man who invented the light-bulb}\\
+\end{enumerate}
+}
+
+\noindent Model answer for (a):
+\begin{quote} In our world at the present time, all species that have hearts also have kidneys; so these two words have the same denotation in our world at the present time. They do not have the same sense, however, because we can imagine a world in which some species had hearts without kidneys, or kidneys without hearts; so the two words do not have the same denotation in all possible situations. \end{quote}
+% \z
+
+\paragraph*{B: Referring expressions}
+
+% \ea
+Which of the following NPs are being used to \textit{refer} to something?
+% \z
+
+\begin{enumerate}[label=\alph*.]
+\item I never promised you \textit{a rose garden}.
+\item St. Benedict, the father of Western monasticism, planted \textit{a rose garden} at his early monastery in Subiaco near Rome\footnote{[http://www.scu.edu/stclaregarden/ethno/medievalgardens.cfm]}
+\item My sister wants to marry \textit{a policeman}.
+\item My sister married \textit{a policeman}.
+\item Leibniz searched for \textit{the solution to the equation}.
+\item Leibniz discovered \textit{the solution to the equation}.
+\item \textit{No cat} likes being bathed.
+\item \textit{All musicians} are temperamental.
+\end{enumerate}
+
+\subsection*{Homework exercises}
+\paragraph*{A: Idiomatic meaning}
+
+Try to find one phrasal idiom (an idiom consisting of two or more words) in a language other than English; give a word-for-word translation and explain its idiomatic meaning.
+
+\paragraph*{B: Expressive meaning}
+
+Try to find a word in a language other than English which has purely expressive meaning, like \textit{oops} and \textit{ouch}; and explain how it is used.
+
+\paragraph*{C: Referring expressions}
+
+For each of the following sentences, state whether or not the underlined nominal expression is being used to refer.
+
+\begin{enumerate}[label=\alph*.]
+\item Abraham Lincoln was very close to \textbf{his step-mother}.\\{}
+  {}[\textbf{model answer}: the phrase \textit{his step-mother} is used to refer to a specific person,\\
+  namely \textstylest{Sarah Bush} Lincoln, so it does refer]
+\item  I’m so hungry I could eat \textbf{a horse}.
+\item  \textstylest{Senate Majority Leader Curt Bramble, R-Provo, was back in the hospital this weekend after getting} kicked by \textbf{a horse}. [Provo, UT \textit{Daily Herald} Jan. 29, 2007]
+\item  Police searched the house for 6 hours but found \textbf{no drugs}.
+\item  Edward hopes that his on-line match-making service will help him find   \textbf{the girl of his dreams}.
+\item  Susan married \textbf{the first man who proposed to her}.
+\item  \textbf{Every city} has pollution problems.
+\end{enumerate}

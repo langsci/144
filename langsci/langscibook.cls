@@ -85,7 +85,7 @@
 \newcommand{\lsISBNsoftcoverus}{000-0-000000-00-0}
 \newcommand{\lsBookDOI}{??}
 \newcommand{\lsChapterDOI}{??}
-\newcommand{\lsURL}{http://langsci-press.org/catalog}
+\newcommand{\lsURL}{http://langsci-press.org/catalog/\lsID}
 \newcommand{\lsSeries}{eotms}
 \newcommand{\lsSpineBreadth}{20mm}
 \newcommand{\lsOutput}{book} %"short" makes no sense if "long" is deprecated
@@ -748,7 +748,7 @@
 \fi
 
 \iflsNewtxmath		% some users have problems when installing newtxmath
-% 	\usepackage[libertine]{newtxmath}
+ 	\usepackage[libertine]{newtxmath}
 
 	%% following http://tex.stackexchange.com/questions/297328/xelatex-does-not-load-newtxmath-with-linuxlibertine-sometimes
 	%% due to a bug in XeTeX; unfortunately this is NOT extensively tested!
@@ -1027,33 +1027,36 @@ This title can be downloaded at:\\
 
 © \lsYear, \iflsCollection the authors\else\@author\fi
 
-\newcommand{\ccby}{CC-BY} 
-\ifx\lsCopyright\ccby 
+\newcommand{\ccby}{CC-BY}
+\ifx\lsCopyright\ccby
 Published under the Creative Commons Attribution 4.0 Licence (CC BY 4.0):
-http://creativecommons.org/licenses/by/4.0/ 
+http://creativecommons.org/licenses/by/4.0/
 \else
 Published under the Creative Commons Attribution-NoDerivatives 4.0 Licence (CC BY-ND 4.0):
-http://creativecommons.org/licenses/by-nd/4.0/ 
+http://creativecommons.org/licenses/by-nd/4.0/
 \fi
- 
+
 \begin{tabular}{@{}l@{~}l}
-ISBN: & 
-\IfStrEq{\lsISBNdigital}{000-0-000000-00-0} 
-{\color{red}no digital ISBN}
-{\lsISBNdigital~(Digital)}
+ISBN: &
+\IfStrEq{\lsISBNdigital}{000-0-000000-00-0}{%no digital ISBN, issue warning
+  \color{red}no digital ISBN
+}{%digital ISBN present, write ISBN
+  \lsISBNdigital~(Digital)
+}
 \\
-&
-\IfStrEq{\lsISBNhardcover}{000-0-000000-00-0} 
-{\color{red}no hardcover ISBN}
-{\lsISBNhardcover~(Hardcover)}
-\\&
-\IfStrEq{\lsISBNsoftcover}{000-0-000000-00-0} 
-{\color{red}no softcover ISBN}
-{\lsISBNsoftcover~(Softcover)}
-\\
-%       & \lsISBNhardcover~(Hardcover)\\
-%       & \lsISBNsoftcover~(Softcover)\\
-%       & \lsISBNsoftcoverus~(Softcover US)\\
+\IfStrEq{\lsISBNhardcover}{000-0-000000-00-0}{ %hardcover ISBN not present
+}{%hardcover ISBN present, write ISBN
+  &\lsISBNhardcover~(Hardcover)\\
+}
+
+\IfStrEq{\lsISBNsoftcover}{000-0-000000-00-0}{ %softcover ISBN not present
+  \IfStrEq{\lsISBNhardcover}{000-0-000000-00-0}{ %neither hardcover nor softcover, issue warning
+    \color{red} no print ISBNs!
+  }{%hardcover present, no warning
+  }
+}{%only softcover present, write ISBN
+  &\lsISBNsoftcover~(Softcover)\\
+}
 \end{tabular}
 
 \IfStrEq{\lsISSN}{??}   % \IfStrEq from xstring
@@ -1062,11 +1065,12 @@ ISBN: &
 
 \IfStrEq{\lsBookDOI}{??}    % \IfStrEq from xstring
   {{\color{red} no DOI}}
-  {\doi{\lsBookDOI}}
-
+  {\doi{\lsBookDOI}}\\
+Source code available from \url{www.github.com/langsci/\lsID}  \\
+Collaborative~reading:~\href{{paperhive.org/documents/remote?type=langsci&id=\lsID}}{paperhive.org/documents/remote?type=langsci\&id=\lsID}
 
 \bigskip
- 
+
 Cover and concept of design:
 Ulrike Harbort \\
 \if\@translator\empty\else
@@ -1101,20 +1105,18 @@ Unter den Linden 6\\
 
 \vfill
 
-Storage and cataloguing done by FU Berlin \\[3ex]   
+Storage and cataloguing done by FU Berlin \\[3ex]
 
-\IfFileExists{\logopath logo.pdf}{\includegraphics[width=5cm]{\logopath langscibook-logo.pdf}}{\logotext} \\[3ex]
-
-
-\vfill
+\IfFileExists{\logopath storagelogo.pdf}{\includegraphics[width=5cm]{\logopath storagelogo.pdf}}{\logotext} \\[3ex]
 
 
-
-\noindent
-\lsp has no responsibility for the persistence or accuracy of URLs for
-external or third-party Internet websites referred to in this
-publication, and does not guarantee that any content on such websites
-is, or will remain, accurate or appropriate. 
+% \vfill
+% 
+% \noindent
+% \lsp has no responsibility for the persistence or accuracy of URLs for
+% external or third-party Internet websites referred to in this
+% publication, and does not guarantee that any content on such websites
+% is, or will remain, accurate or appropriate.
 }
 
 
@@ -1272,8 +1274,9 @@ is, or will remain, accurate or appropriate.
 	% \else
 	% style=\bstpath biblatex-langsci-unified,
 	% \fi
-  style=\bbxpath biblatex-sp-unified,
+	style=\bbxpath biblatex-sp-unified,
 	citestyle=\cbxpath sp-authoryear-comp,
+	useprefix = true,
 	%refsection=chapter,
 	maxbibnames=99,
 	maxcitenames=2,

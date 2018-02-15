@@ -1,0 +1,455 @@
+\chapter{Indirect Speech Acts}\label{sec:10}
+
+\section{Introduction}\label{sec:10.1}
+
+Deborah \citet{Tannen1981} recounts the following experience as a visitor to Greece:
+
+
+\begin{quote}
+While I was staying with a family on the island of Crete, no matter how early I awoke, my hostess managed to have a plate of scrambled eggs waiting on the table for me by the time I was up and dressed; and at dinner every evening, dessert included a pile of purple seeded grapes. Now I don’t happen to like seeded grapes or eggs scrambled, but I had to eat them both because they had been set out—at great inconvenience to my hosts—especially for me. It turned out that I was getting eggs scrambled because I had asked, while watching my hostess in the kitchen, whether she ever prepared eggs by beating them, and I was getting grapes out of season because I had asked at dinner one evening how come I hadn’t seen grapes since I had arrived in Greece. My hosts had taken these careless questions as hints—that is, indirect expressions of my desires. In fact, I had not intended to hint anything, but had merely been trying to be friendly, to make conversation.
+\end{quote}
+
+
+Tannen’s hosts believed that she was trying to communicate more than the literal meaning of her words, that is, that she was trying to implicate something without saying it directly. Moreover, the implicature which they (mistakenly) understood had the effect of doing more than the literal meaning of her words would do. Her utterances, taken literally, were simply questions, i.e., requests for information. Her hosts interpreted these utterances as implicated requests to provide her with scrambled eggs and grapes. In other words, Tannen’s hosts interpreted these utterances as \textsc{indirect speech acts}.
+
+
+
+A speech act is an action that speakers perform by speaking: offering thanks, greetings, invitations, making requests, giving orders, etc. A \textsc{direct speech act} is one that is accomplished by the literal meaning of the words that are spoken. An \textsc{indirect speech act} is one that is accomplished by implicature.
+
+
+
+\citet{Tannen1981} states that “misunderstandings like these are commonplace between members of what appear to (but may not necessarily) be the same culture. However, such mix ups are especially characteristic of cross-cultural communication.”\footnote{See also \citet{Tannen1975,Tannen1986}.} For this reason, indirect speech acts are a major focus of research in the areas of applied linguistics and second language acquisition. They also constitute a potential challenge for translation.
+
+
+
+We begin this chapter in \sectref{sec:10.2} with a summary of J.L. Austin’s theory of speech acts, another foundational contribution to the field of pragmatics. Austin begins by identifying and analyzing a previously unrecognized class of utterances which he calls \textsc{performatives}. He then generalizes his account of performatives to apply to all speech acts.
+
+
+
+In \sectref{sec:10.3} we summarize Searle’s theory of indirect speech acts. Searle builds on Austin’s theory, with certain modifications, and goes on to propose answers to two fundamental questions: How do hearers recognize indirect speech acts (i.e., how do they know that the intended speech act is not the one expressed by the literal meaning of the words spoken), and having done so, how do they correctly identify the intended speech act? (Both of these issues tend to be difficult for even advanced language learners.) An important part of Searle’s answer to these questions is the recognition that indirect speech acts are a special type of conversational implicature.
+
+
+
+In \sectref{sec:10.4} we touch briefly on some cross-linguistic issues, including the question of whether Searle’s theory provides an adequate account for indirect speech acts in all languages.
+
+
+\section{Performatives} \label{sec:10.2}
+
+In \chapref{sec:3} we cited the definition of sentence meaning repeated here in \REF{ex:10.1}:
+
+
+\ea \label{ex:10.1}
+“To know the meaning of a [declarative] sentence is to know what the world would have to be like for the sentence to be true.”\footnote{\citet[4]{DowtyEtAl1981}.}
+\z
+
+
+Perhaps you wondered, gentle reader, how we might define the meaning of a non-declarative sentence, such as a question or a command? It must be possible for someone to know the meaning of a question without knowing what the world would have to be like for the question to be true —a question is not the sort of thing which \textsc{can} be true, but clearly this does not mean that questions are meaningless.
+
+
+
+The semantic analysis of questions and commands is an interesting and challenging area of research, but one that we will not attempt to address in the present book. Even if we restrict our attention to declarative sentences, however, we find some for which the definition in \REF{ex:10.1} does not seem to be directly applicable. J.L. Austin, in a 1955 series of lectures at Harvard University (published as \citealt{Austin1962}), called attention to a class of declarative sentences which cannot be assigned a truth value, because they do not make any claim about the state of the world. Some examples are presented in (\ref{ex:10.2}--\ref{ex:10.3}).\footnote{Much of the discussion in this section is based on \citet{Austin1961}, which is the transcript of an unscripted radio address he delivered on the BBC in 1956.}
+
+
+Austin’s examples:
+
+\ea \label{ex:10.2}
+\ea  ‘I do’ (sc. take this woman to be my lawful wedded wife) — as uttered in the course of the marriage ceremony.
+\ex  ‘I name this ship the Queen Elizabeth’ — as uttered when smashing the bottle against the stem.
+\ex   ‘I bet you sixpence it will rain tomorrow.’
+\z \z
+
+\ea \label{ex:10.3}
+Further examples:\\
+\ea I hereby sentence you to 10 years in prison.\\
+\ex I now pronounce you man and wife.\\
+\ex I declare this meeting adjourned.\\
+\ex By virtue of the authority vested in me by the State of XX, and through the Board of Governors of the University of XX, I do hereby confer upon each of you the degree for which you have qualified, with all the rights, privileges and responsibilities appertaining.
+\z
+\z
+
+
+Austin pointed out that when someone says \textit{I now pronounce you man and wife} or \textit{I hereby declare this meeting adjourned}, the speaker is not describing something, but doing something. The speaker is not making a claim about the world, but rather changing the world. For this reason, it doesn’t make sense to ask whether these statements are true or false. It does, however, make sense to ask whether the person’s action was successful or appropriate. Was the speaker licensed to perform a marriage ceremony at that time and place, or empowered to pass sentence in a court of law? Were all the necessary procedures followed completely and correctly? etc.
+
+
+
+Austin called this special class of declarative sentences \textsc{performatives}. He argued that we need to recognize performatives as a new class of \textsc{speech acts} (things that people can do by speaking), in addition to the commonly recognized speech acts such as statements, questions, and commands. Austin refers to the act which the speaker intends to perform by speaking as the \textsc{illocutionary force} of the utterance.\footnote{Austin distinguished \textsc{illocutionary act,} the act which the speaker intends to perform “in speaking”, from \textsc{locutionary act} (the act of speaking) and \textsc{perlocutionary act} (the actual result achieved “by speaking” the utterance).}
+
+
+
+As noted above, it does not make sense to try to describe truth conditions for performatives. Instead, Austin says, we need to identify the conditions under which the performative speech act will be \textsc{felicitous}, i.e. successful, valid, and appropriate. He identifies the following kinds of \textsc{Felicity Conditions}:
+
+
+\ea \label{ex:10.4}
+{Felicity Conditions} \citep[14--15]{Austin1962}:\\
+(A.1) There must exist an accepted conventional procedure having a certain conventional effect, that procedure to include the uttering of certain words by certain persons in certain circumstances, and further,
+
+(A.2) the particular persons and circumstances in a given case must be appropriate for the invocations of the particular procedure invoked.
+
+(B.1) The procedure must be executed by all participants both correctly and (B.2) completely.
+
+(C.1) Where, as often, the procedure is designed for use by persons having certain thoughts or feelings, or for the inauguration of certain consequential conduct on the part of any participant, then a person participating in and so invoking the procedure must in fact have those thoughts or feelings, and the participants must intend so to conduct themselves, and further
+
+(C.2) must actually so conduct themselves subsequently.\footnote{I have replaced Austin’s “gamma” (Γ) with “C”, for convenience.}
+\z
+
+Austin referred to violations of conditions A–B as \textsc{misfires}; if these conditions are not fulfilled, then the intended acts are not successfully performed or are invalid. For example, if a person who is not licensed to perform a marriage ceremony says \textit{I now pronounce you man and wife}, the couple being addressed does not become legally married as a result of this utterance. Violations of C Austin called \textsc{abuses}. If this condition is violated, the speech act is still performed and would be considered valid, but it is done insincerely or inappropriately. For example, if someone says \textit{I promise to return this book by Sunday}, but has no intention of doing so, the utterance still counts as a promise; but it is an insincere promise, a promise which the speaker intends to break.
+
+
+Performatives can be distinguished from normal declarative sentences by the following special features:
+
+
+\ea \label{ex:10.5}
+Properties of explicit performatives:
+\begin{itemize}
+\item They always occur in indicative mood and simple present tense, with a non-habitual interpretation. As we will see in \chapref{sec:20}, the simple present form of an event-type verb in English typically requires a habitual interpretation; but this is not the case for the examples in (\ref{ex:10.2}--\ref{ex:10.3}).
+\item They frequently contain a \textsc{performative verb}, i.e. a verb which can be used either to describe or to perform the intended speech act (e.g. \textit{sentence}, \textit{declare}, \textit{confer}, \textit{invite}, \textit{request}, \textit{order}, \textit{accuse}, etc.).
+\item Performative clauses normally occur in active voice with a first person subject, as in (\ref{ex:10.2}--\ref{ex:10.3}), but passive voice with second or third person subject is possible with certain verbs; see examples in \REF{ex:10.6}.
+\item Performatives can optionally be modified by the performative adverb \textit{hereby}; this adverb cannot be used with non-performative statements.
+\end{itemize}
+\z
+
+\ea \label{ex:10.6}
+\ea  Passengers are requested not to talk to the driver while the bus is moving.\\
+\ex You are hereby sentenced to 10 years in prison.\\
+\ex Permission is hereby granted to use this software for non-commercial purposes.\\
+\ex Richard Smith is hereby promoted to the rank of Lieutenant Colonel.
+                       \z
+\z
+
+
+Austin refers to performative sentences which exhibit the features listed in \REF{ex:10.5} as \textsc{explicit performatives}. He notes that explicit performatives can often be paraphrased using sentences which lack some or all of these features. For example, the performative \textit{I hereby order you to shut the door} is more commonly expressed using a simple imperative, \textit{Shut the door!} Similarly, the performative \textit{I hereby invite you to join me for dinner} would be more politely and naturally expressed using a question, \textit{Would you like to join me for dinner?} Since the same speech act can be performed with either expression, it would seem odd to classify one as a performative but not the other. We will refer to utterances which function as paraphrases of explicit performatives but lack the features listed in \REF{ex:10.5} as \textsc{implicit performatives}.
+
+
+
+Conversely, it turns out that most speech acts can be paraphrased using an explicit performative. For example, the question \textit{Is it raining?} can be paraphrased as a performative: \textit{I hereby ask you whether it is raining}. In the same way, simple statements can be paraphrased \textit{I hereby inform you that…}, and commands can be paraphrased \textit{I hereby order/command you to…}. Once again, if the same speech act can be performed with either expression, it seems odd to classify one as a performative but not the other. These observations lead us to the conclusion that virtually all utterances should be analyzed as performatives, whether explicit or not.
+
+
+
+But if all utterances are to be analyzed as performatives, then the label \textsc{performative} doesn’t seem to be very useful; what have we gained? In fact we have gained several important insights into the meaning of sentential utterances. First, in addition to their propositional content, all such utterances have an \textsc{illocutionary force}, which is an important aspect of their meaning. In the case of explicit performatives, we can identify the illocutionary force by simply looking at the performative verb; but with implicit performatives, as discussed below, the illocutionary force depends partly on the context of the utterance.
+
+
+
+Second, all utterances have Felicity Conditions. Certain speech acts (namely statements) also have truth conditions; but Felicity Conditions are something that needs to be analyzed for all speech acts, including statements. As discussed in the following section, in order to explain how indirect speech acts work, we need to identify the Felicity Conditions for the intended act.
+
+
+
+The concept of Felicity Conditions is useful in other contexts as well. For example, it would be very odd for someone to say \textit{The cat is on the mat, but I do not believe that it is}.\footnote{This is an example of Moore’s paradox.} Austin suggests that this statement is not a logical contradiction but rather a violation of the Felicity Conditions for statements. One of the Felicity Conditions would be that a person should not make a statement which he knows or believes to be false (essentially equivalent to Grice’s maxim of Quality). It is just as outrageous to make a statement and then explicitly deny that you believe it, as it is to make a promise and then explicitly deny that you intend to carry it out (\textit{I promise that I shall be there, but I haven’t the least intention of being there}). We might refer to such an utterance as a pragmatic contradiction.
+
+
+
+A similar situation would arise if someone were to say \textit{All of John’s children are bald}, when in fact he knew perfectly well that John had no children. Austin says that the problem with this statement is the same as with a man who offers to sell a piece of land that does not belong to him. If a transaction were made under these circumstances, it would not be legally valid; the sale would be null and void. Austin says that the statement \textit{All of John’s children are bald} would similarly be “void for lack of reference” if John has no children. So Austin may have been the first to suggest that presupposition failure is a pragmatic issue (an infelicity), and not purely semantic.
+
+
+\section{Indirect speech acts}\label{sec:10.3}
+
+The  {Nigerian} professor Ozidi Bariki describes a conversation in which he said to a friend:
+
+
+\begin{quote}
+“I love your left hand.” (The friend had a cup of tea in his hand). The friend, in reaction to my utterance, transferred the cup to his right hand. That prompted me to say: “I love your right hand”. My friend smiled, recognized my desire for tea and told his sister, “My friend wants tea”… My friend’s utterance addressed to his sister in reaction to mine was a representative, i.e. a simple statement: “my friend wants a tea”. The girl rightly interpreted the context of the representative to mean a directive. In other words, her brother (my friend) was ordering her to prepare some tea.  (\citealt{Bariki2008})
+\end{quote}
+
+
+This brief dialogue contains two examples of indirect speech acts. In both cases, the utterance has the form of a simple statement, but is actually intended to perform a different kind of act: request in the first case and command in the second. The second statement, “My friend wants tea,” was immediately and automatically interpreted correctly by the addressee. (In African culture, when an older brother makes such a statement to his younger sister, there is only one possible interpretation.) The first statement, however, failed to communicate. Only after the second attempt was the addressee able to work out the intended meaning, not automatically at all, but as if he was trying to solve a riddle.
+
+
+
+Bariki uses this example to illustrate the role that context plays in enabling the hearer to identify the intended speech act. But it also shows us that context alone is not enough. In the context of the first utterance, there was a natural association between what was said (\textit{your left hand}) and what was intended (a cup of tea); the addressee was holding a cup of tea in his left hand. In spite of this, the addressee was unable to figure out what the speaker meant. The contrast between this failed attempt at communication and the immediately understood statement \textit{My friend wants tea}, suggests that there are certain principles and conventions which need to be followed in order to make the illocutionary force of an utterance clear to the hearer.
+
+
+
+We might define an \textsc{indirect speech act} (following \citealt{Searle1975}) as an utterance in which one illocutionary act (the \textsc{primary act}) is intentionally performed by means of the performance of another act (the \textsc{literal act}). In other words, it is an utterance whose form does not reflect the intended illocutionary force. \textit{My friend wants tea} is a simple declarative sentence, the form which is normally used for making statements. In the context above, however, it was correctly interpreted as a command. So the literal act was a statement, but the primary act was a command.
+
+
+
+Most if not all languages have grammatical and/or phonological means of distinguishing at least three basic types of sentences: statements, questions, and commands. The default expectation is that declarative sentences will express statements, interrogative sentences will express questions, and imperative sentences will express commands. When these expectations are met, we have a \textsc{direct speech act} because the grammatical form matches the intended illocutionary force. Explicit performatives are also direct speech acts.
+
+
+
+An indirect speech act will normally be expressed as a declarative, interrogative, or imperative sentence; so the literal act will normally be a statement, question, or command. One of the best-known types of indirect speech act is the Rhetorical Question, which involves an interrogative sentence but is not intended to be a genuine request for information.
+
+
+
+ 
+\begin{table}
+\caption{Felicity Conditions for promises and requests\\ 
+(Adapted from \citet{Searle1969,Searle1975}; S = speaker; H = hearer; A = action)}
+\label{extab:10.7}
+
+\noindent
+{\small
+\begin{tabularx}{.9\textwidth}{L{3.5cm}QQ}
+\lsptoprule
+&   promise &   request\\
+\midrule
+  preparatory conditions & (i) S is able to perform A\newline
+				  (ii) H wants S to perform A, and S believes that H wants S to perform A\newline
+				  (iii) it is not obvious that S will perform A 
+										  & H is able to perform A \\
+\tablevspace
+  sincerity condition & S intends to perform A & S wants H to perform A\\
+
+\tablevspace
+  propositional content & predicates a future act by S & predicates a future act by H\\
+
+\tablevspace
+  essential condition & counts as an under- taking by S to do A & counts as an attempt by S to get H to do A\\
+\lspbottomrule
+\end{tabularx}
+}
+\end{table}
+
+
+Why is the statement \textit{I love your left hand} not likely to work as an indirect request for tea? \citet{Searle1969,Searle1975} proposes that in order for an indirect speech act to be successful, the literal act should normally be related to the Felicity Conditions of the intended or primary act in certain specific ways. Searle re-stated Austin’s Felicity Conditions under four headings: \textsc{preparatory conditions} (background circumstances and knowledge about the speaker, hearer, and/or situation which must be true in order for the speech act to be felicitous); \textsc{sincerity condition}s (necessary psychological states of speaker and/or hearer); \textsc{propositional content} (the kind of situation or event described by the underlying proposition); \textsc{essential condition} (the essence of the speech act; what the act “counts as”). These four categories are illustrated in \tabref{extab:10.7} using the speech acts of promising and requesting.
+
+
+
+Generally speaking, speakers perform an indirect speech act by stating or asking about one of the Felicity Conditions (apart from the essential condition). The examples in \REF{ex:10.8} show some sentences that could be used as indirect requests for tea. Sentences (\ref{ex:10.8}a--b) ask about the preparatory condition for a request, namely the hearer’s ability to perform the action. Sentences (\ref{ex:10.8}c--d) state the sincerity condition for a request, namely that the speaker wants the hearer to perform the action. Sentences (\ref{ex:10.8}e--f) ask about the propositional content of the request, namely the future act by the hearer.
+
+
+\ea \label{ex:10.8}
+\ea  Do you have any tea?\\
+\ex Could you possibly give me some tea?\\
+\ex I would like you to give me some tea.\\
+\ex I would really appreciate a cup of tea.\\
+\ex Will you give me some tea?\\
+\ex Are you going to give me some tea?
+                       \z
+\z
+
+
+All of these sentences could be understood as requests for tea, if spoken in the right context, but they are clearly not all equivalent: (\ref{ex:10.8}b) is a more polite way of asking than (\ref{ex:10.8}a); (\ref{ex:10.8}d) is a polite request, whereas (\ref{ex:10.8}c) sounds more demanding; (\ref{ex:10.8}e) is a polite request, whereas (\ref{ex:10.8}f) sounds impatient and even rude.
+
+
+
+Not every possible strategy is actually available for a given speech act. For example, asking about the sincerity condition for a request is generally quite unnatural: \#\textit{Do I want you to give me some tea?} This is because speakers do not normally ask other people about their own mental or emotional states. So that specific strategy cannot be used to form an indirect request.
+
+
+
+We almost automatically interpret examples like (\ref{ex:10.8}b) and (\ref{ex:10.8}e) as requests. This tendency is so strong that it may be hard to recognize them as indirect speech acts. The crucial point is that their grammatical form is that of a question, not a request. However, some very close paraphrases of these sentences, such as those in \REF{ex:10.9}, would probably not be understood as requests in most contexts.
+
+
+\ea \label{ex:10.9}
+\ea  Do you currently have the ability to provide me with tea?\\
+\ex Do you anticipate giving me a cup of tea in the near future?
+                       \z
+\z
+
+
+We can see the difference quite clearly if we try to add the word \textit{please} to each sentence. As we noted in \chapref{sec:1}, \textit{please} is a marker of politeness which is restricted to occurring only in requests; it does not occur naturally in other kinds of speech acts. It is possible, and in most cases fairly natural, to add \textit{please} to any of the sentences in \REF{ex:10.8}, even to those which do not sound very polite on their own. However, this is not possible for the sentences in \REF{ex:10.9}. This difference provides good evidence for saying that the sentences in \REF{ex:10.9} are not naturally interpretable as indirect requests.
+
+
+\ea \label{ex:10.10}
+\ea Could you possibly give me some tea, please?\\
+\ex Will you give me some tea, please?\\
+\ex I would like you to give me some tea, please.\\
+\ex Are you going to give me some tea (?please)?\\
+\ex Do you currently have the ability to provide me with tea (\#please)?\\
+\ex Do you anticipate giving me a cup of tea in the near future (\#please)?
+\z \z
+
+
+The contrast between the acceptability of (\ref{ex:10.8}b) and (\ref{ex:10.8}e) as requests vs. the unacceptability of their close paraphrases in \REF{ex:10.9} suggests that the form of the sentence, as well as its semantic content, helps to determine whether an indirect speech act will be successful or not. We will return to this issue below, but first we need to think about a more fundamental question: How does the hearer recognize an indirect speech act? In other words, how does he know that the primary (intended) illocutionary force of the utterance is not the same as the literal force suggested by the form of the sentence?
+
+
+
+Searle suggests that the key to solving this problem comes from Grice’s Co-operative Principle. If someone asks the person sitting next to him at a dinner \textit{Can you pass me the salt?}, we might expect the addressee to be puzzled. Only under the most unusual circumstances would this question be relevant to the current topic of conversation. Only under the most unusual circumstances would the answer to this question be informative, since few people who can sit up at a dinner table are physically unable to lift a salt shaker. In most contexts, the addressee could only believe the speaker to be obeying the Co-operative Principle if the question is not meant as a simple request for information, i.e., if the intended illocutionary force is something other than a question.
+
+
+
+Having recognized this question as an indirect speech act, how does the addressee figure out what the intended illocutionary force is? Searle’s solution is essentially the Gricean method of calculating implicatures, enriched by an understanding of the Felicity Conditions for the intended speech act. \citet{Searle1975} suggests that the addressee might reason as follows: “This question is not relevant to the current topic of conversation, and the speaker cannot be in doubt about my ability to pass the salt. I believe him to be cooperating in the conversation, so there must be another point to the question. I know that a preparatory condition for making a request is the belief that the addressee is able to perform the requested action. I know that people often use salt at dinner, sharing a common salt shaker which they pass back and forth as requested. Since he has mentioned a preparatory condition for requesting me to perform this action, I conclude that this request is what he means to communicate.”
+
+
+
+So it is important that we understand indirect speech acts as a kind of conversational implicature. However, they are different in certain respects from the implicatures that Grice discussed. For example, Grice stated that implicatures are “non-detachable”, meaning that semantically equivalent sentences should trigger the same implicatures in the same context. However, as we noted above, this is not always true with indirect speech acts. In the current example, Searle points out that the question \textit{Are you able to pass me the salt?}, although a close paraphrase of \textit{Can you pass me the salt?}, is much less likely to be interpreted as a request (\#\textit{Are you able to please pass me the salt?}). How can we account for this?
+
+
+
+Searle argues that, while the meaning of the indirect speech act is calculable or explainable in Gricean terms, the forms of indirect speech acts are partly conventionalized. Searle refers to these as “conventions of usage”, in contrast to normal idioms like \textit{kick the bucket} (for ‘die’) which we might call conventions of meaning or sense.
+
+
+
+Conventionalized speech acts are different from normal idioms in several important ways. First, the meanings of normal idioms are not calculable or predictable from their literal meanings. The phrase \textit{kick the bucket} contains no words which have any component of meaning relating to death.
+
+
+
+Second, when an indirect speech act is performed, both the literal and primary acts are understood to be part of what is meant. In Searle’s terms, the primary act is performed “by way of” performing the literal act. We can see this because, as illustrated in \REF{ex:10.11}, the hearer could appropriately reply to the primary act alone (A1), the literal act alone (A2), or to both acts together (A3). Moreover, in reporting indirect speech acts, it is possible (and in fact quite common) to use matrix verbs which refer to the literal act rather than the primary act, as illustrated in (\ref{ex:10.12}--\ref{ex:10.13}).
+
+
+\ea \label{ex:10.11}
+Q: Can you (please) tell me the time?\\
+A1: It’s almost 5:30.\\
+A2: No, I’m sorry, I can’t; my watch has stopped.\\
+A3: Yes, it’s 5:30.
+\z
+
+\ea \label{ex:10.12}
+\ea Will you (please) pass me the salt?\\
+\ex He asked me whether I would pass him the salt.
+                       \z
+\z
+
+\ea \label{ex:10.13}
+\ea I want you to leave now (please).\\
+\ex He told me that he wanted me to leave.
+                       \z
+\z
+
+
+In this way indirect speech acts are quite similar to other conversational implicatures, in that both the sentence meaning and the pragmatic inference are part of what is communicated. They are very different from normal idioms, which allow either the idiomatic meaning (the normal interpretation), or the literal meaning (under unusual circumstances), but never both together. The two senses of a normal idiom are antagonistic, as we can see by the fact that some people use them to form (admittedly bad) puns:
+
+
+\ea \label{ex:10.14}
+Old milkmaids never die — they just kick the bucket.\footnote{Richard Lederer (1988) \textit{Get Thee to a Punnery}. Wyrick \& Company.}
+\z
+
+
+\citet[196]{Birner20122013} points out that under Searle’s view, indirect speech acts are similar to generalized conversational implicatures. In both cases the implicature is part of the default interpretation of the utterance; it will arise unless it is blocked by specific features in the context, or is explicitly negated, etc. We have to work pretty hard to create a context in which the question \textit{Can you pass the salt?} would not be interpreted as a request, but it can be done.\footnote{\citet[69]{Searle1975} suggests that a doctor might ask such a question to check on the progress of a patient with an injured arm.}
+
+
+
+Searle states that politeness is one of the primary reasons for using an indirect speech act. Notice that all of the sentences in \REF{ex:10.8}, except perhaps (\ref{ex:10.8}f), sound more polite than the simple imperative: \textit{Give me some tea!} He suggests that this motivation may help to explain why certain forms tend to be conventionalized for particular purposes.
+
+
+
+\section{Indirect speech acts across languages}\label{sec:10.4}
+
+Searle states that his analysis of indirect speech acts as conventions of usage helps to explain why the intended illocutionary force is sometimes preserved in translation, and sometimes not. (This again is very different from the idiomatic meanings of normal idioms, which generally do not survive in translation.) He points out that literal translations of a question like \textit{Can you help me?} would be understood as requests in \ili{French} and \ili{German}, but not in \ili{Czech}. The reason that the intended force is sometimes preserved in translation is that indirect speech acts are calculable. They are motivated by Gricean principles which are widely believed to apply to all languages, subject to a certain amount of cultural variation. The reason that the intended force is not always preserved in translation is that indirect speech acts are partly conventionalized, and different languages may choose to conventionalize different specific forms.
+
+
+
+It is often difficult for non-native speakers to recognize and correctly interpret indirect speech acts in a second language. \citet[175]{Wierzbicka1985}, for example, states: “Poles learning English must be taught the potential ambiguity of \textit{would you–} sentences, or \textit{why don’t you–} sentences, just as they must be taught the polysemy of the word \textit{bank}.” This has been a major area of research in second language acquisition studies, and most scholars agree that this is a significant challenge even for advanced learners of another language.
+
+
+
+There is less agreement concerning whether the same basic principles govern the formation of indirect speech acts in all languages. Numerous studies have pointed out cross-linguistic differences in the use of specific linguistic features, preferred or conventionalized patterns for specific speech acts, cultural variation in ways of showing politeness, contexts where direct vs. indirect speech acts are preferred, etc.
+
+
+
+\citet{Wierzbicka1985} argues that Searle’s analysis of indirect speech acts is not universally applicable, but reflects an Anglo-centric bias. She points out for example that English seems to be unusual in its strong tendency to avoid the use of the imperative verb form. The strategy of expressing indirect commands via questions is so strongly preferred that it is no longer a marker of politeness; it is frequently used (at least in \ili{Australian} English) in impolite speech laced with profanity, obscenity, or other expressives indicating anger, contempt, etc. \citet{Kalisz1992} agrees with many of Wierzbicka’s specific observations concerning differences between English and Polish, but argues that Searle’s basic claims about the nature of indirect speech acts are not disproven by these differences.
+
+
+
+It is certainly true that there is a wide range of variation across languages in terms of what counts as an apology, promise, etc., and in the specific features that distinguish appropriate from inappropriate ways for performing a particular speech act. For example, \citet{OlshtainCohen1989} recount the following incidents to illustrate differences in acceptable apologies between English and Israeli \ili{Hebrew}:
+
+
+\begin{quote}
+One morning, Mrs G., a native speaker of English now living in Israel, was doing her daily shopping at the local supermarket. As she was pushing her shopping cart she unintentionally bumped into Mr Y., a native Israeli. Her natural reaction was to say “I’m sorry” (in \ili{Hebrew}). Mr Y. turned to her and said, “Lady, you could at least apologize”. On another occasion the very same Mr Y. arrived late for a meeting conducted by Mr W. (a native speaker of English) in English. As he walked into the room he said “The bus was late”, and sat down. Mr W. obviously annoyed, muttered to himself “These Israelis, why don’t they ever apologize!” [\citealt{OlshtainCohen1989}: 53]
+\end{quote}
+
+
+In a similar vein, \citet{Egner2002} shows that in many African cultures, a promise only counts as a binding commitment when it is repeated. Clearly there are many significant differences across languages in the conventional features of speech acts; but this does not necessarily mean that the underlying system which makes it possible to recognize and interpret indirect speech acts is fundamentally different.
+
+
+
+Searle’s key insights are that indirect speech acts are a type of conversational implicature, and that the felicity conditions for the intended act play a crucial role in the interpretation of these implicatures. Given our current state of knowledge, it seems likely that these basic principles do in fact hold across languages. But like most cross-linguistic generalizations in semantics and pragmatics, this hypothesis needs to be tested across a wider range of languages.
+
+
+\section{Conclusion}\label{sec:10.5}
+
+A speech act is an action that speakers perform by speaking. Languages typically have grammatical ways of distinguishing sentence types (moods) corresponding to at least three basic speech acts: statements, commands, and questions. When the speaker’s intended speech act (or \textsc{illocutionary force}) corresponds to the sentence type that is chosen, a direct speech act is performed. In addition, the declarative sentence type is generally used for a special class of direct speech acts which we call \textsc{explicit performatives}. When the speaker’s intended speech act does not correspond to the sentence type that is chosen, an indirect speech act is performed. Indirect speech acts are conversational implicatures, and their interpretation can be explained in Gricean terms; but in addition, they are often partly conventionalized.
+
+
+
+All speech acts are subject to felicity conditions, that is, conditions that must be fulfilled in order for the speech act to be \textsc{felicitous} (i.e., valid and appropriate). Successful indirect speech acts typically involve literal sentence meanings which state or query the felicity conditions for the primary (i.e., intended) speech act.
+
+
+
+\furtherreading{
+
+
+
+\citet[ch.6]{Birner20122013} presents a useful overview of the issues addressed in this chapter. \citet{Austin1961}, based on a radio address he delivered on the BBC, provides a readable, non-technical introduction to his theory of performatives. \citet{Searle1975} provides a concise summary of his theory of indirect speech acts. \citet{BrownLevinson1978} is the foundational study of sociolinguistic and pragmatic aspects of politeness across languages. The volumes edited by \citet{Blum-KulkaEtAl1989} and \citet{GassNeu2006} contain studies on indirect speech acts in cross-cultural and second language communication.
+
+}
+\discussionexercises{
+% \subsection*{Discussion exercises}
+\paragraph*{A. Identifying indirect speech acts.}
+Identify both the literal and primary act in each of the following indirect speech acts (square brackets are used to provide [context]):
+
+\begin{enumerate}
+\item{} [S1: My motorcycle is out of the shop; let’s go for another ride.]\\
+S2: \textit{Do you think I’m crazy?}
+\item{} [senior citizen dialing the police:]\\
+\textit{I’m alone in the house and someone is trying to break down my door.}
+\item{} [S1: I’m really sorry for bumping into your car.]\\
+S2: \textit{Don’t give it another thought.}
+\end{enumerate}
+\paragraph*{B. Indirect speech act strategies.}
+
+Assume that the felicity conditions for offers are essentially the same as for promises. (The main difference is that an offer does not count as a commitment on the part of the speaker unless and until the addressee accepts it.) Try to make up one example of a sentence that would work as an indirect offer for each of the following strategies:
+
+\begin{enumerate}
+\item by querying the preparatory conditions of the direct offer;
+\item by stating the preparatory conditions of the direct offer;
+\item by stating the propositional content of the direct offer;
+\item by stating the sincerity condition of the direct offer.
+\end{enumerate}
+
+}
+\homeworkexercises{
+% \subsection*{Homework exercises} %\label{sec:}
+ 
+\paragraph*{A. Performatives.\footnote{Sections A-C are modeled after \citet[251--253]{Saeed2009}.}}
+State whether the following utterances would be naturally interpreted as explicit performatives, and explain the evidence which supports your conclusion.
+
+\begin{enumerate}
+\item 
+I acknowledge you as my legal heir.
+
+\modelanswer{Model answer}{\textit{I hereby acknowledge you as my legal heir} is quite natural. The verb is simple present tense, referring to a single event with no habitual meaning. It is active indicative with first person singular subject. Therefore this utterance is an explicit performative.}
+
+\item 
+Smith acknowledges you as his legal heir.
+\item 
+I request the court to reconsider my petition.
+\item 
+I’m promising Mabel to take her to a movie next week.
+\item 
+I promised Mabel to take her to a movie next week.
+\item 
+I expect that you will arrive on time from now on.
+\item 
+You are advised that anything you say may be used as evidence against you.
+\end{enumerate}
+
+\paragraph*{B. Indirect speech acts (1).}
+
+For each of the following indirect speech acts, identify both the literal and primary act.
+
+\begin{enumerate}
+\item {[young woman to man who has just proposed to her]}\\
+\textit{I hope that we can always remain friends.}
+
+\modelanswer{Model answer}{literal act = statement; primary act = refusal.}
+
+\item  
+{[housewife to next-door neighbor]}\\
+\textit{Can you spare a cup of sugar?}
+\item {[flight attendant to passenger who is standing in the aisle]}\\
+\textit{The captain has turned on the “fasten seatbelt” sign.}
+\item  {[host to friend who has just arrived for a visit]}\\
+\textit{How would you like a cup of coffee?}
+\item  {[office manager to colleague who has invited him to go out for lunch]}\\ 
+\textit{Look at that pile of papers in my inbox!}
+\item  {[addressing neighbor who has a broken arm]}\\
+\textit{I will mow your lawn for you this month.}
+\end{enumerate}
+
+
+\paragraph*{C. Indirect speech acts (2).}
+
+Based on felicity conditions for requests, and using your own examples, try to form one indirect request for each of the following strategies.
+
+\begin{enumerate}
+\item  by querying the preparatory condition of the direct request\\
+\shortmodelanswer{Model answer}{preparatory condition = Hearer is able to perform action.\\
+Possible ISAs using this strategy:\\
+Can you give me a ride to church tomorrow?\\
+Would you be able to give me a ride to church tomorrow?}
+
+\item  by stating the preparatory condition of the direct request;
+\item  by querying the propositional content of the direct request;
+\item  by stating the sincerity condition of the direct request.
+\end{enumerate}
+}

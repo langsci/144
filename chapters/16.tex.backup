@@ -1,0 +1,667 @@
+\chapter{Modality}\label{sec:16}
+
+\section{Possibility and necessity}\label{sec:16.1}
+
+Kai \citet[20]{vonFintel2006} defines \textsc{Modality} as “a category of linguistic meaning having to do with the expression of possibility and necessity.” Most if not all languages have lexical means for expressing these concepts, e.g. \textit{It is possible that…} or \textit{It is necessary} \textit{that…}, but in this chapter we will focus our attention on the kinds of modality which can be expressed grammatically, e.g. by verbal affixation, particles, or auxiliary verbs. In English, modality is expressed primarily by \textsc{modal auxiliaries}: \textit{may, might, must, should, could, ought to,} etc. (The phrase \textit{have to} is often included in discussions of the English modals because it is a close synonym of \textit{must}; but it does not have the unique syntactic distribution of a true auxiliary verb in English, and the syntactic differences sometimes have semantic consequences.)
+
+
+
+In \sectref{sec:16.2} we outline the range of modal meanings along two basic dimensions. The first of these is strength, or degree of certainty (e.g., \textit{must} is said to be “stronger” than \textit{might}). The second dimension is the type of certainty or lack of certainty which is being expressed, e.g. certainty of knowledge, requirement by an authority, etc. We will see that in many languages the same modal forms can be used for two or more different types of modality. We will see some evidence suggesting that such forms are polysemous, but also some reasons for challenging this assumption.
+
+
+
+In \sectref{sec:16.3} we outline a very influential analysis of modal operators as quantifiers, and show how this accounts for some of the puzzling observations discussed in \sectref{sec:16.2}. In \sectref{sec:16.4} we discuss some of the variation across languages in terms of how modal meanings are packaged, and show how the quantifier analysis can account for these differences. In \sectref{sec:16.5} we focus on one important type of modality, referred to as \textsc{epistemic} modality, which expresses degree of certainty in light of what the speaker knows. Some authors have claimed that epistemic modality is not part of the propositional content of the utterance; we review several kinds of evidence that support the opposite conclusion.
+
+
+\section{The range of modal meanings: strength vs. type of modality}\label{sec:16.2}
+
+As we noted in \chapref{sec:14}, modality can be thought of as an operator that combines with a basic proposition (\textit{p}) to form a new proposition (\textit{It is possible that p} or \textit{It is necessarily the case that p}). The range of meanings expressible by grammatical markers of modality varies along two basic semantic dimensions.\footnote{\citet{Hacquard2011}.} First, some markers are “stronger” than others. For example, the statement in (\ref{ex:16.1}a) expresses a stronger commitment on the part of the speaker to the truth of the base proposition (\textit{Arthur is home by now}) than (\ref{ex:16.1}b), and (\ref{ex:16.1}b) expresses a stronger commitment than (\ref{ex:16.1}c).
+
+
+\ea \label{ex:16.1}
+\ea  Arthur \textit{must/has to} be home by now.\\
+\ex Arthur \textit{should} be home by now.\\
+\ex Arthur \textit{might} be home by now.
+                       \z
+\z
+
+
+Second, it turns out that the concepts of “possibility” and “necessity”, which are used to define modality, each include a variety of sub-types. In other words, there are several different ways in which a proposition may be possibly true or necessarily true. The two which have been discussed most extensively, \textsc{epistemic} vs. \textsc{deontic} modality, are illustrated in (\ref{ex:16.2}--\ref{ex:16.3}).
+
+
+\ea \label{ex:16.2}
+\ea  John didn’t show up for work. He \textit{must} be sick. \\ \hfill [spoken by co-worker; Epistemic]\\
+\ex John didn’t show up for work. He \textit{must} be fired.  \\  \hfill [spoken by boss; Deontic]
+                       \z
+\z
+
+\ea \label{ex:16.3}
+\ea  The older students \textit{may} leave school early (unless the teachers watch them carefully).\\
+\ex The older students \textit{may} leave school early (if they inform the headmaster first).
+                       \z
+\z
+
+
+Epistemic modality indicates possibility and necessity relative to the speaker’s knowledge of the situation, i.e., whether the proposition is possibly or necessarily true in light of available evidence. Deontic modality indicates possibility and necessity relative to some authoritative person or code of conduct which is relevant to the current situation, i.e., whether the truth of the proposition is required or permitted by the relevant authority. Examples (\ref{ex:16.2}a) and (\ref{ex:16.3}a) illustrate the epistemic sub-type, under which \textit{He must be sick} means ‘Based on the available evidence, I am forced to conclude that he is sick;’ and \textit{The older students may leave school early} means ‘Based on my knowledge of the current situation, I do not know of anything which would prevent the older students from leaving school early.’ Examples (\ref{ex:16.2}b) and (\ref{ex:16.3}b) illustrate the deontic sub-type, under which \textit{He must be fired} means ‘Someone in authority requires that he be fired;’ and \textit{The older students may leave school early} means ‘The older students have permission from an appropriate authority to leave school early.’
+
+
+
+The strength of modality (possibility vs. necessity) is often referred to as the modal “force”, and the type of modality (e.g. epistemic vs. deontic) is often referred to as the modal “flavor”.
+
+
+\subsection{Are modals polysemous?}\label{sec:16.2.1}
+
+Examples (\ref{ex:16.2}--\ref{ex:16.3}) also illustrate another important fact about modals: in English, as in many other languages, a single form may be used to express more than one type of modality. As these examples show, both \textit{must} and \textit{may} have two distinct uses, which are often referred to as distinct senses: epistemic vs. deontic. In fact, speakers can create puns which play on these distinct senses. One such example is found in the following passage from “The Schartz-Metterklume Method” (1911), a short story by the British author H. H. Munro (writing under the pen-name “Saki”). In this story, a young Englishwoman, Lady Carlotta, is accidentally left behind on a country railway platform when she gets out to stretch her legs. She is mistaken for a new governess who is due to arrive that day to teach the children of a local family:
+
+
+\begin{quote}
+Before she [Lady Carlotta] had time to think what her next move might be she was confronted by an imposingly attired lady, who seemed to be taking a prolonged mental inventory of her clothes and looks. “\textit{You must be Miss Hope}, the governess I’ve come to meet,” said the apparition, in a tone that admitted of very little argument. “Very well, \textit{if I must I must},” said Lady Carlotta to herself with dangerous meekness.
+\end{quote}
+
+
+“Dangerous meekness” sounds like a contradiction in terms, but in this case it is the literal truth; Lady Carlotta’s novel teaching methods turn the whole household upside down.
+
+
+
+As discussed in \chapref{sec:5}, this kind of antagonism between the epistemic vs. deontic senses of \textit{must} strongly suggests that the word is polysemous. Similar arguments could be made for \textit{may}, \textit{should}, etc. This apparent polysemy of the grammatical markers of modality is one of the central issues that a semantic analysis needs to address. But in spite of the strong evidence for distinct senses (lexical ambiguity), there is other evidence which might lead us to question whether these variant readings really involve polysemy or not.
+
+
+
+First, as we noted in \chapref{sec:5}, distinct senses of a given word-form are unlikely to have the same translation equivalent in another language. However, this is just what we find with the English modals: the various uses of words like \textit{must} and \textit{may} do have the same translation equivalent in a number of other languages. This fact is especially striking because these words are not restricted to just two readings, epistemic vs. deontic; several other types of modality are commonly identified, which can be expressed using the same modal auxiliaries. Example \REF{ex:16.4} illustrates some of the uses of the modal \textit{have to}; a similar range of uses can be demonstrated for \textit{must}, \textit{may}, etc. (We return to the differences among these specific types in \sectref{sec:16.3} below. As discussed below, the term \textsc{root} modality is often used as a cover term for the non-epistemic types.)
+
+
+\ea \label{ex:16.4}
+{}[adapted from \citealt{vonFintel2006}]\\
+\ea  It \textit{has to} be raining. [after observing people coming inside with wet umbrellas; \textsc{epistemic} modality]\\
+\ex Visitors \textit{have to} leave by six pm. [hospital regulations; \textsc{deontic}]\\
+\ex John \textit{has to} work hard if he wants to retire at age 50. [to attain desires; \textsc{bouletic}]\footnote{Example (\ref{ex:16.4}c) is adapted from \citet{Hacquard2011}. \Citet{vonFintel2006} offers the following definition: “\textsc{Bouletic} modality, sometimes \textsc{boulomaic} modality, concerns what is possible or necessary, given a person’s desires.”}\\
+\ex I \textit{have to} sneeze. [given the current state of one’s nose; \textsc{dynamic}]\footnote{Von Fintel uses the term \textsc{circumstantial} modality for what I have called \textsc{dynamic} modality.    \citet[178]{HuddlestonPullum2002} define dynamic modality as being “concerned with properties and dispositions of persons, etc., referred to in the clause, especially by the subject NP.” The most common examples of dynamic modality are expressions of ability with the modal \textit{can}. The term \textsc{circumstantial} modality has a more general usage, as discussed below.}\\
+\ex To get home in time, you \textit{have to} take a taxi. [in order to achieve the stated purpose;   \textsc{teleological}]
+\z \z
+
+
+\citet{Hacquard2007} points out that the same range of uses occurs with modal auxiliaries in \ili{French} as well:
+
+
+\begin{quote}
+It is a robust cross-linguistic generalization that the same modal words are used to express various types of modality. The following \ili{French} examples illustrate. The modal in (\ref{ex:16.5}a) receives an epistemic interpretation (having to do with what is known, what the available evidence is), while those in (\ref{ex:16.5}b--d) receive a ‘root’ or ‘circumstantial’ interpretation (having to do with particular circumstances of the base world): (\ref{ex:16.5}b) is a case of deontic modality (having to do with permissions/obligations), (\ref{ex:16.5}c) an ability and (\ref{ex:16.5}d) a goal-oriented modality (having to do with possibilities/necessities given a particular goal of the subject).
+
+\ea \label{ex:16.5}
+\ea   Il est 18 heures. Anne n’est pas au bureau. Elle \textit{peut/doit} être chez elle.\\
+\glt ‘It’s 6:00pm. Anne is not in the office. She \textit{may/must} be at home.’
+\ex   Le père de Anne lui impose un régime très strict. Elle \textit{peut/doit} manger du brocoli.\\
+\glt ‘Anne’s father imposes on her a strict diet. She \textit{can/must} eat broccoli.’
+\ex Anne est très forte. Elle \textit{peut} soulever cette table.\\
+\glt ‘Anne is very strong. She \textit{can} lift this table.’
+\ex  Anne doit être à Paris à 17 heures. Elle \textit{peut/doit} prendre le train pour aller à P.\\
+\glt ‘Anne must be in Paris at 5pm. She \textit{can/must} take the train to go to P.’
+\z \z
+\end{quote}
+
+
+It is somewhat unusual for the same pattern of polysemy to exist for a particular word in two languages. What we see in the case of modals is something far more surprising: multiple word forms from the same semantic domain, each of which having multiple readings translatable by a single form in not just one but many other languages. Normal polysemy does not work this way.
+
+
+
+A second striking fact about the modal auxiliaries in English is that the ranking discussed above in terms of “strength” seems to hold across the various readings or uses of these modals. Linguistic evidence for this ranking comes from examples like those in (\ref{ex:16.6}--\ref{ex:16.7}).\footnote{Examples from \citet{vonFintel2006}.} These examples involve the deontic readings; similar evidence can be given for the epistemic readings, as illustrated in (\ref{ex:16.8}--\ref{ex:16.9}).
+
+
+\ea \label{ex:16.6}
+\ea  You \textit{should}/\textit{ought} \textit{to} call your mother, but of course you don’t \textit{have to}.\\
+\ex \#You \textit{have to} call your mother, but of course you \textit{shouldn’t}.
+\z \z
+
+\ea \label{ex:16.7}
+\ea  I \textit{should} go to confession, but I’m not going to.\\
+\ex \#I \textit{must} go to confession, but I’m not going to.
+                       \z
+\z
+
+
+\ea \label{ex:16.8}
+\ea  Arthur \textit{should} be home by now, but he doesn’t \textit{have to} be.\\
+\ex \#Arthur \textit{must/has to} be home by now, but he \textit{shouldn’t} be.\\
+  (bad on epistemic reading)\\
+\ex Arthur \textit{might} be home by now, but he doesn’t \textit{have to} be.\\
+\ex \#Arthur \textit{must/has to} be home by now, but he \textit{might} not be.\\
+  (bad on epistemic reading)
+                       \z
+\z
+
+\ea \label{ex:16.9}
+\ea  \#Arthur \textit{must/has to} be home by now, but I consider it unlikely.\\
+  (bad on epistemic reading)\\
+\ex \#Arthur \textit{should} be home by now, but I consider it unlikely.\\
+  (bad on epistemic reading)\\
+\ex Arthur \textit{might} be home by now, but I consider it unlikely.
+                       \z
+\z
+
+
+Evidence of this kind would lead us to define the following hierarchies for epistemic and deontic modality. What is striking, of course, is that the two hierarchies are identical. Again, this is not the type of pattern we expect to find with “normal” polysemy.
+
+
+\ea \label{ex:16.10}
+\ea Epistemic modal strength hierarchy:\\
+{}[\textsc{necessity}] \hfill [\textsc{possibility}] \\
+\hspace{1cm} \textit{must/have to} > \textit{should/ought to} > \textit{may/might/could}  
+\ex  Deontic modal strength hierarchy:\\
+{}[\textsc{obligation}] \hfill  [\textsc{permission}]\\
+\hspace{1cm} \textit{must/have to} > \textit{should/ought to} > \textit{may/might/could} 
+\z \z
+
+
+The challenge for a semantic analysis is to define the meanings of the modal auxiliaries in a way that can explain these unique and surprising properties. In the next section we will describe a very influential analysis which goes a long way toward achieving this goal.
+
+
+\section{Modality as quantification over possible worlds}\label{sec:16.3}
+
+Angelika \citet{Kratzer1981,Kratzer1991} proposed that the English modals are not in fact polysemous. On the contrary, she suggested that English (like a number of other languages) has only one set of modal operators, which are underspecified (indeterminate) regarding the type of modality (epistemic, deontic, etc.). The strength of the modal is lexically determined, with the individual modals functioning semantically as a kind of quantifier that quantifies over situations. The specific type of modality depends on the range of situations which is permitted by the context. This section offers a brief and informal introduction to her approach.
+
+
+\subsection{A simple quantificational analysis}\label{sec:16.3.1}
+
+Kratzer’s analysis builds on a long tradition of earlier work that treats a modal auxiliary as a kind of quantifier which quantifies over possible worlds. (We can think of possible worlds as possible situations or states of affairs; in other words, “ways that things might be”.) A marker of necessity functions as a universal quantifier: it indicates that the basic proposition is true in all possible states of affairs. A marker of possibility functions as an existential quantifier: it indicates that there is at least one state of affairs in which the basic proposition is true.
+
+
+
+In \chapref{sec:14} we introduced two symbols from modal logic: ${\lozenge}$ = ‘it is possible that’; and ${\square}$ = ‘it is necessarily the case that’. The use of these symbols is illustrated in the logical forms for two simple modal statements in \REF{ex:16.11}.
+
+
+\ea \label{ex:16.11}
+\ea  \textit{Arthur must be at home}. \hfill logical form: ${\square}$ AT\_HOME(a)\\
+\ex \textit{Arthur may be at home}.                 \hfill logical form: ${\lozenge}$ AT\_HOME(a)
+                       \z
+\z
+
+
+The possible worlds analysis claims that the logical forms in \REF{ex:16.11}, which make use of the modal operators, express the same meaning as those in \REF{ex:16.12}, which are stated in terms of the standard logical quantifiers. The \textit{w} in \REF{ex:16.12} is a variable which stands for a possible world or state of affairs. So under this analysis, \textit{Arthur must be home} means that the proposition \textit{Arthur is home} is true in all possible worlds, while \textit{Arthur might be home} means that the proposition \textit{Arthur is home} is true in at least one possible world.
+
+
+\ea \label{ex:16.12}
+\ea  \textit{Arthur must be at home}. \hfill meaning: ${\forall}$w[AT\_HOME(a) in w]\\
+\ex \textit{Arthur may be at home}.                 \hfill meaning: ${\exists}$w[AT\_HOME(a) in w]
+                       \z
+\z
+
+
+As we noted in \sectref{sec:16.2}, words like \textit{must} and \textit{may} allow both epistemic and deontic readings (among others). These different types (or “flavors”) of modality can be represented by different restrictions on the quantification, i.e., different limits on the kinds of possible worlds that the quantified variable (\textit{w}) can refer to. Epistemic readings arise when \textit{w} can range over all “epistemically accessible” worlds, i.e., situations which are consistent with what the speaker knows about the actual situation. Deontic readings arise when \textit{w} can range over all “perfect obedience” worlds, i.e., situations in which the requirements of the relevant authority are obeyed. This analysis is illustrated in (\ref{ex:16.13}--\ref{ex:16.14}), using the restricted quantifier notation.
+
+
+\ea \label{ex:16.13}
+\textit{Arthur must be at home}.\\
+\ea
+\textbf{Epistemic}: {}[all w: w is consistent with what I know about the actual world] AT\_HOME(a) in w\\
+\ex \textbf{Deontic}: {}[all w: w is consistent with what the relevant authority requires] AT\_HOME(a) in w
+\z
+\z
+
+\ea \label{ex:16.14}
+\textit{Arthur may be at home}.\\
+\ea \textbf{Epistemic}: {}[some w: w is consistent with what I know about the actual world] AT\_HOME(a) in w\\
+\ex \textbf{Deontic}: {}[some w: w is consistent with what the relevant authority requires] AT\_HOME(a) in w
+\z
+\z
+
+
+The unrestricted quantifications in \REF{ex:16.12} express logical possibility or necessity: a claim that proposition p is true in at least one imaginable situation, or in every imaginable situation. Such statements are said to involve \textsc{alethic} modality. As  \citet{vonFintel2006} points out, “It is in fact hard to find convincing examples of alethic modality in natural language.” An example of logical (or alethic) possibility might be the statement, “I might never have been born.” It is possible for me to imagine states of affairs in which I would not exist (my father might have been killed in the war, my mother might have chosen to attend a different school, etc.); but none of these states of affairs are epistemically possible, because they are inconsistent with what I know about the real world. Examples of logical (alethic) necessity are probably limited to tautologies, analytically true statements, etc.; it is hard to find any other type of statement which must be true in every imaginable situation.
+
+
+
+Analyzing modals as quantifiers accounts for a number of interesting facts. For example, the simple tautologies of modal logic stated in \REF{ex:16.15} show how either of the two modal operators can be defined in terms of the other. (\ref{ex:16.15}a) states that saying \textit{p is possibly true} is equivalent to saying \textit{it is not necessarily the case that p is false}. (\ref{ex:16.15}b) states that saying \textit{p is necessarily true} is equivalent to saying \textit{it is not possible that p is false}. It turns out that the two basic quantifiers of standard logic can be defined in terms of each other in exactly the same way, as shown by the tautologies in \REF{ex:16.16}. This remarkable parallelism is predicted immediately if we analyze necessity in terms of universal quantification and possibility in terms of existential quantification.
+
+
+\ea \label{ex:16.15}
+\ea    (${\lozenge}$ p)  ↔   ¬(${\square}$ ¬p)\\
+\ex   (${\square}$ p)  ↔   ¬(${\lozenge}$ ¬p)
+                       \z
+\z
+
+\ea \label{ex:16.16}
+\ea    ${\exists}$x[P(x)]  ↔   ¬(${\forall}$x[¬P(x)])\\
+\ex   ${\forall}$x[P(x)]  ↔   ¬(${\exists}$x[¬P(x)])
+                       \z
+\z
+
+
+We noted in \chapref{sec:14} that combining quantifiers and modals in the same sentence often leads to scope ambiguities. The examples in (\ref{ex:16.17}--\ref{ex:16.18}) are repeated from \chapref{sec:14}. The quantificational analysis again predicts this fact: if modals are really quantifiers, then the ambiguities in (\ref{ex:16.17}--\ref{ex:16.18}) arise as expected from the interaction of two quantifiers.
+
+
+\ea \label{ex:16.17}
+\textit{Every student might fail the course}.\footnote{\citet[48]{Abbott2010}.}\\
+\ea  ${\forall}$x[STUDENT(x) → ${\lozenge}$ FAIL(x)]\\
+\ex ${\lozenge}$ ${\forall}$x[STUDENT(x) → FAIL(x)]
+                       \z
+\z
+
+\ea \label{ex:16.18}
+\textit{Some sanctions must be imposed}.\\
+\ea  ${\exists}$x[SANCTION(x) $\wedge$ ${\square}$ BE-IMPOSED(x)]\\
+\ex ${\square}$ ${\exists}$x[SANCTION(x) $\wedge$ BE-IMPOSED(x)]
+                       \z
+\z
+
+
+While this analysis works well in many respects, Kratzer points out that it makes the wrong predictions in certain cases. For example, suppose that Arthur has robbed a bank, and that robbing banks is against the law. Intuitively, we would say that sentence (\ref{ex:16.19}a) is true in this situation. However, the analysis shown in (\ref{ex:16.19}b) actually predicts the opposite, because in all possible worlds consistent with what the law requires, no one robs banks. In particular, Arthur does not rob a bank (or commit any other crime) in those worlds, and so would not go to prison. Similarly, the analysis predicts that both (\ref{ex:16.20}a) and (\ref{ex:16.20}b) should be true, because the antecedent will be false in all possible worlds consistent with what the law requires. (Recall from \chapref{sec:4} that \textit{p→q} is always considered to be true when \textit{p} is false.)
+
+
+\ea \label{ex:16.19}
+\ea  \textit{Arthur must go to prison}. \hfill [Deontic]\\
+\ex{} [all w: w is consistent with what the law requires] GO\_TO\_PRISON(a) in w
+                       \z
+\z
+
+\ea \label{ex:16.20}
+\ea  \textit{If Arthur has robbed a bank, he} \textit{must go to prison}.\\
+\ex \textit{If Arthur has robbed a bank, he} \textit{must not go to prison}.
+                       \z
+\z
+
+
+To take another example, suppose that when a serious crime is committed, the law allows the government to confiscate the house, car, and other assets of the guilty party to compensate the victim; but that the government is not allowed to confiscate the assets of anyone who does not commit a crime. If Arthur is convicted of a serious crime, the judge may truthfully say the sentence in (\ref{ex:16.21}a). But once again, the analysis in (\ref{ex:16.21}b) predicts that this statement should be false, since there is no possible world consistent with what the law requires in which Arthur commits a crime, so no such world in which his assets may be confiscated.
+
+
+\ea \label{ex:16.21}
+\ea  \textit{The state may confiscate Arthur’s assets}. \hfill  [Deontic]\\
+\ex{} [some w: w is consistent with what the law requires]\\
+  the state confiscates Arthur’s assets in w
+\z
+\z
+
+
+The problem with examples of this type is that we begin with an actual situation that is not consistent with what the law requires. The correct interpretation of the modal reflects the assumption that what happens next, in response to this non-ideal situation, should be as close to the ideal required by law as possible.
+
+
+\subsection{Kratzer’s analysis}\label{sec:16.3.2}
+
+Kratzer addresses this problem by arguing that restrictions on the sets of possible worlds available for modal quantifiers must be stated in two components. The first, which she calls the \textsc{modal base}, specifies the class of worlds which are eligible for consideration, i.e., worlds that are \textsc{accessible}. The second component, which she calls the \textsc{ordering source}, specifies a ranking among the accessible worlds. It identifies the “best”, or highest-ranking, world or worlds among those that are accessible. The modal’s domain of quantification contains just these optimal (highest-ranking) accessible worlds.
+
+
+
+Let us see how this approach would apply to example (\ref{ex:16.19}a). Deontic modality involves a \textsc{circumstantial} modal base, i.e., one that picks out worlds in which certain relevant circumstances of the actual world hold true. In this case, one of the relevant circumstances of the actual world is the fact that Arthur has robbed a bank. The relevant ordering source in this example is what the law requires: the optimal worlds will be those in which the law is obeyed as completely as possible, given the circumstances. An informal rendering of the interpretation of this sentence is presented in (\ref{ex:16.22}b). The first clause in the restriction represents the modal base, and the second clause in the restriction represents the ordering source.
+
+
+\ea \label{ex:16.22}
+\ea  \textit{Arthur must go to prison}. \hfill  [Deontic]\\
+\ex{} [all w: (the relevant circumstances of the actual world are also true in w) and (the law is obeyed as completely as possible in w)] GO\_TO\_PRISON(a) in w
+\z
+\z
+
+
+Epistemic modals require a different kind of modal base and ordering source. The fundamental difference between the two types of modality is summarized by \citet[1494]{Hacquard2011} as follows:
+
+
+\begin{modquote}
+Circumstantial [= root; PRK] modality looks at the material conditions which cause or allow an event to happen; epistemic modality looks at the knowledge state of the speaker to see if an event is compatible with various sources of information available.
+\end{modquote}
+ 
+
+The \textsc{epistemic} modal base, which would be relevant for epistemic modals like that in (\ref{ex:16.23}a), picks out worlds consistent with what is known about the actual world, i.e., consistent with the available evidence. Epistemic modals frequently invoke a \textsc{stereotypical} ordering source: the optimal worlds are those in which the normal, expected course of events is followed as closely as possible, given the known facts. An informal rendering of the interpretation of (\ref{ex:16.23}a) is presented in (\ref{ex:16.23}b).
+
+
+\ea \label{ex:16.23}
+\ea  \textit{Arthur must be at home}. (=\ref{ex:16.13}a) \hfill [Epistemic]  \\
+\ex{} [all w: (w is consistent with the available evidence) and (the normal course of events is followed as closely as possible in w)] AT\_HOME(a) in w
+\z
+\z
+
+\largerpage[-2]
+This rendering of the meaning of epistemic \textit{must} is more accurate than the analysis suggested in (\ref{ex:16.13}a) for the same example. That earlier analysis would lead us to predict that \textit{Arthur must be at home} entails \textit{Arthur is at home}, since the actual world is one of the worlds that are consistent with what the speaker knows about the actual world. But this prediction is clearly wrong; saying \textit{Arthur is at home} makes a more definite claim than \textit{Arthur must be at home}. By using \textit{must} in this context, the speaker is implying: “I do not have direct knowledge, but based on the evidence I can’t imagine a realistic situation in which Arthur is not at home.” The use of the stereotypical ordering source in (\ref{ex:16.23}b) helps to account for this inferential character of epistemic \textit{must}. It helps us understand why statements of epistemic necessity are usually better paraphrased with the adverb \textit{evidently} than with \textit{necessarily}.\footnote{Kratzer states that another advantage of her theory is that it provides a better way to deal with “graded modality” i.e. intermediate-strength modals of “weak necessity” like \textit{ought} or \textit{should}, as well as phrases such as \textit{very likely} or \textit{barely possible}. We will not discuss graded modality in this chapter.}
+
+
+
+Another important part of Kratzer’s proposal is the claim that the modal auxiliaries in languages like English and \ili{French} are not in fact polysemous. Kratzer suggests that the lexical entry for words like \textit{must} and \textit{may} specifies only the strength of modality (i.e., the choice of quantifier operator), and that they are indeterminate as to the type or “flavor” of modality (epistemic vs. deontic, etc.). The type of modality depends on the choice of modal base and ordering source, which are determined by context (linguistic or general).
+
+
+
+Part of the evidence for this claim is the observation that type of modality can be overtly specified by adverbial phrases or other elements in the sentence, as seen in \REF{ex:16.24}.\footnote{From \citet{Hacquard2011}.} Notice that these adverbial phrases do not feel redundant, as they probably would if the modal auxiliary specified a particular type of modality as a lexical entailment. For sentences where there is no explicit indication of type of modality, the intended type will be inferred based on the context of the utterance.
+
+
+\ea \label{ex:16.24}
+\ea  \textsc{Epistemic:}\\
+(In view of the available evidence,) John \textit{must/may} be the murderer.\\
+\ex \textsc{Deontic:}\\
+(In view of his parents’ orders,) John \textit{may} watch TV, but he \textit{must} go to bed at 8pm.\\
+\ex \textsc{Ability:}\\
+(In view of his physical abilities,) John \textit{can} lift 200 lbs.\\
+\ex \textsc{Teleological:}\\
+(In view of his goal to get a PhD,) John \textit{must} write a dissertation.\\
+\ex \textsc{Bouletic:}\\
+(In view of his desire to retire at age 50,) John \textit{should} work hard now.
+                       \z
+\z
+
+
+While Kratzer’s analysis provides an elegant explanation for the unusual pattern of polysemy which we discussed in \sectref{sec:16.2}, this explanation cannot be applied to all grammatical markers of modality. In the next section we discuss examples of modals for which type of modality seems to be lexically specified.
+
+
+\section{Cross-linguistic variation}\label{sec:16.4}
+
+In \sectref{sec:16.2} we noted that it is common for a single modal form to be used for several different types of modality; but there are also many languages where this does not occur. Even in English, not all modals allow both epistemic and deontic uses. \textit{Might} is used almost exclusively for epistemic possibility, at least in main clauses.\footnote{In indirect speech-type complements, \textit{might} can function as the past tense form of \textit{may}, e.g. \textit{Mary said that I might visit her}. In such contexts the deontic reading is possible. (See \chapref{sec:20} for a discussion of the “sequence of tenses” in indirect speech complements.)} \textit{Can} is used almost exclusively for root modalities, although the negated forms \textit{cannot} and \textit{can’t} do allow epistemic uses. What these examples show is that it is possible, even in English, for both strength and type of modality to be lexically specified.
+
+
+
+\citet{Matthewson2010} shows that in St’át’imcets (Lillooet Salish), clitic modality markers are lexically specified for the type of modality, with strength of modality determined by context; see examples in \REF{ex:16.25}. In this regard, St’át’imcets is the mirror image of English.
+
+
+\ea \label{ex:16.25}
+\ea   \gll wá7=\textbf{k’a}  s-t’al  l=ti=tsítcw-s=a  s=Philomena\\
+be=\textbf{\textsc{epis}}  \textsc{stat}-stop  in=\textsc{det}=house-3sg.\textsc{poss}=\textsc{exis}  \textsc{nom}=Philomena\\
+\glt ‘Philomena must/might be in her house.’ \hfill  [only epistemic]
+\ex \gll lán=lhkacw=\textbf{ka}  áts’x-en  ti=kwtámts-sw=a\\
+already=2sg.\textsc{subj}=\textbf{\textsc{deon}}  see-\textsc{dir}  \textsc{det}=husband-2sg.\textsc{poss}=\textsc{exis}\\
+\glt ‘You must/can/may see your husband now.’ \hfill  [only deontic]
+\z \z
+
+
+The St’át’imcets data might be analyzed roughly along the lines suggested in \REF{ex:16.26}: the modal markers \textit{=k’a} and \textit{=ka} are both defined in terms of a quantifier which is underspecified for strength, but they lexically specify different types (or flavors) of modality:
+
+
+\ea \label{ex:16.26}
+\ea 
+\textbf{Epistemic} =\textbf{\textit{k’a}}:\\
+‘Philomena must/might be in her house.’ (\ref{ex:16.25}a)\\
+{}[\textsc{all/some} w: (w is consistent with the available evidence) and (the normal course of events is followed as closely as possible)] AT\_HOME(p) in w
+\ex 
+ \textbf{Deontic} \textit{=}\textbf{\textit{ka}}:\\
+‘You must/can/may see your husband now.’ (\ref{ex:16.25}b)\\
+{}[\textsc{all/some} w: (the relevant circumstances of the actual world are also true in w) and (the requirements of the relevant authority are satisfied as completely as possible in w)] hearer sees husband in w
+\z \z
+
+
+This contrast between St’át’imcets and English provides additional support for the conclusion that either strength or type of modality, or both, may be lexically specified. It is possible for both patterns to be found within a single language. The Malay modal \textit{mesti} ‘must’ has both epistemic and deontic uses, like its English equivalent. The Malay modal \textit{mungkin} ‘probably, possibly’ has only epistemic uses, but the strength of commitment is context-dependent, much like the clitic modality markers in St’át’imcets.
+
+\Citet{vanderAuweraAmmann2013} report on a study of modal marking in 207 languages, focusing on the question of whether a single modal form can be used to express both epistemic and deontic modality. They report that this is possible in just under half (102) of the languages in their sample: in 105 of the languages, all of the modal markers are lexically specified as either epistemic or deontic/root, with no ambiguity possible. Only 36 of the languages in the sample are like English and \ili{French}, with markers of both possibility (\textit{may}) and necessity (\textit{must}) which are ambiguous between epistemic and deontic readings. In the remaining 66 languages there is a modal marker for one degree of strength, either possibility ‘may’ or necessity ‘must’, which is ambiguous between epistemic and deontic readings; but not for the other degree of strength.
+
+
+The 36 languages which have ambiguous markers for both possibility and necessity are mostly spoken in Europe, and most of them express modality using auxiliary verbs; but neither of these tendencies is absolute. \ili{West Greenlandic} (Eskimo) is a non-European member of this group which expresses modality with verbal suffixes. The suffix \textit{-ssa} ‘must’ has a deontic/root necessity reading in (\ref{ex:16.27}a) and an epistemic necessity reading in (\ref{ex:16.27}b). The suffix \textit{-sinnaa} ‘can’ has a root possibility reading in (\ref{ex:16.28}a) and an epistemic possibility reading in (\ref{ex:16.28}b).
+
+
+\ea \label{ex:16.27}
+\ili{West Greenlandic}\footnote{Examples from \citealt{Fortescue1984}: 292–294, p.c.; cited in \citealt{vanderAuweraAmmann2013}} \\ 
+\ea  \gll Inna-jaa-\textit{ssa}-atit.\\
+go.to.bed-early-\textsc{nec-indic}.2sg\\
+\glt ‘You must go to bed early.’ \hfill  [\textsc{deontic}]
+\ex \gll Københavni-mii-\textit{ssa}-aq.\\
+Copenhagen-be.in-\textsc{nec-indic}.3sg\\
+\glt ‘She must be in Copenhagen.’ \hfill  [\textsc{epistemic}]
+\z \z
+
+\ea \label{ex:16.28} \gll Timmi-\textit{sinnaa}-vuq.\\
+fly-can-\textsc{indic}.3sg\\
+\glt ‘It can fly.’ \hfill  [\textsc{root}]
+\ex \gll  Nuum-mut  aalla-reer-\textit{sinnaa}-galuar-poq ...\\
+\ili{Nuuk}-\textsc{allative}  leave-already-can-however-3sg.\textsc{indic}\\
+\glt ‘He may well have left for \ili{Nuuk} already, but...’ \hfill  [\textsc{epistemic}]
+\z
+
+
+Most of the research on modality to this point has focused on languages of the European type. There is no obvious reason why modal markers in other types of language should not also be analyzed as quantifiers over possible worlds, since (as we have seen) lexical entries for modal markers can specify strength, type of modality, or both. However, this is a hypothesis which should probably be held lightly, pending more detailed investigation of the less-studied languages.
+
+
+\section{On the nature of epistemic modality}\label{sec:16.5}
+
+As mentioned in our discussion of types of modality in \sectref{sec:16.1}, the most basic distinction is between epistemic modality and all the other types. \citet[1486]{Hacquard2011} observes that “epistemics deal with possibilities that follow from the speaker’s knowledge, whereas roots deal with possibilities that follow from the circumstances surrounding the main event and its participants.”
+
+
+
+Epistemic modality is often said to be “speaker-oriented”,\footnote{\citet{BybeeEtAl1994}.} because it encodes possibility or necessity in light of the speaker’s knowledge. Non-epistemic modal marking reflects some facet of the circumstances surrounding the described situation or event, such as the requirements of an authoritative person or code (\textsc{deontic}), or the agent’s abilities (\textsc{dynamic}), goals (\textsc{teleological}), or desires (\textsc{bouletic}).\footnote{These examples illustrate the most commonly recognized types of modality; but as \citet{vonFintel2006} observes, “In the descriptive literature on modality, there is taxonomic exuberance far beyond these basic distinctions.”}  \Citet{vanderAuweraAmmann2013} use the term \textsc{situational} as a cover term for the non-epistemic types, which seems like a very appropriate choice; but the term \textsc{root} is firmly established in linguistic usage.
+
+
+
+Epistemic modality also differs from root modality in its interaction with time reference. Epistemic modality in the present time tends to be restricted (at least in English) to states (\ref{ex:16.29}a) and imperfective events, either progressive (\ref{ex:16.29}c) or habitual (\ref{ex:16.30}a). Deontic modality occurs freely with both states and events, but tends to be future oriented; deontic readings are often impossible with past events (\ref{ex:16.30}c, \ref{ex:16.31}c). Epistemic necessity (\textit{must}) is typically impossible with future events (\ref{ex:16.30}b), which is not surprising because speakers generally do not have certain knowledge of the future. Epistemic possibility (\textit{may}), however, is fine with future events (\ref{ex:16.31}b). 
+
+
+\ea \label{ex:16.29}
+\ea  Henry must be in Brussels this week.  \hfill [epistemic or deontic]\\
+\ex Henry must write a book this year.                   \hfill [future; only deontic]\\
+\ex Henry must be writing a book this year.              \hfill [present; only epistemic]
+                       \z
+\z
+
+\ea \label{ex:16.30}
+\ea  Mary must attend Prof. Lewis’s lecture every week. \\ \hfill [epistemic or deontic]\\
+\ex Mary must attend Prof. Lewis’s lecture tomorrow.                  \hfill [only deontic]\\
+\ex Mary must have attended Prof. Lewis’s lecture yesterday. \\  \hfill [only epistemic]
+                       \z
+\z
+
+\ea \label{ex:16.31}
+\ea  Mary may attend Prof. Lewis’s lecture every week. \\ \hfill [epistemic or deontic]\\
+\ex Mary may attend Prof. Lewis’s lecture tomorrow.  \\  \hfill [epistemic or deontic]\\
+\ex Mary may have attended Prof. Lewis’s lecture yesterday. \\  \hfill [only epistemic]
+                       \z
+\z
+
+
+When the modal itself is inflected for past tense, e.g. \textit{had to} in \REF{ex:16.32}, either reading is possible; but the scope of the tense feature is different in the two readings.\footnote{\textit{Have to} is used here because true modal auxiliaries in English cannot be inflected for tense.}
+
+
+\ea \label{ex:16.32}
+Jones had to be in the office when his manager arrived. \\ \hfill [epistemic or deontic]
+\z
+
+
+Under the deontic reading, tense takes scope over the modality: the obligation for the agent to behave in a certain way is part of the situation being described as holding true at some time in the past, prior to the time of speaking. Under the epistemic reading, the modality is outside the scope of the past tense: the speaker’s knowledge now (at the time of speaking) leads him to conclude that a certain situation held true at some time in the past. As \citet{vonFintel2006} points out, the interactions between modality and tense-aspect are complex and poorly understood, and we will not pursue these issues further here.
+
+
+
+\citet[1688]{Papafragou2006} describes another kind of difference which has been claimed to exist between epistemic vs. “root” modality:
+
+
+\begin{quote}
+It is often claimed in the linguistics literature that epistemic modality, unlike other kinds of modality, does not contribute to the truth conditions of the utterance. Relatedly, several commentators argue that epistemic modality expresses a comment on the proposition expressed by the rest of the utterance…  The intuition underlying this view is that epistemic modality in natural language marks the degree and/or source of the speaker’s commitment to the embedded proposition.
+\end{quote}
+
+
+However, some of the standard tests for propositional content indicate that this is not the case: both types of modality can be part of the proposition and contribute to its truth conditions. We will mention three tests which provide evidence that epistemic modality does not just express a comment on or attitude toward the proposition, but is actually a part of the proposition itself. First, epistemic modality is part of what can be felicitously challenged, as illustrated in \REF{ex:16.33}.\footnote{Cf. \citet[1698]{Papafragou2006}.}
+
+
+\ea \label{ex:16.33}
+A: Jones is the only person who stood to gain from the old man’s death; he must be the murderer.\\
+B: That’s not true; he could be the murderer, but he doesn’t have to be.
+\z
+
+
+In this mini-conversation, speaker B explicitly denies the truth of A’s statement, but only challenges its modality. In other words, B denies \textit{${\square}$p} without denying \textit{p}. In this respect epistemic modals are quite different from the speaker-oriented adverbs which we discussed in \chapref{sec:11}. Those adverbs cannot felicitously be challenged in the same way, because (as we argued) they are not a part of the proposition being asserted.
+
+
+
+Second, epistemic modality can be the focus of a yes-no question, as illustrated in (\ref{ex:16.34}--\ref{ex:16.35}). In these questions the information requested concerns the addressee’s degree of certainty, not just the identity of the murderer. The wrong choice of modal can trigger the answer “No”, as in \REF{ex:16.34}, showing that modality contributes to the truth conditions of the sentence. In contrast, when an inappropriate speaker-oriented adverb is added to a yes-no question, it will not cause the answer to change from “Yes” to “No” \REF{ex:16.36}.
+
+
+\ea \label{ex:16.34}
+A: Must Jones be the murderer?\\
+B: Yes, he must/\#is.  or: No, but I think it is very likely.
+\z
+
+\ea \label{ex:16.35}
+A: Might Jones be the murderer?\\
+B: Yes, he might/\#is.  or: No, that is impossible.
+\z
+
+\ea \label{ex:16.36}
+A: Was Jones unfortunately arrested for embezzling?\\
+B: Yes/\#No; he was arrested for embezzling, but that is not unfortunate.
+\z
+
+
+Third, epistemic modality can be negated by normal clausal negation, although this point is frequently denied. It is true that some English modals exhibit differences in this regard between their epistemic vs. deontic uses. With \textit{may}, for example, negation takes scope over the modal in the deontic reading, but not in the epistemic reading \REF{ex:16.37}. The modal \textit{must}, on the other hand, takes scope over negation in both of these readings \REF{ex:16.38}.
+
+
+\ea \label{ex:16.37}
+Smith may not be the candidate.  \hfill [epistemic: possible that not p]\\
+                                 \hfill [deontic: not permitted that p]
+\z
+
+\ea \label{ex:16.38}
+Smith must not be the candidate.  \hfill [epistemic: evident that not p]\\
+                                  \hfill [deontic: required that not p]
+\z
+
+
+However, while most English modals (including \textit{must} and \textit{may}, as we have just seen) take scope over negation in the epistemic reading, there are a few counter-examples, as illustrated in (\ref{ex:16.39}--\ref{ex:16.40}).\footnote{The same scope holds for the “root” readings of these examples as well.}
+
+
+\ea \label{ex:16.39}
+Smith cannot be the candidate. \hfill [epistemic: not possible that p]
+\z
+
+\ea \label{ex:16.40}
+Jones doesn’t have to be the murderer. \hfill [epistemic: not necessary that p]
+\z
+
+
+Examples like these show that even in English, epistemic modality can sometimes be negated by normal clausal negation. Moreover, \ili{German} \textit{müssen} ‘must’ takes opposite scope from English \textit{must} in both epistemic and deontic readings \REF{ex:16.41}.
+
+
+\ea \label{ex:16.41}
+\ea   \gll Er  \textit{muss}  \textit{nicht}  zu  hause  bleiben.\\
+he  must  not  at  home  remain\\
+\glt ‘He doesn’t have to stay home.’
+\glt [deontic: not required that p; \citet{vonFintel2006}]
+\ex \gll Er  \textit{muss}  \textit{nicht}  zu  Hause  geblieben  sein.  Er  kann  auch  weggegangen  sein.\\
+he  must  not  at  home  remained  be  he  can  also  away.gone  be\\
+\glt ‘It doesn’t have to be the case that he stayed home (or: He didn’t necessarily stay home). He may also have gone away.’\\
+{}[epistemic: not necessary that p; Susi Wurmbrand, p.c.]
+\z \z
+
+
+\citet{Idris1980} states that the Malay modal \textit{mesti} ‘must’ interacts with negation much like its English equivalent, in particular, that negation cannot take scope over the epistemic use of the modal. Now auxiliary scope in Malay correlates closely with word order. When the modal precedes and takes scope over the clausal negator \textit{tidak} ‘not’, as in (\ref{ex:16.42}a), both the epistemic and the deontic readings are possible. When the order is reversed, as in (\ref{ex:16.42}b), Idris states that only the deontic reading is possible.
+
+
+\ea \label{ex:16.42}
+\ea  \gll Dia  \textit{mesti}  \textit{tidak}  belajar\\
+\textsc{3sg}  must  \textsc{neg}  study\\
+\glt ‘He must not study.’  \hfill [epistemic: evident that not p] \\
+\hspace{1cm} (i.e., ‘I am certain that he does not study.’) \\
+‘He is obliged not to study.’  \hfill [deontic: required that not p]
+
+\ex \gll Dia  \textit{tidak}  \textit{mesti}  belajar\\
+\textsc{3sg}  \textsc{neg}  must  study\\
+\glt ‘He is not obliged to study.’ \hfill [deontic: not required that p]
+\z \z
+
+
+A number of authors have cited these examples in support of the claim that epistemic modality always takes scope over clausal negation.\footnote{See for example \citet{deHaan1997,Drubig2001}.} However, corpus examples like those in \REF{ex:16.43} show that the epistemic use of \textit{mesti} is in fact possible within the scope of clausal negation.
+
+
+\ea \label{ex:16.43}
+\ea  \gll Inflasi  \textit{tidak}  \textit{mesti}  ber-punca  dari  pemerintah…\\
+inflation  \textsc{neg}  must  \textsc{mid}-source  from  government\\
+\glt ‘Inflation does not have to have the government as its source…’\\
+(… it can arise due to other reasons as well) \\ \hfill  [epistemic: not necessary that p]\footnote{\url{http://wargamarhaen.blogspot.com/2011/09/jangan-dok-rasa-pilihanraya-lambat-lagi.html}}
+
+\ex 
+\gll  Hiburan  itu  \textit{tidak}  \textit{mesti}  mem-bahagia-kan,  tapi kebahagiaan  itu  sudah  pasti  meng-hibur-kan.\\
+entertainment  that  \textsc{neg}  must  bless/make.happy  but happiness  that  already  certain  comfort/entertain\\
+\glt ‘Entertainment does not necessarily bring happiness, but happiness will definitely bring comfort.’ \hfill  [epistemic: not necessary that p]\footnote{\url{http://skbbs-tfauzi.zoom-a.com/katahikmat.html}}
+\z
+\z
+
+So we have seen evidence that epistemic modality can be negated by normal clausal negation in Malay, in \ili{German}, and even in English. Once again, this is not true of evaluative or speech act adverbials: they are never interpreted within the scope of clausal negation, as we demonstrated in \chapref{sec:11}. Taken together, the three types of evidence we have reviewed here provide strong support for the conclusion that epistemic modality is a part of the propositional content of the utterance and contributes to the truth conditions.
+
+
+\section{Conclusion}\label{sec:16.6}
+
+In this chapter we have sketched out an analysis which treats modals as quantifiers over possible worlds. This analysis helps to explain why modals are similar to quantifiers in certain ways, for example, in the scope ambiguities that arise when they are combined with other quantifiers.
+
+
+
+The analysis also helps to explain the unusually systematic pattern of “polysemy” observed in the English modals, as well as the fact that this same pattern shows up in many other languages as well. This is not how polysemy usually works. Under Kratzer’s analysis, the English modals are not in fact polysemous, but rather indeterminate for type of modality. The strength of the modal (necessary vs. possible) is lexically entailed, but the type of modality (epistemic vs. deontic etc.) is determined by context.
+
+
+
+Modals in \ili{French} and many other languages work in much the same way as the English modals; but this is certainly not the case for all languages, perhaps not even for a majority of them. However, the quantificational analysis can account for these other languages as well. Strength of modality is represented in the quantifier operator, while type of modality is represented in the restriction on the class of possible worlds. Either or both of these can be lexically specified in particular languages, or for specific forms in any language.
+
+
+
+Epistemic modality is different in certain ways from all the other types (known collectively as \textsc{root} modality). Some authors have claimed that epistemic modality is not part of the propositional content of the utterance. We argued that this is wrong, based on the fact that epistemic modality can be questioned and challenged, and (at least in some languages) can be negated as well. We return to these issues in the next chapter, where we discuss the difference between markers of epistemic modality vs. markers of \textsc{evidentiality} (source of information).
+
+
+
+\furtherreading{ 
+\Citet{vonFintel2006} and \citet{Hacquard2011} provide very useful overviews of the semantic analysis of modality, as well as references to much recent work on this subject. Hacquard in particular provides a good introduction to Kratzer’s treatment of modals. \citet{Matthewson2016} presents an introduction and overview with frequent references to Salish and other languages whose modals are quite different from those of English. \Citet{deHaan2006} presents a helpful typological study of modality. A brief introduction to modal logic can be found in \citet{Garson2016}; recent textbooks on the subject include \citet{BlackburnEtAl2008} and  \citet{vanBenthem2010}.
+
+}
+\discussionexercises{
+\paragraph*{A: Deontic vs. epistemic modality.}
+Identify the type of modality in the following statements: \\
+
+\begin{enumerate}
+\item You must leave tomorrow.
+\item You must have offended the Prime Minister very seriously.
+\item You must be very patient.
+\item You must use a Mac.
+\item You must be using a Mac.
+\end{enumerate}
+
+\paragraph*{B: Ambiguous type of modality.}
+Use the restricted quantifier notation to express two possible types of modality (deontic vs. epistemic) for the following sentences: \\
+
+\begin{enumerate}
+\item  Arnold must trust you.  (assume “h” = hearer)\\
+\shortmodelanswer{Model answer}{
+\textbf{Epistemic}: [all w: (w is consistent with the available evidence) $\wedge$ (the normal course of events is followed as closely as possible in w)] TRUST(a,h) in w\\
+\textbf{Deontic}: [all w: (the relevant circumstances of the actual world are also true in w) $\wedge$ (the relevant authority’s requirements are satisfied as completely as possible in w)] TRUST(a,h) in w} \\
+
+
+\item You may annoy Mr. Roosevelt.
+\item You must be very patient.
+\end{enumerate}
+
+\paragraph*{C: Scope ambiguities.}
+
+Use the restricted quantifier notation to express the two possible scope relations for the indicated reading of the following sentences: \\
+
+\begin{enumerate}
+\item No terrorist must enter the White House.  [deontic]\\
+\shortmodelanswer{Model answer}{
+\begin{itemize}
+  \item[a.] [all w: (the relevant circumstances of the actual world are also true in w) $\wedge$ (the relevant authority’s requirements are satisfied as completely as possible in w)]   ([no x: TERRORIST(x)] ENTER(x,wh) in w)\\
+  \item[b.] [no x: TERRORIST(x)] ([all w: (the relevant circumstances of the actual world are also true in w) $\wedge$ (the relevant authority’s requirements are satisfied as completely as possible in w)] ENTER(x,wh) in w)
+\end{itemize}
+}
+\item Many prisoners must be released.  [deontic]
+\item Every candidate could be disqualified.  [epistemic] 
+\end{enumerate}
+
+}
+
+\homeworkexercises{
+\paragraph*{A: Epistemic vs. deontic modality.}
+For each of the sentences below, describe two contexts: one where the modal would most likely have an epistemic reading, the other where the modal would most likely have a deontic reading:
+ 
+\begin{enumerate}
+\item  Arnold must not recognize me.
+\item Henry ought to be in his office by now.
+\item Baxter may support Suharto.
+\item George should be working late tonight.
+\item You have to know how to drive.
+\end{enumerate}
+
+\paragraph*{B: Restricted quantifier representation.}
+
+Use the restricted quantifier notation to express two types of modality (epistemic vs. deontic) for the following sentences. For convenience, you may use the abbreviation “sp” to refer to the speaker and “h” to refer to the hearer.
+
+\begin{enumerate}
+\item  You must exercise regularly.
+\item I should be on time this evening.
+\item Rick may not remain in Casablanca.
+\end{enumerate}
+
+\paragraph*{C: Scope ambiguities.} 
+\ea  Use the restricted quantifier notation to express the deontic reading of the two indicated interpretations for the following sentence:\\ 
+  \textit{No professors must be fired}.
+   \ea ¬${\exists}$x[PROFESSOR(x) $\wedge$ ${\square}$ FIRED(x)]\\
+   \ex ${\square}$ ¬${\exists}$x[PROFESSOR(x) $\wedge$ FIRED(x)]
+  \z
+\z
+  
+\ea
+Use the restricted quantifier notation to express the two possible scope interpretations for the epistemic reading of the following sentences:\\
+  \ea {Every student could graduate}.\\
+  \ex {Some of the suspects must be guilty}.
+  \z
+\z
+}

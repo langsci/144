@@ -23,12 +23,30 @@
 \newcommand{\homeworkexercises}[1]{\setcounter{equation}{0}
 \tblssy{pencil}{Homework exercises}{\vspace*{-5mm}#1}}
 
-\newcommand{\modelanswer}[2]{\fbox{\parbox{.95\textwidth}{\small\sffamily #1
+\newcommand{\modelanswer}[3][.95]{\fbox{\parbox{#1\textwidth}{\small\sffamily #2
 \vspace*{2mm}
 
-\parbox{.88\textwidth}{#2}
+\parbox{.93\textwidth}{#3}
 
-\rule{0mm}{0pt} \vspace*{3mm}~}}
+\rule{0mm}{0pt} \vspace*{1mm}~}}
+}
+
+%for modelanswers inside an enumeration
+\newcommand{\shortmodelanswer}[2]{\fbox{\parbox{.85\textwidth}{\small\sffamily #1
+\vspace*{2mm}
+
+\parbox{.83\textwidth}{#2}
+
+\rule{0mm}{0pt} \vspace*{1mm}~}}
+}
+
+
+\newcommand{\veryshortmodelanswer}[2]{\fbox{\parbox{.80\textwidth}{\small\sffamily #1
+\vspace*{2mm}
+
+\parbox{.78\textwidth}{#2}
+
+\rule{0mm}{0pt} \vspace*{1mm}~}}
 }
 
 \newcommand{\tablehead}[1]{#1}
@@ -64,3 +82,11 @@
 \parbox{6cm}{#2}%
 \parbox{6cm}{#3}\\\medskip
 }
+
+\newcommand{\nocaption}{{\color{red} Please provide a caption}}
+
+
+
+\newenvironment{modquote}[1][6mm]%
+  {\list{}{\leftmargin=#1\rightmargin=0mm}\item[]}%
+  {\endlist}
